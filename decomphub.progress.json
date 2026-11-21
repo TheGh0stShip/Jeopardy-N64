@@ -1,0 +1,28 @@
+{
+  "format": "decomphub.progress/v1",
+  "repository": "https://github.com/TheGh0stShip/Jeopardy-N64",
+  "tracks": [
+    {
+      "id": "matching-code",
+      "label": "Matching decompiled C code",
+      "scope": "Jeopardy! USA revision 0, ROM SHA-1 c5bcf3eff6bcdd9e7846ce5fd5db3095db9c58ed. The denominator is a preliminary ROM-derived catalogue and may receive reviewed boundary corrections. Only fully replayed byte-identical ordinary C receives matching credit.",
+      "measurement": {
+        "kind": "ratio",
+        "completed": 0,
+        "total": 411940,
+        "unit": "bytes"
+      }
+    },
+    {
+      "id": "matching-functions",
+      "label": "C-decompiled function candidates",
+      "scope": "Jeopardy! USA revision 0, ROM SHA-1 c5bcf3eff6bcdd9e7846ce5fd5db3095db9c58ed. The denominator is a preliminary ROM-derived catalogue and may receive reviewed boundary corrections. Only fully replayed byte-identical ordinary C receives matching credit.",
+      "measurement": {
+        "kind": "ratio",
+        "completed": 0,
+        "total": 814,
+        "unit": "functions"
+      }
+    }
+  ]
+}

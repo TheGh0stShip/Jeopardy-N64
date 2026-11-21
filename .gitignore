@@ -1,0 +1,14 @@
+*.n64
+*.rom
+*.v64
+*.z64
+*.bin
+*.elf
+*.o
+*.map
+__pycache__/
+*.pyc
+/assets/
+/build/*
+!/build/report.json
+
