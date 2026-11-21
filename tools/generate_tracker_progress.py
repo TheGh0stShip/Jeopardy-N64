@@ -105,8 +105,9 @@ def generate(root: Path) -> tuple[dict, dict]:
             "fuzzy_match_percent": 0.0,
             "total_functions": 1, "matched_functions": int(source_exact),
             "matched_functions_percent": 100.0 if source_exact else 0.0,
-            "total_units": 1, "complete_code": str(size), "complete_code_percent": 100.0,
-            "complete_units": 1,
+            "total_units": 1, "complete_code": str(size if source_exact else 0),
+            "complete_code_percent": 100.0 if source_exact else 0.0,
+            "complete_units": int(source_exact),
         }
         units.append({
             "name": f"{row['image']}/{row['function']}@{row['vram']}",
@@ -114,7 +115,7 @@ def generate(root: Path) -> tuple[dict, dict]:
             "functions": [{"name": row["function"], "size": str(size),
                            "address": str(int(row["vram"], 0)),
                            "fuzzy_match_percent": 0.0}],
-            "metadata": {"progress_categories": ["catalogued-code"], "complete": True,
+            "metadata": {"progress_categories": ["catalogued-code"], "complete": source_exact,
                          **({"source_path": row["source"]} if source_exact else {})},
         })
 
@@ -140,8 +141,8 @@ def generate(root: Path) -> tuple[dict, dict]:
              "measurement": ratio(c_bytes, total_bytes, "bytes")},
             {"id": "matching-c-functions", "label": "Functions reproduced as ordinary C", "scope": config["scope"],
              "measurement": ratio(c_functions, len(inventory), "functions")},
-            {"id": "fully-linked-code", "label": "Code linked in the SHA-1-identical cartridge", "scope": config["scope"],
-             "measurement": ratio(total_bytes, total_bytes, "bytes")},
+            {"id": "fully-linked-code", "label": "Verified matching source linked in the cartridge", "scope": config["scope"],
+             "measurement": ratio(source_bytes, total_bytes, "bytes")},
         ],
     }
     totals = {
@@ -150,8 +151,9 @@ def generate(root: Path) -> tuple[dict, dict]:
         "fuzzy_match_percent": 0.0,
         "total_functions": len(inventory), "matched_functions": source_functions,
         "matched_functions_percent": 100 * source_functions / len(inventory),
-        "total_units": len(inventory), "complete_code": str(total_bytes), "complete_code_percent": 100.0,
-        "complete_units": len(inventory),
+        "total_units": len(inventory), "complete_code": str(source_bytes),
+        "complete_code_percent": 100 * source_bytes / total_bytes,
+        "complete_units": source_functions,
     }
     ctotals = dict(totals)
     ctotals.update({
@@ -159,6 +161,8 @@ def generate(root: Path) -> tuple[dict, dict]:
         "fuzzy_match_percent": 0.0,
         "matched_functions": c_functions,
         "matched_functions_percent": 100 * c_functions / len(inventory),
+        "complete_code": str(c_bytes), "complete_code_percent": 100 * c_bytes / total_bytes,
+        "complete_units": c_functions,
     })
     report = {"version": 2, "measures": totals, "units": units,
               "categories": [

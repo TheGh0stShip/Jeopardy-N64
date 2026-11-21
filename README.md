@@ -8,17 +8,18 @@ Matching decompilation of the USA Nintendo 64 release of **Jeopardy!**. The curr
 | Ordinary matching C | 443 functions / 258,880 bytes | 805 / 411,016 | **62.99% of code** |
 | Hand-written assembly | 37 functions / 6,352 bytes | 805 / 411,016 | 1.55% of code |
 | Not decompiled | 324 functions / 145,456 bytes | 805 / 411,016 | 35.39% of code |
-| Fully linked executable code | 805 functions / 411,016 bytes | 805 / 411,016 | **100.00%** |
+| Fully linked matching source | 480 functions / 265,232 bytes | 805 / 411,016 | **64.53%** |
 
 [![Byte-identical source](https://bytematch.dev/TheGh0stShip/Jeopardy-N64.svg?version=usa-catalogued&category=catalogued-code&measure=matched_code_percent&label=Byte-identical%20source)](https://bytematch.dev/TheGh0stShip/Jeopardy-N64/usa-catalogued)
 [![Fully linked](https://bytematch.dev/TheGh0stShip/Jeopardy-N64.svg?version=usa-catalogued&category=catalogued-code&measure=complete_code_percent&label=Fully%20linked)](https://bytematch.dev/TheGh0stShip/Jeopardy-N64/usa-catalogued)
 [![Ordinary matching C](https://bytematch.dev/TheGh0stShip/Jeopardy-N64.svg?version=usa-catalogued&category=matching-c&measure=matched_code_percent&label=Ordinary%20matching%20C)](https://bytematch.dev/TheGh0stShip/Jeopardy-N64/usa-catalogued)
 [![Functions](https://bytematch.dev/TheGh0stShip/Jeopardy-N64.svg?version=usa-catalogued&category=catalogued-code&measure=matched_functions&label=Functions)](https://bytematch.dev/TheGh0stShip/Jeopardy-N64/usa-catalogued)
 
-The project now builds a complete cartridge whose SHA-1 matches the retail ROM. All 805
-catalogued executable units are compiled or assembled from checked-in source; no executable unit
-is copied from the ROM. This makes fully-linked progress 100% without inflating decompilation
-progress: the 324 generated-assembly functions remain explicitly not decompiled.
+The project builds a complete cartridge whose SHA-1 matches the retail ROM. All 805 catalogued
+executable units are compiled or assembled from checked-in source; no executable unit is copied
+from the ROM. This whole-cartridge reproduction is separate build evidence. ByteMatch fully-linked
+decompilation credit is restricted to the 480 functions reproduced from verified matching source;
+the 324 generated-assembly placeholders receive no matching or fully-linked credit.
 
 ## Target
 
@@ -57,7 +58,9 @@ The 410 generated C files originally carried identical per-file compatibility pr
 - Donor C receives credit only after independent rebuilding against this ROM; provenance remains explicit.
 - Original assembly counts as byte-identical source but remains separate from the ordinary-C category.
 - Raw nonmatching assembly, awaiting-symbol candidates, masked-address comparisons, and compatibility shims receive no strict credit.
-- Fully-linked credit is backed by the pinned image and SHA-1-identical cartridge reports in
+- Fully-linked credit is restricted to verified matching source that participates in the linked
+  image. Generated assembly may complete the cartridge build but receives no decompilation credit.
+- The separate whole-cartridge gate is backed by the pinned image and SHA-1-identical reports in
   `evidence/link/`; every catalogued executable unit is source-owned.
 - Completion requires a deterministic build that reproduces the target cartridge SHA-1.
 

@@ -4,8 +4,9 @@ The project has two separate progress claims:
 
 - 64.53% of executable bytes have decompiled or original hand-written source accepted by the
   strict matching tracker; and
-- 100% of the catalogued executable image participates in the linked cartridge build. Functions
-  not yet decompiled remain checked-in generated assembly and receive no decompilation credit.
+- 64.53% of the catalogued executable image receives fully-linked tracker credit because it is
+  reproduced from verified matching source. The complete cartridge can also be rebuilt, but the
+  generated assembly used for undecompiled functions receives no fully-linked credit.
 
 The build never ships ROM data. `make extract` validates and copies a legally obtained USA ROM
 into the gitignored `extracted/` directory. The subsequent build compiles or assembles every one
