@@ -1,0 +1,26 @@
+{
+ "results": 447,
+ "issued": 447,
+ "classes": {
+  "exact": 410,
+  "assembly": 37
+ },
+ "strict_proof": 445,
+ "refused": [],
+ "refused_count": 0,
+ "out": "${N64DK_LAB}/jeo/replay/receipts_c",
+ "donors": {
+  "units": 33,
+  "issued": 33,
+  "classes": {
+   "exact": 33
+  },
+  "earned_by": {
+   "cross-title-donor": 33
+  },
+  "strict_proof": 33,
+  "refused": [],
+  "refused_count": 0,
+  "out": "${N64DK_LAB}/jeo/replay/receipts_c/donors"
+ }
+}

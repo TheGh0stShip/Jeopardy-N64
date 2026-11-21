@@ -19,6 +19,7 @@ jobs:
           python-version: "3.12"
       - name: Validate manifests and tracker reports
         run: |
+          python tools/normalize_lift_headers.py --check
           python tools/check_source_quality.py
           python tools/generate_tracker_progress.py --check
           python -m compileall -q tools

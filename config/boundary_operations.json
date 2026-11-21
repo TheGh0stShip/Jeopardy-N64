@@ -1,0 +1,5284 @@
+{
+ "image": "main",
+ "operations": [
+  {
+   "kind": "merge",
+   "confidence": 0.9,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8000C694",
+     "vram": "0x8000C694",
+     "size": "0x00000300"
+    },
+    {
+     "name": "func_8000C9A0",
+     "vram": "0x8000C9A0",
+     "size": "0x000002E4"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8000C694",
+     "vram": "0x8000C694",
+     "size": "0x000005F0"
+    }
+   ],
+   "released": [],
+   "evidence": [
+    "func_8000C694 at 0x8000C694 is an entry: no interior evidence (not a fragment)",
+    "func_8000C9A0 at 0x8000C9A0: no call or pointer evidence; reads-$30-before-write@8000C9A0; $ra restored from the stack but never saved (0x8000CC70); stack released without allocation at 0x8000CC78",
+    "bridges 12 uncatalogued byte(s) of decodable code that no call targets",
+    "merged body 0x8000C694..0x8000CC84 is closed and entry_evidence is complete"
+   ],
+   "absorbed": [
+    "func_8000C9A0"
+   ],
+   "open": [],
+   "closed": true,
+   "id": "op0001",
+   "affects": {
+    "functions": -1,
+    "code_bytes": 12,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "merge",
+   "confidence": 0.99,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_80016468",
+     "vram": "0x80016468",
+     "size": "0x00000008"
+    },
+    {
+     "name": "func_80016470",
+     "vram": "0x80016470",
+     "size": "0x000000D8"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_80016468",
+     "vram": "0x80016468",
+     "size": "0x000000E0"
+    }
+   ],
+   "released": [],
+   "evidence": [
+    "func_80016468 at 0x80016468 is an entry: address-taken@800179A8",
+    "func_80016470 at 0x80016470: no call or pointer evidence; reads-$30-before-write@80016470; $ra restored from the stack but never saved (0x80016530); stack released without allocation at 0x8001653C",
+    "merged body 0x80016468..0x80016548 is closed and entry_evidence is complete",
+    "the first part is not a closed body (its control runs into the next part), no part after it can be entered as a function, and the whole is a closed body"
+   ],
+   "absorbed": [
+    "func_80016470"
+   ],
+   "open": [],
+   "closed": true,
+   "certain": "the first part is not a closed body (its control runs into the next part), no part after it can be entered as a function, and the whole is a closed body",
+   "id": "op0002",
+   "affects": {
+    "functions": -1,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "merge",
+   "confidence": 0.75,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8003AD10",
+     "vram": "0x8003AD10",
+     "size": "0x00000028"
+    },
+    {
+     "name": "func_8003AD38",
+     "vram": "0x8003AD38",
+     "size": "0x00000010"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8003AD10",
+     "vram": "0x8003AD10",
+     "size": "0x00000038"
+    }
+   ],
+   "released": [],
+   "evidence": [
+    "func_8003AD10 at 0x8003AD10 is an entry: address-taken@8003AD8C",
+    "func_8003AD38 at 0x8003AD38: no call or pointer evidence; previous-entry-falls-through",
+    "merged body 0x8003AD10..0x8003AD48 is closed and entry_evidence is complete"
+   ],
+   "absorbed": [
+    "func_8003AD38"
+   ],
+   "open": [],
+   "closed": true,
+   "id": "op0003",
+   "affects": {
+    "functions": -1,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "merge",
+   "confidence": 0.75,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8003AD48",
+     "vram": "0x8003AD48",
+     "size": "0x00000008"
+    },
+    {
+     "name": "func_8003AD50",
+     "vram": "0x8003AD50",
+     "size": "0x00000020"
+    },
+    {
+     "name": "func_8003AD70",
+     "vram": "0x8003AD70",
+     "size": "0x00000010"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8003AD48",
+     "vram": "0x8003AD48",
+     "size": "0x00000038"
+    }
+   ],
+   "released": [],
+   "evidence": [
+    "func_8003AD48 at 0x8003AD48 is an entry: address-taken@8003ADCC",
+    "func_8003AD50 at 0x8003AD50: no call or pointer evidence; previous-entry-falls-through",
+    "func_8003AD70 at 0x8003AD70: no call or pointer evidence; previous-entry-falls-through",
+    "merged body 0x8003AD48..0x8003AD80 is closed and entry_evidence is complete"
+   ],
+   "absorbed": [
+    "func_8003AD50",
+    "func_8003AD70"
+   ],
+   "open": [],
+   "closed": true,
+   "id": "op0004",
+   "affects": {
+    "functions": -2,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "merge",
+   "confidence": 0.5,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8003AF2C",
+     "vram": "0x8003AF2C",
+     "size": "0x00000010"
+    },
+    {
+     "name": "func_8003AF3C",
+     "vram": "0x8003AF3C",
+     "size": "0x00000408"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8003AF2C",
+     "vram": "0x8003AF2C",
+     "size": "0x00000418"
+    }
+   ],
+   "released": [],
+   "evidence": [
+    "func_8003AF2C at 0x8003AF2C is an entry: address-taken@8003AD18",
+    "func_8003AF3C at 0x8003AF3C: no call or pointer evidence; stack released without allocation at 0x8003AFF8",
+    "merged body still has entry problems: reads $at, $v0 before writing: uses a caller's temporaries, so execution arrives here from inside another body; stack released without allocation at 0x8003AFF8"
+   ],
+   "absorbed": [
+    "func_8003AF3C"
+   ],
+   "open": [
+    "branch at 0x8003AF68 leaves the range to 0x8003AD24"
+   ],
+   "closed": false,
+   "id": "op0005",
+   "affects": {
+    "functions": -1,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "merge",
+   "confidence": 0.99,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8003BCA8",
+     "vram": "0x8003BCA8",
+     "size": "0x00000008"
+    },
+    {
+     "name": "func_8003BCB0",
+     "vram": "0x8003BCB0",
+     "size": "0x00000024"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8003BCA8",
+     "vram": "0x8003BCA8",
+     "size": "0x0000002C"
+    }
+   ],
+   "released": [],
+   "evidence": [
+    "func_8003BCA8 at 0x8003BCA8 is an entry: jal from 0x80092998",
+    "func_8003BCB0 at 0x8003BCB0: no call or pointer evidence; reads $v0 before writing: uses a caller's temporaries, so execution arrives here from inside another body; stack released without allocation at 0x8003BCC8",
+    "merged body 0x8003BCA8..0x8003BCD4 is closed and entry_evidence is complete",
+    "the first part is not a closed body (its control runs into the next part), no part after it can be entered as a function, and the whole is a closed body"
+   ],
+   "absorbed": [
+    "func_8003BCB0"
+   ],
+   "open": [],
+   "closed": true,
+   "certain": "the first part is not a closed body (its control runs into the next part), no part after it can be entered as a function, and the whole is a closed body",
+   "id": "op0006",
+   "affects": {
+    "functions": -1,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "merge",
+   "confidence": 0.5,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8003FE38",
+     "vram": "0x8003FE38",
+     "size": "0x0000002C"
+    },
+    {
+     "name": "func_8003FE64",
+     "vram": "0x8003FE64",
+     "size": "0x00000508"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8003FE38",
+     "vram": "0x8003FE38",
+     "size": "0x00000534"
+    }
+   ],
+   "released": [],
+   "evidence": [
+    "func_8003FE38 at 0x8003FE38 is an entry: address-taken@8003FE2C",
+    "func_8003FE64 at 0x8003FE64: no call or pointer evidence; reads $v0, $v1, $t3, $t4, $t5, $t6, $t7, $t8, $t9 before writing: uses a caller's temporaries, so execution arrives here from inside another body; stack released without allocation at 0x800400C4; stack released without allocation at 0x800400D0",
+    "merged body still has entry problems: reads $at, $v0, $v1, $t0, $t1, $t2, $t3, $t4, $t5, $t6, $t7, $t8, $t9 before writing: uses a caller's temporaries, so execution arrives here from inside another body; reads $s0, $s1, $s2, $s3, $s4, $s5, $s6, $s7, $fp at entry without saving them"
+   ],
+   "absorbed": [
+    "func_8003FE64"
+   ],
+   "open": [
+    "branch at 0x80040020 leaves the range to 0x80040420"
+   ],
+   "closed": false,
+   "id": "op0007",
+   "affects": {
+    "functions": -1,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "merge",
+   "confidence": 0.6,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8004036C",
+     "vram": "0x8004036C",
+     "size": "0x000000B4"
+    },
+    {
+     "name": "func_80040420",
+     "vram": "0x80040420",
+     "size": "0x00000034"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8004036C",
+     "vram": "0x8004036C",
+     "size": "0x000000E8"
+    }
+   ],
+   "released": [],
+   "evidence": [
+    "func_8004036C at 0x8004036C is an entry: jal from 0x80040090, jal from 0x800400EC, jal from 0x80040144, jal from 0x8004015C, ... 14 call sites in all",
+    "func_80040420 at 0x80040420: no call or pointer evidence; reads-$8-before-write@80040424; reads $t0 before writing: uses a caller's temporaries, so execution arrives here from inside another body",
+    "merged body still has entry problems: $s2 written without being saved (0x8004037C)"
+   ],
+   "absorbed": [
+    "func_80040420"
+   ],
+   "open": [],
+   "closed": false,
+   "id": "op0008",
+   "affects": {
+    "functions": -1,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "retype",
+   "confidence": 0.85,
+   "status": "proposed",
+   "remove": [],
+   "insert": [],
+   "released": [],
+   "evidence": [
+    "func_80018DEC: 1 instruction(s) compilers do not emit (first: daddiu $t6, $k1, 0x6564); uses $k0/$k1"
+   ],
+   "to": "handwritten",
+   "target": {
+    "name": "func_80018DEC",
+    "vram": "0x80018DEC",
+    "size": "0x00000178"
+   },
+   "id": "op0009",
+   "affects": {
+    "functions": 0,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "retype",
+   "confidence": 0.9,
+   "status": "proposed",
+   "remove": [],
+   "insert": [],
+   "released": [],
+   "evidence": [
+    "func_80036764: 1 instruction(s) compilers do not emit (first: mtc0 $zero, Reserved07)"
+   ],
+   "to": "handwritten",
+   "target": {
+    "name": "func_80036764",
+    "vram": "0x80036764",
+    "size": "0x0000000C"
+   },
+   "id": "op0010",
+   "affects": {
+    "functions": 0,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "retype",
+   "confidence": 0.9,
+   "status": "proposed",
+   "remove": [],
+   "insert": [],
+   "released": [],
+   "evidence": [
+    "func_80036770: 2 instruction(s) compilers do not emit (first: mfc0 $t0, Context)"
+   ],
+   "to": "handwritten",
+   "target": {
+    "name": "func_80036770",
+    "vram": "0x80036770",
+    "size": "0x00000018"
+   },
+   "id": "op0011",
+   "affects": {
+    "functions": 0,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "extend",
+   "confidence": 0.8,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_80036770",
+     "vram": "0x80036770",
+     "size": "0x00000018"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_80036770",
+     "vram": "0x80036770",
+     "size": "0x0000008C"
+    }
+   ],
+   "released": [],
+   "evidence": [
+    "func_80036770: control runs off the end at 0x80036788; the uncatalogued bytes up to 0x800367FC close the body"
+   ],
+   "id": "op0012",
+   "affects": {
+    "functions": 0,
+    "code_bytes": 116,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "retype",
+   "confidence": 0.9,
+   "status": "proposed",
+   "remove": [],
+   "insert": [],
+   "released": [],
+   "evidence": [
+    "func_8003AE2C: 1 instruction(s) compilers do not emit (first: cache 0x19, 0x0($t0))"
+   ],
+   "to": "handwritten",
+   "target": {
+    "name": "func_8003AE2C",
+    "vram": "0x8003AE2C",
+    "size": "0x00000050"
+   },
+   "id": "op0013",
+   "affects": {
+    "functions": 0,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "retype",
+   "confidence": 0.9,
+   "status": "proposed",
+   "remove": [],
+   "insert": [],
+   "released": [],
+   "evidence": [
+    "func_8003AE7C: 1 instruction(s) compilers do not emit (first: cache 0x01, 0x0($t0))"
+   ],
+   "to": "handwritten",
+   "target": {
+    "name": "func_8003AE7C",
+    "vram": "0x8003AE7C",
+    "size": "0x00000024"
+   },
+   "id": "op0014",
+   "affects": {
+    "functions": 0,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "retype",
+   "confidence": 0.9,
+   "status": "proposed",
+   "remove": [],
+   "insert": [],
+   "released": [],
+   "evidence": [
+    "func_8003AEA0: 1 instruction(s) compilers do not emit (first: cache 0x10, 0x0($t0))"
+   ],
+   "to": "handwritten",
+   "target": {
+    "name": "func_8003AEA0",
+    "vram": "0x8003AEA0",
+    "size": "0x00000050"
+   },
+   "id": "op0015",
+   "affects": {
+    "functions": 0,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "retype",
+   "confidence": 0.9,
+   "status": "proposed",
+   "remove": [],
+   "insert": [],
+   "released": [],
+   "evidence": [
+    "func_8003AEF0: 1 instruction(s) compilers do not emit (first: cache 0x00, 0x0($t0))"
+   ],
+   "to": "handwritten",
+   "target": {
+    "name": "func_8003AEF0",
+    "vram": "0x8003AEF0",
+    "size": "0x00000024"
+   },
+   "id": "op0016",
+   "affects": {
+    "functions": 0,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "retype",
+   "confidence": 0.9,
+   "status": "proposed",
+   "remove": [],
+   "insert": [],
+   "released": [],
+   "evidence": [
+    "func_8003AF14: 1 instruction(s) compilers do not emit (first: mfc0 $v0, Status)"
+   ],
+   "to": "handwritten",
+   "target": {
+    "name": "func_8003AF14",
+    "vram": "0x8003AF14",
+    "size": "0x0000000C"
+   },
+   "id": "op0017",
+   "affects": {
+    "functions": 0,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "retype",
+   "confidence": 0.9,
+   "status": "proposed",
+   "remove": [],
+   "insert": [],
+   "released": [],
+   "evidence": [
+    "func_8003AF20: 1 instruction(s) compilers do not emit (first: mtc0 $a0, Status)"
+   ],
+   "to": "handwritten",
+   "target": {
+    "name": "func_8003AF20",
+    "vram": "0x8003AF20",
+    "size": "0x0000000C"
+   },
+   "id": "op0018",
+   "affects": {
+    "functions": 0,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "retype",
+   "confidence": 0.9,
+   "status": "proposed",
+   "remove": [],
+   "insert": [],
+   "released": [],
+   "evidence": [
+    "func_8003B344 is called (jal from 0x8003AFEC) but reads $at, $v0, $v1, $t0, $t1, $t2, $t3, $t4, $t5, $t6, $t7, $t8, $t9 before writing: uses a caller's temporaries, so execution arrives here from inside another body; reads $s0, $s1, $s2, $s3, $s4, $s5, $s6, $s7, $fp at entry without saving them"
+   ],
+   "to": "nonstandard-abi",
+   "flags": [
+    "needs-tu"
+   ],
+   "target": {
+    "name": "func_8003B344",
+    "vram": "0x8003B344",
+    "size": "0x00000300"
+   },
+   "id": "op0019",
+   "affects": {
+    "functions": 0,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "retype",
+   "confidence": 0.9,
+   "status": "proposed",
+   "remove": [],
+   "insert": [],
+   "released": [],
+   "evidence": [
+    "func_8003B344: 105 instruction(s) compilers do not emit (first: sd $zero, 0x0($k0)); uses $k0/$k1"
+   ],
+   "to": "handwritten",
+   "target": {
+    "name": "func_8003B344",
+    "vram": "0x8003B344",
+    "size": "0x00000300"
+   },
+   "id": "op0020",
+   "affects": {
+    "functions": 0,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8003BCD8",
+     "vram": "0x8003BCD8",
+     "size": "0x00000010"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8003BCD8",
+     "vram": "0x8003BCD8",
+     "size": "0x0000000C"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8003BCE4",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8003BCD8: 4 byte(s) of zero words after the final terminator at 0x8003BCDC (nop_roles: padding)"
+   ],
+   "id": "op0021",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8003BE48",
+     "vram": "0x8003BE48",
+     "size": "0x000000B0"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8003BE48",
+     "vram": "0x8003BE48",
+     "size": "0x000000A8"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8003BEF0",
+     "size": "0x00000008",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8003BE48: 8 byte(s) of zero words after the final terminator at 0x8003BEE8 (nop_roles: padding)"
+   ],
+   "id": "op0022",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -8,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8003BF28",
+     "vram": "0x8003BF28",
+     "size": "0x00000190"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8003BF28",
+     "vram": "0x8003BF28",
+     "size": "0x00000188"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8003C0B0",
+     "size": "0x00000008",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8003BF28: 8 byte(s) of zero words after the final terminator at 0x8003C0A8 (nop_roles: padding)"
+   ],
+   "id": "op0023",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -8,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8003C178",
+     "vram": "0x8003C178",
+     "size": "0x00000230"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8003C178",
+     "vram": "0x8003C178",
+     "size": "0x00000224"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8003C39C",
+     "size": "0x0000000C",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8003C178: 12 byte(s) of zero words after the final terminator at 0x8003C394 (nop_roles: padding)"
+   ],
+   "id": "op0024",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -12,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8003C3A8",
+     "vram": "0x8003C3A8",
+     "size": "0x000000F0"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8003C3A8",
+     "vram": "0x8003C3A8",
+     "size": "0x000000EC"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8003C494",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8003C3A8: 4 byte(s) of zero words after the final terminator at 0x8003C48C (nop_roles: padding)"
+   ],
+   "id": "op0025",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8003C498",
+     "vram": "0x8003C498",
+     "size": "0x000000A0"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8003C498",
+     "vram": "0x8003C498",
+     "size": "0x0000009C"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8003C534",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8003C498: 4 byte(s) of zero words after the final terminator at 0x8003C52C (nop_roles: padding)"
+   ],
+   "id": "op0026",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8003C538",
+     "vram": "0x8003C538",
+     "size": "0x00000100"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8003C538",
+     "vram": "0x8003C538",
+     "size": "0x000000F8"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8003C630",
+     "size": "0x00000008",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8003C538: 8 byte(s) of zero words after the final terminator at 0x8003C628 (nop_roles: padding)"
+   ],
+   "id": "op0027",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -8,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8003CB18",
+     "vram": "0x8003CB18",
+     "size": "0x00000050"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8003CB18",
+     "vram": "0x8003CB18",
+     "size": "0x0000004C"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8003CB64",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8003CB18: 4 byte(s) of zero words after the final terminator at 0x8003CB5C (nop_roles: padding)"
+   ],
+   "id": "op0028",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8003CC48",
+     "vram": "0x8003CC48",
+     "size": "0x00000060"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8003CC48",
+     "vram": "0x8003CC48",
+     "size": "0x00000054"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8003CC9C",
+     "size": "0x0000000C",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8003CC48: 12 byte(s) of zero words after the final terminator at 0x8003CC94 (nop_roles: padding)"
+   ],
+   "id": "op0029",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -12,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8003CCA8",
+     "vram": "0x8003CCA8",
+     "size": "0x00000060"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8003CCA8",
+     "vram": "0x8003CCA8",
+     "size": "0x00000058"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8003CD00",
+     "size": "0x00000008",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8003CCA8: 8 byte(s) of zero words after the final terminator at 0x8003CCF8 (nop_roles: padding)"
+   ],
+   "id": "op0030",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -8,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8003CD08",
+     "vram": "0x8003CD08",
+     "size": "0x00000060"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8003CD08",
+     "vram": "0x8003CD08",
+     "size": "0x00000058"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8003CD60",
+     "size": "0x00000008",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8003CD08: 8 byte(s) of zero words after the final terminator at 0x8003CD58 (nop_roles: padding)"
+   ],
+   "id": "op0031",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -8,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8003CD68",
+     "vram": "0x8003CD68",
+     "size": "0x00000060"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8003CD68",
+     "vram": "0x8003CD68",
+     "size": "0x00000058"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8003CDC0",
+     "size": "0x00000008",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8003CD68: 8 byte(s) of zero words after the final terminator at 0x8003CDB8 (nop_roles: padding)"
+   ],
+   "id": "op0032",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -8,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8003D568",
+     "vram": "0x8003D568",
+     "size": "0x00000040"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8003D568",
+     "vram": "0x8003D568",
+     "size": "0x00000034"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8003D59C",
+     "size": "0x0000000C",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8003D568: 12 byte(s) of zero words after the final terminator at 0x8003D594 (nop_roles: padding)"
+   ],
+   "id": "op0033",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -12,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8003D5A8",
+     "vram": "0x8003D5A8",
+     "size": "0x00000060"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8003D5A8",
+     "vram": "0x8003D5A8",
+     "size": "0x00000054"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8003D5FC",
+     "size": "0x0000000C",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8003D5A8: 12 byte(s) of zero words after the final terminator at 0x8003D5F4 (nop_roles: padding)"
+   ],
+   "id": "op0034",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -12,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "retype",
+   "confidence": 0.9,
+   "status": "proposed",
+   "remove": [],
+   "insert": [],
+   "released": [],
+   "evidence": [
+    "func_8003DB88 is called (jal from 0x8003DDE4, jal from 0x8003DF24) but reads $s0, $s1, $s2, $s4, $s6 at entry without saving them; $s1 written without being saved (0x8003DBC4)"
+   ],
+   "to": "nonstandard-abi",
+   "flags": [
+    "needs-tu"
+   ],
+   "target": {
+    "name": "func_8003DB88",
+    "vram": "0x8003DB88",
+    "size": "0x0000012C"
+   },
+   "id": "op0035",
+   "affects": {
+    "functions": 0,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8003DCB4",
+     "vram": "0x8003DCB4",
+     "size": "0x000004A4"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8003DCB4",
+     "vram": "0x8003DCB4",
+     "size": "0x000004A0"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8003E154",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8003DCB4: 4 byte(s) of zero words after the final terminator at 0x8003E14C (nop_roles: padding)"
+   ],
+   "id": "op0036",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8003E158",
+     "vram": "0x8003E158",
+     "size": "0x00000080"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8003E158",
+     "vram": "0x8003E158",
+     "size": "0x00000074"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8003E1CC",
+     "size": "0x0000000C",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8003E158: 12 byte(s) of zero words after the final terminator at 0x8003E1C4 (nop_roles: padding)"
+   ],
+   "id": "op0037",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -12,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8003E208",
+     "vram": "0x8003E208",
+     "size": "0x000000E0"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8003E208",
+     "vram": "0x8003E208",
+     "size": "0x000000D8"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8003E2E0",
+     "size": "0x00000008",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8003E208: 8 byte(s) of zero words after the final terminator at 0x8003E2D8 (nop_roles: padding)"
+   ],
+   "id": "op0038",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -8,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8003E318",
+     "vram": "0x8003E318",
+     "size": "0x00000040"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8003E318",
+     "vram": "0x8003E318",
+     "size": "0x00000034"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8003E34C",
+     "size": "0x0000000C",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8003E318: 12 byte(s) of zero words after the final terminator at 0x8003E344 (nop_roles: padding)"
+   ],
+   "id": "op0039",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -12,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "retype",
+   "confidence": 0.9,
+   "status": "proposed",
+   "remove": [],
+   "insert": [],
+   "released": [],
+   "evidence": [
+    "func_8003E55C is called (jal from 0x8003E83C, jal from 0x8003E884) but reads $t2, $t3 before writing: uses a caller's temporaries, so execution arrives here from inside another body"
+   ],
+   "to": "nonstandard-abi",
+   "flags": [
+    "needs-tu"
+   ],
+   "target": {
+    "name": "func_8003E55C",
+    "vram": "0x8003E55C",
+    "size": "0x00000058"
+   },
+   "id": "op0040",
+   "affects": {
+    "functions": 0,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8003ECA4",
+     "vram": "0x8003ECA4",
+     "size": "0x00000174"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8003ECA4",
+     "vram": "0x8003ECA4",
+     "size": "0x00000168"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8003EE0C",
+     "size": "0x0000000C",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8003ECA4: 12 byte(s) of zero words after the final terminator at 0x8003EE04 (nop_roles: padding)"
+   ],
+   "id": "op0041",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -12,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8003EF64",
+     "vram": "0x8003EF64",
+     "size": "0x00000054"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8003EF64",
+     "vram": "0x8003EF64",
+     "size": "0x00000048"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8003EFAC",
+     "size": "0x0000000C",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8003EF64: 12 byte(s) of zero words after the final terminator at 0x8003EFA4 (nop_roles: padding)"
+   ],
+   "id": "op0042",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -12,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8003F00C",
+     "vram": "0x8003F00C",
+     "size": "0x0000004C"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8003F00C",
+     "vram": "0x8003F00C",
+     "size": "0x00000048"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8003F054",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8003F00C: 4 byte(s) of zero words after the final terminator at 0x8003F04C (nop_roles: padding)"
+   ],
+   "id": "op0043",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8003F260",
+     "vram": "0x8003F260",
+     "size": "0x00000058"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8003F260",
+     "vram": "0x8003F260",
+     "size": "0x00000054"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8003F2B4",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8003F260: 4 byte(s) of zero words after the final terminator at 0x8003F2AC (nop_roles: padding)"
+   ],
+   "id": "op0044",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8003F2B8",
+     "vram": "0x8003F2B8",
+     "size": "0x00000050"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8003F2B8",
+     "vram": "0x8003F2B8",
+     "size": "0x0000004C"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8003F304",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8003F2B8: 4 byte(s) of zero words after the final terminator at 0x8003F2FC (nop_roles: padding)"
+   ],
+   "id": "op0045",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8003F668",
+     "vram": "0x8003F668",
+     "size": "0x00000440"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8003F668",
+     "vram": "0x8003F668",
+     "size": "0x0000043C"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8003FAA4",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8003F668: 4 byte(s) of zero words after the final terminator at 0x8003FA9C (nop_roles: padding)"
+   ],
+   "id": "op0046",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8003FB88",
+     "vram": "0x8003FB88",
+     "size": "0x00000030"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8003FB88",
+     "vram": "0x8003FB88",
+     "size": "0x00000024"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8003FBAC",
+     "size": "0x0000000C",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8003FB88: 12 byte(s) of zero words after the final terminator at 0x8003FBA4 (nop_roles: padding)"
+   ],
+   "id": "op0047",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -12,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "retype",
+   "confidence": 0.9,
+   "status": "proposed",
+   "remove": [],
+   "insert": [],
+   "released": [],
+   "evidence": [
+    "func_8003FBB8: 4 instruction(s) compilers do not emit (first: cache 0x15, 0x0($t0))"
+   ],
+   "to": "handwritten",
+   "target": {
+    "name": "func_8003FBB8",
+    "vram": "0x8003FBB8",
+    "size": "0x000000B0"
+   },
+   "id": "op0048",
+   "affects": {
+    "functions": 0,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8003FBB8",
+     "vram": "0x8003FBB8",
+     "size": "0x000000B0"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8003FBB8",
+     "vram": "0x8003FBB8",
+     "size": "0x000000AC"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8003FC64",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8003FBB8: 4 byte(s) of zero words after the final terminator at 0x8003FC5C (nop_roles: padding)"
+   ],
+   "id": "op0049",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "retype",
+   "confidence": 0.9,
+   "status": "proposed",
+   "remove": [],
+   "insert": [],
+   "released": [],
+   "evidence": [
+    "func_8003FC68: 2 instruction(s) compilers do not emit (first: cache 0x10, 0x0($t0))"
+   ],
+   "to": "handwritten",
+   "target": {
+    "name": "func_8003FC68",
+    "vram": "0x8003FC68",
+    "size": "0x00000080"
+   },
+   "id": "op0050",
+   "affects": {
+    "functions": 0,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8003FC68",
+     "vram": "0x8003FC68",
+     "size": "0x00000080"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8003FC68",
+     "vram": "0x8003FC68",
+     "size": "0x00000074"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8003FCDC",
+     "size": "0x0000000C",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8003FC68: 12 byte(s) of zero words after the final terminator at 0x8003FCD4 (nop_roles: padding)"
+   ],
+   "id": "op0051",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -12,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "retype",
+   "confidence": 0.9,
+   "status": "proposed",
+   "remove": [],
+   "insert": [],
+   "released": [],
+   "evidence": [
+    "func_8003FCE8: 2 instruction(s) compilers do not emit (first: mfc0 $t0, Status)"
+   ],
+   "to": "handwritten",
+   "target": {
+    "name": "func_8003FCE8",
+    "vram": "0x8003FCE8",
+    "size": "0x00000020"
+   },
+   "id": "op0052",
+   "affects": {
+    "functions": 0,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "retype",
+   "confidence": 0.9,
+   "status": "proposed",
+   "remove": [],
+   "insert": [],
+   "released": [],
+   "evidence": [
+    "func_8003FD08: 2 instruction(s) compilers do not emit (first: mfc0 $t0, Status)"
+   ],
+   "to": "handwritten",
+   "target": {
+    "name": "func_8003FD08",
+    "vram": "0x8003FD08",
+    "size": "0x00000080"
+   },
+   "id": "op0053",
+   "affects": {
+    "functions": 0,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8003FD08",
+     "vram": "0x8003FD08",
+     "size": "0x00000080"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8003FD08",
+     "vram": "0x8003FD08",
+     "size": "0x0000001C"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8003FD24",
+     "size": "0x00000064",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8003FD08: 100 byte(s) of zero words after the final terminator at 0x8003FD1C (nop_roles: padding)"
+   ],
+   "id": "op0054",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -100,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8003FD88",
+     "vram": "0x8003FD88",
+     "size": "0x00000050"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8003FD88",
+     "vram": "0x8003FD88",
+     "size": "0x0000004C"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8003FDD4",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8003FD88: 4 byte(s) of zero words after the final terminator at 0x8003FDCC (nop_roles: padding)"
+   ],
+   "id": "op0055",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8003FDF8",
+     "vram": "0x8003FDF8",
+     "size": "0x00000030"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8003FDF8",
+     "vram": "0x8003FDF8",
+     "size": "0x0000002C"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8003FE24",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8003FDF8: 4 byte(s) of zero words after the final terminator at 0x8003FE1C (nop_roles: padding)"
+   ],
+   "id": "op0056",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "retype",
+   "confidence": 0.85,
+   "status": "proposed",
+   "remove": [],
+   "insert": [],
+   "released": [],
+   "evidence": [
+    "func_8003FE28: 2 instruction(s) compilers do not emit (first: lui $k0, 0x8004); uses $k0/$k1"
+   ],
+   "to": "handwritten",
+   "target": {
+    "name": "func_8003FE28",
+    "vram": "0x8003FE28",
+    "size": "0x00000010"
+   },
+   "id": "op0057",
+   "affects": {
+    "functions": 0,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "retype",
+   "confidence": 0.9,
+   "status": "proposed",
+   "remove": [],
+   "insert": [],
+   "released": [],
+   "evidence": [
+    "func_80040454 is called (jal from 0x8003F2E0, jal from 0x8003FB64) but reads $s0, $s1, $s2, $s3, $s4, $s5, $s6, $s7, $fp at entry without saving them"
+   ],
+   "to": "nonstandard-abi",
+   "flags": [
+    "needs-tu"
+   ],
+   "target": {
+    "name": "func_80040454",
+    "vram": "0x80040454",
+    "size": "0x00000100"
+   },
+   "id": "op0058",
+   "affects": {
+    "functions": 0,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "retype",
+   "confidence": 0.9,
+   "status": "proposed",
+   "remove": [],
+   "insert": [],
+   "released": [],
+   "evidence": [
+    "func_80040454: 15 instruction(s) compilers do not emit (first: mfc0 $t0, Status); uses $k0/$k1"
+   ],
+   "to": "handwritten",
+   "target": {
+    "name": "func_80040454",
+    "vram": "0x80040454",
+    "size": "0x00000100"
+   },
+   "id": "op0059",
+   "affects": {
+    "functions": 0,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "retype",
+   "confidence": 0.9,
+   "status": "proposed",
+   "remove": [],
+   "insert": [],
+   "released": [],
+   "evidence": [
+    "func_800405AC: 50 instruction(s) compilers do not emit (first: lw $k1, 0x118($k0)); uses $k0/$k1"
+   ],
+   "to": "handwritten",
+   "target": {
+    "name": "func_800405AC",
+    "vram": "0x800405AC",
+    "size": "0x0000017C"
+   },
+   "id": "op0060",
+   "affects": {
+    "functions": 0,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "split",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_80040728",
+     "vram": "0x80040728",
+     "size": "0x000006B4"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_80040728",
+     "vram": "0x80040728",
+     "size": "0x00000008"
+    },
+    {
+     "name": "func_80040738",
+     "vram": "0x80040738",
+     "size": "0x000006A4"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x80040730",
+     "size": "0x00000008",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_80040728: a call and its delay slot, padding, then a body that opens a frame and saves $ra: a compiler never calls before it saves $ra in a function that saves it, so the call is a routine of its own that does not return (hand-written) and the function starts after the padding"
+   ],
+   "at": [
+    "0x80040738"
+   ],
+   "open": [],
+   "certain": "a call and its delay slot, padding, then a body that opens a frame and saves $ra: a compiler never calls before it saves $ra in a function that saves it, so the call is a routine of its own that does not return (hand-written) and the function starts after the padding",
+   "id": "op0061",
+   "affects": {
+    "functions": 1,
+    "code_bytes": -8,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_80040EC4",
+     "vram": "0x80040EC4",
+     "size": "0x000000F4"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_80040EC4",
+     "vram": "0x80040EC4",
+     "size": "0x000000EC"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x80040FB0",
+     "size": "0x00000008",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_80040EC4: 8 byte(s) of zero words after the final terminator at 0x80040FA8 (nop_roles: padding)"
+   ],
+   "id": "op0062",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -8,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_800411E8",
+     "vram": "0x800411E8",
+     "size": "0x00000060"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_800411E8",
+     "vram": "0x800411E8",
+     "size": "0x00000058"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x80041240",
+     "size": "0x00000008",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_800411E8: 8 byte(s) of zero words after the final terminator at 0x80041238 (nop_roles: padding)"
+   ],
+   "id": "op0063",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -8,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_80041248",
+     "vram": "0x80041248",
+     "size": "0x00000010"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_80041248",
+     "vram": "0x80041248",
+     "size": "0x0000000C"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x80041254",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_80041248: 4 byte(s) of zero words after the final terminator at 0x8004124C (nop_roles: padding)"
+   ],
+   "id": "op0064",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_80041258",
+     "vram": "0x80041258",
+     "size": "0x00000060"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_80041258",
+     "vram": "0x80041258",
+     "size": "0x00000054"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x800412AC",
+     "size": "0x0000000C",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_80041258: 12 byte(s) of zero words after the final terminator at 0x800412A4 (nop_roles: padding)"
+   ],
+   "id": "op0065",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -12,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_800412B8",
+     "vram": "0x800412B8",
+     "size": "0x00000140"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_800412B8",
+     "vram": "0x800412B8",
+     "size": "0x00000138"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x800413F0",
+     "size": "0x00000008",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_800412B8: 8 byte(s) of zero words after the final terminator at 0x800413E8 (nop_roles: padding)"
+   ],
+   "id": "op0066",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -8,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_800413F8",
+     "vram": "0x800413F8",
+     "size": "0x00000060"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_800413F8",
+     "vram": "0x800413F8",
+     "size": "0x00000058"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x80041450",
+     "size": "0x00000008",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_800413F8: 8 byte(s) of zero words after the final terminator at 0x80041448 (nop_roles: padding)"
+   ],
+   "id": "op0067",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -8,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_80041458",
+     "vram": "0x80041458",
+     "size": "0x00000150"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_80041458",
+     "vram": "0x80041458",
+     "size": "0x0000014C"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x800415A4",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_80041458: 4 byte(s) of zero words after the final terminator at 0x8004159C (nop_roles: padding)"
+   ],
+   "id": "op0068",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_800415A8",
+     "vram": "0x800415A8",
+     "size": "0x00000070"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_800415A8",
+     "vram": "0x800415A8",
+     "size": "0x00000068"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x80041610",
+     "size": "0x00000008",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_800415A8: 8 byte(s) of zero words after the final terminator at 0x80041608 (nop_roles: padding)"
+   ],
+   "id": "op0069",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -8,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_80041618",
+     "vram": "0x80041618",
+     "size": "0x00000050"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_80041618",
+     "vram": "0x80041618",
+     "size": "0x0000004C"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x80041664",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_80041618: 4 byte(s) of zero words after the final terminator at 0x8004165C (nop_roles: padding)"
+   ],
+   "id": "op0070",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_80041668",
+     "vram": "0x80041668",
+     "size": "0x00000150"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_80041668",
+     "vram": "0x80041668",
+     "size": "0x00000144"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x800417AC",
+     "size": "0x0000000C",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_80041668: 12 byte(s) of zero words after the final terminator at 0x800417A4 (nop_roles: padding)"
+   ],
+   "id": "op0071",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -12,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_800417B8",
+     "vram": "0x800417B8",
+     "size": "0x00000100"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_800417B8",
+     "vram": "0x800417B8",
+     "size": "0x000000F8"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x800418B0",
+     "size": "0x00000008",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_800417B8: 8 byte(s) of zero words after the final terminator at 0x800418A8 (nop_roles: padding)"
+   ],
+   "id": "op0072",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -8,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_80041AC0",
+     "vram": "0x80041AC0",
+     "size": "0x00000048"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_80041AC0",
+     "vram": "0x80041AC0",
+     "size": "0x00000040"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x80041B00",
+     "size": "0x00000008",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_80041AC0: 8 byte(s) of zero words after the final terminator at 0x80041AF8 (nop_roles: padding)"
+   ],
+   "id": "op0073",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -8,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "retype",
+   "confidence": 0.9,
+   "status": "proposed",
+   "remove": [],
+   "insert": [],
+   "released": [],
+   "evidence": [
+    "func_80041CFC is called (jal from 0x80041FD4, jal from 0x8004202C) but reads $s1 at entry without saving them; $s2 written without being saved (0x80041D48)"
+   ],
+   "to": "nonstandard-abi",
+   "flags": [
+    "needs-tu"
+   ],
+   "target": {
+    "name": "func_80041CFC",
+    "vram": "0x80041CFC",
+    "size": "0x000001D0"
+   },
+   "id": "op0074",
+   "affects": {
+    "functions": 0,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "retype",
+   "confidence": 0.9,
+   "status": "proposed",
+   "remove": [],
+   "insert": [],
+   "released": [],
+   "evidence": [
+    "func_80041ECC is called (jal from 0x8004241C, jal from 0x80042614) but reads $t0 before writing: uses a caller's temporaries, so execution arrives here from inside another body; reads $s0, $s3, $s5, $s6 at entry without saving them"
+   ],
+   "to": "nonstandard-abi",
+   "flags": [
+    "needs-tu"
+   ],
+   "target": {
+    "name": "func_80041ECC",
+    "vram": "0x80041ECC",
+    "size": "0x00000298"
+   },
+   "id": "op0075",
+   "affects": {
+    "functions": 0,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_80042214",
+     "vram": "0x80042214",
+     "size": "0x00000554"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_80042214",
+     "vram": "0x80042214",
+     "size": "0x00000548"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8004275C",
+     "size": "0x0000000C",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_80042214: 12 byte(s) of zero words after the final terminator at 0x80042754 (nop_roles: padding)"
+   ],
+   "id": "op0076",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -12,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_80042AA8",
+     "vram": "0x80042AA8",
+     "size": "0x00000020"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_80042AA8",
+     "vram": "0x80042AA8",
+     "size": "0x0000001C"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x80042AC4",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_80042AA8: 4 byte(s) of zero words after the final terminator at 0x80042ABC (nop_roles: padding)"
+   ],
+   "id": "op0077",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_80042D04",
+     "vram": "0x80042D04",
+     "size": "0x00000214"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_80042D04",
+     "vram": "0x80042D04",
+     "size": "0x00000208"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x80042F0C",
+     "size": "0x0000000C",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_80042D04: 12 byte(s) of zero words after the final terminator at 0x80042F04 (nop_roles: padding)"
+   ],
+   "id": "op0078",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -12,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "retype",
+   "confidence": 0.9,
+   "status": "proposed",
+   "remove": [],
+   "insert": [],
+   "released": [],
+   "evidence": [
+    "func_80043318: 1 instruction(s) compilers do not emit (first: mtc0 $a0, Compare)"
+   ],
+   "to": "handwritten",
+   "target": {
+    "name": "func_80043318",
+    "vram": "0x80043318",
+    "size": "0x00000010"
+   },
+   "id": "op0079",
+   "affects": {
+    "functions": 0,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_80043318",
+     "vram": "0x80043318",
+     "size": "0x00000010"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_80043318",
+     "vram": "0x80043318",
+     "size": "0x0000000C"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x80043324",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_80043318: 4 byte(s) of zero words after the final terminator at 0x8004331C (nop_roles: padding)"
+   ],
+   "id": "op0080",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "retype",
+   "confidence": 0.9,
+   "status": "proposed",
+   "remove": [],
+   "insert": [],
+   "released": [],
+   "evidence": [
+    "func_80043328: 1 instruction(s) compilers do not emit (first: mfc0 $v0, Count)"
+   ],
+   "to": "handwritten",
+   "target": {
+    "name": "func_80043328",
+    "vram": "0x80043328",
+    "size": "0x00000010"
+   },
+   "id": "op0081",
+   "affects": {
+    "functions": 0,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_80043328",
+     "vram": "0x80043328",
+     "size": "0x00000010"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_80043328",
+     "vram": "0x80043328",
+     "size": "0x0000000C"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x80043334",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_80043328: 4 byte(s) of zero words after the final terminator at 0x8004332C (nop_roles: padding)"
+   ],
+   "id": "op0082",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_80043338",
+     "vram": "0x80043338",
+     "size": "0x00000080"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_80043338",
+     "vram": "0x80043338",
+     "size": "0x0000007C"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x800433B4",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_80043338: 4 byte(s) of zero words after the final terminator at 0x800433AC (nop_roles: padding)"
+   ],
+   "id": "op0083",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_80043CC4",
+     "vram": "0x80043CC4",
+     "size": "0x00000344"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_80043CC4",
+     "vram": "0x80043CC4",
+     "size": "0x00000340"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x80044004",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_80043CC4: 4 byte(s) of zero words after the final terminator at 0x80043FFC (nop_roles: padding)"
+   ],
+   "id": "op0084",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_80044280",
+     "vram": "0x80044280",
+     "size": "0x000000B8"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_80044280",
+     "vram": "0x80044280",
+     "size": "0x000000B4"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x80044334",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_80044280: 4 byte(s) of zero words after the final terminator at 0x8004432C (nop_roles: padding)"
+   ],
+   "id": "op0085",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_800443D8",
+     "vram": "0x800443D8",
+     "size": "0x00000170"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_800443D8",
+     "vram": "0x800443D8",
+     "size": "0x00000168"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x80044540",
+     "size": "0x00000008",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_800443D8: 8 byte(s) of zero words after the final terminator at 0x80044538 (nop_roles: padding)"
+   ],
+   "id": "op0086",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -8,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_80044548",
+     "vram": "0x80044548",
+     "size": "0x00000040"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_80044548",
+     "vram": "0x80044548",
+     "size": "0x00000034"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8004457C",
+     "size": "0x0000000C",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_80044548: 12 byte(s) of zero words after the final terminator at 0x80044574 (nop_roles: padding)"
+   ],
+   "id": "op0087",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -12,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "retype",
+   "confidence": 0.9,
+   "status": "proposed",
+   "remove": [],
+   "insert": [],
+   "released": [],
+   "evidence": [
+    "func_80044664 is called (jal from 0x80045138, jal from 0x80045420) but reads $s7 at entry without saving them; $s0 written without being saved (0x80044674)"
+   ],
+   "to": "nonstandard-abi",
+   "flags": [
+    "needs-tu"
+   ],
+   "target": {
+    "name": "func_80044664",
+    "vram": "0x80044664",
+    "size": "0x000001D0"
+   },
+   "id": "op0088",
+   "affects": {
+    "functions": 0,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "retype",
+   "confidence": 0.9,
+   "status": "proposed",
+   "remove": [],
+   "insert": [],
+   "released": [],
+   "evidence": [
+    "func_80044834 is called (jal from 0x8004510C, jal from 0x80045400) but reads $t0 before writing: uses a caller's temporaries, so execution arrives here from inside another body; reads $s2 at entry without saving them"
+   ],
+   "to": "nonstandard-abi",
+   "flags": [
+    "needs-tu"
+   ],
+   "target": {
+    "name": "func_80044834",
+    "vram": "0x80044834",
+    "size": "0x00000828"
+   },
+   "id": "op0089",
+   "affects": {
+    "functions": 0,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_80045678",
+     "vram": "0x80045678",
+     "size": "0x00000170"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_80045678",
+     "vram": "0x80045678",
+     "size": "0x0000016C"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x800457E4",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_80045678: 4 byte(s) of zero words after the final terminator at 0x800457DC (nop_roles: padding)"
+   ],
+   "id": "op0090",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "retype",
+   "confidence": 0.9,
+   "status": "proposed",
+   "remove": [],
+   "insert": [],
+   "released": [],
+   "evidence": [
+    "func_80045FE4 is called (jal from 0x800468B4, jal from 0x80046B88) but reads $s1 at entry without saving them; $s6 written without being saved (0x80045FEC)"
+   ],
+   "to": "nonstandard-abi",
+   "flags": [
+    "needs-tu"
+   ],
+   "target": {
+    "name": "func_80045FE4",
+    "vram": "0x80045FE4",
+    "size": "0x00000818"
+   },
+   "id": "op0091",
+   "affects": {
+    "functions": 0,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_80046F9C",
+     "vram": "0x80046F9C",
+     "size": "0x0000018C"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_80046F9C",
+     "vram": "0x80046F9C",
+     "size": "0x00000180"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8004711C",
+     "size": "0x0000000C",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_80046F9C: 12 byte(s) of zero words after the final terminator at 0x80047114 (nop_roles: padding)"
+   ],
+   "id": "op0092",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -12,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_800478E0",
+     "vram": "0x800478E0",
+     "size": "0x00000148"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_800478E0",
+     "vram": "0x800478E0",
+     "size": "0x00000140"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x80047A20",
+     "size": "0x00000008",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_800478E0: 8 byte(s) of zero words after the final terminator at 0x80047A18 (nop_roles: padding)"
+   ],
+   "id": "op0093",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -8,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_80047A28",
+     "vram": "0x80047A28",
+     "size": "0x00000080"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_80047A28",
+     "vram": "0x80047A28",
+     "size": "0x00000078"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x80047AA0",
+     "size": "0x00000008",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_80047A28: 8 byte(s) of zero words after the final terminator at 0x80047A98 (nop_roles: padding)"
+   ],
+   "id": "op0094",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -8,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_80047AA8",
+     "vram": "0x80047AA8",
+     "size": "0x000000F0"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_80047AA8",
+     "vram": "0x80047AA8",
+     "size": "0x000000E4"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x80047B8C",
+     "size": "0x0000000C",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_80047AA8: 12 byte(s) of zero words after the final terminator at 0x80047B84 (nop_roles: padding)"
+   ],
+   "id": "op0095",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -12,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_80047D28",
+     "vram": "0x80047D28",
+     "size": "0x00000020"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_80047D28",
+     "vram": "0x80047D28",
+     "size": "0x00000018"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x80047D40",
+     "size": "0x00000008",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_80047D28: 8 byte(s) of zero words after the final terminator at 0x80047D38 (nop_roles: padding)"
+   ],
+   "id": "op0096",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -8,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_80047D48",
+     "vram": "0x80047D48",
+     "size": "0x00000090"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_80047D48",
+     "vram": "0x80047D48",
+     "size": "0x00000084"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x80047DCC",
+     "size": "0x0000000C",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_80047D48: 12 byte(s) of zero words after the final terminator at 0x80047DC4 (nop_roles: padding)"
+   ],
+   "id": "op0097",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -12,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_80047DD8",
+     "vram": "0x80047DD8",
+     "size": "0x00000290"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_80047DD8",
+     "vram": "0x80047DD8",
+     "size": "0x0000028C"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x80048064",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_80047DD8: 4 byte(s) of zero words after the final terminator at 0x8004805C (nop_roles: padding)"
+   ],
+   "id": "op0098",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "retype",
+   "confidence": 0.9,
+   "status": "proposed",
+   "remove": [],
+   "insert": [],
+   "released": [],
+   "evidence": [
+    "func_80048078: 1 instruction(s) compilers do not emit (first: mtc0 $a0, Status)"
+   ],
+   "to": "handwritten",
+   "target": {
+    "name": "func_80048078",
+    "vram": "0x80048078",
+    "size": "0x00000010"
+   },
+   "id": "op0099",
+   "affects": {
+    "functions": 0,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "retype",
+   "confidence": 0.9,
+   "status": "proposed",
+   "remove": [],
+   "insert": [],
+   "released": [],
+   "evidence": [
+    "func_80048348: 1 instruction(s) compilers do not emit (first: mfc0 $v0, Status)"
+   ],
+   "to": "handwritten",
+   "target": {
+    "name": "func_80048348",
+    "vram": "0x80048348",
+    "size": "0x00000010"
+   },
+   "id": "op0100",
+   "affects": {
+    "functions": 0,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_80048348",
+     "vram": "0x80048348",
+     "size": "0x00000010"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_80048348",
+     "vram": "0x80048348",
+     "size": "0x0000000C"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x80048354",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_80048348: 4 byte(s) of zero words after the final terminator at 0x8004834C (nop_roles: padding)"
+   ],
+   "id": "op0101",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "retype",
+   "confidence": 0.9,
+   "status": "proposed",
+   "remove": [],
+   "insert": [],
+   "released": [],
+   "evidence": [
+    "func_80048358: 2 instruction(s) compilers do not emit (first: cache 0x19, 0x0($t0))"
+   ],
+   "to": "handwritten",
+   "target": {
+    "name": "func_80048358",
+    "vram": "0x80048358",
+    "size": "0x00000080"
+   },
+   "id": "op0102",
+   "affects": {
+    "functions": 0,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_80048358",
+     "vram": "0x80048358",
+     "size": "0x00000080"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_80048358",
+     "vram": "0x80048358",
+     "size": "0x00000074"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x800483CC",
+     "size": "0x0000000C",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_80048358: 12 byte(s) of zero words after the final terminator at 0x800483C4 (nop_roles: padding)"
+   ],
+   "id": "op0103",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -12,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "retype",
+   "confidence": 0.9,
+   "status": "proposed",
+   "remove": [],
+   "insert": [],
+   "released": [],
+   "evidence": [
+    "func_800483D8: 8 instruction(s) compilers do not emit (first: mfc0 $t0, EntryHi)"
+   ],
+   "to": "handwritten",
+   "target": {
+    "name": "func_800483D8",
+    "vram": "0x800483D8",
+    "size": "0x00000060"
+   },
+   "id": "op0104",
+   "affects": {
+    "functions": 0,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_800483D8",
+     "vram": "0x800483D8",
+     "size": "0x00000060"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_800483D8",
+     "vram": "0x800483D8",
+     "size": "0x00000058"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x80048430",
+     "size": "0x00000008",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_800483D8: 8 byte(s) of zero words after the final terminator at 0x80048428 (nop_roles: padding)"
+   ],
+   "id": "op0105",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -8,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_80048438",
+     "vram": "0x80048438",
+     "size": "0x00000030"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_80048438",
+     "vram": "0x80048438",
+     "size": "0x0000002C"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x80048464",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_80048438: 4 byte(s) of zero words after the final terminator at 0x8004845C (nop_roles: padding)"
+   ],
+   "id": "op0106",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "retype",
+   "confidence": 0.9,
+   "status": "proposed",
+   "remove": [],
+   "insert": [],
+   "released": [],
+   "evidence": [
+    "func_80048468: 12 instruction(s) compilers do not emit (first: mfc0 $t0, EntryHi)"
+   ],
+   "to": "handwritten",
+   "target": {
+    "name": "func_80048468",
+    "vram": "0x80048468",
+    "size": "0x000000C0"
+   },
+   "id": "op0107",
+   "affects": {
+    "functions": 0,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_80048468",
+     "vram": "0x80048468",
+     "size": "0x000000C0"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_80048468",
+     "vram": "0x80048468",
+     "size": "0x000000B8"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x80048520",
+     "size": "0x00000008",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_80048468: 8 byte(s) of zero words after the final terminator at 0x80048518 (nop_roles: padding)"
+   ],
+   "id": "op0108",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -8,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "retype",
+   "confidence": 0.9,
+   "status": "proposed",
+   "remove": [],
+   "insert": [],
+   "released": [],
+   "evidence": [
+    "func_80048528: 2 instruction(s) compilers do not emit (first: mfc0 $t4, Status)"
+   ],
+   "to": "handwritten",
+   "target": {
+    "name": "func_80048528",
+    "vram": "0x80048528",
+    "size": "0x000000A0"
+   },
+   "id": "op0109",
+   "affects": {
+    "functions": 0,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_800485C8",
+     "vram": "0x800485C8",
+     "size": "0x00000110"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_800485C8",
+     "vram": "0x800485C8",
+     "size": "0x0000010C"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x800486D4",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_800485C8: 4 byte(s) of zero words after the final terminator at 0x800486CC (nop_roles: padding)"
+   ],
+   "id": "op0110",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_800486D8",
+     "vram": "0x800486D8",
+     "size": "0x00000030"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_800486D8",
+     "vram": "0x800486D8",
+     "size": "0x00000028"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x80048700",
+     "size": "0x00000008",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_800486D8: 8 byte(s) of zero words after the final terminator at 0x800486F8 (nop_roles: padding)"
+   ],
+   "id": "op0111",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -8,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_800488A8",
+     "vram": "0x800488A8",
+     "size": "0x00000090"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_800488A8",
+     "vram": "0x800488A8",
+     "size": "0x00000084"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8004892C",
+     "size": "0x0000000C",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_800488A8: 12 byte(s) of zero words after the final terminator at 0x80048924 (nop_roles: padding)"
+   ],
+   "id": "op0112",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -12,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_80048938",
+     "vram": "0x80048938",
+     "size": "0x000000A0"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_80048938",
+     "vram": "0x80048938",
+     "size": "0x0000009C"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x800489D4",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_80048938: 4 byte(s) of zero words after the final terminator at 0x800489CC (nop_roles: padding)"
+   ],
+   "id": "op0113",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_800489D8",
+     "vram": "0x800489D8",
+     "size": "0x000000A0"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_800489D8",
+     "vram": "0x800489D8",
+     "size": "0x00000094"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x80048A6C",
+     "size": "0x0000000C",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_800489D8: 12 byte(s) of zero words after the final terminator at 0x80048A64 (nop_roles: padding)"
+   ],
+   "id": "op0114",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -12,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_80048A78",
+     "vram": "0x80048A78",
+     "size": "0x00000090"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_80048A78",
+     "vram": "0x80048A78",
+     "size": "0x00000084"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x80048AFC",
+     "size": "0x0000000C",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_80048A78: 12 byte(s) of zero words after the final terminator at 0x80048AF4 (nop_roles: padding)"
+   ],
+   "id": "op0115",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -12,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_80048B18",
+     "vram": "0x80048B18",
+     "size": "0x000000A0"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_80048B18",
+     "vram": "0x80048B18",
+     "size": "0x00000098"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x80048BB0",
+     "size": "0x00000008",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_80048B18: 8 byte(s) of zero words after the final terminator at 0x80048BA8 (nop_roles: padding)"
+   ],
+   "id": "op0116",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -8,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_80048BB8",
+     "vram": "0x80048BB8",
+     "size": "0x00000010"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_80048BB8",
+     "vram": "0x80048BB8",
+     "size": "0x00000008"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x80048BC0",
+     "size": "0x00000008",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_80048BB8: 8 byte(s) of zero words after the final terminator at 0x80048BB8 (nop_roles: padding)"
+   ],
+   "id": "op0117",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -8,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_80048D84",
+     "vram": "0x80048D84",
+     "size": "0x000000F4"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_80048D84",
+     "vram": "0x80048D84",
+     "size": "0x000000EC"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x80048E70",
+     "size": "0x00000008",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_80048D84: 8 byte(s) of zero words after the final terminator at 0x80048E68 (nop_roles: padding)"
+   ],
+   "id": "op0118",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -8,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_80048E78",
+     "vram": "0x80048E78",
+     "size": "0x000000B0"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_80048E78",
+     "vram": "0x80048E78",
+     "size": "0x000000AC"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x80048F24",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_80048E78: 4 byte(s) of zero words after the final terminator at 0x80048F1C (nop_roles: padding)"
+   ],
+   "id": "op0119",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_800492B0",
+     "vram": "0x800492B0",
+     "size": "0x000000F8"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_800492B0",
+     "vram": "0x800492B0",
+     "size": "0x000000F4"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x800493A4",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_800492B0: 4 byte(s) of zero words after the final terminator at 0x8004939C (nop_roles: padding)"
+   ],
+   "id": "op0120",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_800493A8",
+     "vram": "0x800493A8",
+     "size": "0x000000E0"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_800493A8",
+     "vram": "0x800493A8",
+     "size": "0x000000D4"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8004947C",
+     "size": "0x0000000C",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_800493A8: 12 byte(s) of zero words after the final terminator at 0x80049474 (nop_roles: padding)"
+   ],
+   "id": "op0121",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -12,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_800494AC",
+     "vram": "0x800494AC",
+     "size": "0x0000005C"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_800494AC",
+     "vram": "0x800494AC",
+     "size": "0x00000058"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x80049504",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_800494AC: 4 byte(s) of zero words after the final terminator at 0x800494FC (nop_roles: padding)"
+   ],
+   "id": "op0122",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8004955C",
+     "vram": "0x8004955C",
+     "size": "0x0000004C"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8004955C",
+     "vram": "0x8004955C",
+     "size": "0x00000040"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8004959C",
+     "size": "0x0000000C",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8004955C: 12 byte(s) of zero words after the final terminator at 0x80049594 (nop_roles: padding)"
+   ],
+   "id": "op0123",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -12,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "retype",
+   "confidence": 0.9,
+   "status": "proposed",
+   "remove": [],
+   "insert": [],
+   "released": [],
+   "evidence": [
+    "func_800495A8 is called (jal from 0x80049EF4) but reads $s0 at entry without saving them"
+   ],
+   "to": "nonstandard-abi",
+   "flags": [
+    "needs-tu"
+   ],
+   "target": {
+    "name": "func_800495A8",
+    "vram": "0x800495A8",
+    "size": "0x00000670"
+   },
+   "id": "op0124",
+   "affects": {
+    "functions": 0,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_80049C18",
+     "vram": "0x80049C18",
+     "size": "0x00000650"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_80049C18",
+     "vram": "0x80049C18",
+     "size": "0x00000648"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8004A260",
+     "size": "0x00000008",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_80049C18: 8 byte(s) of zero words after the final terminator at 0x8004A258 (nop_roles: padding)"
+   ],
+   "id": "op0125",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -8,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8004A268",
+     "vram": "0x8004A268",
+     "size": "0x000002A0"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8004A268",
+     "vram": "0x8004A268",
+     "size": "0x00000298"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8004A500",
+     "size": "0x00000008",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8004A268: 8 byte(s) of zero words after the final terminator at 0x8004A4F8 (nop_roles: padding)"
+   ],
+   "id": "op0126",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -8,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8004A608",
+     "vram": "0x8004A608",
+     "size": "0x00000090"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8004A608",
+     "vram": "0x8004A608",
+     "size": "0x00000084"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8004A68C",
+     "size": "0x0000000C",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8004A608: 12 byte(s) of zero words after the final terminator at 0x8004A684 (nop_roles: padding)"
+   ],
+   "id": "op0127",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -12,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "retype",
+   "confidence": 0.9,
+   "status": "proposed",
+   "remove": [],
+   "insert": [],
+   "released": [],
+   "evidence": [
+    "func_8004A698 is called (jal from 0x8004B124) but reads $s0, $s1 at entry without saving them; $s1 written without being saved (0x8004A6C8)"
+   ],
+   "to": "nonstandard-abi",
+   "flags": [
+    "needs-tu"
+   ],
+   "target": {
+    "name": "func_8004A698",
+    "vram": "0x8004A698",
+    "size": "0x00000568"
+   },
+   "id": "op0128",
+   "affects": {
+    "functions": 0,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8004AC08",
+     "vram": "0x8004AC08",
+     "size": "0x00000550"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8004AC08",
+     "vram": "0x8004AC08",
+     "size": "0x0000054C"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8004B154",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8004AC08: 4 byte(s) of zero words after the final terminator at 0x8004B14C (nop_roles: padding)"
+   ],
+   "id": "op0129",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "retype",
+   "confidence": 0.9,
+   "status": "proposed",
+   "remove": [],
+   "insert": [],
+   "released": [],
+   "evidence": [
+    "func_8004B1A8 is called (jal from 0x8004B61C, jal from 0x8004B7A0) but reads $s0, $s1, $s3 at entry without saving them; $s2 written without being saved (0x8004B1D4)"
+   ],
+   "to": "nonstandard-abi",
+   "flags": [
+    "needs-tu"
+   ],
+   "target": {
+    "name": "func_8004B1A8",
+    "vram": "0x8004B1A8",
+    "size": "0x000000A0"
+   },
+   "id": "op0130",
+   "affects": {
+    "functions": 0,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "retype",
+   "confidence": 0.9,
+   "status": "proposed",
+   "remove": [],
+   "insert": [],
+   "released": [],
+   "evidence": [
+    "func_8004B42C is called (jal from 0x8004B760, jal from 0x8004B7D0) but reads $s0 at entry without saving them"
+   ],
+   "to": "nonstandard-abi",
+   "flags": [
+    "needs-tu"
+   ],
+   "target": {
+    "name": "func_8004B42C",
+    "vram": "0x8004B42C",
+    "size": "0x00000090"
+   },
+   "id": "op0131",
+   "affects": {
+    "functions": 0,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "retype",
+   "confidence": 0.9,
+   "status": "proposed",
+   "remove": [],
+   "insert": [],
+   "released": [],
+   "evidence": [
+    "func_8004B4DC is called (jal from 0x8004B6D4) but reads $s4 at entry without saving them; $s5 written without being saved (0x8004B4F0)"
+   ],
+   "to": "nonstandard-abi",
+   "flags": [
+    "needs-tu"
+   ],
+   "target": {
+    "name": "func_8004B4DC",
+    "vram": "0x8004B4DC",
+    "size": "0x00000180"
+   },
+   "id": "op0132",
+   "affects": {
+    "functions": 0,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8004B968",
+     "vram": "0x8004B968",
+     "size": "0x00000130"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8004B968",
+     "vram": "0x8004B968",
+     "size": "0x0000012C"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8004BA94",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8004B968: 4 byte(s) of zero words after the final terminator at 0x8004BA8C (nop_roles: padding)"
+   ],
+   "id": "op0133",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8004BD44",
+     "vram": "0x8004BD44",
+     "size": "0x00000044"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8004BD44",
+     "vram": "0x8004BD44",
+     "size": "0x00000040"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8004BD84",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8004BD44: 4 byte(s) of zero words after the final terminator at 0x8004BD7C (nop_roles: padding)"
+   ],
+   "id": "op0134",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "retype",
+   "confidence": 0.85,
+   "status": "proposed",
+   "remove": [],
+   "insert": [],
+   "released": [],
+   "evidence": [
+    "func_8004BD88: 3 instruction(s) compilers do not emit (first: add $v0, $a0, $a2)"
+   ],
+   "to": "handwritten",
+   "target": {
+    "name": "func_8004BD88",
+    "vram": "0x8004BD88",
+    "size": "0x00000310"
+   },
+   "id": "op0135",
+   "affects": {
+    "functions": 0,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8004BD88",
+     "vram": "0x8004BD88",
+     "size": "0x00000310"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8004BD88",
+     "vram": "0x8004BD88",
+     "size": "0x00000304"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8004C08C",
+     "size": "0x0000000C",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8004BD88: 12 byte(s) of zero words after the final terminator at 0x8004C084 (nop_roles: padding)"
+   ],
+   "id": "op0136",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -12,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8004C098",
+     "vram": "0x8004C098",
+     "size": "0x00000090"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8004C098",
+     "vram": "0x8004C098",
+     "size": "0x0000008C"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8004C124",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8004C098: 4 byte(s) of zero words after the final terminator at 0x8004C11C (nop_roles: padding)"
+   ],
+   "id": "op0137",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8004C208",
+     "vram": "0x8004C208",
+     "size": "0x00000140"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8004C208",
+     "vram": "0x8004C208",
+     "size": "0x0000013C"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8004C344",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8004C208: 4 byte(s) of zero words after the final terminator at 0x8004C33C (nop_roles: padding)"
+   ],
+   "id": "op0138",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8004C388",
+     "vram": "0x8004C388",
+     "size": "0x00000040"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8004C388",
+     "vram": "0x8004C388",
+     "size": "0x00000034"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8004C3BC",
+     "size": "0x0000000C",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8004C388: 12 byte(s) of zero words after the final terminator at 0x8004C3B4 (nop_roles: padding)"
+   ],
+   "id": "op0139",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -12,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8004C3C8",
+     "vram": "0x8004C3C8",
+     "size": "0x000000B0"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8004C3C8",
+     "vram": "0x8004C3C8",
+     "size": "0x000000A8"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8004C470",
+     "size": "0x00000008",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8004C3C8: 8 byte(s) of zero words after the final terminator at 0x8004C468 (nop_roles: padding)"
+   ],
+   "id": "op0140",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -8,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8004C478",
+     "vram": "0x8004C478",
+     "size": "0x00000030"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8004C478",
+     "vram": "0x8004C478",
+     "size": "0x0000002C"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8004C4A4",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8004C478: 4 byte(s) of zero words after the final terminator at 0x8004C49C (nop_roles: padding)"
+   ],
+   "id": "op0141",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8004C4A8",
+     "vram": "0x8004C4A8",
+     "size": "0x00000030"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8004C4A8",
+     "vram": "0x8004C4A8",
+     "size": "0x0000002C"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8004C4D4",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8004C4A8: 4 byte(s) of zero words after the final terminator at 0x8004C4CC (nop_roles: padding)"
+   ],
+   "id": "op0142",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8004C4D8",
+     "vram": "0x8004C4D8",
+     "size": "0x00000010"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8004C4D8",
+     "vram": "0x8004C4D8",
+     "size": "0x0000000C"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8004C4E4",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8004C4D8: 4 byte(s) of zero words after the final terminator at 0x8004C4DC (nop_roles: padding)"
+   ],
+   "id": "op0143",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8004C4E8",
+     "vram": "0x8004C4E8",
+     "size": "0x00000010"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8004C4E8",
+     "vram": "0x8004C4E8",
+     "size": "0x0000000C"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8004C4F4",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8004C4E8: 4 byte(s) of zero words after the final terminator at 0x8004C4EC (nop_roles: padding)"
+   ],
+   "id": "op0144",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "retype",
+   "confidence": 0.9,
+   "status": "proposed",
+   "remove": [],
+   "insert": [],
+   "released": [],
+   "evidence": [
+    "func_8004C4F8: 1 instruction(s) compilers do not emit (first: cache 0x01, 0x0($t0))"
+   ],
+   "to": "handwritten",
+   "target": {
+    "name": "func_8004C4F8",
+    "vram": "0x8004C4F8",
+    "size": "0x00000030"
+   },
+   "id": "op0145",
+   "affects": {
+    "functions": 0,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8004C4F8",
+     "vram": "0x8004C4F8",
+     "size": "0x00000030"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8004C4F8",
+     "vram": "0x8004C4F8",
+     "size": "0x00000028"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8004C520",
+     "size": "0x00000008",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8004C4F8: 8 byte(s) of zero words after the final terminator at 0x8004C518 (nop_roles: padding)"
+   ],
+   "id": "op0146",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -8,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8004C598",
+     "vram": "0x8004C598",
+     "size": "0x000000A0"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8004C598",
+     "vram": "0x8004C598",
+     "size": "0x0000009C"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8004C634",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8004C598: 4 byte(s) of zero words after the final terminator at 0x8004C62C (nop_roles: padding)"
+   ],
+   "id": "op0147",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8004C688",
+     "vram": "0x8004C688",
+     "size": "0x00000020"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8004C688",
+     "vram": "0x8004C688",
+     "size": "0x00000014"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8004C69C",
+     "size": "0x0000000C",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8004C688: 12 byte(s) of zero words after the final terminator at 0x8004C694 (nop_roles: padding)"
+   ],
+   "id": "op0148",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -12,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8004C6A8",
+     "vram": "0x8004C6A8",
+     "size": "0x00000070"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8004C6A8",
+     "vram": "0x8004C6A8",
+     "size": "0x00000064"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8004C70C",
+     "size": "0x0000000C",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8004C6A8: 12 byte(s) of zero words after the final terminator at 0x8004C704 (nop_roles: padding)"
+   ],
+   "id": "op0149",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -12,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8004C718",
+     "vram": "0x8004C718",
+     "size": "0x00000170"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8004C718",
+     "vram": "0x8004C718",
+     "size": "0x00000168"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8004C880",
+     "size": "0x00000008",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8004C718: 8 byte(s) of zero words after the final terminator at 0x8004C878 (nop_roles: padding)"
+   ],
+   "id": "op0150",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -8,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8004CBB8",
+     "vram": "0x8004CBB8",
+     "size": "0x00000010"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8004CBB8",
+     "vram": "0x8004CBB8",
+     "size": "0x00000008"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8004CBC0",
+     "size": "0x00000008",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8004CBB8: 8 byte(s) of zero words after the final terminator at 0x8004CBB8 (nop_roles: padding)"
+   ],
+   "id": "op0151",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -8,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "retype",
+   "confidence": 0.9,
+   "status": "proposed",
+   "remove": [],
+   "insert": [],
+   "released": [],
+   "evidence": [
+    "func_8004CBC8 is called (jal from 0x8004CF10, jal from 0x8004D138) but reads $s2, $s3 at entry without saving them; $s0 written without being saved (0x8004CBD8)"
+   ],
+   "to": "nonstandard-abi",
+   "flags": [
+    "needs-tu"
+   ],
+   "target": {
+    "name": "func_8004CBC8",
+    "vram": "0x8004CBC8",
+    "size": "0x0000007C"
+   },
+   "id": "op0152",
+   "affects": {
+    "functions": 0,
+    "code_bytes": 0,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8004D19C",
+     "vram": "0x8004D19C",
+     "size": "0x0000013C"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8004D19C",
+     "vram": "0x8004D19C",
+     "size": "0x00000134"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8004D2D0",
+     "size": "0x00000008",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8004D19C: 8 byte(s) of zero words after the final terminator at 0x8004D2C8 (nop_roles: padding)"
+   ],
+   "id": "op0153",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -8,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8004D2D8",
+     "vram": "0x8004D2D8",
+     "size": "0x00000090"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8004D2D8",
+     "vram": "0x8004D2D8",
+     "size": "0x0000008C"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8004D364",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8004D2D8: 4 byte(s) of zero words after the final terminator at 0x8004D35C (nop_roles: padding)"
+   ],
+   "id": "op0154",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8004D368",
+     "vram": "0x8004D368",
+     "size": "0x00000030"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8004D368",
+     "vram": "0x8004D368",
+     "size": "0x0000002C"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8004D394",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8004D368: 4 byte(s) of zero words after the final terminator at 0x8004D38C (nop_roles: padding)"
+   ],
+   "id": "op0155",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8004D3E8",
+     "vram": "0x8004D3E8",
+     "size": "0x00000050"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8004D3E8",
+     "vram": "0x8004D3E8",
+     "size": "0x0000004C"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8004D434",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8004D3E8: 4 byte(s) of zero words after the final terminator at 0x8004D42C (nop_roles: padding)"
+   ],
+   "id": "op0156",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8004D5C0",
+     "vram": "0x8004D5C0",
+     "size": "0x000001D8"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8004D5C0",
+     "vram": "0x8004D5C0",
+     "size": "0x000001CC"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8004D78C",
+     "size": "0x0000000C",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8004D5C0: 12 byte(s) of zero words after the final terminator at 0x8004D784 (nop_roles: padding)"
+   ],
+   "id": "op0157",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -12,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8004D798",
+     "vram": "0x8004D798",
+     "size": "0x00000070"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8004D798",
+     "vram": "0x8004D798",
+     "size": "0x0000006C"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8004D804",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8004D798: 4 byte(s) of zero words after the final terminator at 0x8004D7FC (nop_roles: padding)"
+   ],
+   "id": "op0158",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8004D808",
+     "vram": "0x8004D808",
+     "size": "0x00000070"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8004D808",
+     "vram": "0x8004D808",
+     "size": "0x00000068"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8004D870",
+     "size": "0x00000008",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8004D808: 8 byte(s) of zero words after the final terminator at 0x8004D868 (nop_roles: padding)"
+   ],
+   "id": "op0159",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -8,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8004D878",
+     "vram": "0x8004D878",
+     "size": "0x000001C0"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8004D878",
+     "vram": "0x8004D878",
+     "size": "0x000001B8"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8004DA30",
+     "size": "0x00000008",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8004D878: 8 byte(s) of zero words after the final terminator at 0x8004DA28 (nop_roles: padding)"
+   ],
+   "id": "op0160",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -8,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8004DA88",
+     "vram": "0x8004DA88",
+     "size": "0x00000360"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8004DA88",
+     "vram": "0x8004DA88",
+     "size": "0x0000035C"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8004DDE4",
+     "size": "0x00000004",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8004DA88: 4 byte(s) of zero words after the final terminator at 0x8004DDDC (nop_roles: padding)"
+   ],
+   "id": "op0161",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -4,
+    "manifest_rows": []
+   }
+  },
+  {
+   "kind": "shrink",
+   "confidence": 0.95,
+   "status": "proposed",
+   "remove": [
+    {
+     "name": "func_8004DDE8",
+     "vram": "0x8004DDE8",
+     "size": "0x00000018"
+    }
+   ],
+   "insert": [
+    {
+     "name": "func_8004DDE8",
+     "vram": "0x8004DDE8",
+     "size": "0x0000000C"
+    }
+   ],
+   "released": [
+    {
+     "vram": "0x8004DDF4",
+     "size": "0x0000000C",
+     "class": "padding"
+    }
+   ],
+   "evidence": [
+    "func_8004DDE8: 12 byte(s) of zero words after the final terminator at 0x8004DDEC (nop_roles: padding)"
+   ],
+   "id": "op0162",
+   "affects": {
+    "functions": 0,
+    "code_bytes": -12,
+    "manifest_rows": []
+   }
+  }
+ ]
+}

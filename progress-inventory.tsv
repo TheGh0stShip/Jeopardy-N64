@@ -1,815 +1,806 @@
 image	function	vram	code_size	outcome	reproduced_by	source	source_sha256
-main	func_80000400	0x80000400	0x3C	unresolved			
-main	func_80002638	0x80002638	0x21C	unresolved			
-main	func_80002854	0x80002854	0x430	unresolved			
-main	func_80002C84	0x80002C84	0x808	unresolved			
-main	func_8000348C	0x8000348C	0x248	unresolved			
-main	func_800036D4	0x800036D4	0x254	unresolved			
-main	func_80003928	0x80003928	0x98C	unresolved			
-main	func_800042B8	0x800042B8	0x8	unresolved			
-main	func_800042C0	0x800042C0	0x74	unresolved			
-main	func_80004334	0x80004334	0x88	unresolved			
-main	func_800043BC	0x800043BC	0x6A8	unresolved			
-main	func_80004A64	0x80004A64	0x6AC	unresolved			
-main	func_80005110	0x80005110	0x6B0	unresolved			
-main	func_800057C0	0x800057C0	0x94	unresolved			
-main	func_80005858	0x80005858	0x8	unresolved			
-main	func_80005860	0x80005860	0x248	unresolved			
-main	func_80005AA8	0x80005AA8	0x118	unresolved			
-main	func_80005BC0	0x80005BC0	0x50	unresolved			
-main	func_80005C10	0x80005C10	0x1E8	unresolved			
-main	func_80005DF8	0x80005DF8	0xAC	unresolved			
-main	func_80005EA4	0x80005EA4	0x2B4	unresolved			
-main	func_80006158	0x80006158	0x2B4	unresolved			
-main	func_8000640C	0x8000640C	0x8C	unresolved			
-main	func_80006498	0x80006498	0xD4	unresolved			
-main	func_8000656C	0x8000656C	0x84	unresolved			
-main	func_800065F0	0x800065F0	0x74	unresolved			
-main	func_80006664	0x80006664	0xD8	unresolved			
-main	func_8000673C	0x8000673C	0x38	unresolved			
-main	func_80006774	0x80006774	0x38	unresolved			
-main	func_800067B0	0x800067B0	0x4F0	unresolved			
-main	func_80006CA0	0x80006CA0	0x1A4	unresolved			
-main	func_80006E44	0x80006E44	0x2B8	unresolved			
-main	func_800070FC	0x800070FC	0x60	unresolved			
-main	func_8000715C	0x8000715C	0x29C	unresolved			
-main	func_800073F8	0x800073F8	0x78	unresolved			
-main	func_80007470	0x80007470	0x184	unresolved			
-main	func_800075F8	0x800075F8	0x8	unresolved			
-main	func_80007600	0x80007600	0x6C	unresolved			
-main	func_8000766C	0x8000766C	0x90	unresolved			
-main	func_800076FC	0x800076FC	0x88	unresolved			
-main	func_80007784	0x80007784	0x54	unresolved			
-main	func_800077D8	0x800077D8	0x84	unresolved			
-main	func_8000785C	0x8000785C	0xA8	unresolved			
-main	func_80007904	0x80007904	0xC0	unresolved			
-main	func_800079C4	0x800079C4	0xFC	unresolved			
-main	func_80007AC0	0x80007AC0	0xB0	unresolved			
-main	func_80007B70	0x80007B70	0xC4	unresolved			
-main	func_80007C34	0x80007C34	0x6C	unresolved			
-main	func_80007CA0	0x80007CA0	0x1B8	unresolved			
-main	func_80007E58	0x80007E58	0x70	unresolved			
-main	func_80007EC8	0x80007EC8	0x24	unresolved			
-main	func_80007EEC	0x80007EEC	0x4C	unresolved			
-main	func_80007F38	0x80007F38	0x24	unresolved			
-main	func_80007F5C	0x80007F5C	0x28	unresolved			
-main	func_80007F84	0x80007F84	0x24	unresolved			
-main	func_80007FA8	0x80007FA8	0x1C0	unresolved			
-main	func_80008168	0x80008168	0x24	unresolved			
-main	func_80008190	0x80008190	0xA4	unresolved			
-main	func_80008234	0x80008234	0x384	unresolved			
-main	func_800085B8	0x800085B8	0x20	unresolved			
-main	func_800085D8	0x800085D8	0x430	unresolved			
-main	func_80008A08	0x80008A08	0x238	unresolved			
-main	func_80008C40	0x80008C40	0x48	unresolved			
-main	func_80008C88	0x80008C88	0x2B4	unresolved			
-main	func_80008F40	0x80008F40	0x234	unresolved			
-main	func_80009174	0x80009174	0xE4	unresolved			
-main	func_80009258	0x80009258	0x84	unresolved			
-main	func_800092DC	0x800092DC	0x814	unresolved			
-main	func_80009AF0	0x80009AF0	0x1E8	unresolved			
-main	func_80009CD8	0x80009CD8	0x24	unresolved			
-main	func_80009CFC	0x80009CFC	0xAA4	unresolved			
-main	func_8000A7A0	0x8000A7A0	0x988	unresolved			
-main	func_8000B128	0x8000B128	0x28	unresolved			
-main	func_8000B150	0x8000B150	0xF8	unresolved			
-main	func_8000B248	0x8000B248	0x100	unresolved			
-main	func_8000B348	0x8000B348	0x210	unresolved			
-main	func_8000B558	0x8000B558	0x370	unresolved			
-main	func_8000B8C8	0x8000B8C8	0x1F0	unresolved			
-main	func_8000BAB8	0x8000BAB8	0x1BC	unresolved			
-main	func_8000BC74	0x8000BC74	0x56C	unresolved			
-main	func_8000C1E0	0x8000C1E0	0x80	unresolved			
-main	func_8000C260	0x8000C260	0x60	unresolved			
-main	func_8000C2C0	0x8000C2C0	0x78	unresolved			
-main	func_8000C338	0x8000C338	0x2C8	unresolved			
-main	func_8000C600	0x8000C600	0x50	unresolved			
-main	func_8000C650	0x8000C650	0x44	unresolved			
-main	func_8000C694	0x8000C694	0x300	unresolved			
-main	func_8000C9A0	0x8000C9A0	0x2E4	unresolved			
-main	func_8000CC84	0x8000CC84	0x3DC	unresolved			
-main	func_8000D060	0x8000D060	0x2EC	unresolved			
-main	func_8000D34C	0x8000D34C	0x78	unresolved			
-main	func_8000D3C8	0x8000D3C8	0x8	unresolved			
-main	func_8000D3D0	0x8000D3D0	0x6A8	unresolved			
-main	func_8000DA78	0x8000DA78	0x1258	unresolved			
-main	func_8000ECD0	0x8000ECD0	0x2A8	unresolved			
-main	func_8000EF78	0x8000EF78	0x1160	unresolved			
-main	func_800100D8	0x800100D8	0x150	unresolved			
-main	func_80010228	0x80010228	0x434	unresolved			
-main	func_8001065C	0x8001065C	0x620	unresolved			
-main	func_80010C7C	0x80010C7C	0x400	unresolved			
-main	func_8001107C	0x8001107C	0x154	unresolved			
-main	func_800111D0	0x800111D0	0xDC	unresolved			
-main	func_800112AC	0x800112AC	0x10C	unresolved			
-main	func_800113B8	0x800113B8	0x204	unresolved			
-main	func_800115BC	0x800115BC	0xC8	unresolved			
-main	func_80011684	0x80011684	0x148	unresolved			
-main	func_800117CC	0x800117CC	0x48	unresolved			
-main	func_80011814	0x80011814	0x128	unresolved			
-main	func_8001193C	0x8001193C	0x5C	unresolved			
-main	func_80011998	0x80011998	0x58	unresolved			
-main	func_800119F0	0x800119F0	0x8C	unresolved			
-main	func_80011A7C	0x80011A7C	0x5C	unresolved			
-main	func_80011AD8	0x80011AD8	0x4C	unresolved			
-main	func_80011B24	0x80011B24	0x1F4	unresolved			
-main	func_80011D18	0x80011D18	0x760	unresolved			
-main	func_80012478	0x80012478	0x690	unresolved			
-main	func_80012B08	0x80012B08	0x19C	unresolved			
-main	func_80012CA4	0x80012CA4	0x84	unresolved			
-main	func_80012D28	0x80012D28	0x23C	unresolved			
-main	func_80012F64	0x80012F64	0x12C	unresolved			
-main	func_80013090	0x80013090	0xBC	unresolved			
-main	func_8001314C	0x8001314C	0x310	unresolved			
-main	func_8001345C	0x8001345C	0x4C4	unresolved			
-main	func_80013920	0x80013920	0x60	unresolved			
-main	func_80013980	0x80013980	0x130	unresolved			
-main	func_80013AB0	0x80013AB0	0x5E0	unresolved			
-main	func_80014090	0x80014090	0x7C4	unresolved			
-main	func_80014854	0x80014854	0x88	unresolved			
-main	func_800148DC	0x800148DC	0xC70	unresolved			
-main	func_8001554C	0x8001554C	0x194	unresolved			
-main	func_800156E0	0x800156E0	0x7DC	unresolved			
-main	func_80015EBC	0x80015EBC	0x424	unresolved			
-main	func_800162E0	0x800162E0	0x88	unresolved			
-main	func_80016368	0x80016368	0x88	unresolved			
-main	func_800163F0	0x800163F0	0x74	unresolved			
-main	func_80016470	0x80016470	0xD8	unresolved			
-main	func_80016548	0x80016548	0x148	unresolved			
-main	func_80016690	0x80016690	0x398	unresolved			
-main	func_80016A28	0x80016A28	0xD8	unresolved			
-main	func_80016B00	0x80016B00	0x314	unresolved			
-main	func_80016E14	0x80016E14	0x374	unresolved			
-main	func_80017188	0x80017188	0x3A0	unresolved			
-main	func_80017528	0x80017528	0x32C	unresolved			
-main	func_80017854	0x80017854	0x474	unresolved			
-main	func_80017CC8	0x80017CC8	0xC0	unresolved			
-main	func_80017D88	0x80017D88	0x5D4	unresolved			
-main	func_80018360	0x80018360	0x184	unresolved			
-main	func_800184E4	0x800184E4	0x6C	unresolved			
-main	func_80018550	0x80018550	0x3E8	unresolved			
-main	func_80018938	0x80018938	0xFC	unresolved			
-main	func_80018A34	0x80018A34	0x78	unresolved			
-main	func_80018AAC	0x80018AAC	0x340	unresolved			
-main	func_80018DEC	0x80018DEC	0x178	unresolved			
-main	func_80018F64	0x80018F64	0x390	unresolved			
-main	func_800192F8	0x800192F8	0x8	unresolved			
-main	func_80019300	0x80019300	0x114	unresolved			
-main	func_80019414	0x80019414	0x338	unresolved			
-main	func_80019750	0x80019750	0xB8	unresolved			
-main	func_80019808	0x80019808	0x158	unresolved			
-main	func_80019960	0x80019960	0x140	unresolved			
-main	func_80019AA0	0x80019AA0	0x6E0	unresolved			
-main	func_8001A180	0x8001A180	0x1B0	unresolved			
-main	func_8001A330	0x8001A330	0x83C	unresolved			
-main	func_8001AB70	0x8001AB70	0x140	unresolved			
-main	func_8001ACB0	0x8001ACB0	0x12C	unresolved			
-main	func_8001ADDC	0x8001ADDC	0x454	unresolved			
-main	func_8001B230	0x8001B230	0x38	unresolved			
-main	func_8001B268	0x8001B268	0x3A0	unresolved			
-main	func_8001B608	0x8001B608	0x5B0	unresolved			
-main	func_8001BBB8	0x8001BBB8	0x17C	unresolved			
-main	func_8001BD34	0x8001BD34	0x22C	unresolved			
-main	func_8001BF60	0x8001BF60	0x22C	unresolved			
-main	func_8001C18C	0x8001C18C	0x6D4	unresolved			
-main	func_8001C860	0x8001C860	0x17C	unresolved			
-main	func_8001C9DC	0x8001C9DC	0x580	unresolved			
-main	func_8001CF5C	0x8001CF5C	0x580	unresolved			
-main	func_8001D4DC	0x8001D4DC	0x580	unresolved			
-main	func_8001DA5C	0x8001DA5C	0x67C	unresolved			
-main	func_8001E0D8	0x8001E0D8	0x3CC	unresolved			
-main	func_8001E4A4	0x8001E4A4	0x3A0	unresolved			
-main	func_8001E844	0x8001E844	0x580	unresolved			
-main	func_8001EDC4	0x8001EDC4	0x2F0	unresolved			
-main	func_8001F0B4	0x8001F0B4	0x4B8	unresolved			
-main	func_8001F56C	0x8001F56C	0x25C	unresolved			
-main	func_8001F7C8	0x8001F7C8	0x138	unresolved			
-main	func_8001F900	0x8001F900	0x204	unresolved			
-main	func_8001FB04	0x8001FB04	0xF4	unresolved			
-main	func_8001FBF8	0x8001FBF8	0x15C	unresolved			
-main	func_8001FD54	0x8001FD54	0x160	unresolved			
-main	func_8001FEB4	0x8001FEB4	0x54	unresolved			
-main	func_8001FF08	0x8001FF08	0x26C	unresolved			
-main	func_80020174	0x80020174	0x360	unresolved			
-main	func_800204D4	0x800204D4	0x170	unresolved			
-main	func_80020644	0x80020644	0x64	unresolved			
-main	func_800206A8	0x800206A8	0x58	unresolved			
-main	func_80020700	0x80020700	0x3A0	unresolved			
-main	func_80020AA0	0x80020AA0	0x1A0	unresolved			
-main	func_80020C40	0x80020C40	0x420	unresolved			
-main	func_80021060	0x80021060	0x288	unresolved			
-main	func_800212E8	0x800212E8	0x144	unresolved			
-main	func_8002142C	0x8002142C	0x6E4	unresolved			
-main	func_80021B10	0x80021B10	0x88	unresolved			
-main	func_80021B98	0x80021B98	0x290	unresolved			
-main	func_80021E28	0x80021E28	0x3DC	unresolved			
-main	func_80022204	0x80022204	0x198	unresolved			
-main	func_8002239C	0x8002239C	0x188	unresolved			
-main	func_80022524	0x80022524	0x63C	unresolved			
-main	func_80022B60	0x80022B60	0x2B8	unresolved			
-main	func_80022E18	0x80022E18	0x40	unresolved			
-main	func_80022E58	0x80022E58	0x80	unresolved			
-main	func_80022ED8	0x80022ED8	0xE0	unresolved			
-main	func_80022FB8	0x80022FB8	0x5C	unresolved			
-main	func_80023014	0x80023014	0x98	unresolved			
-main	func_800230AC	0x800230AC	0x11C	unresolved			
-main	func_800231C8	0x800231C8	0x128	unresolved			
-main	func_800232F0	0x800232F0	0x98	unresolved			
-main	func_80023388	0x80023388	0x11C	unresolved			
-main	func_800234A4	0x800234A4	0x128	unresolved			
-main	func_800235CC	0x800235CC	0x2A4	unresolved			
-main	func_80023870	0x80023870	0x278	unresolved			
-main	func_80023AE8	0x80023AE8	0x274	unresolved			
-main	func_80023D5C	0x80023D5C	0x274	unresolved			
-main	func_80023FD0	0x80023FD0	0x2A4	unresolved			
-main	func_80024274	0x80024274	0x2AC	unresolved			
-main	func_80024520	0x80024520	0x400	unresolved			
-main	func_80024920	0x80024920	0x60	unresolved			
-main	func_80024980	0x80024980	0x8C	unresolved			
-main	func_80024A0C	0x80024A0C	0xD8	unresolved			
-main	func_80024AE4	0x80024AE4	0x64	unresolved			
-main	func_80024B48	0x80024B48	0x340	unresolved			
-main	func_80024E88	0x80024E88	0x64C	unresolved			
-main	func_800254D4	0x800254D4	0x52C	unresolved			
-main	func_80025A00	0x80025A00	0xECC	unresolved			
-main	func_800268CC	0x800268CC	0x298	unresolved			
-main	func_80026B64	0x80026B64	0x88	unresolved			
-main	func_80026BEC	0x80026BEC	0x1FC	unresolved			
-main	func_80026DE8	0x80026DE8	0x27C	unresolved			
-main	func_80027068	0x80027068	0x8	unresolved			
-main	func_80027070	0x80027070	0xE4	unresolved			
-main	func_80027154	0x80027154	0x74	unresolved			
-main	func_800271C8	0x800271C8	0x94	unresolved			
-main	func_8002725C	0x8002725C	0x12C	unresolved			
-main	func_80027388	0x80027388	0xA0	unresolved			
-main	func_80027428	0x80027428	0xDC	unresolved			
-main	func_80027504	0x80027504	0xB8	unresolved			
-main	func_800275BC	0x800275BC	0xA4	unresolved			
-main	func_80027660	0x80027660	0xB4	unresolved			
-main	func_80027714	0x80027714	0x94	unresolved			
-main	func_800277A8	0x800277A8	0x8C	unresolved			
-main	func_80027838	0x80027838	0x8	unresolved			
-main	func_80027840	0x80027840	0x78	unresolved			
-main	func_800278B8	0x800278B8	0x54	unresolved			
-main	func_8002790C	0x8002790C	0x74	unresolved			
-main	func_80027980	0x80027980	0x1AC	unresolved			
-main	func_80027B2C	0x80027B2C	0x120	unresolved			
-main	func_80027C4C	0x80027C4C	0x84	unresolved			
-main	func_80027CD0	0x80027CD0	0xB8	unresolved			
-main	func_80027D88	0x80027D88	0x58	unresolved			
-main	func_80027DE0	0x80027DE0	0x29C	unresolved			
-main	func_8002807C	0x8002807C	0x114	unresolved			
-main	func_80028190	0x80028190	0x244	unresolved			
-main	func_800283D4	0x800283D4	0x1B0	unresolved			
-main	func_80028584	0x80028584	0xD8	unresolved			
-main	func_8002865C	0x8002865C	0xC4	unresolved			
-main	func_80028720	0x80028720	0x1D8	unresolved			
-main	func_800288F8	0x800288F8	0x2B0	unresolved			
-main	func_80028BA8	0x80028BA8	0x1A4	unresolved			
-main	func_80028D4C	0x80028D4C	0x1DC	unresolved			
-main	func_80028F28	0x80028F28	0x2B0	unresolved			
-main	func_800291D8	0x800291D8	0x110	unresolved			
-main	func_800292E8	0x800292E8	0x110	unresolved			
-main	func_800293F8	0x800293F8	0x1C4	unresolved			
-main	func_800295BC	0x800295BC	0x7C	unresolved			
-main	func_80029638	0x80029638	0x1C4	unresolved			
-main	func_800297FC	0x800297FC	0x1AC	unresolved			
-main	func_800299A8	0x800299A8	0x4B4	unresolved			
-main	func_80029E5C	0x80029E5C	0x1D4	unresolved			
-main	func_8002A030	0x8002A030	0x1D0	unresolved			
-main	func_8002A200	0x8002A200	0xFC	unresolved			
-main	func_8002A2FC	0x8002A2FC	0x30	unresolved			
-main	func_8002A32C	0x8002A32C	0x520	unresolved			
-main	func_8002A84C	0x8002A84C	0x5A4	unresolved			
-main	func_8002ADF0	0x8002ADF0	0x928	unresolved			
-main	func_8002B718	0x8002B718	0x778	unresolved			
-main	func_8002BE90	0x8002BE90	0x104	unresolved			
-main	func_8002BF94	0x8002BF94	0x110	unresolved			
-main	func_8002C0A4	0x8002C0A4	0x1C4	unresolved			
-main	func_8002C268	0x8002C268	0x1C4	unresolved			
-main	func_8002C42C	0x8002C42C	0x1C4	unresolved			
-main	func_8002C5F0	0x8002C5F0	0x5F0	unresolved			
-main	func_8002CBE0	0x8002CBE0	0x78	unresolved			
-main	func_8002CC58	0x8002CC58	0x238	unresolved			
-main	func_8002CE90	0x8002CE90	0xC74	unresolved			
-main	func_8002DB04	0x8002DB04	0xA8	unresolved			
-main	func_8002DBAC	0x8002DBAC	0x148	unresolved			
-main	func_8002DCF4	0x8002DCF4	0x6C	unresolved			
-main	func_8002DD60	0x8002DD60	0x5C	unresolved			
-main	func_8002DDBC	0x8002DDBC	0x12C	unresolved			
-main	func_8002DEE8	0x8002DEE8	0x148	unresolved			
-main	func_8002E030	0x8002E030	0x1C0	unresolved			
-main	func_8002E1F0	0x8002E1F0	0x590	unresolved			
-main	func_8002E780	0x8002E780	0xFC	unresolved			
-main	func_8002E87C	0x8002E87C	0x324	unresolved			
-main	func_8002EBA0	0x8002EBA0	0x1F4	unresolved			
-main	func_8002ED94	0x8002ED94	0x16C	unresolved			
-main	func_8002EF00	0x8002EF00	0xCB0	unresolved			
-main	func_8002FBB0	0x8002FBB0	0x5F8	unresolved			
-main	func_800301A8	0x800301A8	0x22C	unresolved			
-main	func_800303D4	0x800303D4	0x3C	unresolved			
-main	func_80030410	0x80030410	0x46C	unresolved			
-main	func_8003087C	0x8003087C	0x30	unresolved			
-main	func_800308AC	0x800308AC	0x19C	unresolved			
-main	func_80030A48	0x80030A48	0xC8	unresolved			
-main	func_80030B10	0x80030B10	0x160	unresolved			
-main	func_80030C70	0x80030C70	0x22C	unresolved			
-main	func_80030E9C	0x80030E9C	0x118	unresolved			
-main	func_80030FB4	0x80030FB4	0x3C	unresolved			
-main	func_80030FF0	0x80030FF0	0xA0	unresolved			
-main	func_80031090	0x80031090	0x1BC	unresolved			
-main	func_8003124C	0x8003124C	0x1630	unresolved			
-main	func_8003287C	0x8003287C	0x4C	unresolved			
-main	func_800328C8	0x800328C8	0x148	unresolved			
-main	func_80032A10	0x80032A10	0x2E0	unresolved			
-main	func_80032CF0	0x80032CF0	0x104	unresolved			
-main	func_80032DF4	0x80032DF4	0x1D8	unresolved			
-main	func_80032FCC	0x80032FCC	0x158	unresolved			
-main	func_80033124	0x80033124	0x200	unresolved			
-main	func_80033324	0x80033324	0x308	unresolved			
-main	func_8003362C	0x8003362C	0xFC	unresolved			
-main	func_80033728	0x80033728	0x50	unresolved			
-main	func_80033778	0x80033778	0x48	unresolved			
-main	func_800337C0	0x800337C0	0x17C	unresolved			
-main	func_8003393C	0x8003393C	0x58	unresolved			
-main	func_80033994	0x80033994	0x440	unresolved			
-main	func_80033DD4	0x80033DD4	0x2F0	unresolved			
-main	func_800340C4	0x800340C4	0x438	unresolved			
-main	func_800344FC	0x800344FC	0x2B8	unresolved			
-main	func_800347B4	0x800347B4	0x46C	unresolved			
-main	func_80034C20	0x80034C20	0xD0	unresolved			
-main	func_80034CF0	0x80034CF0	0xD0	unresolved			
-main	func_80034DC0	0x80034DC0	0x20	unresolved			
-main	func_80034DE0	0x80034DE0	0x260	unresolved			
-main	func_80035040	0x80035040	0xC4	unresolved			
-main	func_80035104	0x80035104	0x34	unresolved			
-main	func_80035138	0x80035138	0x28	unresolved			
-main	func_80035160	0x80035160	0xFC	unresolved			
-main	func_8003525C	0x8003525C	0x74	unresolved			
-main	func_800352D0	0x800352D0	0xA0	unresolved			
-main	func_80035370	0x80035370	0xAC	unresolved			
-main	func_8003541C	0x8003541C	0x10C	unresolved			
-main	func_80035528	0x80035528	0xD4	unresolved			
-main	func_800355FC	0x800355FC	0x9C	unresolved			
-main	func_80035698	0x80035698	0xC8	unresolved			
-main	func_80035760	0x80035760	0xF8	unresolved			
-main	func_80035858	0x80035858	0x190	unresolved			
-main	func_800359E8	0x800359E8	0x190	unresolved			
-main	func_80035B78	0x80035B78	0x94	unresolved			
-main	func_80035C0C	0x80035C0C	0x8C	unresolved			
-main	func_80035C98	0x80035C98	0x7C	unresolved			
-main	func_80035D14	0x80035D14	0x134	unresolved			
-main	func_80035E48	0x80035E48	0xB4	unresolved			
-main	func_80035EFC	0x80035EFC	0x50	unresolved			
-main	func_80035F50	0x80035F50	0x78	unresolved			
-main	func_80035FC8	0x80035FC8	0xD4	unresolved			
-main	func_8003609C	0x8003609C	0x18	unresolved			
-main	func_800360B4	0x800360B4	0x150	unresolved			
-main	func_80036204	0x80036204	0x1F4	unresolved			
-main	func_800363F8	0x800363F8	0x50	unresolved			
-main	func_80036448	0x80036448	0xC8	unresolved			
-main	func_80036510	0x80036510	0x21C	unresolved			
-main	func_80036764	0x80036764	0xC	unresolved			
-main	func_80036770	0x80036770	0x18	unresolved			
-main	func_80039E20	0x80039E20	0x38	unresolved			
-main	func_80039E58	0x80039E58	0x30	unresolved			
-main	func_80039E88	0x80039E88	0x38	unresolved			
-main	func_80039EC0	0x80039EC0	0x3C	unresolved			
-main	func_80039EFC	0x80039EFC	0x48	unresolved			
-main	func_80039F44	0x80039F44	0x40	unresolved			
-main	func_80039F84	0x80039F84	0xDC	unresolved			
-main	func_8003A060	0x8003A060	0x3C	unresolved			
-main	func_8003A09C	0x8003A09C	0x114	unresolved			
-main	func_8003A1B0	0x8003A1B0	0x78	unresolved			
-main	func_8003A228	0x8003A228	0xEC	unresolved			
-main	func_8003A314	0x8003A314	0xCC	unresolved			
-main	func_8003A3E0	0x8003A3E0	0x74	unresolved			
-main	func_8003A454	0x8003A454	0x1B0	unresolved			
-main	func_8003A604	0x8003A604	0x6C	unresolved			
-main	func_8003A670	0x8003A670	0x22C	unresolved			
-main	func_8003A89C	0x8003A89C	0xA0	unresolved			
-main	func_8003A93C	0x8003A93C	0x20	unresolved			
-main	func_8003A95C	0x8003A95C	0x4C	unresolved			
-main	func_8003A9A8	0x8003A9A8	0x80	unresolved			
-main	func_8003AA28	0x8003AA28	0x80	unresolved			
-main	func_8003AAA8	0x8003AAA8	0x58	unresolved			
-main	func_8003AB00	0x8003AB00	0xCC	unresolved			
-main	func_8003ABCC	0x8003ABCC	0xD0	unresolved			
-main	func_8003AC9C	0x8003AC9C	0x70	unresolved			
-main	func_8003AD10	0x8003AD10	0x28	unresolved			
-main	func_8003AD38	0x8003AD38	0x10	unresolved			
-main	func_8003AD50	0x8003AD50	0x20	unresolved			
-main	func_8003AD70	0x8003AD70	0x10	unresolved			
-main	func_8003AD80	0x8003AD80	0xAC	unresolved			
-main	func_8003AE2C	0x8003AE2C	0x50	unresolved			
-main	func_8003AE7C	0x8003AE7C	0x24	unresolved			
-main	func_8003AEA0	0x8003AEA0	0x50	unresolved			
-main	func_8003AEF0	0x8003AEF0	0x24	unresolved			
-main	func_8003AF14	0x8003AF14	0xC	unresolved			
-main	func_8003AF20	0x8003AF20	0xC	unresolved			
-main	func_8003AF2C	0x8003AF2C	0x10	unresolved			
-main	func_8003AF3C	0x8003AF3C	0x408	unresolved			
-main	func_8003B344	0x8003B344	0x300	unresolved			
-main	func_8003B648	0x8003B648	0x20	unresolved			
-main	func_8003B668	0x8003B668	0x63C	unresolved			
-main	func_8003BCA8	0x8003BCA8	0x8	unresolved			
-main	func_8003BCB0	0x8003BCB0	0x24	unresolved			
-main	func_8003BCD8	0x8003BCD8	0x10	unresolved			
-main	func_8003BCE8	0x8003BCE8	0x160	unresolved			
-main	func_8003BE48	0x8003BE48	0xB0	unresolved			
-main	func_8003BEF8	0x8003BEF8	0x30	unresolved			
-main	func_8003BF28	0x8003BF28	0x190	unresolved			
-main	func_8003C0B8	0x8003C0B8	0x50	unresolved			
-main	func_8003C108	0x8003C108	0x44	unresolved			
-main	func_8003C14C	0x8003C14C	0x2C	unresolved			
-main	func_8003C178	0x8003C178	0x230	unresolved			
-main	func_8003C3A8	0x8003C3A8	0xF0	unresolved			
-main	func_8003C498	0x8003C498	0xA0	unresolved			
-main	func_8003C538	0x8003C538	0x100	unresolved			
-main	func_8003C638	0x8003C638	0x490	unresolved			
-main	func_8003CAC8	0x8003CAC8	0x50	unresolved			
-main	func_8003CB18	0x8003CB18	0x50	unresolved			
-main	func_8003CB68	0x8003CB68	0xE0	unresolved			
-main	func_8003CC48	0x8003CC48	0x60	unresolved			
-main	func_8003CCA8	0x8003CCA8	0x60	unresolved			
-main	func_8003CD08	0x8003CD08	0x60	unresolved			
-main	func_8003CD68	0x8003CD68	0x60	unresolved			
-main	func_8003CDC8	0x8003CDC8	0x8	unresolved			
-main	func_8003CDD0	0x8003CDD0	0x58	unresolved			
-main	func_8003CE28	0x8003CE28	0x38	unresolved			
-main	func_8003CE60	0x8003CE60	0x60	unresolved			
-main	func_8003CEC0	0x8003CEC0	0x18	unresolved			
-main	func_8003CED8	0x8003CED8	0x30	unresolved			
-main	func_8003CF08	0x8003CF08	0x8	unresolved			
-main	func_8003CF10	0x8003CF10	0x298	unresolved			
-main	func_8003D1A8	0x8003D1A8	0x300	unresolved			
-main	func_8003D4A8	0x8003D4A8	0x30	unresolved			
-main	func_8003D4D8	0x8003D4D8	0x24	unresolved			
-main	func_8003D4FC	0x8003D4FC	0x38	unresolved			
-main	func_8003D534	0x8003D534	0x34	unresolved			
-main	func_8003D568	0x8003D568	0x40	unresolved			
-main	func_8003D5A8	0x8003D5A8	0x60	unresolved			
-main	func_8003D608	0x8003D608	0x1D4	unresolved			
-main	func_8003D7DC	0x8003D7DC	0x3AC	unresolved			
-main	func_8003DB88	0x8003DB88	0x12C	unresolved			
-main	func_8003DCB4	0x8003DCB4	0x4A4	unresolved			
-main	func_8003E158	0x8003E158	0x80	unresolved			
-main	func_8003E1D8	0x8003E1D8	0x30	unresolved			
-main	func_8003E208	0x8003E208	0xE0	unresolved			
-main	func_8003E2E8	0x8003E2E8	0x30	unresolved			
-main	func_8003E318	0x8003E318	0x40	unresolved			
-main	func_8003E358	0x8003E358	0xA0	unresolved			
-main	func_8003E3F8	0x8003E3F8	0xA0	unresolved			
-main	func_8003E498	0x8003E498	0xC4	unresolved			
-main	func_8003E55C	0x8003E55C	0xC	unresolved			
-main	func_8003E568	0x8003E568	0x4C	unresolved			
-main	func_8003E5B4	0x8003E5B4	0x8	unresolved			
-main	func_8003E5BC	0x8003E5BC	0x2F8	unresolved			
-main	func_8003E8B4	0x8003E8B4	0x114	unresolved			
-main	func_8003E9C8	0x8003E9C8	0x16C	unresolved			
-main	func_8003EB34	0x8003EB34	0x8	unresolved			
-main	func_8003EB3C	0x8003EB3C	0xFC	unresolved			
-main	func_8003EC38	0x8003EC38	0x6C	unresolved			
-main	func_8003ECA4	0x8003ECA4	0x174	unresolved			
-main	func_8003EE18	0x8003EE18	0x14C	unresolved			
-main	func_8003EF64	0x8003EF64	0x54	unresolved			
-main	func_8003EFB8	0x8003EFB8	0x54	unresolved			
-main	func_8003F00C	0x8003F00C	0x4C	unresolved			
-main	func_8003F058	0x8003F058	0x1C0	unresolved			
-main	func_8003F218	0x8003F218	0x48	unresolved			
-main	func_8003F260	0x8003F260	0x58	unresolved			
-main	func_8003F2B8	0x8003F2B8	0x50	unresolved			
-main	func_8003F308	0x8003F308	0x44	unresolved			
-main	func_8003F34C	0x8003F34C	0x54	unresolved			
-main	func_8003F3A0	0x8003F3A0	0x54	unresolved			
-main	func_8003F3F4	0x8003F3F4	0x88	unresolved			
-main	func_8003F47C	0x8003F47C	0xA8	unresolved			
-main	func_8003F524	0x8003F524	0xA4	unresolved			
-main	func_8003F5C8	0x8003F5C8	0xA0	unresolved			
-main	func_8003F668	0x8003F668	0x440	unresolved			
-main	func_8003FAA8	0x8003FAA8	0xE0	unresolved			
-main	func_8003FB88	0x8003FB88	0x30	unresolved			
-main	func_8003FBB8	0x8003FBB8	0xB0	unresolved			
-main	func_8003FC68	0x8003FC68	0x80	unresolved			
-main	func_8003FCE8	0x8003FCE8	0x20	unresolved			
-main	func_8003FD08	0x8003FD08	0x80	unresolved			
-main	func_8003FD88	0x8003FD88	0x50	unresolved			
-main	func_8003FDD8	0x8003FDD8	0x20	unresolved			
-main	func_8003FDF8	0x8003FDF8	0x30	unresolved			
-main	func_8003FE28	0x8003FE28	0x10	unresolved			
-main	func_8003FE38	0x8003FE38	0x2C	unresolved			
-main	func_8003FE64	0x8003FE64	0x508	unresolved			
-main	func_8004036C	0x8004036C	0xB4	unresolved			
-main	func_80040434	0x80040434	0x20	unresolved			
-main	func_80040454	0x80040454	0x100	unresolved			
-main	func_80040554	0x80040554	0x48	unresolved			
-main	func_8004059C	0x8004059C	0x10	unresolved			
-main	func_800405AC	0x800405AC	0x17C	unresolved			
-main	func_80040728	0x80040728	0x6B4	unresolved			
-main	func_80040DDC	0x80040DDC	0xE8	unresolved			
-main	func_80040EC4	0x80040EC4	0xF4	unresolved			
-main	func_80040FB8	0x80040FB8	0x230	unresolved			
-main	func_800411E8	0x800411E8	0x60	unresolved			
-main	func_80041248	0x80041248	0x10	unresolved			
-main	func_80041258	0x80041258	0x60	unresolved			
-main	func_800412B8	0x800412B8	0x140	unresolved			
-main	func_800413F8	0x800413F8	0x60	unresolved			
-main	func_80041458	0x80041458	0x150	unresolved			
-main	func_800415A8	0x800415A8	0x70	unresolved			
-main	func_80041618	0x80041618	0x50	unresolved			
-main	func_80041668	0x80041668	0x150	unresolved			
-main	func_800417B8	0x800417B8	0x100	unresolved			
-main	func_800418B8	0x800418B8	0x8	unresolved			
-main	func_800418C0	0x800418C0	0x8	unresolved			
-main	func_800418C8	0x800418C8	0xEC	unresolved			
-main	func_800419B4	0x800419B4	0x8	unresolved			
-main	func_800419BC	0x800419BC	0x104	unresolved			
-main	func_80041AC0	0x80041AC0	0x48	unresolved			
-main	func_80041B08	0x80041B08	0x28	unresolved			
-main	func_80041B30	0x80041B30	0xEC	unresolved			
-main	func_80041C1C	0x80041C1C	0xE0	unresolved			
-main	func_80041CFC	0x80041CFC	0x1D0	unresolved			
-main	func_80041ECC	0x80041ECC	0x298	unresolved			
-main	func_80042164	0x80042164	0xB0	unresolved			
-main	func_80042214	0x80042214	0x554	unresolved			
-main	func_80042768	0x80042768	0xAC	unresolved			
-main	func_80042814	0x80042814	0x70	unresolved			
-main	func_80042884	0x80042884	0x124	unresolved			
-main	func_800429A8	0x800429A8	0x8C	unresolved			
-main	func_80042A34	0x80042A34	0x74	unresolved			
-main	func_80042AA8	0x80042AA8	0x20	unresolved			
-main	func_80042AC8	0x80042AC8	0x30	unresolved			
-main	func_80042AF8	0x80042AF8	0x120	unresolved			
-main	func_80042C18	0x80042C18	0xEC	unresolved			
-main	func_80042D04	0x80042D04	0x214	unresolved			
-main	func_80042F18	0x80042F18	0x8C	unresolved			
-main	func_80042FA4	0x80042FA4	0x178	unresolved			
-main	func_8004311C	0x8004311C	0x74	unresolved			
-main	func_80043190	0x80043190	0x188	unresolved			
-main	func_80043318	0x80043318	0x10	unresolved			
-main	func_80043328	0x80043328	0x10	unresolved			
-main	func_80043338	0x80043338	0x80	unresolved			
-main	func_800433B8	0x800433B8	0xA8	unresolved			
-main	func_80043460	0x80043460	0xB8	unresolved			
-main	func_80043518	0x80043518	0x188	unresolved			
-main	func_800436A0	0x800436A0	0x18C	unresolved			
-main	func_8004382C	0x8004382C	0x224	unresolved			
-main	func_80043A50	0x80043A50	0x25C	unresolved			
-main	func_80043CAC	0x80043CAC	0x18	unresolved			
-main	func_80043CC4	0x80043CC4	0x344	unresolved			
-main	func_80044008	0x80044008	0x34	unresolved			
-main	func_8004403C	0x8004403C	0x8C	unresolved			
-main	func_800440C8	0x800440C8	0x100	unresolved			
-main	func_800441C8	0x800441C8	0x88	unresolved			
-main	func_80044250	0x80044250	0x30	unresolved			
-main	func_80044280	0x80044280	0xB8	unresolved			
-main	func_80044338	0x80044338	0xA0	unresolved			
-main	func_800443D8	0x800443D8	0x170	unresolved			
-main	func_80044548	0x80044548	0x40	unresolved			
-main	func_80044588	0x80044588	0x30	unresolved			
-main	func_800445B8	0x800445B8	0x70	unresolved			
-main	func_80044628	0x80044628	0x34	unresolved			
-main	func_8004465C	0x8004465C	0x8	unresolved			
-main	func_80044664	0x80044664	0x1D0	unresolved			
-main	func_80044834	0x80044834	0x14	unresolved			
-main	func_80044848	0x80044848	0x814	unresolved			
-main	func_8004505C	0x8004505C	0x8	unresolved			
-main	func_80045064	0x80045064	0x614	unresolved			
-main	func_80045678	0x80045678	0x170	unresolved			
-main	func_800457E8	0x800457E8	0x54	unresolved			
-main	func_8004583C	0x8004583C	0x80	unresolved			
-main	func_800458BC	0x800458BC	0xB4	unresolved			
-main	func_80045970	0x80045970	0x8	unresolved			
-main	func_80045978	0x80045978	0x24	unresolved			
-main	func_8004599C	0x8004599C	0x88	unresolved			
-main	func_80045A24	0x80045A24	0x12C	unresolved			
-main	func_80045B50	0x80045B50	0xA8	unresolved			
-main	func_80045BF8	0x80045BF8	0x70	unresolved			
-main	func_80045C68	0x80045C68	0xDC	unresolved			
-main	func_80045D44	0x80045D44	0x78	unresolved			
-main	func_80045DBC	0x80045DBC	0x48	unresolved			
-main	func_80045E04	0x80045E04	0x74	unresolved			
-main	func_80045E78	0x80045E78	0x70	unresolved			
-main	func_80045EE8	0x80045EE8	0xFC	unresolved			
-main	func_80045FE4	0x80045FE4	0x818	unresolved			
-main	func_800467FC	0x800467FC	0x8	unresolved			
-main	func_80046804	0x80046804	0x624	unresolved			
-main	func_80046E28	0x80046E28	0x104	unresolved			
-main	func_80046F2C	0x80046F2C	0x70	unresolved			
-main	func_80046F9C	0x80046F9C	0x18C	unresolved			
-main	func_80047128	0x80047128	0x1C	unresolved			
-main	func_80047144	0x80047144	0x1C	unresolved			
-main	func_80047160	0x80047160	0x8	unresolved			
-main	func_80047168	0x80047168	0x8	unresolved			
-main	func_80047170	0x80047170	0x4C	unresolved			
-main	func_800471BC	0x800471BC	0x184	unresolved			
-main	func_80047340	0x80047340	0x120	unresolved			
-main	func_80047460	0x80047460	0xE4	unresolved			
-main	func_80047544	0x80047544	0x54	unresolved			
-main	func_80047598	0x80047598	0x58	unresolved			
-main	func_800475F0	0x800475F0	0x50	unresolved			
-main	func_80047640	0x80047640	0x30	unresolved			
-main	func_80047670	0x80047670	0xD8	unresolved			
-main	func_80047748	0x80047748	0xB0	unresolved			
-main	func_800477F8	0x800477F8	0xE8	unresolved			
-main	func_800478E0	0x800478E0	0x148	unresolved			
-main	func_80047A28	0x80047A28	0x80	unresolved			
-main	func_80047AA8	0x80047AA8	0xF0	unresolved			
-main	func_80047B98	0x80047B98	0x150	unresolved			
-main	func_80047CE8	0x80047CE8	0x40	unresolved			
-main	func_80047D28	0x80047D28	0x20	unresolved			
-main	func_80047D48	0x80047D48	0x90	unresolved			
-main	func_80047DD8	0x80047DD8	0x290	unresolved			
-main	func_80048068	0x80048068	0x10	unresolved			
-main	func_80048078	0x80048078	0x10	unresolved			
-main	func_80048088	0x80048088	0x2C	unresolved			
-main	func_800480B4	0x800480B4	0x3C	unresolved			
-main	func_800480F0	0x800480F0	0x3C	unresolved			
-main	func_8004812C	0x8004812C	0x2C	unresolved			
-main	func_80048158	0x80048158	0x3C	unresolved			
-main	func_80048194	0x80048194	0x5C	unresolved			
-main	func_800481F0	0x800481F0	0x30	unresolved			
-main	func_80048220	0x80048220	0x60	unresolved			
-main	func_80048280	0x80048280	0x9C	unresolved			
-main	func_8004831C	0x8004831C	0x2C	unresolved			
-main	func_80048348	0x80048348	0x10	unresolved			
-main	func_80048358	0x80048358	0x80	unresolved			
-main	func_800483D8	0x800483D8	0x60	unresolved			
-main	func_80048438	0x80048438	0x30	unresolved			
-main	func_80048468	0x80048468	0xC0	unresolved			
-main	func_80048528	0x80048528	0xA0	unresolved			
-main	func_800485C8	0x800485C8	0x110	unresolved			
-main	func_800486D8	0x800486D8	0x30	unresolved			
-main	func_80048708	0x80048708	0x150	unresolved			
-main	func_80048858	0x80048858	0x50	unresolved			
-main	func_800488A8	0x800488A8	0x90	unresolved			
-main	func_80048938	0x80048938	0xA0	unresolved			
-main	func_800489D8	0x800489D8	0xA0	unresolved			
-main	func_80048A78	0x80048A78	0x90	unresolved			
-main	func_80048B08	0x80048B08	0x10	unresolved			
-main	func_80048B18	0x80048B18	0xA0	unresolved			
-main	func_80048BB8	0x80048BB8	0x10	unresolved			
-main	func_80048BC8	0x80048BC8	0x50	unresolved			
-main	func_80048C18	0x80048C18	0xC4	unresolved			
-main	func_80048CDC	0x80048CDC	0xA8	unresolved			
-main	func_80048D84	0x80048D84	0xF4	unresolved			
-main	func_80048E78	0x80048E78	0xB0	unresolved			
-main	func_80048F28	0x80048F28	0x50	unresolved			
-main	func_80048F78	0x80048F78	0x44	unresolved			
-main	func_80048FBC	0x80048FBC	0x2C	unresolved			
-main	func_80048FE8	0x80048FE8	0x1F8	unresolved			
-main	func_800491E0	0x800491E0	0xD0	unresolved			
-main	func_800492B0	0x800492B0	0xF8	unresolved			
-main	func_800493A8	0x800493A8	0xE0	unresolved			
-main	func_80049488	0x80049488	0x24	unresolved			
-main	func_800494AC	0x800494AC	0x5C	unresolved			
-main	func_80049508	0x80049508	0x2C	unresolved			
-main	func_80049534	0x80049534	0x28	unresolved			
-main	func_8004955C	0x8004955C	0x4C	unresolved			
-main	func_800495A8	0x800495A8	0x670	unresolved			
-main	func_80049C18	0x80049C18	0x650	unresolved			
-main	func_8004A268	0x8004A268	0x2A0	unresolved			
-main	func_8004A508	0x8004A508	0x100	unresolved			
-main	func_8004A608	0x8004A608	0x90	unresolved			
-main	func_8004A698	0x8004A698	0x568	unresolved			
-main	func_8004AC00	0x8004AC00	0x8	unresolved			
-main	func_8004AC08	0x8004AC08	0x550	unresolved			
-main	func_8004B158	0x8004B158	0x50	unresolved			
-main	func_8004B1A8	0x8004B1A8	0xA0	unresolved			
-main	func_8004B248	0x8004B248	0x1E4	unresolved			
-main	func_8004B42C	0x8004B42C	0x90	unresolved			
-main	func_8004B4BC	0x8004B4BC	0x8	unresolved			
-main	func_8004B4C4	0x8004B4C4	0x8	unresolved			
-main	func_8004B4CC	0x8004B4CC	0x8	unresolved			
-main	func_8004B4D4	0x8004B4D4	0x8	unresolved			
-main	func_8004B4DC	0x8004B4DC	0x180	unresolved			
-main	func_8004B65C	0x8004B65C	0x22C	unresolved			
-main	func_8004B888	0x8004B888	0x8	unresolved			
-main	func_8004B890	0x8004B890	0x88	unresolved			
-main	func_8004B918	0x8004B918	0x50	unresolved			
-main	func_8004B968	0x8004B968	0x130	unresolved			
-main	func_8004BA98	0x8004BA98	0x11C	unresolved			
-main	func_8004BBB4	0x8004BBB4	0x190	unresolved			
-main	func_8004BD44	0x8004BD44	0x44	unresolved			
-main	func_8004BD88	0x8004BD88	0x310	unresolved			
-main	func_8004C098	0x8004C098	0x90	unresolved			
-main	func_8004C128	0x8004C128	0x20	unresolved			
-main	func_8004C148	0x8004C148	0x80	unresolved			
-main	func_8004C1C8	0x8004C1C8	0x40	unresolved			
-main	func_8004C208	0x8004C208	0x140	unresolved			
-main	func_8004C348	0x8004C348	0x40	unresolved			
-main	func_8004C388	0x8004C388	0x40	unresolved			
-main	func_8004C3C8	0x8004C3C8	0xB0	unresolved			
-main	func_8004C478	0x8004C478	0x30	unresolved			
-main	func_8004C4A8	0x8004C4A8	0x30	unresolved			
-main	func_8004C4D8	0x8004C4D8	0x10	unresolved			
-main	func_8004C4E8	0x8004C4E8	0x10	unresolved			
-main	func_8004C4F8	0x8004C4F8	0x30	unresolved			
-main	func_8004C528	0x8004C528	0x70	unresolved			
-main	func_8004C598	0x8004C598	0xA0	unresolved			
-main	func_8004C638	0x8004C638	0x50	unresolved			
-main	func_8004C688	0x8004C688	0x20	unresolved			
-main	func_8004C6A8	0x8004C6A8	0x70	unresolved			
-main	func_8004C718	0x8004C718	0x170	unresolved			
-main	func_8004C888	0x8004C888	0x2B8	unresolved			
-main	func_8004CB40	0x8004CB40	0x78	unresolved			
-main	func_8004CBB8	0x8004CBB8	0x10	unresolved			
-main	func_8004CBC8	0x8004CBC8	0x7C	unresolved			
-main	func_8004CC44	0x8004CC44	0x8	unresolved			
-main	func_8004CC4C	0x8004CC4C	0x8	unresolved			
-main	func_8004CC54	0x8004CC54	0x548	unresolved			
-main	func_8004D19C	0x8004D19C	0x13C	unresolved			
-main	func_8004D2D8	0x8004D2D8	0x90	unresolved			
-main	func_8004D368	0x8004D368	0x30	unresolved			
-main	func_8004D398	0x8004D398	0x50	unresolved			
-main	func_8004D3E8	0x8004D3E8	0x50	unresolved			
-main	func_8004D438	0x8004D438	0x188	unresolved			
-main	func_8004D5C0	0x8004D5C0	0x1D8	unresolved			
-main	func_8004D798	0x8004D798	0x70	unresolved			
-main	func_8004D808	0x8004D808	0x70	unresolved			
-main	func_8004D878	0x8004D878	0x1C0	unresolved			
-main	func_8004DA38	0x8004DA38	0x50	unresolved			
-main	func_8004DA88	0x8004DA88	0x360	unresolved			
-main	func_8004DDE8	0x8004DDE8	0x18	unresolved			
-main	func_80076178	0x80076178	0xE8	unresolved			
-main	func_80076260	0x80076260	0x16C	unresolved			
-main	func_800763CC	0x800763CC	0x22C	unresolved			
-main	func_800765F8	0x800765F8	0x470	unresolved			
-main	func_80076A68	0x80076A68	0x3C4	unresolved			
-main	func_80076E30	0x80076E30	0x68	unresolved			
-main	func_80076E98	0x80076E98	0xCC	unresolved			
-main	func_80076F64	0x80076F64	0x2D8	unresolved			
-main	func_8007723C	0x8007723C	0xEC	unresolved			
-main	func_80077328	0x80077328	0x18C	unresolved			
-main	func_800774B4	0x800774B4	0x840	unresolved			
-main	func_80077CF4	0x80077CF4	0x1214	unresolved			
-main	func_80078F08	0x80078F08	0xB48	unresolved			
-main	func_80079A50	0x80079A50	0xD10	unresolved			
-main	func_8007A760	0x8007A760	0x468	unresolved			
-main	func_8007ABC8	0x8007ABC8	0x2190	unresolved			
-main	func_8007CD58	0x8007CD58	0x47C	unresolved			
-main	func_8007D1D4	0x8007D1D4	0x1E5C	unresolved			
-main	func_8007F030	0x8007F030	0x1D38	unresolved			
-main	func_80080D68	0x80080D68	0xCAC	unresolved			
-main	func_80081A14	0x80081A14	0x514	unresolved			
-main	func_80081F28	0x80081F28	0x10F0	unresolved			
-main	func_80083018	0x80083018	0xC78	unresolved			
-main	func_80083C90	0x80083C90	0x190	unresolved			
-main	func_80083E20	0x80083E20	0x30	unresolved			
-main	func_80083E50	0x80083E50	0x30	unresolved			
-main	func_80083E80	0x80083E80	0x1F04	unresolved			
-main	func_80085D84	0x80085D84	0x150C	unresolved			
-main	func_80087290	0x80087290	0x3AC	unresolved			
-main	func_8008763C	0x8008763C	0x3AC	unresolved			
-main	func_800879E8	0x800879E8	0x7B4	unresolved			
-main	func_8008819C	0x8008819C	0x790	unresolved			
-main	func_8008892C	0x8008892C	0xBC0	unresolved			
-main	func_800894EC	0x800894EC	0xAEC	unresolved			
-main	func_80089FD8	0x80089FD8	0x50	unresolved			
-main	func_8008A028	0x8008A028	0x154	unresolved			
-main	func_8008A17C	0x8008A17C	0x338	unresolved			
-main	func_8008A4B8	0x8008A4B8	0x58	unresolved			
-main	func_8008A510	0x8008A510	0x3E4	unresolved			
-main	func_8008A8F8	0x8008A8F8	0x374	unresolved			
-main	func_8008AC6C	0x8008AC6C	0xBC	unresolved			
-main	func_8008AD28	0x8008AD28	0xD4	unresolved			
-main	func_8008AE00	0x8008AE00	0xE0	unresolved			
-main	func_8008AEE0	0x8008AEE0	0x1C4	unresolved			
-main	func_8008B0A4	0x8008B0A4	0x4358	unresolved			
-main	func_8008F400	0x8008F400	0x9C	unresolved			
-main	func_8008F49C	0x8008F49C	0x6C	unresolved			
-main	func_8008F508	0x8008F508	0x80	unresolved			
-main	func_8008F588	0x8008F588	0x84	unresolved			
-main	func_8008F60C	0x8008F60C	0x90C	unresolved			
-main	func_8008FF18	0x8008FF18	0x574	unresolved			
-main	func_80090490	0x80090490	0x34	unresolved			
-main	func_800904C8	0x800904C8	0x1F8	unresolved			
-main	func_800906C0	0x800906C0	0x4C	unresolved			
-main	func_8009070C	0x8009070C	0x3E4	unresolved			
-main	func_80090AF0	0x80090AF0	0x2F8	unresolved			
-main	func_80090DE8	0x80090DE8	0x3AC	unresolved			
-main	func_80091194	0x80091194	0xF0	unresolved			
-main	func_80091284	0x80091284	0x144	unresolved			
-main	func_800913C8	0x800913C8	0x104	unresolved			
-main	func_800914CC	0x800914CC	0x2C0	unresolved			
-main	func_8009178C	0x8009178C	0x8FC	unresolved			
-main	func_80092088	0x80092088	0x108	unresolved			
-main	func_80092190	0x80092190	0x84	unresolved			
-main	func_80092214	0x80092214	0x98	unresolved			
-main	func_800922AC	0x800922AC	0xF8	unresolved			
-main	func_800923A8	0x800923A8	0xC0	unresolved			
-main	func_80092468	0x80092468	0x3C	unresolved			
-main	func_800924A4	0x800924A4	0xA0	unresolved			
-main	func_80092544	0x80092544	0x50	unresolved			
-main	func_80092594	0x80092594	0x24	unresolved			
-main	func_800925B8	0x800925B8	0x48	unresolved			
-main	func_80092600	0x80092600	0x4C	unresolved			
-main	func_8009264C	0x8009264C	0x3C	unresolved			
-main	func_80092688	0x80092688	0x8C	unresolved			
-main	func_80092714	0x80092714	0x4C	unresolved			
-main	func_80092760	0x80092760	0x88	unresolved			
-main	func_800927E8	0x800927E8	0x2C	unresolved			
-main	func_80092814	0x80092814	0x50	unresolved			
-main	func_80092864	0x80092864	0x50	unresolved			
-main	func_800928B4	0x800928B4	0x50	unresolved			
-main	func_80092904	0x80092904	0x100	unresolved			
+main	func_80000400	0x80000400	0x3C	unresolved
+main	func_80002638	0x80002638	0x21C	unresolved
+main	func_80002854	0x80002854	0x430	exact	C	src/main/func_80002854.c	b59f066d6d994a37518f6fc395627e76cc9fc79dc69cebdb8654dc2896d127e9
+main	func_80002C84	0x80002C84	0x808	exact	C	src/main/func_80002C84.c	6c45a396b3e699e7076a86dc2141e637a617ec01cddecadf88d25a0b2687422b
+main	func_8000348C	0x8000348C	0x248	unresolved
+main	func_800036D4	0x800036D4	0x254	unresolved
+main	func_80003928	0x80003928	0x98C	exact	C	src/main/func_80003928.c	e920daaa68667b938326d8d64f68ab02524626d2baca3202c29a27bffb90a8bf
+main	func_800042B8	0x800042B8	0x7C	exact	C	src/main/func_800042B8.c	970188ef66ac14d3f74fdfbf2eecdc57d3a3dda37e354ec7d0036ddf00748020
+main	func_80004334	0x80004334	0x88	exact	C	src/main/func_80004334.c	2d5a7b8617cd220c3b02b9b56c809c9dc18b6ea6b60c587ddbe57036d733f91b
+main	func_800043BC	0x800043BC	0x6A8	exact	C	src/main/func_800043BC.c	69d57960f47b80432b956c784c482a6a94f5cf60e9335c477d9f2cf2587517ed
+main	func_80004A64	0x80004A64	0x6AC	exact	C	src/main/func_80004A64.c	985a4f9bc21e264614d5f37fd8f87ff0c37dc5d7949fa9ec429708d398a6d5d3
+main	func_80005110	0x80005110	0x6B0	exact	C	src/main/func_80005110.c	0a89441547913c197d0f5cd5c24b8308e2534e28aac2abb4b5e20aff2e910b5c
+main	func_800057C0	0x800057C0	0x94	exact	C	src/main/func_800057C0.c	607f00a2cdf758b3c5079eacf1901f034f5b5d268ad5b8a9119e3d7f7c070b9b
+main	func_80005858	0x80005858	0x250	exact	C	src/main/func_80005858.c	947294e24ed10b3eb886da12f687369223d4827a02b4c779b253650e64835191
+main	func_80005AA8	0x80005AA8	0x118	exact	C	src/main/func_80005AA8.c	00467127e36e1f963f72f63149407ba61bb3c4d2daa77ffa81380e3de3716b47
+main	func_80005BC0	0x80005BC0	0x50	exact	C	src/main/func_80005BC0.c	71a5693970f4a31841da7f6b98a3feb95f98f65968bf10c94324cb14e2fc0bb6
+main	func_80005C10	0x80005C10	0x1E8	exact	C	src/main/func_80005C10.c	675bb94fcf13c2ec75dabaa45dbcfe963925d1304e7972f38c89e1ae693361d3
+main	func_80005DF8	0x80005DF8	0xAC	exact	C	src/main/func_80005DF8.c	ae3831ef57058289f390e6ecf9c1c594fd3bbc3e40d596fdb9f1378426e2b5ec
+main	func_80005EA4	0x80005EA4	0x2B4	unresolved
+main	func_80006158	0x80006158	0x2B4	unresolved
+main	func_8000640C	0x8000640C	0x8C	exact	C	src/main/func_8000640C.c	72c54b5ed357eedd1ee7e64cb5f03ccf02f25a572f0a3f5ceb3b7da8cb2700d6
+main	func_80006498	0x80006498	0xD4	exact	C	src/main/func_80006498.c	2564fc7504e33f7fd713d49c1152fb0710849c895af79044c59111803c46768e
+main	func_8000656C	0x8000656C	0x84	exact	C	src/main/func_8000656C.c	eee9b14195b697b40838e685280d1c71114d0c3c293b499fa40782608a155707
+main	func_800065F0	0x800065F0	0x74	exact	C	src/main/func_800065F0.c	3df83950f32948fb651e02f93ef3e10c169025f60de3da1107c8dcce68b83317
+main	func_80006664	0x80006664	0xD8	exact	C	src/main/func_80006664.c	942ceebd005deef258188c564b9c75ad5853bf2fc734dbfc5d2be0309eeb3665
+main	func_8000673C	0x8000673C	0x38	exact	C	src/main/func_8000673C.c	a96087e28f936e33c25ef2a6826bc9a14d58cc97e04699d1ab09b4ede79cf055
+main	func_80006774	0x80006774	0x38	exact	C	src/main/func_80006774.c	99bf7a8bd0abc8a1faf3dcfadcc121fc28b6f1915ba15e1b776aa3e446e13133
+main	func_800067B0	0x800067B0	0x4F0	exact	C	src/main/func_800067B0.c	43c7dc2c8c0f135a5f94c5e871341ddafe6628cc42a2f5354bce1486f64e6eab
+main	func_80006CA0	0x80006CA0	0x1A4	exact	C	src/main/func_80006CA0.c	f33a9a61b2f86a2c7852aa3c94d43133bb7b3b57fe54a3577c6c1f1ce644443f
+main	func_80006E44	0x80006E44	0x2B8	exact	C	src/main/func_80006E44.c	2cb5b0b0e471a5bb3c7179bad0b6205dd45ef5211c6d7c93f1a7a78b347ea20d
+main	func_800070FC	0x800070FC	0x60	exact	C	src/main/func_800070FC.c	efe7c587d8da76288f48330ae9c6651ea799ce8815bd97e66b1e9c7aebc8aa4d
+main	func_8000715C	0x8000715C	0x29C	exact	C	src/main/func_8000715C.c	bd1b7dcc741790b898f57a32fe30846650b90695ef4cb9480d209739cb34da38
+main	func_800073F8	0x800073F8	0x78	exact	C	src/main/func_800073F8.c	9f37210adb733bbde0396d7c90a2de3c4e03047ba6db2bad62b80c23b8bb80c9
+main	func_80007470	0x80007470	0x184	exact	C	src/main/func_80007470.c	12e1bda5152f670087f0f316300bff471061fc66988d5e7297d1947bdaa6b03b
+main	func_800075F8	0x800075F8	0x74	exact	C	src/main/func_800075F8.c	19e4d8a4e8521195f4181d1d4a9c807debcb5f9462435567c707e49800e72130
+main	func_8000766C	0x8000766C	0x90	exact	C	src/main/func_8000766C.c	80d02ea049e18feab91c40f03b8cc840c78357b7a2fcb2ba7ac548a8399534bc
+main	func_800076FC	0x800076FC	0x88	exact	C	src/main/func_800076FC.c	1b84d13e68cafa5294bf648fe67b43f5221f36825967752fc21531d7999901bd
+main	func_80007784	0x80007784	0x54	exact	C	src/main/func_80007784.c	819899422ecbad11ba8377d1798424ac6e3664bca5a4e1a4b7a5975041df8ff6
+main	func_800077D8	0x800077D8	0x84	exact	C	src/main/func_800077D8.c	bfcf87923592595eb042ea3125a84a1c4431f7bae1595e25e2aaa4dd7ddf5311
+main	func_8000785C	0x8000785C	0xA8	exact	C	src/main/func_8000785C.c	abfcbb9b2e2a42501a8535059f6cdfc3882a97ac1c8ea0f564c80811d301192c
+main	func_80007904	0x80007904	0xC0	unresolved
+main	func_800079C4	0x800079C4	0xFC	donor	C	src/donor/wof/src/main/func_80009804/func_80009804.c	9a2f8047ca583ce408e95fa83de1d52638517e590e58959f5ec25eb4cd6504e6
+main	func_80007AC0	0x80007AC0	0xB0	donor	C	src/donor/wof/src/main/func_80009900/func_80009900.c	c336d6c70e90754bf770e59cb18c387776dc8fe82a68aacab6170d0a049998ff
+main	func_80007B70	0x80007B70	0xC4	donor	C	src/donor/wof/src/main/func_800099B0/func_800099B0.c	001ca0ff3f18bf2b19d3947ecf2617c0378f3788d4aa8ee4ecae7bb6618450c3
+main	func_80007C34	0x80007C34	0x6C	donor	C	src/donor/wof/src/main/func_80009A74/func_80009A74.c	24b2bbe99d3f3a4fb9f22fe7e27e4fcfd0dc43dee0d2c78279cb7b9c10a049de
+main	func_80007CA0	0x80007CA0	0x1B8	exact	C	src/main/func_80007CA0.c	51ed021043e596e1700b334faa04414481c5ad06e2607770e14126ce55b9ee73
+main	func_80007E58	0x80007E58	0x70	donor	C	src/donor/wof/src/main/func_80009C98/func_80009C98.c	470b2fedc347da29e411df7b540a5e5cc7905d6b1b6bd0d0fbb283dc03ed5b65
+main	func_80007EC8	0x80007EC8	0x24	donor	C	src/donor/wof/src/main/func_80009D08/func_80009D08.c	6031ed1ded0bff3be463cb342f8b38e7023b755672b2991f107c8ab8b5a72223
+main	func_80007EEC	0x80007EEC	0x4C	donor	C	src/donor/wof/src/main/func_80009D2C/func_80009D2C.c	30fe19518abcbf10fa52862c04376fbe256db8d6cdcf1733dbb54e4a1b755d3d
+main	func_80007F38	0x80007F38	0x24	donor	C	src/donor/wof/src/main/func_80009D08/func_80009D08.c	6031ed1ded0bff3be463cb342f8b38e7023b755672b2991f107c8ab8b5a72223
+main	func_80007F5C	0x80007F5C	0x28	donor	C	src/donor/wof/src/main/func_8000EE50/func_8000EE50.c	77b33ba161115980ad07d77937a9c9e7e593abd9e123f381ce01cb41dbdbfc72
+main	func_80007F84	0x80007F84	0x24	donor	C	src/donor/wof/src/main/func_80009D08/func_80009D08.c	6031ed1ded0bff3be463cb342f8b38e7023b755672b2991f107c8ab8b5a72223
+main	func_80007FA8	0x80007FA8	0x1C0	exact	C	src/main/func_80007FA8.c	25d6c8fec9c3fb0989b783d7be5a09ad7bb313abea77e6ff325aa2d7957438d8
+main	func_80008168	0x80008168	0x24	donor	C	src/donor/wof/src/main/func_80009D08/func_80009D08.c	6031ed1ded0bff3be463cb342f8b38e7023b755672b2991f107c8ab8b5a72223
+main	func_80008190	0x80008190	0xA4	exact	C	src/main/func_80008190.c	8f118bfbbc21be2913779153c16f7be2ecf7d42f4aa0d140c5b7bca4ac5c1caf
+main	func_80008234	0x80008234	0x384	exact	C	src/main/func_80008234.c	073aabecd8fb843a93dccffc566d2c0aba5c365420dc82d6c56947fb7494e390
+main	func_800085B8	0x800085B8	0x20	donor	C	src/donor/wof/src/main/func_8002EDC0/func_8002EDC0.c	1de364331e619b8be7319ec86dd03e97562d841659b01158291ec383cc268713
+main	func_800085D8	0x800085D8	0x430	unresolved
+main	func_80008A08	0x80008A08	0x238	exact	C	src/main/func_80008A08.c	8a55b5bcc853f8fb16496a883939cd93313dea71900c105f425d699fe40887e8
+main	func_80008C40	0x80008C40	0x48	exact	C	src/main/func_80008C40.c	3630845b83d4bfcfad25bea0b7a6f6c6e30ff5103e0a323cccce84b1a2d5ef0b
+main	func_80008C88	0x80008C88	0x2B4	unresolved
+main	func_80008F40	0x80008F40	0x234	unresolved
+main	func_80009174	0x80009174	0xE4	exact	C	src/main/func_80009174.c	6f4997a86054497a8307a61729cf31cb411c42b20620416e509a791a77627b30
+main	func_80009258	0x80009258	0x84	exact	C	src/main/func_80009258.c	0a2bb9b19f6a3a4a50ccb22b564f32bc71b1540b62de0105e4a3d180a0a8f0db
+main	func_800092DC	0x800092DC	0x814	exact	C	src/main/func_800092DC.c	70d534ab8ac12fff64efde29debf5dde0a0b3d16b76fc169651f8d2b1d02ffd6
+main	func_80009AF0	0x80009AF0	0x1E8	exact	C	src/main/func_80009AF0.c	ca4a5acf960402252f3fe0afd1563b51d3c98736c842f65e682b4d90f19bce56
+main	func_80009CD8	0x80009CD8	0x24	exact	C	src/main/func_80009CD8.c	a5c0e5b31ebef9cadd7a34b47591abc67fa9d6b5196c4a484d328830dc807c58
+main	func_80009CFC	0x80009CFC	0xAA4	exact	C	src/main/func_80009CFC.c	cfe025d05a75823e9e9bc9e0eba0b423737fe4baf71253099c26837026ec940e
+main	func_8000A7A0	0x8000A7A0	0x988	unresolved
+main	func_8000B128	0x8000B128	0x28	donor	C	src/donor/wof/src/main/func_8000EE50/func_8000EE50.c	77b33ba161115980ad07d77937a9c9e7e593abd9e123f381ce01cb41dbdbfc72
+main	func_8000B150	0x8000B150	0xF8	exact	C	src/main/func_8000B150.c	e951734b6ae35bd35e91f0729eaf2ad22f454c8ac8c37c487dc45f66f57c59bc
+main	func_8000B248	0x8000B248	0x100	exact	C	src/main/func_8000B248.c	c38cb924eb274aabf4c4eb7e8dbf8fc36441d854ce5f985672111413e185866f
+main	func_8000B348	0x8000B348	0x210	exact	C	src/main/func_8000B348.c	8198842c91730791e1bdc8dd0806eb740f620e58781a80d139f01769b9f47c3d
+main	func_8000B558	0x8000B558	0x370	exact	C	src/main/func_8000B558.c	032a9905903b672c52ac16f61b6f09518c35bc27eccc3f5c516319184b400ba3
+main	func_8000B8C8	0x8000B8C8	0x1F0	exact	C	src/main/func_8000B8C8.c	793282e3af68b73aff59395107a2ed5794769aebc010441db87f8218b31f8800
+main	func_8000BAB8	0x8000BAB8	0x1BC	exact	C	src/main/func_8000BAB8.c	cfe9dfe43098420d0af749a552b5eafe05f8b3829705e097943250434fe7def9
+main	func_8000BC74	0x8000BC74	0x56C	unresolved
+main	func_8000C1E0	0x8000C1E0	0x80	exact	C	src/main/func_8000C1E0.c	3355271fb70cfd45903bc734014856ceeee2773859f5e0ee683640ecb271103a
+main	func_8000C260	0x8000C260	0x60	exact	C	src/main/func_8000C260.c	4b8c4957e91d59f26739617c4142adb31b66239c010094a7f43691bdf06ae7cc
+main	func_8000C2C0	0x8000C2C0	0x78	exact	C	src/main/func_8000C2C0.c	947f65ba67700b7a2a290ac0dcefc9dd77912c7633d763c3557e6ad0c772cdcd
+main	func_8000C338	0x8000C338	0x2C8	unresolved
+main	func_8000C600	0x8000C600	0x50	exact	C	src/main/func_8000C600.c	c237f3d676bccdc88972dd0a318a2091cc84d071f8a3419518fc275c8942d7dc
+main	func_8000C650	0x8000C650	0x44	exact	C	src/main/func_8000C650.c	b063bd6593618378b7bfc6df5107a173511bfa711ec260365cde77c7947c8961
+main	func_8000C694	0x8000C694	0x300	exact	C	src/main/func_8000C694.c	22ee7bbe73bf87fa347237e200931a68bcd35799ba2e3cb2deb02d1e57d27ed0
+main	func_8000C9A0	0x8000C9A0	0x2E4	unresolved
+main	func_8000CC84	0x8000CC84	0x3DC	exact	C	src/main/func_8000CC84.c	df8d05e107692d03f5dd2d3b30498276976fb0ecbe5292b41929e003fe174a34
+main	func_8000D060	0x8000D060	0x2EC	exact	C	src/main/func_8000D060.c	aa0f5f95e46074be7e5f691676252055905dfff7738c9f9227c6a632bfcf4489
+main	func_8000D34C	0x8000D34C	0x78	exact	C	src/main/func_8000D34C.c	a82bb6521071c3ebbbe6fb9de506cc0d1691b22287b1aebb872209de0a8e3c5d
+main	func_8000D3C8	0x8000D3C8	0x6B0	exact	C	src/main/func_8000D3C8.c	86d86535af5e1f4985e488d4c56a790d7e5d29e6b6e9d65133fb3715c9c9f285
+main	func_8000DA78	0x8000DA78	0x1258	exact	C	src/main/func_8000DA78.c	79735c7849adcfb9fbd35782a7a326f075d0bf143fd0223349693d972ea64296
+main	func_8000ECD0	0x8000ECD0	0x2A8	exact	C	src/main/func_8000ECD0.c	04164cd98924385269dd9ee23f0138a823cde1ba03b6824eeaf1541ddef7487e
+main	func_8000EF78	0x8000EF78	0x1160	exact	C	src/main/func_8000EF78.c	9e96184ba11c6d78b1b3c11599ba2194ffa889533597cdea9310e23a49bd2661
+main	func_800100D8	0x800100D8	0x150	exact	C	src/main/func_800100D8.c	1765bd18a4f8e8993a3451325ed1902ef17419203fdfe6979a521ba80220b17f
+main	func_80010228	0x80010228	0x434	exact	C	src/main/func_80010228.c	f97b171d8a148572dd257765dc82adeaad6062877a331a56381a42aa0bb399ca
+main	func_8001065C	0x8001065C	0x620	exact	C	src/main/func_8001065C.c	e2ab2c2b37a15c29e2350aa3008fe7a8af32c7e2c134ee0dd5105acc0a4fc486
+main	func_80010C7C	0x80010C7C	0x400	exact	C	src/main/func_80010C7C.c	66c693e5f2ab90f5bdc093dfb17c0861525745dd04b8963f0b33677880a04d32
+main	func_8001107C	0x8001107C	0x154	exact	C	src/main/func_8001107C.c	828e7650b59f53632e31489d509d563bccca155d7ffd4faa78a8d87ec17e264b
+main	func_800111D0	0x800111D0	0xDC	exact	C	src/main/func_800111D0.c	80a7893d492de549c98a31d13c370170abb0893aeeecdf3e81fe9f4da58928d2
+main	func_800112AC	0x800112AC	0x10C	exact	C	src/main/func_800112AC.c	eb5b6cec868d5899d453717450b9ef6d9e1c5367b14e370776f36178bf75af6e
+main	func_800113B8	0x800113B8	0x204	exact	C	src/main/func_800113B8.c	0c4e1cb7ab985f02722d9778f8a88d1e1f5fd75151757294901c4bfd0dccd748
+main	func_800115BC	0x800115BC	0xC8	exact	C	src/main/func_800115BC.c	082be22a9d47c7c80edc070dabdb49ecc36ae926498fda644e264cd82c7c2c30
+main	func_80011684	0x80011684	0x148	exact	C	src/main/func_80011684.c	ff4252691360a217bf909deb16414409992c94cbc73b07d308ede38eab3b9632
+main	func_800117CC	0x800117CC	0x48	exact	C	src/main/func_800117CC.c	97166c249b0c782b4a639f9466fe50e03aec097b77126f074f147762c374ff01
+main	func_80011814	0x80011814	0x128	exact	C	src/main/func_80011814.c	bbf6439c9363afa9c28fff4717152486e6e1165da66a8f19db7effa27fc0af5a
+main	func_8001193C	0x8001193C	0x5C	exact	C	src/main/func_8001193C.c	88d7c064070c2929be15969e469971073c2c147feab8958a6ee532c736360488
+main	func_80011998	0x80011998	0x58	unresolved
+main	func_800119F0	0x800119F0	0x8C	exact	C	src/main/func_800119F0.c	be37fd587a615ff7312f5b19f7097c1cd7f55ab587eb0ccd32e177cc54fdfd58
+main	func_80011A7C	0x80011A7C	0x5C	exact	C	src/main/func_80011A7C.c	fdfb576b63f7cd07f1edb3754f7d38c1adbe9cf43dc820e434fff916bb9e73af
+main	func_80011AD8	0x80011AD8	0x4C	exact	C	src/main/func_80011AD8.c	149f1fb7b98fd4afeedd89dd9b5a1d2e7768fa81f2247ff013e69e09db7e3f22
+main	func_80011B24	0x80011B24	0x1F4	unresolved
+main	func_80011D18	0x80011D18	0x760	unresolved
+main	func_80012478	0x80012478	0x690	unresolved
+main	func_80012B08	0x80012B08	0x19C	exact	C	src/main/func_80012B08.c	c208fc6d5e4925b845763f639689429c5c2d056ec16898395d64c858f82acdb7
+main	func_80012CA4	0x80012CA4	0x84	exact	C	src/main/func_80012CA4.c	ddb625c4885b825a72612f695f8a556c92d04cc5e1bb8ca8f25bff78d4507340
+main	func_80012D28	0x80012D28	0x23C	unresolved
+main	func_80012F64	0x80012F64	0x12C	unresolved
+main	func_80013090	0x80013090	0xBC	unresolved
+main	func_8001314C	0x8001314C	0x310	unresolved
+main	func_8001345C	0x8001345C	0x4C4	unresolved
+main	func_80013920	0x80013920	0x60	exact	C	src/main/func_80013920.c	9331f35eaf4cabb0c0a56c3f3971f210b4d14e149f978ba220f7b4383390c02d
+main	func_80013980	0x80013980	0x130	exact	C	src/main/func_80013980.c	ea1f6953aabf3fb219614a2525d75b6c05864da2c9343e6a40745cf1f03dac04
+main	func_80013AB0	0x80013AB0	0x5E0	unresolved
+main	func_80014090	0x80014090	0x7C4	unresolved
+main	func_80014854	0x80014854	0x88	exact	C	src/main/func_80014854.c	5386525c06307f5b415a531f73d8e38087557388b11bb87910a95b3a1e961d15
+main	func_800148DC	0x800148DC	0xC70	unresolved
+main	func_8001554C	0x8001554C	0x194	unresolved
+main	func_800156E0	0x800156E0	0x7DC	unresolved
+main	func_80015EBC	0x80015EBC	0x424	unresolved
+main	func_800162E0	0x800162E0	0x88	exact	C	src/main/func_800162E0.c	2ee2eb9b0f1904a2e0278fa9afc086aff92b0c4edb6d1b2feaf3418ee6b8b090
+main	func_80016368	0x80016368	0x88	exact	C	src/main/func_80016368.c	4d819006663a58d5429fda8ebeded3e8084f5622864f2e606fea1c6ac5b9aec8
+main	func_800163F0	0x800163F0	0x74	exact	C	src/main/func_800163F0.c	e349c50da1282a1caf116a5bf1d6e077df2df4ddebfbb4464b2e35eba26d40ce
+main	func_80016468	0x80016468	0xE0	exact	C	src/main/func_80016468.c	a3304ef6192ce9b2cef0979a498f407bc9cce3dcc2a60a8da310405b31492e25
+main	func_80016548	0x80016548	0x148	unresolved
+main	func_80016690	0x80016690	0x398	exact	C	src/main/func_80016690.c	3fb3a90ec985bbc4af38f9dc14ca614a627645b32918db17182a79f56e8e7a97
+main	func_80016A28	0x80016A28	0xD8	exact	C	src/main/func_80016A28.c	4217ce14fe283cb24bafb7a5f5121faa6056e4eab0a8e8126c2c5558c4cf2b50
+main	func_80016B00	0x80016B00	0x314	exact	C	src/main/func_80016B00.c	fc50cfc2556b5a4df8e4291a83f27116b29374c86d79e462bf47ab44fb6124d8
+main	func_80016E14	0x80016E14	0x374	exact	C	src/main/func_80016E14.c	8e3a170048792e3728884bff8ac31826d76df5e3af3533421335de0a983a9d3f
+main	func_80017188	0x80017188	0x3A0	exact	C	src/main/func_80017188.c	0dcf2a3d737c94b614c88ee685cbb02a6e8cc9d5bd05cb4b1994a522d8532d8b
+main	func_80017528	0x80017528	0x32C	exact	C	src/main/func_80017528.c	653d6515fd82922c75702a99e2ee2908c609caabbf019be77a589bf19a9ed5bd
+main	func_80017854	0x80017854	0x474	exact	C	src/main/func_80017854.c	0db44ef432e06e1388e2b73f4140aca851abe9c14172a7ac22baef19fae05a08
+main	func_80017CC8	0x80017CC8	0xC0	unresolved
+main	func_80017D88	0x80017D88	0x5D4	unresolved
+main	func_80018360	0x80018360	0x184	unresolved
+main	func_800184E4	0x800184E4	0x6C	exact	C	src/main/func_800184E4.c	dc6b5df96d95853a9c25af852fe3a38717e41bdc2e27fa6d1d897df9ea10c679
+main	func_80018550	0x80018550	0x3E8	exact	C	src/main/func_80018550.c	5926c2dfd82dfda1c5bbaafb1e79013f30fc006035476005363f02e16b738fb6
+main	func_80018938	0x80018938	0xFC	exact	C	src/main/func_80018938.c	26650292b8c47a46fca56506e109325a6bd319ddce162ec1a27ae80af6e9e993
+main	func_80018A34	0x80018A34	0x78	exact	C	src/main/func_80018A34.c	6c8010d7e3282c993506ab49a1098a6e9cb8ad4e17699c881c2b07a38eb112b6
+main	func_80018AAC	0x80018AAC	0x340	unresolved
+main	func_80018DEC	0x80018DEC	0x178	assembly	assembly (hand-written)	asm/main/func_80018DEC.s	e60d2c21cf0cecc6de4a9c2f7ec111d07b1bb0f4c38b4721add4cead475fe663
+main	func_80018F64	0x80018F64	0x390	exact	C	src/main/func_80018F64.c	6091dd0cedd9933a9624af41ec46f3f13fa1e4a8195989e392a8d7207cf2870a
+main	func_800192F8	0x800192F8	0x11C	unresolved
+main	func_80019414	0x80019414	0x338	unresolved
+main	func_80019750	0x80019750	0xB8	exact	C	src/main/func_80019750.c	a3459e1b3433819c6248fa5b3a9767d29349e5891f5fa949cf837aadd013d9e4
+main	func_80019808	0x80019808	0x158	exact	C	src/main/func_80019808.c	3231b4dc68135a65a7dc50121b562c4766a67253dfcd14cc7eaed8e797d96ab6
+main	func_80019960	0x80019960	0x140	exact	C	src/main/func_80019960.c	b32829eba565c27c1271427a928ba92c2cb39cb2efbfc9f805b3d07a4f3df0c0
+main	func_80019AA0	0x80019AA0	0x6E0	exact	C	src/main/func_80019AA0.c	bd5a19ba00588d29da6a91678ad6f9194a78e9c8b509b1cfddca5ddc284f403b
+main	func_8001A180	0x8001A180	0x1B0	unresolved
+main	func_8001A330	0x8001A330	0x83C	unresolved
+main	func_8001AB70	0x8001AB70	0x140	exact	C	src/main/func_8001AB70.c	e56e637afd7a1d99fa9935cc8490200536b1b46aa4350a6a56ee1ead1adcd629
+main	func_8001ACB0	0x8001ACB0	0x12C	exact	C	src/main/func_8001ACB0.c	3bf9e6f14d26076faf3065955d97fb087feb6bee1c58fed1b98857658b192996
+main	func_8001ADDC	0x8001ADDC	0x454	exact	C	src/main/func_8001ADDC.c	968a6dbab4b77c7ddd0a46a4ae11bbc92ef1bafdb6135db5d7a1b58018305a46
+main	func_8001B230	0x8001B230	0x38	exact	C	src/main/func_8001B230.c	0f24e15feb30173ec791081509505401fefe161693affe5ee3fe5f6a246ccc20
+main	func_8001B268	0x8001B268	0x3A0	exact	C	src/main/func_8001B268.c	f3cf87081d3137102607aca4718253b2a8cb79c5c162de9f8bf1ba3a336d9c26
+main	func_8001B608	0x8001B608	0x5B0	exact	C	src/main/func_8001B608.c	e5ff85d2c366bcb2d468f503b4a287af2421358559251bd94b17edb2083346e8
+main	func_8001BBB8	0x8001BBB8	0x17C	exact	C	src/main/func_8001BBB8.c	7ab75b1e520b4f8c8680c8ea3261b939ca23e1a0d43c7a3ee1e61a622d71db16
+main	func_8001BD34	0x8001BD34	0x22C	exact	C	src/main/func_8001BD34.c	9cc97eb98efc8099531ac1504ccc33c4c02ea2fca1c1a5e2c41192c0b07dfe20
+main	func_8001BF60	0x8001BF60	0x22C	exact	C	src/main/func_8001BF60.c	7bb9ef240ce94e77c4bdffb8f5e8c82618a660b8794e45d8aac1f78b5439d980
+main	func_8001C18C	0x8001C18C	0x6D4	unresolved
+main	func_8001C860	0x8001C860	0x17C	exact	C	src/main/func_8001C860.c	3627a76f6b4fbacbd0beae3455fdee8fa339ad1ace9bfd03c0a832db89a4b3f5
+main	func_8001C9DC	0x8001C9DC	0x580	unresolved
+main	func_8001CF5C	0x8001CF5C	0x580	unresolved
+main	func_8001D4DC	0x8001D4DC	0x580	unresolved
+main	func_8001DA5C	0x8001DA5C	0x67C	exact	C	src/main/func_8001DA5C.c	e637cdeacc0373468eebc7ed65c2b0b61ea93ad910be891123f5af2bb4729ac1
+main	func_8001E0D8	0x8001E0D8	0x3CC	exact	C	src/main/func_8001E0D8.c	8de3ccc63b64dd822dac003152cd3f510e391223db1dee9c1a6f2850c110c437
+main	func_8001E4A4	0x8001E4A4	0x3A0	exact	C	src/main/func_8001E4A4.c	ad9a368060dbec3ffc3fbac67dcd3c4ee0e9c9ae6d806bf2d3f02dc6f36a4adc
+main	func_8001E844	0x8001E844	0x580	unresolved
+main	func_8001EDC4	0x8001EDC4	0x2F0	exact	C	src/main/func_8001EDC4.c	a4e5a948e580dbeeeb2768740ddeab247b6b8c5daf5a373e917f403c5cdd888f
+main	func_8001F0B4	0x8001F0B4	0x4B8	unresolved
+main	func_8001F56C	0x8001F56C	0x25C	unresolved
+main	func_8001F7C8	0x8001F7C8	0x138	exact	C	src/main/func_8001F7C8.c	3839223c80f0cf22cb93319b2758b764248625d00c39a44990b2324a2c43b18f
+main	func_8001F900	0x8001F900	0x204	exact	C	src/main/func_8001F900.c	32724ef1b4f8a60c0713348f3bfd0acd1002e615acb6f7bef64d3fd42721efcd
+main	func_8001FB04	0x8001FB04	0xF4	exact	C	src/main/func_8001FB04.c	6a2bbf677c3adb88a2aa1858b03299e7140c0d2bb526e7d24016f1916efd8a9c
+main	func_8001FBF8	0x8001FBF8	0x15C	unresolved
+main	func_8001FD54	0x8001FD54	0x160	unresolved
+main	func_8001FEB4	0x8001FEB4	0x54	exact	C	src/main/func_8001FEB4.c	3883d60e6a1ff51a67633f8ac12181d30cde6bbd16e1562ed1d60977a719dffb
+main	func_8001FF08	0x8001FF08	0x26C	exact	C	src/main/func_8001FF08.c	452f63126e05dba3859c1db95903fefd4ce112b1722dd86bd0e2331c13ee3a70
+main	func_80020174	0x80020174	0x360	unresolved
+main	func_800204D4	0x800204D4	0x170	exact	C	src/main/func_800204D4.c	d64c36e0c4e710564e3410595ab76c65adc8aa73d614aeec91d2006c0c2aeb77
+main	func_80020644	0x80020644	0x64	exact	C	src/main/func_80020644.c	f4922045cd893c07d31b6364f1d9f55e24066d3e56169475e4a5a4e78f670548
+main	func_800206A8	0x800206A8	0x58	exact	C	src/main/func_800206A8.c	67f57c5e9209f94247e76d12e362ff4e919e59fbe0536f3ccd329833b6a30422
+main	func_80020700	0x80020700	0x3A0	unresolved
+main	func_80020AA0	0x80020AA0	0x1A0	exact	C	src/main/func_80020AA0.c	8b2ff6cb0a9b10ad3a3acfcd519c259409379dc0f618371f15b90c6a9c11908d
+main	func_80020C40	0x80020C40	0x420	unresolved
+main	func_80021060	0x80021060	0x288	unresolved
+main	func_800212E8	0x800212E8	0x144	exact	C	src/main/func_800212E8.c	4a02ebecaa8aad3ebecfc340e91ace163d65e956f275bf7b872efdccef434a05
+main	func_8002142C	0x8002142C	0x6E4	unresolved
+main	func_80021B10	0x80021B10	0x88	exact	C	src/main/func_80021B10.c	da36d3fdb0c837febe9e75dbb6929f2378aa24266da2c977c3b3a1dc1a840d8a
+main	func_80021B98	0x80021B98	0x290	exact	C	src/main/func_80021B98.c	b750e3aa105018c2950aa735fa2528f807edf4d80483a5f59f2c1c830a92c388
+main	func_80021E28	0x80021E28	0x3DC	exact	C	src/main/func_80021E28.c	e4c8258df2a762952ec4d48fd161b2dfefb1595ebb02d61d03c44433d9ecbb9d
+main	func_80022204	0x80022204	0x198	exact	C	src/main/func_80022204.c	4461aed648dff9ca70e6a234c81d0ce4c7608307ed46f6f89b12bdd1e49a65b2
+main	func_8002239C	0x8002239C	0x188	exact	C	src/main/func_8002239C.c	b08d10ef2fbffe844266ee94aa855fde27b939247fecbbe53d22d59b4300d485
+main	func_80022524	0x80022524	0x63C	unresolved
+main	func_80022B60	0x80022B60	0x2B8	exact	C	src/main/func_80022B60.c	81854b14410620b57d41a95eb1fcd7e7867e0f56295bccc42c4d00b64434ac73
+main	func_80022E18	0x80022E18	0x40	exact	C	src/main/func_80022E18.c	8fbd924dcbf8d2b71b3a657631cc360212f0e419d0382bb17a18a7df27cc8c56
+main	func_80022E58	0x80022E58	0x80	exact	C	src/main/func_80022E58.c	aaa995768c8f9250aae40f0c934f983e2fc5c21b379a93518501603b97a8572a
+main	func_80022ED8	0x80022ED8	0xE0	exact	C	src/main/func_80022ED8.c	36a5972999683d749594b401b39a277ff54611c25e1222a4fcd3115c4e6717bf
+main	func_80022FB8	0x80022FB8	0x5C	exact	C	src/main/func_80022FB8.c	d29f630145922dad2bda38c5d6e51c8366da26804de885e964df7465b9737724
+main	func_80023014	0x80023014	0x98	exact	C	src/main/func_80023014.c	4de6a1175696e6a5f2a8ca9becbc8e306a2b25008c3518ea3ba4ddbd2fe9d58c
+main	func_800230AC	0x800230AC	0x11C	exact	C	src/main/func_800230AC.c	a1e3724490813a7fa3241c77de0c36605291145e8b62653a6f1adf35be048832
+main	func_800231C8	0x800231C8	0x128	exact	C	src/main/func_800231C8.c	00e76156e41e3cb7fcab68359848e8bff3d94d9bb49fadef0dc24f1f943178bc
+main	func_800232F0	0x800232F0	0x98	exact	C	src/main/func_800232F0.c	234132c564aba0b7f6d8e5f5821e33408d10d3affea9f263afbc4ead03efe90f
+main	func_80023388	0x80023388	0x11C	exact	C	src/main/func_80023388.c	1cfb7658a3fcba3bf02624f0ac1a9b14bbb5c122017e211f4ab2daa362df7f9f
+main	func_800234A4	0x800234A4	0x128	exact	C	src/main/func_800234A4.c	5a93f8ccaf8dc2f6e8727b4e8405b8d7ec1d89e1c6e7276e8a22faaf7c0e189d
+main	func_800235CC	0x800235CC	0x2A4	exact	C	src/main/func_800235CC.c	f9bfb94e7b38a4870f44a77639fd7cf4f3cf1ed11884e2f72c8fe927314cedaf
+main	func_80023870	0x80023870	0x278	exact	C	src/main/func_80023870.c	58129f1bab743cd04a2080ffb552765521fbcc725e47c78c72da7f0af61bc0df
+main	func_80023AE8	0x80023AE8	0x274	exact	C	src/main/func_80023AE8.c	df6bd742bbad3a0c1db7b6b2aed2d50db20a8d7dac55a8f109283be448d54790
+main	func_80023D5C	0x80023D5C	0x274	exact	C	src/main/func_80023D5C.c	4a10a73decc919037b06bd8a8f769ba43d6575051ec7383ba8492849425584ec
+main	func_80023FD0	0x80023FD0	0x2A4	exact	C	src/main/func_80023FD0.c	1fca61c8d8ece52b085e589078e6b4736ce1b68c0b827163266b01d53516a121
+main	func_80024274	0x80024274	0x2AC	exact	C	src/main/func_80024274.c	fb79bc06d66a0d255111457164fd509d11e377198a2f8992a705e50997fbf5d6
+main	func_80024520	0x80024520	0x400	unresolved
+main	func_80024920	0x80024920	0x60	unresolved
+main	func_80024980	0x80024980	0x8C	exact	C	src/main/func_80024980.c	cf139e8a6277365b8ce81f8ffb9a31546b0192ab6689201811fab7da7d7d40c6
+main	func_80024A0C	0x80024A0C	0xD8	exact	C	src/main/func_80024A0C.c	0608b65455f8b2ec509968a98dbfb4b0883abdfe5c66b261ad6e275720eb5ae1
+main	func_80024AE4	0x80024AE4	0x64	exact	C	src/main/func_80024AE4.c	3d30ab1ec9e5367bc02e67a574d61b00537f08499306bec975b082c46275914c
+main	func_80024B48	0x80024B48	0x340	exact	C	src/main/func_80024B48.c	19d9e9638dce5e3fc2b1a000b058c5eaf53bfc467d8bdc42cf3c400ec3cc55fa
+main	func_80024E88	0x80024E88	0x64C	exact	C	src/main/func_80024E88.c	7736874308a733aa669f21b055b6b15f47b579455b515e1aea7cea746f67205f
+main	func_800254D4	0x800254D4	0x52C	exact	C	src/main/func_800254D4.c	663d75b52952784e8e1d6c2bc1f128840bd131cd507124ba37b871af23736455
+main	func_80025A00	0x80025A00	0xECC	unresolved
+main	func_800268CC	0x800268CC	0x298	exact	C	src/main/func_800268CC.c	581efe1803541acd347eaefcb430fd4a1898a7e50fb845ba7402b943f8520490
+main	func_80026B64	0x80026B64	0x88	exact	C	src/main/func_80026B64.c	ce49cd107af6a05ab1d9411b4615100e22059ca2d7a1b9027c8704927c7079e8
+main	func_80026BEC	0x80026BEC	0x1FC	unresolved
+main	func_80026DE8	0x80026DE8	0x27C	exact	C	src/main/func_80026DE8.c	9921d69ab8e3fa557a889d74b15533106bfe6b81f2fe10b6e776558684088296
+main	func_80027068	0x80027068	0xEC	exact	C	src/main/func_80027068.c	9136d42b912b626fab9f455ef2bfd0ae458a9fc5fa14f632be7006e995fada96
+main	func_80027154	0x80027154	0x74	exact	C	src/main/func_80027154.c	32b22e5d668e7364c17fa2b5ce1036112d4eb2fdb297f498fd269fcb90feeefc
+main	func_800271C8	0x800271C8	0x94	exact	C	src/main/func_800271C8.c	4f5487f78ff7d1c1af33b9c2a1ce52ab9152baa954ba67ee6340932a69444f1f
+main	func_8002725C	0x8002725C	0x12C	exact	C	src/main/func_8002725C.c	bd5dd65674b35859bf7a297c985441a98695af010080877df6aef625077ebe55
+main	func_80027388	0x80027388	0xA0	exact	C	src/main/func_80027388.c	856fc5df12f0f0709b6ab9ad60720acdf6dc4ff6ca745fc79bdac61e40b61376
+main	func_80027428	0x80027428	0xDC	exact	C	src/main/func_80027428.c	cab4fde0ab69b2b52915304823dc7ae9eb56e9cb05273d8f24b2696c1f211103
+main	func_80027504	0x80027504	0xB8	exact	C	src/main/func_80027504.c	09af0f14eaec31aeadd19c458c9943a4c79e037bb49736e648f1db6ce51fb975
+main	func_800275BC	0x800275BC	0xA4	exact	C	src/main/func_800275BC.c	b95ce7acbf957cfae8f996eb4f30c0edbcd9c1f00bbee8621da8f54a600559d1
+main	func_80027660	0x80027660	0xB4	exact	C	src/main/func_80027660.c	28e4d32639cf4f347b5a6df2d15b529bbb81e325007ed6985e4da23507390825
+main	func_80027714	0x80027714	0x94	exact	C	src/main/func_80027714.c	2c5a2f3eb4d4c33467b371e69d9d644b436c367f02de74a83207c28a1791408d
+main	func_800277A8	0x800277A8	0x8C	donor	C	src/donor/wof/src/main/func_8000B670/func_8000B670.c	8c642c27536f962805ca4a85b20c8762fbb02bd8bd8627a62a69b9e013c34cfb
+main	func_80027838	0x80027838	0x80	exact	C	src/main/func_80027838.c	388657d1f06b388dbdd17460fb879f9d43bbd5e03a6d0f14999a33d7381ec15f
+main	func_800278B8	0x800278B8	0x54	exact	C	src/main/func_800278B8.c	1f00bad11cfea26cbeea7fdbe23cc8f73384533ac1fbcb6eccac70cc4df384a1
+main	func_8002790C	0x8002790C	0x74	exact	C	src/main/func_8002790C.c	590b9aefddc4cf2c7ff6676316d2023e6a95e5cee636a5b891dad2344d256047
+main	func_80027980	0x80027980	0x1AC	exact	C	src/main/func_80027980.c	9b6a7bf3a3cc857c9a8b0e336284d4519b965b66983d361eeb1036876223a9cb
+main	func_80027B2C	0x80027B2C	0x120	exact	C	src/main/func_80027B2C.c	c0351cf76af3d32d7a1b2e1c3d497f7962185019f3a5193b0336b448a6aa4ef8
+main	func_80027C4C	0x80027C4C	0x84	exact	C	src/main/func_80027C4C.c	4cd5d6d2357c9056f2144b1fe48456e727b08a03ab930e6b2cd846a2ae8869f3
+main	func_80027CD0	0x80027CD0	0xB8	exact	C	src/main/func_80027CD0.c	cfdbcd9bf5d075f5a3e9c2a629452e81e339f5a9d9b7d0004d870438cc9a6e06
+main	func_80027D88	0x80027D88	0x58	exact	C	src/main/func_80027D88.c	d960c747fc84c8c422ab3fa176a68816c874051e0fa3e362fa8a3dee82710b13
+main	func_80027DE0	0x80027DE0	0x29C	exact	C	src/main/func_80027DE0.c	6dbda616effcfd3118efbff0907ed707adf9b29f9d60068ce3dba6278d507cbd
+main	func_8002807C	0x8002807C	0x114	exact	C	src/main/func_8002807C.c	971007efecf921674b1531838b8878f9d246e2ec82f697b67dba614484b01a91
+main	func_80028190	0x80028190	0x244	unresolved
+main	func_800283D4	0x800283D4	0x1B0	exact	C	src/main/func_800283D4.c	0c592a83d5df4a9b6d60a5008012a6bea1453ef8c9b92226f8947872ceb1f159
+main	func_80028584	0x80028584	0xD8	exact	C	src/main/func_80028584.c	5308c7c185a0285b8f16e0acf87a9d697475be68897c65b21221b6760a24aa4c
+main	func_8002865C	0x8002865C	0xC4	exact	C	src/main/func_8002865C.c	d570386207548ce45dc3dcde83e58ed33058f9dbb904ff28ae4ab5f6ff74b729
+main	func_80028720	0x80028720	0x1D8	unresolved
+main	func_800288F8	0x800288F8	0x2B0	unresolved
+main	func_80028BA8	0x80028BA8	0x1A4	unresolved
+main	func_80028D4C	0x80028D4C	0x1DC	exact	C	src/main/func_80028D4C.c	7f0bdbe7299766a9ec1021b823bd154a1624896978175bb81530cfb9d6d9da5f
+main	func_80028F28	0x80028F28	0x2B0	exact	C	src/main/func_80028F28.c	1e7027064434ba8163033624712fbfadc1baee46966cee0d64db383df2e8d90d
+main	func_800291D8	0x800291D8	0x110	unresolved
+main	func_800292E8	0x800292E8	0x110	unresolved
+main	func_800293F8	0x800293F8	0x1C4	exact	C	src/main/func_800293F8.c	12b4b656b7695d4a67023f5f57377699ca3fdce5d8a34c08aed4bd7c4eec3484
+main	func_800295BC	0x800295BC	0x7C	exact	C	src/main/func_800295BC.c	186fc746ff5a4ab059e6720788c411f02b737d7d846834da4f32f9b33047f44a
+main	func_80029638	0x80029638	0x1C4	exact	C	src/main/func_80029638.c	4b0266e55e4307ad36cab18f25b8ea1a00576d4472aad29709388f9a25624423
+main	func_800297FC	0x800297FC	0x1AC	exact	C	src/main/func_800297FC.c	204d553659cb00ded05837454bde2b9f93f6c0608c1ca7071e3e134541caebdd
+main	func_800299A8	0x800299A8	0x4B4	unresolved
+main	func_80029E5C	0x80029E5C	0x1D4	exact	C	src/main/func_80029E5C.c	a76b6ae2c096d8ff7d8433d57a4e6883e8ad38c76a10ea85d32c4930384d2c97
+main	func_8002A030	0x8002A030	0x1D0	exact	C	src/main/func_8002A030.c	0e685b8bc31d1a20df00258b3f0623f0c7dcc220150d757f211f6e211086fedd
+main	func_8002A200	0x8002A200	0xFC	exact	C	src/main/func_8002A200.c	edd9da544e85acc3a9ad1e99da40754e599f2b163d3541eab250000011f35a59
+main	func_8002A2FC	0x8002A2FC	0x30	exact	C	src/main/func_8002A2FC.c	e4d89901c7115d9f63dc474d49ce73b4e6082a7f1c3815dc4ea1466217ced7c8
+main	func_8002A32C	0x8002A32C	0x520	unresolved
+main	func_8002A84C	0x8002A84C	0x5A4	unresolved
+main	func_8002ADF0	0x8002ADF0	0x928	unresolved
+main	func_8002B718	0x8002B718	0x778	unresolved
+main	func_8002BE90	0x8002BE90	0x104	exact	C	src/main/func_8002BE90.c	1986712a1ecc4b4df717a16665ce1e4503f2cd2c9aad59ee6269357b0caeab8f
+main	func_8002BF94	0x8002BF94	0x110	exact	C	src/main/func_8002BF94.c	5feb2979a9b268ee900fa445f9b233a285691e8301033cdd3d9d25f58a810ee2
+main	func_8002C0A4	0x8002C0A4	0x1C4	exact	C	src/main/func_8002C0A4.c	32e56244c335b3289632a9e1fb5e09bd2e6c1f1ac0eca6339d1967729f651b18
+main	func_8002C268	0x8002C268	0x1C4	exact	C	src/main/func_8002C268.c	012aefe678713afd6a2f3b57e17c1f53f4a6c55aaa03849e4c54913f491c4a0b
+main	func_8002C42C	0x8002C42C	0x1C4	exact	C	src/main/func_8002C42C.c	872d4e5fff687cc5ff22f84d7d534a4801df02a35fec883d2c7da26c3da82598
+main	func_8002C5F0	0x8002C5F0	0x5F0	unresolved
+main	func_8002CBE0	0x8002CBE0	0x78	exact	C	src/main/func_8002CBE0.c	8dfb837127a11006c5cdb3d7d0c0b9aa290e577931e340eb4b7436a4269bab5e
+main	func_8002CC58	0x8002CC58	0x238	exact	C	src/main/func_8002CC58.c	f34bfbb91669e1fbf9023e3edd6a85c60159f8bb28c9cf17df840322d055c8f6
+main	func_8002CE90	0x8002CE90	0xC74	unresolved
+main	func_8002DB04	0x8002DB04	0xA8	unresolved
+main	func_8002DBAC	0x8002DBAC	0x148	exact	C	src/main/func_8002DBAC.c	62feb07f7d7d53a69b5b122eab88e253ad8a580e3ef834ca2459aaba161699bf
+main	func_8002DCF4	0x8002DCF4	0x6C	exact	C	src/main/func_8002DCF4.c	363c11e14c6848fc763fed5a12e2f9777609a55be34966ef1be617cd5127068a
+main	func_8002DD60	0x8002DD60	0x5C	exact	C	src/main/func_8002DD60.c	275c70586b86cd71c21169a48460f99555684c0bf3456763229785b6e80dff01
+main	func_8002DDBC	0x8002DDBC	0x12C	exact	C	src/main/func_8002DDBC.c	48a2665497b7217bd9c68570267cf63471a36247b15ac2b508dee2c37c7a2990
+main	func_8002DEE8	0x8002DEE8	0x148	exact	C	src/main/func_8002DEE8.c	499dded01af4614d0b12abe960c5cf2e74d141280b407a43d249ae9e1ff26ab4
+main	func_8002E030	0x8002E030	0x1C0	unresolved
+main	func_8002E1F0	0x8002E1F0	0x590	exact	C	src/main/func_8002E1F0.c	455b0c445f5f237058f4fefc1496589535ca9914e166569204f01551886c5af6
+main	func_8002E780	0x8002E780	0xFC	exact	C	src/main/func_8002E780.c	0fb00a8179a252d63d5e02062d22dda03f23235335bf492d95bd92dae8fbdb0a
+main	func_8002E87C	0x8002E87C	0x324	exact	C	src/main/func_8002E87C.c	e6751f79f0b3f1b57b4e489da8adaf61398420bbeb9963a23a92ae730784243d
+main	func_8002EBA0	0x8002EBA0	0x1F4	unresolved
+main	func_8002ED94	0x8002ED94	0x16C	exact	C	src/main/func_8002ED94.c	de6f76f8f4d672f69c47091c28f1d4ba751b534e21588b3ce6b8526f70ff68fb
+main	func_8002EF00	0x8002EF00	0xCB0	exact	C	src/main/func_8002EF00.c	ad31239baa5238a3c9f028e9ae7d90cc409e0491c3eb35cd07ae62a262baaf66
+main	func_8002FBB0	0x8002FBB0	0x5F8	exact	C	src/main/func_8002FBB0.c	21198dafed20e681ab2d8980cbef2509c7c54836796ccd357184b1cc05968806
+main	func_800301A8	0x800301A8	0x22C	exact	C	src/main/func_800301A8.c	6318217fc12e6a7262bc74789c93ddbf0f77180688d5b7ede9a43e014ad6c1eb
+main	func_800303D4	0x800303D4	0x3C	exact	C	src/main/func_800303D4.c	c688f15979dd4e7307979be58ded387ab198ba5d5a0b692ebc7b3b3c19b10d7c
+main	func_80030410	0x80030410	0x46C	exact	C	src/main/func_80030410.c	a923fb37d5eedcef70cf14c2a800c1169eee09d29dabeb6afb5859f3474087bc
+main	func_8003087C	0x8003087C	0x30	exact	C	src/main/func_8003087C.c	ccd2b628a4b2fb6291b9177aa16a5ad51998c080ec446b95ae47ca517aba070a
+main	func_800308AC	0x800308AC	0x19C	exact	C	src/main/func_800308AC.c	9fc9321383dbbad2e42039cab750d3aa2a11af0337f211723ceb56253ff66e13
+main	func_80030A48	0x80030A48	0xC8	exact	C	src/main/func_80030A48.c	01df6a6605d39a73abc29c185c3a2874ef0060261f6754f8effd19995a6b77ea
+main	func_80030B10	0x80030B10	0x160	exact	C	src/main/func_80030B10.c	36895d79a93199f0aa60cca50353e4abb8cc3a45a373682e1a46dd392821ec01
+main	func_80030C70	0x80030C70	0x22C	unresolved
+main	func_80030E9C	0x80030E9C	0x118	exact	C	src/main/func_80030E9C.c	972df9cb720c6f851b413f46084e26cefd0bfbb5ed16a0fb8e8336fc1bd5400f
+main	func_80030FB4	0x80030FB4	0x3C	exact	C	src/main/func_80030FB4.c	dd82f846abf4ddfe340a5dc716a8a36635727b82e8db6a643251809216782a53
+main	func_80030FF0	0x80030FF0	0xA0	exact	C	src/main/func_80030FF0.c	8b96dd371da05a679b23e426d3976c9ed4b4b09995f87a43f3a2164986cf9df9
+main	func_80031090	0x80031090	0x1BC	exact	C	src/main/func_80031090.c	3d36b9d9d0b0d67baae031386058dfb64b7e8854be61a9466db64e5881a8b7ae
+main	func_8003124C	0x8003124C	0x1630	exact	C	src/main/func_8003124C.c	3153b28c5abe8fbf6c4e7ab90f520a119d969ec1099b3f8e954698c3633d16ba
+main	func_8003287C	0x8003287C	0x4C	exact	C	src/main/func_8003287C.c	743fc2949a07268a434fef736c85bfdaa7eb1e6d1b1ccf5c7ad506e4c76e9ef6
+main	func_800328C8	0x800328C8	0x148	exact	C	src/main/func_800328C8.c	041b553b1c65a6ec0692671f8f3094c1e3d14417482129a855b92aa79695c38d
+main	func_80032A10	0x80032A10	0x2E0	exact	C	src/main/func_80032A10.c	b5ab29e5b1824d06178391bace53d8b5fa146de9a35a3cfc24ab95dedd21eb7a
+main	func_80032CF0	0x80032CF0	0x104	exact	C	src/main/func_80032CF0.c	d5f1b2862a63590347712c361d2715c6df88b0510dbe6551449d24e5a9bd620a
+main	func_80032DF4	0x80032DF4	0x1D8	exact	C	src/main/func_80032DF4.c	4fce95ed63d4234716aabddb18bdef62b55a9ad513088c98d7a53d45ff879f35
+main	func_80032FCC	0x80032FCC	0x158	unresolved
+main	func_80033124	0x80033124	0x200	unresolved
+main	func_80033324	0x80033324	0x308	exact	C	src/main/func_80033324.c	59684cb42dd90358b67e083ecaf363bee8383272b2d8276369583d80169d1b4a
+main	func_8003362C	0x8003362C	0xFC	exact	C	src/main/func_8003362C.c	493d52cf5b1395f057add74d9133ecafa714cbe767069d40fcd04f1abd4bec00
+main	func_80033728	0x80033728	0x50	exact	C	src/main/func_80033728.c	e0694feadbcc1e1fcfac258a7164033106e81a8d1bcc8c0e68998b76ceaa9b18
+main	func_80033778	0x80033778	0x48	exact	C	src/main/func_80033778.c	294d728c839d31954b51eee38229d02b74caac30a631e2c8c2258f93bf1573dc
+main	func_800337C0	0x800337C0	0x17C	unresolved
+main	func_8003393C	0x8003393C	0x58	exact	C	src/main/func_8003393C.c	d5e7044f853d783e047f25f2d9fb0ec3a8926b84578ab0ffc10817a13cf1e92f
+main	func_80033994	0x80033994	0x440	exact	C	src/main/func_80033994.c	b5fabc5d351ca39f8c8110f5144caa73b59429def5e83789a44a698bac1d7d1f
+main	func_80033DD4	0x80033DD4	0x2F0	exact	C	src/main/func_80033DD4.c	5c14fd0af3d0e447bd82a24aace33cde6c69795aa72395f76a11c2c157dc2814
+main	func_800340C4	0x800340C4	0x438	exact	C	src/main/func_800340C4.c	0491d5c890e49020975efe5326d0a5fa74dd96ed21c768be99e36821d99dd024
+main	func_800344FC	0x800344FC	0x2B8	exact	C	src/main/func_800344FC.c	88f06c6d5576f28e74669a3a6d4b4671349b4d72a275438a782f75d0b789867c
+main	func_800347B4	0x800347B4	0x46C	exact	C	src/main/func_800347B4.c	ce94dbb36edbadee5be9a07ec58b360e2f32f2109ddca207846fd3ae0ee93f19
+main	func_80034C20	0x80034C20	0xD0	exact	C	src/main/func_80034C20.c	423e412dc3979345e5a178270ef608c6f2f0529eed4ebd7a634070efad483646
+main	func_80034CF0	0x80034CF0	0xD0	exact	C	src/main/func_80034CF0.c	b6fd07a95bc3e6762927ba68d390d472060291cc767cb8ad391e39583f33368a
+main	func_80034DC0	0x80034DC0	0x20	donor	C	src/donor/wof/src/main/func_80044E38/ptstart.c	4f3e4e422d4c5293933712fb744510c36384edcefe757b1e3ffb3c3a02d3b8dc
+main	func_80034DE0	0x80034DE0	0x260	exact	C	src/main/func_80034DE0.c	5c43341fa7f0e525816530e2309c8816491fa53820f57d4ac0807b3f41ad8496
+main	func_80035040	0x80035040	0xC4	exact	C	src/main/func_80035040.c	26a90764e878c40bb5d40f9c52ff13d170a8868a752cf80805c3dbe50cade472
+main	func_80035104	0x80035104	0x34	exact	C	src/main/func_80035104.c	1980b06395b48dbb3d958f0477bcb2d8989ff1c457dee62baa8c36891159c5e5
+main	func_80035138	0x80035138	0x28	exact	C	src/main/func_80035138.c	06c093e552e17b2694d5e3c4d8186176dfb917f23299b9c5cdd0c737f0a3e89a
+main	func_80035160	0x80035160	0xFC	exact	C	src/main/func_80035160.c	936dfd6c9c3bd327a833018148042b7b2c964523df197a1717d82abad20bc50c
+main	func_8003525C	0x8003525C	0x74	exact	C	src/main/func_8003525C.c	49102e2c81abd095b5dc3e269a2b5a6c1eca6c0ae1ac7725cf443b1a23b6633e
+main	func_800352D0	0x800352D0	0xA0	exact	C	src/main/func_800352D0.c	5575504daad71973690940278efc41ac0a905368de9770a12b69e690ede06feb
+main	func_80035370	0x80035370	0xAC	exact	C	src/main/func_80035370.c	059b799f98ff1fd5cef2afcc057ca6b91e64ac2ab9cd6ba1c1e205fc72067a3f
+main	func_8003541C	0x8003541C	0x10C	exact	C	src/main/func_8003541C.c	e5a4039f1b63452c7dad8d5f3dc072e4fcdf12f561b96e9caacbe3e79bcb0787
+main	func_80035528	0x80035528	0xD4	exact	C	src/main/func_80035528.c	3309d81033705ebfdf2d20dea5a68b6bd3d702376c98d5d4c188548b8b9570ed
+main	func_800355FC	0x800355FC	0x9C	exact	C	src/main/func_800355FC.c	36b86b16d9c354adfd8731a3c2ceb2105e67649b148784b01c786bbff8506fe0
+main	func_80035698	0x80035698	0xC8	exact	C	src/main/func_80035698.c	cc5834a9f7132e713712aff0ea4013e9eb65dc6df650c156cb2d50d22f3f4e11
+main	func_80035760	0x80035760	0xF8	exact	C	src/main/func_80035760.c	943286c397ed75e2fcabf6c6804b9e82b60c9dbe6822699bb3d2062c7a32360d
+main	func_80035858	0x80035858	0x190	exact	C	src/main/func_80035858.c	c158158902b657b0f851b1fd8860815863ed235261aa12c4450bf3472a6d4973
+main	func_800359E8	0x800359E8	0x190	exact	C	src/main/func_800359E8.c	3c99d0c25cdd90ece663e9af48539c0e61543146ff70cccdffb267ce90988bb8
+main	func_80035B78	0x80035B78	0x94	exact	C	src/main/func_80035B78.c	b79c61c036705dfaaacd6ebc09c9e32b3158ca5034678797305b5599d049dccc
+main	func_80035C0C	0x80035C0C	0x8C	exact	C	src/main/func_80035C0C.c	f822bc255dc7038adf6d056158be41d796387701680780c652ce89e1ed3c9bd7
+main	func_80035C98	0x80035C98	0x7C	exact	C	src/main/func_80035C98.c	b31d1db9afc47fca2fec8f9b690ac2e677cc05c8d91747d44c274c2db2d41034
+main	func_80035D14	0x80035D14	0x134	exact	C	src/main/func_80035D14.c	97e47a843bb931be28f70c6f12b2ffdee35a93e0bb0e70c8083fdab604c6f7d0
+main	func_80035E48	0x80035E48	0xB4	exact	C	src/main/func_80035E48.c	cdf4f7a0420fdc5fe6595a827934128c24d440eda1fb9768a4b7ab3f4d0d58c2
+main	func_80035EFC	0x80035EFC	0x50	exact	C	src/main/func_80035EFC.c	16c0c24a8fd2aec01efb3f1f2f810cf984d528762df164396808626d3f0c5c99
+main	func_80035F50	0x80035F50	0x78	exact	C	src/main/func_80035F50.c	1fa29327efbf9ed65fc81f894c46a52a2ea22e006c822d7660d1985c8ac8e7a5
+main	func_80035FC8	0x80035FC8	0xEC	exact	C	src/main/func_80035FC8.c	4f76ae915248fc88e583a661b22a728aa7ef012f8ef6e42c4b2b04efbcbe8a6c
+main	func_800360B4	0x800360B4	0x150	exact	C	src/main/func_800360B4.c	f169478de74a65e069ba818d1dea444c6c56800d7b01e0e9879f0d0b3a98980c
+main	func_80036204	0x80036204	0x1F4	exact	C	src/main/func_80036204.c	8448ad09d2dc6c2f1a3d5a03bc00367bd5319ae6b6ca91e1694bded949db9dab
+main	func_800363F8	0x800363F8	0x50	exact	C	src/main/func_800363F8.c	bdb06748b431b79100720dd6866a7c36c8a8d11654341280ffe117da0ca4e9a4
+main	func_80036448	0x80036448	0xC8	exact	C	src/main/func_80036448.c	ae7bfa131158645c32717518b36d603d428a558c85621af52815fcc9487eca76
+main	func_80036510	0x80036510	0x21C	exact	C	src/main/func_80036510.c	75fdbda92ca74d7adabe358d35f0df78fa872a90f8ed90f01d4a71e23756ac29
+main	func_80036764	0x80036764	0xC	assembly	assembly (hand-written)	asm/main/func_80036764.s	296b079b8d42f430089ec9743eec3e0b7d8898163c14f3768e260f2d1c09529e
+main	func_80036770	0x80036770	0x18	assembly	assembly (hand-written)	asm/main/func_80036770.s	d4468475a3acd3067716e724e84f772b7763f9b6e6009f8984f9ea298dc6aa0f
+main	func_80039E20	0x80039E20	0x38	exact	C	src/main/func_80039E20.c	853de78f98c1d93617f4f06baa632ff703f8501fcf400e55cbb169afddacce31
+main	func_80039E58	0x80039E58	0x30	exact	C	src/main/func_80039E58.c	e2fff2f2c3163cdef28cd4f52d304adccdfbcabd96bf4361e43756465a24ddda
+main	func_80039E88	0x80039E88	0x38	unresolved
+main	func_80039EC0	0x80039EC0	0x3C	unresolved
+main	func_80039EFC	0x80039EFC	0x48	unresolved
+main	func_80039F44	0x80039F44	0x40	exact	C	src/main/func_80039F44.c	21daeb62a9463fcb36de1d149dcac61f03efbe4d6fe50347d6df5284f9f1e42b
+main	func_80039F84	0x80039F84	0xDC	unresolved
+main	func_8003A060	0x8003A060	0x3C	exact	C	src/main/func_8003A060.c	683eb3b6a477dc10bc23886da603a91f352f77e540387876e23dd996bd580aeb
+main	func_8003A09C	0x8003A09C	0x114	unresolved
+main	func_8003A1B0	0x8003A1B0	0x78	unresolved
+main	func_8003A228	0x8003A228	0xEC	unresolved
+main	func_8003A314	0x8003A314	0xCC	unresolved
+main	func_8003A3E0	0x8003A3E0	0x74	unresolved
+main	func_8003A454	0x8003A454	0x1B0	unresolved
+main	func_8003A604	0x8003A604	0x6C	exact	C	src/main/func_8003A604.c	e8236432b66bd0d64043c65cd202046cbbffbd67f6dd4c826b0b16a1072af4d6
+main	func_8003A670	0x8003A670	0x22C	unresolved
+main	func_8003A89C	0x8003A89C	0xA0	unresolved
+main	func_8003A93C	0x8003A93C	0x20	unresolved
+main	func_8003A95C	0x8003A95C	0x4C	exact	C	src/main/func_8003A95C.c	2df98c9debb2be6907bbc953bf0032fd1c352cfad57fc2a288ad96709772d6be
+main	func_8003A9A8	0x8003A9A8	0x80	exact	C	src/main/func_8003A9A8.c	9a5488458becb9eb1fa7c6337a24911a1ff1e09f463cde1d8a463fe78974f419
+main	func_8003AA28	0x8003AA28	0x80	exact	C	src/main/func_8003AA28.c	66f56217352303009c3835377bb2ca275a559371369aea2f78eb006ef5f70635
+main	func_8003AAA8	0x8003AAA8	0x58	exact	C	src/main/func_8003AAA8.c	9002247f9090a818bdab9428db19fe17135cc556e5b602c59dfe12d69b544494
+main	func_8003AB00	0x8003AB00	0xCC	unresolved
+main	func_8003ABCC	0x8003ABCC	0xD0	unresolved
+main	func_8003AC9C	0x8003AC9C	0x70	exact	C	src/main/func_8003AC9C.c	7283ee1fdca6d8b5eddfdddf60024d8361e23a793cd84ae675da2a74e74280e9
+main	func_8003AD10	0x8003AD10	0x14	assembly	assembly (hand-written)	asm/main/func_8003AD10.s	f12833341241781dd2cf98e66744e65df8281555ac4347473621ecfa16f17694
+main	func_8003AD38	0x8003AD38	0x10	assembly	assembly (hand-written)	asm/main/func_8003AD38.s	d6130d030407166c1f1ba5205ce268cf5fd29440db4b2dc4c326344b8198a308
+main	func_8003AD48	0x8003AD48	0x8	assembly	assembly (hand-written)	asm/main/func_8003AD48.s	c737fa8edd6f404e3b9a9c7cd74bf4878814208f2dcd384c197ef7156454eb9d
+main	func_8003AD50	0x8003AD50	0xC	assembly	assembly (hand-written)	asm/main/func_8003AD50.s	8b8a1eae58f3aa19322a4d8a11ad6438d61cbcb1eff9916e5b65ca80ed4438f7
+main	func_8003AD70	0x8003AD70	0x10	assembly	assembly (hand-written)	asm/main/func_8003AD70.s	98254057b83eec232d129512cb0ecc2e7e3163f1891f39e3369aaa20061233a9
+main	func_8003AD80	0x8003AD80	0xAC	unresolved
+main	func_8003AE2C	0x8003AE2C	0x50	assembly	assembly (hand-written)	asm/main/func_8003AE2C.s	5f1538fc7351b2a4b8b2b5bf15ca002fcb2da125aa532dc646c2effe54e8e3ec
+main	func_8003AE7C	0x8003AE7C	0x24	assembly	assembly (hand-written)	asm/main/func_8003AE7C.s	63d73d2f069ed60cbc1d15d61ee7186b17144c62979221037cc1246f62646b01
+main	func_8003AEA0	0x8003AEA0	0x50	assembly	assembly (hand-written)	asm/main/func_8003AEA0.s	f79e16a250f8c3b1cba168de00a9bb6375ff041d26c4d3f860a7c2778c8a5200
+main	func_8003AEF0	0x8003AEF0	0x24	assembly	assembly (hand-written)	asm/main/func_8003AEF0.s	2158afcd54503bed57d5824dc32fcc3fb1a90ca103e5f7b34811f77ff8c996a5
+main	func_8003AF14	0x8003AF14	0xC	assembly	assembly (hand-written)	asm/main/func_8003AF14.s	27da4ad2cc362ce392af3bf3995ce155104528193d0b79ef71d2a761ce204e5b
+main	func_8003AF20	0x8003AF20	0xC	assembly	assembly (hand-written)	asm/main/func_8003AF20.s	82c9d9025ad76d370cdd309a73d4bd24324b77e1a951223cd8444392a5d10b2c
+main	func_8003AF2C	0x8003AF2C	0x10	assembly	assembly (hand-written)	asm/main/func_8003AF2C.s	8ed29fb17dabf6427230c50552b50d42f3c19e7fc5382d291537efa187f8941a
+main	func_8003AF3C	0x8003AF3C	0x408	assembly	assembly (hand-written)	asm/main/func_8003AF3C.s	1a0be880598597b1fdb4a2f77ea89113cb4e31edbf8f28bc188c9fd8a9da50ca
+main	func_8003B344	0x8003B344	0x300	assembly	assembly (hand-written)	asm/main/func_8003B344.s	944681cedd33b6ca455bbfed02ccdeb165e7300e8bfb2f0282485f18e3b45c64
+main	func_8003B648	0x8003B648	0x20	exact	C	src/main/func_8003B648.c	9d08f5e6628db439ccd772060ea908eaa429ef75e384ac56bdb889b18eb8a5ae
+main	func_8003B668	0x8003B668	0x63C	unresolved
+main	func_8003BCA8	0x8003BCA8	0x2C	unresolved
+main	func_8003BCD8	0x8003BCD8	0xC	unresolved
+main	func_8003BCE8	0x8003BCE8	0x160	unresolved
+main	func_8003BE48	0x8003BE48	0xA8	unresolved
+main	func_8003BEF8	0x8003BEF8	0x30	unresolved
+main	func_8003BF28	0x8003BF28	0x188	unresolved
+main	func_8003C0B8	0x8003C0B8	0x50	exact	C	src/main/func_8003C0B8.c	4fa5f3e29a5772a6bf907bf5a469c5c4bccfaf1841b75fb7ec62519a641930b0
+main	func_8003C108	0x8003C108	0x44	exact	C	src/main/func_8003C108.c	90e7637217fd15a3c77cc4e1d7b01ae7982fa52a424e378cae6e5e6b0fb3acdd
+main	func_8003C14C	0x8003C14C	0x2C	exact	C	src/main/func_8003C14C.c	f96ad20cc4b93cf728151ea51b23d07de74b639b5c87871a8f258a1ed6fdbef9
+main	func_8003C178	0x8003C178	0x224	unresolved
+main	func_8003C3A8	0x8003C3A8	0xEC	unresolved
+main	func_8003C498	0x8003C498	0x9C	unresolved
+main	func_8003C538	0x8003C538	0xF8	unresolved
+main	func_8003C638	0x8003C638	0x490	unresolved
+main	func_8003CAC8	0x8003CAC8	0x50	unresolved
+main	func_8003CB18	0x8003CB18	0x4C	unresolved
+main	func_8003CB68	0x8003CB68	0xE0	unresolved
+main	func_8003CC48	0x8003CC48	0x54	unresolved
+main	func_8003CCA8	0x8003CCA8	0x58	unresolved
+main	func_8003CD08	0x8003CD08	0x58	unresolved
+main	func_8003CD68	0x8003CD68	0x58	unresolved
+main	func_8003CDC8	0x8003CDC8	0x8	exact	C	src/main/func_8003CDC8.c	356def564d8bc54ee0bcf86902f479d4fdecb0361f3e2a52a9373c160d290a20
+main	func_8003CDD0	0x8003CDD0	0x58	unresolved
+main	func_8003CE28	0x8003CE28	0x38	exact	C	src/main/func_8003CE28.c	a06b2a358243a17af67bb9268832ee234646dc46aa2c76a9974e1b20830e5721
+main	func_8003CE60	0x8003CE60	0x60	exact	C	src/main/func_8003CE60.c	887fa2d87bb322116939fed65680b1290eacc9c1bce9fbf8bd830488cc6d1ba7
+main	func_8003CEC0	0x8003CEC0	0x18	unresolved
+main	func_8003CED8	0x8003CED8	0x30	unresolved
+main	func_8003CF08	0x8003CF08	0x8	exact	C	src/main/func_8003CF08.c	da54f19d790d6be235b6cf528fbe16692115c031f404643519bd2c7c1892a84a
+main	func_8003CF10	0x8003CF10	0x298	unresolved
+main	func_8003D1A8	0x8003D1A8	0x300	unresolved
+main	func_8003D4A8	0x8003D4A8	0x30	exact	C	src/main/func_8003D4A8.c	ebd86ede5969e91bd490e654d9373ee36f24a73314ed5ed25a600e2ca6ef783f
+main	func_8003D4D8	0x8003D4D8	0x24	unresolved
+main	func_8003D4FC	0x8003D4FC	0x38	exact	C	src/main/func_8003D4FC.c	9611795cb41dd7cf9d744cd305f2d2a0705a025577df20ad97b9c36d56cdea4e
+main	func_8003D534	0x8003D534	0x34	exact	C	src/main/func_8003D534.c	730d2465feccf7073d2d906a2dc109af91864fc82e51770c4bf2afcd5214ee2e
+main	func_8003D568	0x8003D568	0x34	exact	C	src/main/func_8003D568.c	f4932525c0fceb6e9e13572b963b8e811dc880185f02966c8c8b3a67949a8d38
+main	func_8003D5A8	0x8003D5A8	0x54	unresolved
+main	func_8003D608	0x8003D608	0x1D4	unresolved
+main	func_8003D7DC	0x8003D7DC	0x3AC	unresolved
+main	func_8003DB88	0x8003DB88	0x12C	unresolved
+main	func_8003DCB4	0x8003DCB4	0x4A0	unresolved
+main	func_8003E158	0x8003E158	0x74	unresolved
+main	func_8003E1D8	0x8003E1D8	0x30	unresolved
+main	func_8003E208	0x8003E208	0xD8	unresolved
+main	func_8003E2E8	0x8003E2E8	0x30	unresolved
+main	func_8003E318	0x8003E318	0x34	unresolved
+main	func_8003E358	0x8003E358	0xA0	unresolved
+main	func_8003E3F8	0x8003E3F8	0xA0	unresolved
+main	func_8003E498	0x8003E498	0xC4	unresolved
+main	func_8003E55C	0x8003E55C	0x58	unresolved
+main	func_8003E5B4	0x8003E5B4	0x8	exact	C	src/main/func_8003E5B4.c	fbb1fde52317fd72bb1d9b0e80c03e2dced8f40f0fc35c6f63d793c4cdbde4d2
+main	func_8003E5BC	0x8003E5BC	0x2F8	unresolved
+main	func_8003E8B4	0x8003E8B4	0x114	unresolved
+main	func_8003E9C8	0x8003E9C8	0x16C	unresolved
+main	func_8003EB34	0x8003EB34	0x8	exact	C	src/main/func_8003EB34.c	ce9439040555457aa77ce6d9f988677b128ca12f2589667c13c94763a42f4b1a
+main	func_8003EB3C	0x8003EB3C	0xFC	unresolved
+main	func_8003EC38	0x8003EC38	0x6C	unresolved
+main	func_8003ECA4	0x8003ECA4	0x168	exact	C	src/main/func_8003ECA4.c	7de9a96a4de5371f2e581babeb013721ca0ae48b1a126d9c05ed2077c6242c8e
+main	func_8003EE18	0x8003EE18	0x14C	unresolved
+main	func_8003EF64	0x8003EF64	0x48	unresolved
+main	func_8003EFB8	0x8003EFB8	0x54	unresolved
+main	func_8003F00C	0x8003F00C	0x48	unresolved
+main	func_8003F058	0x8003F058	0x1C0	unresolved
+main	func_8003F218	0x8003F218	0x48	exact	C	src/main/func_8003F218.c	31ad0b7b809039882c31eb6614ced44547cc3a8deec2bbc4c86141ee884a12c2
+main	func_8003F260	0x8003F260	0x54	unresolved
+main	func_8003F2B8	0x8003F2B8	0x4C	unresolved
+main	func_8003F308	0x8003F308	0x44	exact	C	src/main/func_8003F308.c	0d9816e085f7d7e5eabeeec49f87c1ddb702c0827359b42267faeec319a6a210
+main	func_8003F34C	0x8003F34C	0x54	exact	C	src/main/func_8003F34C.c	072e70fac9d276bd95ecb50bcef7bc6080f4e1a05f21c5d651f833203dafb740
+main	func_8003F3A0	0x8003F3A0	0x54	exact	C	src/main/func_8003F3A0.c	b7cbd355f3c6f8fd69343db83d837f174bd397c62c7a798a92cea57200654179
+main	func_8003F3F4	0x8003F3F4	0x88	unresolved
+main	func_8003F47C	0x8003F47C	0xA8	unresolved
+main	func_8003F524	0x8003F524	0xA4	exact	C	src/main/func_8003F524.c	9b46731a99274bab0f204cb763802f85132cc639e2bc88a0d4dee4a048911884
+main	func_8003F5C8	0x8003F5C8	0xA0	unresolved
+main	func_8003F668	0x8003F668	0x43C	unresolved
+main	func_8003FAA8	0x8003FAA8	0xE0	unresolved
+main	func_8003FB88	0x8003FB88	0x24	unresolved
+main	func_8003FBB8	0x8003FBB8	0xAC	assembly	assembly (hand-written)	asm/main/func_8003FBB8.s	2ee940cf41467f5cdcafe0f4b691119966cfe9e52db23a1e504df52d6730635f
+main	func_8003FC68	0x8003FC68	0x74	assembly	assembly (hand-written)	asm/main/func_8003FC68.s	f9aada526714887ca8068feecffec4f5195fd47fe9127f6f0885fdca7e768068
+main	func_8003FCE8	0x8003FCE8	0x20	assembly	assembly (hand-written)	asm/main/func_8003FCE8.s	338bf736aefa27e5f25243cfe79c6c0f17393b3af6746ad074601166cd60fcb8
+main	func_8003FD08	0x8003FD08	0x1C	assembly	assembly (hand-written)	asm/main/func_8003FD08.s	6f6d68dae0b929d00658114c144f4a834379bebf0723b160657594de3acce6dd
+main	func_8003FD88	0x8003FD88	0x4C	unresolved
+main	func_8003FDD8	0x8003FDD8	0x20	unresolved
+main	func_8003FDF8	0x8003FDF8	0x2C	unresolved
+main	func_8003FE28	0x8003FE28	0x10	assembly	assembly (hand-written)	asm/main/func_8003FE28.s	9d36b7f1853e26997a26019c7b550b7c6bc01e01d9db724055a1a3ee6b284b8e
+main	func_8003FE38	0x8003FE38	0x2C	assembly	assembly (hand-written)	asm/main/func_8003FE38.s	cbb91ff3c89637e720d9c6d8ccb0f27476eb98b29813f5efcfc6f321310c02f4
+main	func_8003FE64	0x8003FE64	0x508	assembly	assembly (hand-written)	asm/main/func_8003FE64.s	ca767a18c57b7aaf2131514efed55b310bf319192ee215c77e568a0186b6a24e
+main	func_8004036C	0x8004036C	0xB4	unresolved
+main	func_80040420	0x80040420	0x34	assembly	assembly (hand-written)	asm/main/func_80040420.s	f02c95748ffabcf4b79f4f221dd3a2933af897b6a1d78a6568f7c13f0d1eef2d
+main	func_80040454	0x80040454	0x100	assembly	assembly (hand-written)	asm/main/func_80040454.s	9681d7692a8733fd31bc7d84d30b1784830f6a3ae88e53b62b30887306c814d0
+main	func_80040554	0x80040554	0x48	unresolved
+main	func_8004059C	0x8004059C	0x10	unresolved
+main	func_800405AC	0x800405AC	0x17C	assembly	assembly (hand-written)	asm/main/func_800405AC.s	21af8ab1dbea787cde7b0a07618ddc912fd9f66f48e3beb6f05a9732479a8a0a
+main	func_80040728	0x80040728	0x8	unresolved
+main	func_80040738	0x80040738	0x6A4	unresolved
+main	func_80040DDC	0x80040DDC	0xE8	unresolved
+main	func_80040EC4	0x80040EC4	0xEC	unresolved
+main	func_80040FB8	0x80040FB8	0x230	unresolved
+main	func_800411E8	0x800411E8	0x58	unresolved
+main	func_80041248	0x80041248	0xC	unresolved
+main	func_80041258	0x80041258	0x54	unresolved
+main	func_800412B8	0x800412B8	0x138	unresolved
+main	func_800413F8	0x800413F8	0x58	unresolved
+main	func_80041458	0x80041458	0x14C	unresolved
+main	func_800415A8	0x800415A8	0x68	unresolved
+main	func_80041618	0x80041618	0x4C	unresolved
+main	func_80041668	0x80041668	0x144	unresolved
+main	func_800417B8	0x800417B8	0xF8	unresolved
+main	func_800418B8	0x800418B8	0x8	exact	C	src/main/func_800418B8.c	61a33211eee9c8b18721e305217452c2dc1bdd63ca92a12e9b6dd8625e2e5c2b
+main	func_800418C0	0x800418C0	0x8	exact	C	src/main/func_800418C0.c	b2fcc309fb263f3d317f8e09db66370fdbffba83c7bbc8d723b627daa9625227
+main	func_800418C8	0x800418C8	0xEC	unresolved
+main	func_800419B4	0x800419B4	0x8	exact	C	src/main/func_800419B4.c	02f1a8118b19d5e1cc224caffd588fffdf66114868d825bb668a73864e38a9c3
+main	func_800419BC	0x800419BC	0x104	unresolved
+main	func_80041AC0	0x80041AC0	0x40	unresolved
+main	func_80041B08	0x80041B08	0x28	unresolved
+main	func_80041B30	0x80041B30	0xEC	exact	C	src/main/func_80041B30.c	ffb1160127980c7c4bc5e941245d77c44b8f9447b568ad32ec40c02b7a4b1c08
+main	func_80041C1C	0x80041C1C	0xE0	unresolved
+main	func_80041CFC	0x80041CFC	0x1D0	unresolved
+main	func_80041ECC	0x80041ECC	0x298	unresolved
+main	func_80042164	0x80042164	0xB0	unresolved
+main	func_80042214	0x80042214	0x548	unresolved
+main	func_80042768	0x80042768	0xAC	unresolved
+main	func_80042814	0x80042814	0x70	exact	C	src/main/func_80042814.c	6c9ac07df60a29d91878faf08f67e2ad82501497f6c22640209549608dfe2c5c
+main	func_80042884	0x80042884	0x124	unresolved
+main	func_800429A8	0x800429A8	0x8C	unresolved
+main	func_80042A34	0x80042A34	0x74	exact	C	src/main/func_80042A34.c	85986db772c8de71dfc4c16b7be6ad12442337d6a8c048820a79f874d5f0f474
+main	func_80042AA8	0x80042AA8	0x20	donor	C	src/donor/wof/src/main/func_8003FB08/alFilterNew.c	493ac50812dfdb4e540551c104e7b5fd28b10e57303b8be69d0a14bf6c91d849
+main	func_80042AC8	0x80042AC8	0x30	unresolved
+main	func_80042AF8	0x80042AF8	0x120	unresolved
+main	func_80042C18	0x80042C18	0xEC	unresolved
+main	func_80042D04	0x80042D04	0x208	unresolved
+main	func_80042F18	0x80042F18	0x8C	unresolved
+main	func_80042FA4	0x80042FA4	0x178	unresolved
+main	func_8004311C	0x8004311C	0x74	unresolved
+main	func_80043190	0x80043190	0x188	unresolved
+main	func_80043318	0x80043318	0xC	assembly	assembly (hand-written)	asm/main/func_80043318.s	d7f03baded57920c9c04421d285ebd7e637132d79b6fe6b5a49ede1c437352ff
+main	func_80043328	0x80043328	0xC	assembly	assembly (hand-written)	asm/main/func_80043328.s	b90276d9169d325d88ee90a10e32fe389a137a4a7738b90ff5fe93aa7736846a
+main	func_80043338	0x80043338	0x7C	exact	C	src/main/func_80043338.c	80ccd87364522f63a1f548cc216c4da915b5443e69a6d1bbc70169a56139c5d7
+main	func_800433B8	0x800433B8	0xA8	unresolved
+main	func_80043460	0x80043460	0xB8	unresolved
+main	func_80043518	0x80043518	0x188	unresolved
+main	func_800436A0	0x800436A0	0x18C	unresolved
+main	func_8004382C	0x8004382C	0x224	unresolved
+main	func_80043A50	0x80043A50	0x25C	unresolved
+main	func_80043CAC	0x80043CAC	0x18	exact	C	src/main/func_80043CAC.c	8469b8f5ce5964eb22f914f5081bdf7825c7929c570385f654c44a77135ec170
+main	func_80043CC4	0x80043CC4	0x340	unresolved
+main	func_80044008	0x80044008	0x34	unresolved
+main	func_8004403C	0x8004403C	0x8C	unresolved
+main	func_800440C8	0x800440C8	0x100	unresolved
+main	func_800441C8	0x800441C8	0x88	unresolved
+main	func_80044250	0x80044250	0x30	unresolved
+main	func_80044280	0x80044280	0xB4	unresolved
+main	func_80044338	0x80044338	0xA0	unresolved
+main	func_800443D8	0x800443D8	0x168	unresolved
+main	func_80044548	0x80044548	0x34	unresolved
+main	func_80044588	0x80044588	0x30	unresolved
+main	func_800445B8	0x800445B8	0x70	unresolved
+main	func_80044628	0x80044628	0x34	unresolved
+main	func_8004465C	0x8004465C	0x8	exact	C	src/main/func_8004465C.c	739ae9669a906a077f85957852fb3752e77f1eda2a69c777aeff94620eeab4e5
+main	func_80044664	0x80044664	0x1D0	unresolved
+main	func_80044834	0x80044834	0x828	unresolved
+main	func_8004505C	0x8004505C	0x8	exact	C	src/main/func_8004505C.c	5c63717b0b4641870e7c9004ed97cfa73031720fda4a12386bb9c43f3aa06485
+main	func_80045064	0x80045064	0x614	unresolved
+main	func_80045678	0x80045678	0x16C	unresolved
+main	func_800457E8	0x800457E8	0x54	exact	C	src/main/func_800457E8.c	e8d9f5e12f8cb2237486ba6ec09d6520efdd5be32d8da058d29dfbef5de515e5
+main	func_8004583C	0x8004583C	0x80	exact	C	src/main/func_8004583C.c	eeb8142754d4907c5ff2799f779e0d7693e077b12af985f11906f7cdaac23be1
+main	func_800458BC	0x800458BC	0xB4	unresolved
+main	func_80045970	0x80045970	0x8	exact	C	src/main/func_80045970.c	03945666bf6b2054291bcb885691e5f7e525f4463786e3dc4c72c29d20d4ba7d
+main	func_80045978	0x80045978	0x24	exact	C	src/main/func_80045978.c	c87fc24c55f57ba5b0f20edb9a2b9d94e8c246509cfa05f6fe89e03cd311f524
+main	func_8004599C	0x8004599C	0x88	unresolved
+main	func_80045A24	0x80045A24	0x12C	unresolved
+main	func_80045B50	0x80045B50	0xA8	unresolved
+main	func_80045BF8	0x80045BF8	0x70	unresolved
+main	func_80045C68	0x80045C68	0xDC	unresolved
+main	func_80045D44	0x80045D44	0x78	unresolved
+main	func_80045DBC	0x80045DBC	0x48	unresolved
+main	func_80045E04	0x80045E04	0x74	unresolved
+main	func_80045E78	0x80045E78	0x70	exact	C	src/main/func_80045E78.c	2f818f7f9626a10cfa8750603cee88b977f541fcc34757b66b6225a5600bdd0b
+main	func_80045EE8	0x80045EE8	0xFC	unresolved
+main	func_80045FE4	0x80045FE4	0x818	unresolved
+main	func_800467FC	0x800467FC	0x8	exact	C	src/main/func_800467FC.c	82166646cac02315f5d74c78393f32f7e2cbf96341f3d89a580334032e3dbf56
+main	func_80046804	0x80046804	0x624	unresolved
+main	func_80046E28	0x80046E28	0x104	unresolved
+main	func_80046F2C	0x80046F2C	0x70	unresolved
+main	func_80046F9C	0x80046F9C	0x180	unresolved
+main	func_80047128	0x80047128	0x1C	exact	C	src/main/func_80047128.c	be44618ac57612fa3f2d9904373966b187af228b6d87b1dedf17de0e90516670
+main	func_80047144	0x80047144	0x1C	exact	C	src/main/func_80047144.c	10c88c9477db0113007b9261543283352c6b4381b1c3f8744430ade63b86b050
+main	func_80047160	0x80047160	0x8	exact	C	src/main/func_80047160.c	9e885c824b32dc32d31bf69b08e20f990db36816abbd899090760426cd337a92
+main	func_80047168	0x80047168	0x8	exact	C	src/main/func_80047168.c	9b7d714c9f1ede9677683a4747fc30ecab656136e10c7ba07178caee5e6813d3
+main	func_80047170	0x80047170	0x4C	unresolved
+main	func_800471BC	0x800471BC	0x184	unresolved
+main	func_80047340	0x80047340	0x120	unresolved
+main	func_80047460	0x80047460	0xE4	unresolved
+main	func_80047544	0x80047544	0x54	unresolved
+main	func_80047598	0x80047598	0x58	unresolved
+main	func_800475F0	0x800475F0	0x50	unresolved
+main	func_80047640	0x80047640	0x30	unresolved
+main	func_80047670	0x80047670	0xD8	unresolved
+main	func_80047748	0x80047748	0xB0	unresolved
+main	func_800477F8	0x800477F8	0xE8	unresolved
+main	func_800478E0	0x800478E0	0x140	unresolved
+main	func_80047A28	0x80047A28	0x78	unresolved
+main	func_80047AA8	0x80047AA8	0xE4	unresolved
+main	func_80047B98	0x80047B98	0x150	unresolved
+main	func_80047CE8	0x80047CE8	0x40	unresolved
+main	func_80047D28	0x80047D28	0x18	exact	C	src/main/func_80047D28.c	45117a882c127aae9dd546053fb6ee4fc91e4c6501a64fde7141a23dcc46e52d
+main	func_80047D48	0x80047D48	0x84	unresolved
+main	func_80047DD8	0x80047DD8	0x28C	unresolved
+main	func_80048068	0x80048068	0x10	unresolved
+main	func_80048078	0x80048078	0x10	assembly	assembly (hand-written)	asm/main/func_80048078.s	92a8f8362c2c770487eb4bcd4506612d247b61bf2315df69d05d51f808d9066e
+main	func_80048088	0x80048088	0x2C	unresolved
+main	func_800480B4	0x800480B4	0x3C	unresolved
+main	func_800480F0	0x800480F0	0x3C	unresolved
+main	func_8004812C	0x8004812C	0x2C	unresolved
+main	func_80048158	0x80048158	0x3C	unresolved
+main	func_80048194	0x80048194	0x5C	unresolved
+main	func_800481F0	0x800481F0	0x30	unresolved
+main	func_80048220	0x80048220	0x60	unresolved
+main	func_80048280	0x80048280	0x9C	unresolved
+main	func_8004831C	0x8004831C	0x2C	unresolved
+main	func_80048348	0x80048348	0xC	assembly	assembly (hand-written)	asm/main/func_80048348.s	81a3718a0d3a2dcd56dedfd26d932eeef2f22e681a0e9ec7be286bb0b3fd547e
+main	func_80048358	0x80048358	0x74	assembly	assembly (hand-written)	asm/main/func_80048358.s	3fd61d1e9bd207ba954fa14de8d8e8d2b7d80b7f5edfe55bce0443d626658ab9
+main	func_800483D8	0x800483D8	0x58	assembly	assembly (hand-written)	asm/main/func_800483D8.s	67b86eee630d06257a18aff7280a69050c8529df5f8db8b0946446030e3b93db
+main	func_80048438	0x80048438	0x2C	unresolved
+main	func_80048468	0x80048468	0xB8	assembly	assembly (hand-written)	asm/main/func_80048468.s	ec2a032b55e22b58d602098683aa82007a42e9a72aa42d847c785d5a2d8695d9
+main	func_80048528	0x80048528	0xA0	assembly	assembly (hand-written)	asm/main/func_80048528.s	462e3d496c3a450ee0255dc462e9e144ff5b5bbcdbc4ac4d4bbda9df0998cbe0
+main	func_800485C8	0x800485C8	0x10C	unresolved
+main	func_800486D8	0x800486D8	0x28	unresolved
+main	func_80048708	0x80048708	0x150	unresolved
+main	func_80048858	0x80048858	0x50	unresolved
+main	func_800488A8	0x800488A8	0x84	unresolved
+main	func_80048938	0x80048938	0x9C	unresolved
+main	func_800489D8	0x800489D8	0x94	unresolved
+main	func_80048A78	0x80048A78	0x84	unresolved
+main	func_80048B08	0x80048B08	0x10	exact	C	src/main/func_80048B08.c	4dd480d87f5312181c2863c9e35b792b73ad93375a71c7655f75ea3cb8337bd3
+main	func_80048B18	0x80048B18	0x98	unresolved
+main	func_80048BB8	0x80048BB8	0x8	exact	C	src/main/func_80048BB8.c	a984e44b0302e051c9b57915eeb73490e0bbb0ebb5cc0af9f61daf3b06a60079
+main	func_80048BC8	0x80048BC8	0x50	exact	C	src/main/func_80048BC8.c	e90a9070503c7a7f0419dfd5efa183b32840079a7ce6423b3bcbb61092c77abb
+main	func_80048C18	0x80048C18	0xC4	unresolved
+main	func_80048CDC	0x80048CDC	0xA8	unresolved
+main	func_80048D84	0x80048D84	0xEC	unresolved
+main	func_80048E78	0x80048E78	0xAC	unresolved
+main	func_80048F28	0x80048F28	0x50	exact	C	src/main/func_80048F28.c	2f8622a263a15ee5dd65668d8dab180f1a89fb48ee05aeb9ab860d1cb8eeef8a
+main	func_80048F78	0x80048F78	0x44	exact	C	src/main/func_80048F78.c	51801e4ddb37e40fdc21bf4c80e44bb46987bb227097ae9d5d0ae170c0b0bf6f
+main	func_80048FBC	0x80048FBC	0x2C	exact	C	src/main/func_80048FBC.c	975b086f3a658033f27d33a3e78aa1eb0d4e64e1ba52a9f3e2df60e33424b980
+main	func_80048FE8	0x80048FE8	0x1F8	unresolved
+main	func_800491E0	0x800491E0	0xD0	unresolved
+main	func_800492B0	0x800492B0	0xF4	unresolved
+main	func_800493A8	0x800493A8	0xD4	unresolved
+main	func_80049488	0x80049488	0x24	unresolved
+main	func_800494AC	0x800494AC	0x58	unresolved
+main	func_80049508	0x80049508	0x2C	unresolved
+main	func_80049534	0x80049534	0x28	unresolved
+main	func_8004955C	0x8004955C	0x40	unresolved
+main	func_800495A8	0x800495A8	0x670	unresolved
+main	func_80049C18	0x80049C18	0x648	unresolved
+main	func_8004A268	0x8004A268	0x298	unresolved
+main	func_8004A508	0x8004A508	0x100	unresolved
+main	func_8004A608	0x8004A608	0x84	unresolved
+main	func_8004A698	0x8004A698	0x568	unresolved
+main	func_8004AC00	0x8004AC00	0x8	exact	C	src/main/func_8004AC00.c	37a3176864c49c9aa2986156328870c1663c76d8c87c845044452bec0ffaf090
+main	func_8004AC08	0x8004AC08	0x54C	unresolved
+main	func_8004B158	0x8004B158	0x50	unresolved
+main	func_8004B1A8	0x8004B1A8	0xA0	unresolved
+main	func_8004B248	0x8004B248	0x1E4	unresolved
+main	func_8004B42C	0x8004B42C	0x90	unresolved
+main	func_8004B4BC	0x8004B4BC	0x8	exact	C	src/main/func_8004B4BC.c	6f5ea06c5512421099e6027ccf7fc9c4069f0978654726e1ea203139e7d18ca4
+main	func_8004B4C4	0x8004B4C4	0x8	exact	C	src/main/func_8004B4C4.c	5a39252e95da280a178adb8c2b43f0d953bd32a4905ac59bd74e3948eba0cb58
+main	func_8004B4CC	0x8004B4CC	0x8	exact	C	src/main/func_8004B4CC.c	09146579c4e720afda0322be3f81f53c95f5ca517474842ae5b393a2019a5e6d
+main	func_8004B4D4	0x8004B4D4	0x8	exact	C	src/main/func_8004B4D4.c	c01be982eb321c862662ea529f3c9512f991e25ea0261009d87c25d3db411ffd
+main	func_8004B4DC	0x8004B4DC	0x180	unresolved
+main	func_8004B65C	0x8004B65C	0x22C	unresolved
+main	func_8004B888	0x8004B888	0x8	exact	C	src/main/func_8004B888.c	210c96d6ce4b7c4148998ecb40adc44487e730b6b5e9b204a22f3fe9a1e7687a
+main	func_8004B890	0x8004B890	0x88	unresolved
+main	func_8004B918	0x8004B918	0x50	exact	C	src/main/func_8004B918.c	0ec1b08e6617e27e831c9ec7d1da4eddf526e4f02d97504a631ea5b8e8e6309e
+main	func_8004B968	0x8004B968	0x12C	exact	C	src/main/func_8004B968.c	2e8a6252e3d8c5d264b4a8bfd6fe78af16b4f5d249400b7c7028f56e85481eb0
+main	func_8004BA98	0x8004BA98	0x11C	unresolved
+main	func_8004BBB4	0x8004BBB4	0x190	exact	C	src/main/func_8004BBB4.c	0d5b21ea73dffd71525cfe89ea23a9d49cebf03838eb1ea6f35c3d9130433a70
+main	func_8004BD44	0x8004BD44	0x40	exact	C	src/main/func_8004BD44.c	d685a3c393344c7680b99de12ec47cad9f5fb442226bc22399966598ddd6b6ee
+main	func_8004BD88	0x8004BD88	0x304	assembly	assembly (hand-written)	asm/main/func_8004BD88.s	1866b8f69f43e864b398e69b6a5048e45f4560efc73b85638371c7a04cf48ad1
+main	func_8004C098	0x8004C098	0x8C	unresolved
+main	func_8004C128	0x8004C128	0x20	exact	C	src/main/func_8004C128.c	bd6fab19e1fbb4bd47b3a9bb5d83f5c7a9713821414ba8005bbc2b0ef8debcfc
+main	func_8004C148	0x8004C148	0x80	exact	C	src/main/func_8004C148.c	dbda7910da473421dd48ec437388324b2f63460e8dd627a25678da8ef04f303f
+main	func_8004C1C8	0x8004C1C8	0x40	unresolved
+main	func_8004C208	0x8004C208	0x13C	unresolved
+main	func_8004C348	0x8004C348	0x40	unresolved
+main	func_8004C388	0x8004C388	0x34	unresolved
+main	func_8004C3C8	0x8004C3C8	0xA8	unresolved
+main	func_8004C478	0x8004C478	0x2C	unresolved
+main	func_8004C4A8	0x8004C4A8	0x2C	unresolved
+main	func_8004C4D8	0x8004C4D8	0xC	unresolved
+main	func_8004C4E8	0x8004C4E8	0xC	unresolved
+main	func_8004C4F8	0x8004C4F8	0x28	assembly	assembly (hand-written)	asm/main/func_8004C4F8.s	42d5cbbed062f3beca48c6cef33951b37481d3b6670a1852cf8934db943e57e0
+main	func_8004C528	0x8004C528	0x70	unresolved
+main	func_8004C598	0x8004C598	0x9C	unresolved
+main	func_8004C638	0x8004C638	0x50	unresolved
+main	func_8004C688	0x8004C688	0x14	exact	C	src/main/func_8004C688.c	1ad0e72335a73bdd5c1fbb0760b8782bd4c505c6046d013f275afb80b37acdb1
+main	func_8004C6A8	0x8004C6A8	0x64	unresolved
+main	func_8004C718	0x8004C718	0x168	unresolved
+main	func_8004C888	0x8004C888	0x2B8	unresolved
+main	func_8004CB40	0x8004CB40	0x78	unresolved
+main	func_8004CBB8	0x8004CBB8	0x8	unresolved
+main	func_8004CBC8	0x8004CBC8	0x7C	unresolved
+main	func_8004CC44	0x8004CC44	0x8	exact	C	src/main/func_8004CC44.c	1110c06229f1e2f901b06ad61c813c8d774cce86f8b9d9773808da822971b68c
+main	func_8004CC4C	0x8004CC4C	0x8	exact	C	src/main/func_8004CC4C.c	a8bf37435f024c91978b2ffa65dfaab2e4cd6c96b35689b7ebf85c63e0bc44bd
+main	func_8004CC54	0x8004CC54	0x548	unresolved
+main	func_8004D19C	0x8004D19C	0x134	unresolved
+main	func_8004D2D8	0x8004D2D8	0x8C	unresolved
+main	func_8004D368	0x8004D368	0x2C	unresolved
+main	func_8004D398	0x8004D398	0x50	exact	C	src/main/func_8004D398.c	8bd810f2f499495bf63f931b856ce455e206f3a6d32d16546489b04e8e2f2eaf
+main	func_8004D3E8	0x8004D3E8	0x4C	exact	C	src/main/func_8004D3E8.c	bf8a703cb171e61f09a9a935572fd0e9605fa553a469e9475c086b487b24de52
+main	func_8004D438	0x8004D438	0x188	unresolved
+main	func_8004D5C0	0x8004D5C0	0x1CC	unresolved
+main	func_8004D798	0x8004D798	0x6C	unresolved
+main	func_8004D808	0x8004D808	0x68	unresolved
+main	func_8004D878	0x8004D878	0x1B8	unresolved
+main	func_8004DA38	0x8004DA38	0x50	exact	C	src/main/func_8004DA38.c	83c55318a0eb8bcefab40f4bce00b01243fa50dd9ba04d7ad6b37ae9f224684c
+main	func_8004DA88	0x8004DA88	0x35C	unresolved
+main	func_8004DDE8	0x8004DDE8	0xC	exact	C	src/main/func_8004DDE8.c	6a19b4563f868fb4992c1d720c51c164655dccc897c54a0f47dbba3d181e2246
+main	func_80076178	0x80076178	0xE8	exact	C	src/main/func_80076178.c	d6b19822b971a6cd5316b4d9c8087e5e2c705fe5fd4393b85f806277d1759fe4
+main	func_80076260	0x80076260	0x16C	exact	C	src/main/func_80076260.c	2936f2194e28226e84d4fe2daafc31125fcda63264e840414c7e79dc4ff6bd8e
+main	func_800763CC	0x800763CC	0x22C	exact	C	src/main/func_800763CC.c	c6d966334bfc6705c8b3b23d6a3fcef9f9168d891279031f5311dedbf7d224bf
+main	func_800765F8	0x800765F8	0x470	exact	C	src/main/func_800765F8.c	f0b49aede853247abd4d27802a34e9917d55806bdba6454ccef876df3d55ec9c
+main	func_80076A68	0x80076A68	0x3C4	exact	C	src/main/func_80076A68.c	e459039cb53f6cc8f08168b44edc4152f8f43a741ae085af85311cf9a098b48c
+main	func_80076E30	0x80076E30	0x68	exact	C	src/main/func_80076E30.c	43acc0a1ba34773cdb7b5f3bca0d69033fcb306fe9fe4a0e56a7d0be3434ed70
+main	func_80076E98	0x80076E98	0xCC	exact	C	src/main/func_80076E98.c	08b21104406e91fe3601dd61dd6b5f1231bda25d968288087837db50423cd2de
+main	func_80076F64	0x80076F64	0x2D8	exact	C	src/main/func_80076F64.c	db4ee577937a22a0e0cf5766b4aaada199326a0a0553a23aab920737ae8c43fc
+main	func_8007723C	0x8007723C	0xEC	exact	C	src/main/func_8007723C.c	1cd48f75e86c716258346cc11d2c8521f474cc7f4635789fa9c81bbc63e5d230
+main	func_80077328	0x80077328	0x18C	exact	C	src/main/func_80077328.c	b9a3dc95ed8f09e5bcaf74bbe3790d0e014af1d18d877428ea4ee7a52f0bbb0f
+main	func_800774B4	0x800774B4	0x840	exact	C	src/main/func_800774B4.c	0e0b3d6a501c563383616ba8024d9bc9f13935de96a7eab539881abeb6d09830
+main	func_80077CF4	0x80077CF4	0x1214	exact	C	src/main/func_80077CF4.c	d82d242c1d4cf623d6fe3f409c51d0714710b544ba532ea21a068ba80b6b4966
+main	func_80078F08	0x80078F08	0xB48	exact	C	src/main/func_80078F08.c	31e2ceeca5441ce5c01065fc86fdec53e827945e040440e8358d5729bc9b8ab5
+main	func_80079A50	0x80079A50	0xD10	exact	C	src/main/func_80079A50.c	f4067fb6a028b653fceee8d8dbdf046c5a512c74163fe39ec44cc090d5b243c7
+main	func_8007A760	0x8007A760	0x468	exact	C	src/main/func_8007A760.c	e8fe87fe8066549005bfe757067c3eb40f9614d4c3e55a70515bb081397f5b30
+main	func_8007ABC8	0x8007ABC8	0x2190	exact	C	src/main/func_8007ABC8.c	c3780876a2b7ca4783c699b501f81b0d088502568bd44e5f538ce29844daed0a
+main	func_8007CD58	0x8007CD58	0x47C	exact	C	src/main/func_8007CD58.c	af19886bbcf92cabcc880b1d1d1544dd68045a5b8cff723a0542cb249ab7935f
+main	func_8007D1D4	0x8007D1D4	0x1E5C	exact	C	src/main/func_8007D1D4.c	27470179250fef6cd77dfd6035369d0bae13fdaa33f7e1542468bbf0f3d86cd5
+main	func_8007F030	0x8007F030	0x1D38	exact	C	src/main/func_8007F030.c	41b307afd323ef72e5431de5a6ad20c4a57786304cb80520abf17f2cd30103a9
+main	func_80080D68	0x80080D68	0xCAC	exact	C	src/main/func_80080D68.c	95f8abea07506cd21f49a4151b4232e1a7155210710eac6c23561bed2a19ccb4
+main	func_80081A14	0x80081A14	0x514	donor	C	src/donor/wof/src/main/func_80094064/func_80094064.c	a3ed4c44015bdbbd8284e53c40f1226f27420d8178174774da770c5d50eed26b
+main	func_80081F28	0x80081F28	0x10F0	exact	C	src/main/func_80081F28.c	2e54a91d6d0d730619ebbd539119baccce448b603435dce090d60a263ac41301
+main	func_80083018	0x80083018	0xC78	donor	C	src/donor/wof/src/main/func_80095664/func_80095664.c	6eb58a7040c48d39c894a77af74aeefdc222733381d5e6bcf93498cfd6cd042d
+main	func_80083C90	0x80083C90	0x190	exact	C	src/main/func_80083C90.c	dccee2aab58c747370a421f8f2c18f0f3153429a1a6e5c33a7325cac1cb4c75f
+main	func_80083E20	0x80083E20	0x30	exact	C	src/main/func_80083E20.c	1f9c700ad7a9bbe24922f0e6dd4ea9cbd09a98d061fe168688967c9de4cf80b8
+main	func_80083E50	0x80083E50	0x30	exact	C	src/main/func_80083E50.c	0c188e80f364eb38b0796dc6c556696af0ab10224f115e1b827bfe4da7700582
+main	func_80083E80	0x80083E80	0x1F04	exact	C	src/main/func_80083E80.c	3629ea4f2e13fbae99d49fb6c444612c68ceefc857b37536a62abfafafc0f4ab
+main	func_80085D84	0x80085D84	0x150C	exact	C	src/main/func_80085D84.c	e0f88f947400f60f4e2f7c1c5ceda951bd60d019316c026b6303c98a37023444
+main	func_80087290	0x80087290	0x3AC	donor	C	src/donor/wof/src/main/func_800998E0/func_800998E0.c	b1b875ea54f321d64c3ecd85a470f1117c7c763263e18a82aba273c5a4258776
+main	func_8008763C	0x8008763C	0x3AC	donor	C	src/donor/wof/src/main/func_80099C8C/func_80099C8C.c	dea0684bbc954721953b03ec1949acee10882b1f125531ee3d2188adf8727a7c
+main	func_800879E8	0x800879E8	0x7B4	exact	C	src/main/func_800879E8.c	db89d9a64771da2796535ae4b0275f2dc6b76a71ede3f85cb9ab832a5d047aae
+main	func_8008819C	0x8008819C	0x790	exact	C	src/main/func_8008819C.c	7def4522e88c29ef84572b709c51d6d6fecb66fa66a18b902866a3a6ef4ac716
+main	func_8008892C	0x8008892C	0xBC0	exact	C	src/main/func_8008892C.c	32fb1d34922f6c16dcec0f59118fe702586b24ccb0aaccf2e9c69369d5328e9f
+main	func_800894EC	0x800894EC	0xAEC	exact	C	src/main/func_800894EC.c	4c57f6f50ba9e2db7625cd0664276225d6ce90361abfaac9ef7dd5b78fa51102
+main	func_80089FD8	0x80089FD8	0x50	exact	C	src/main/func_80089FD8.c	396aa38193bcee209b442625b9e037dd576e8c3e525be58d15d0d0f3927f969e
+main	func_8008A028	0x8008A028	0x154	exact	C	src/main/func_8008A028.c	5c6ec33cb1b07cc0fbe10600f3257b4280535efc6371d7f7c431d9252fc0ac4c
+main	func_8008A17C	0x8008A17C	0x338	exact	C	src/main/func_8008A17C.c	78ffc6ffa375c857b371f10194233d111d6c4e55a03cd4fb34712cbbe1641869
+main	func_8008A4B8	0x8008A4B8	0x58	exact	C	src/main/func_8008A4B8.c	1e4288124af4e01f2151f3f7f3773d9fb3d420d0766eefca860cd0d794a28fd3
+main	func_8008A510	0x8008A510	0x3E4	exact	C	src/main/func_8008A510.c	ba3fbb1357bcf011078c47d0632b7405bd50bcbc6382fe549343e7fa3fcd539a
+main	func_8008A8F8	0x8008A8F8	0x374	exact	C	src/main/func_8008A8F8.c	a4ef0e8cefd0a4e2be77cd6bdbb632a666b2c916c8bc827ea2ce09c95489ef77
+main	func_8008AC6C	0x8008AC6C	0xBC	exact	C	src/main/func_8008AC6C.c	88e145e7b9e4770b0e633647df931e79b8e76382d8863b118164067384a6ee7c
+main	func_8008AD28	0x8008AD28	0xD4	exact	C	src/main/func_8008AD28.c	616aecf95f2d1b00835f1a81a6e5d02c5072955fe8e6a9b6f28139c0e0f18118
+main	func_8008AE00	0x8008AE00	0xE0	exact	C	src/main/func_8008AE00.c	02c1c0281c683fb681809a338de6fbbadb2c25a62c16837c136a266e75793264
+main	func_8008AEE0	0x8008AEE0	0x1C4	exact	C	src/main/func_8008AEE0.c	47751920a7e806719a46b81b0e84f13174320a296d60ff67578768b24834216e
+main	func_8008B0A4	0x8008B0A4	0x4358	exact	C	src/main/func_8008B0A4.c	5b379267e9395231c1144f7e2d11539f84b88743a0f992e1b87ad7683d241f95
+main	func_8008F400	0x8008F400	0x9C	donor	C	src/donor/wof/src/main/func_800A19D8/func_800A19D8.c	7fde2fe91a0e9ef277162d7064062c628ac34dfc5172fdbd97e0c6d60ab4bb6d
+main	func_8008F49C	0x8008F49C	0x6C	donor	C	src/donor/wof/src/main/func_800A1A74/func_800A1A74.c	f4f831906885f232a9ab9755039135b0a6b225e1c31990ffad7a870e6d55e076
+main	func_8008F508	0x8008F508	0x80	donor	C	src/donor/wof/src/main/func_800A1AE0/func_800A1AE0.c	d40799791a4ba03f05a9a3fb263b6a6f54a48673342b6fd6236ec8abc0301af6
+main	func_8008F588	0x8008F588	0x84	donor	C	src/donor/wof/src/main/func_800A1B60/func_800A1B60.c	35dc4d1664a881f4ce69ffcee713978f63cecb2c3fffd6ef226428a51da46174
+main	func_8008F60C	0x8008F60C	0x90C	exact	C	src/main/func_8008F60C.c	341b535550159bd1b3b03f2f0fb1bb26c575aedcd8461329cd2fb14ca7c48b88
+main	func_8008FF18	0x8008FF18	0x574	exact	C	src/main/func_8008FF18.c	6bdccfd59dd232d7b18d58f4e55b9c2ed130837eca80c8e129f0e7d6281907b4
+main	func_80090490	0x80090490	0x34	donor	C	src/donor/wof/src/main/func_800A2B08/func_800A2B08.c	63e5cf7ba6070df39ede8f36200d9f1830c8ea760b197f5dc05d93a97f296c49
+main	func_800904C8	0x800904C8	0x1F8	exact	C	src/main/func_800904C8.c	41b5949b0e3b1cef419f514230c2a716d0205295f0cd50de5802c46cb8024ce6
+main	func_800906C0	0x800906C0	0x4C	exact	C	src/main/func_800906C0.c	f2eb846c8377ef644ef4950b8390755a095de2862d89fd698ab08c93a06dd9ca
+main	func_8009070C	0x8009070C	0x3E4	exact	C	src/main/func_8009070C.c	a12b0260ad8c3126261f8aefa8be8620a6f893b45a4c4272cd284eaf4618e2f3
+main	func_80090AF0	0x80090AF0	0x2F8	exact	C	src/main/func_80090AF0.c	a2376c01e9c224413de3ae160399af3ec5dc90307b8b650d6806a40ef466b0d9
+main	func_80090DE8	0x80090DE8	0x3AC	exact	C	src/main/func_80090DE8.c	afab2a44ec9ee7d818e7bcffb58b7a046c36bb2a3f079ba03bd919347fbac0dc
+main	func_80091194	0x80091194	0xF0	exact	C	src/main/func_80091194.c	05dab49c1962651d357b577a0315212c2ed91fe77ed963de3b40fe8cf072a66d
+main	func_80091284	0x80091284	0x144	exact	C	src/main/func_80091284.c	0f9705432df48202c2ccd7db0ed21366eea0c0d1b62eb3f0732c0074dd2598a3
+main	func_800913C8	0x800913C8	0x104	exact	C	src/main/func_800913C8.c	e607bdcd222e6c5dd4a538707189ea168ba09c887bf42c5dc5e53e80424adc15
+main	func_800914CC	0x800914CC	0x2C0	exact	C	src/main/func_800914CC.c	955852c5bbdeab803351901164c11e5ae8d3881a53856078aa2ae41502a6f2e2
+main	func_8009178C	0x8009178C	0x8FC	exact	C	src/main/func_8009178C.c	e24fe2c8481911e5c7be476f510466c6212c5093aaaa60adc396465b91e0e432
+main	func_80092088	0x80092088	0x108	donor	C	src/donor/wof/src/main/func_800A46FC/func_800A46FC.c	22c536fd702a460135656e092e8dae92fc032a1eda252376b4fc4760e8a52d1a
+main	func_80092190	0x80092190	0x84	donor	C	src/donor/wof/src/main/func_800A4804/func_800A4804.c	bea7e92bb1bf53773bdd27e832aa50394a6caf6a7ea9724a7ff245c2af47f037
+main	func_80092214	0x80092214	0x98	donor	C	src/donor/wof/src/main/func_800A4888/func_800A4888.c	049e0cbd9e1e3e8c0e36dca545b02f2f2c01e93ea4467da0c8b78412e11223e3
+main	func_800922AC	0x800922AC	0xF8	donor	C	src/donor/wof/src/main/func_800A4920/func_800A4920.c	220bc8aafcb1141771177df663b48398d330a0ac8b038d427d91bbbbbc16c744
+main	func_800923A8	0x800923A8	0xC0	donor	C	src/donor/wof/src/main/func_800A4A18/func_800A4A18.c	b873d1815e317753a735d913e97925942297ee8df4a71b784da59b36c7a5d9e6
+main	func_80092468	0x80092468	0x3C	exact	C	src/main/func_80092468.c	7b708cf189b17d90f7445bac3130be83b5e60cc857e1ad40956674d482f25293
+main	func_800924A4	0x800924A4	0xA0	donor	C	src/donor/wof/src/main/func_800A4B14/func_800A4B14.c	5b8cd84252cc43c911372eed58711071511c9daae7371cba800318c4de3addaf
+main	func_80092544	0x80092544	0x50	exact	C	src/main/func_80092544.c	78e6bc5be332c367433828a860c2c23ecc7cdfe37ef21542d934284db4524b5c
+main	func_80092594	0x80092594	0x24	donor	C	src/donor/wof/src/main/func_80009D08/func_80009D08.c	6031ed1ded0bff3be463cb342f8b38e7023b755672b2991f107c8ab8b5a72223
+main	func_800925B8	0x800925B8	0x48	exact	C	src/main/func_800925B8.c	73181c5ced4ac1596e37b2d618ce9e8166bb538537f47ef6a502c4270b8d7585
+main	func_80092600	0x80092600	0x4C	exact	C	src/main/func_80092600.c	f4ed8ec2e0ac3400c44e1ed2d9704b311dc8b5e47fa631ba3d6e51e8f0710e40
+main	func_8009264C	0x8009264C	0x3C	exact	C	src/main/func_8009264C.c	2f3a954972884c5bb7dc2cc0d9c639200dcd91008d46ad4e298eb2033b6e0ca0
+main	func_80092688	0x80092688	0x8C	donor	C	src/donor/wof/src/main/func_800A4CF8/func_800A4CF8.c	982e4c9e343aed136b1be08c5dddd4d3527bc07f5dcd44031abd055cd987a76a
+main	func_80092714	0x80092714	0x4C	exact	C	src/main/func_80092714.c	976d5d7d5d9de7d8d6c8e03cf31dff6b8ea3a0ee9614112053379bc53117c280
+main	func_80092760	0x80092760	0x88	exact	C	src/main/func_80092760.c	9c340264b9c87b444f23ac00a47d9d43b6aa1afa1a86ba9aaab167d2502ffa21
+main	func_800927E8	0x800927E8	0x2C	exact	C	src/main/func_800927E8.c	ff3e03246233a203dc75f758362c4244dc4847e1d1c46c29697a35dde88684da
+main	func_80092814	0x80092814	0x50	exact	C	src/main/func_80092814.c	1a1be2651888cc4f0b0f657a950efed86de2179f4ef9d8ff1e97913bb4ddc897
+main	func_80092864	0x80092864	0x50	exact	C	src/main/func_80092864.c	b024645a04978cf66c62634d666919dd02a43fdb0c25011c04b056763f61475d
+main	func_800928B4	0x800928B4	0x50	exact	C	src/main/func_800928B4.c	e67aed42270042bd89db125a27e43ee412b14a005991203597db80cc279a2054
+main	func_80092904	0x80092904	0x100	exact	C	src/main/func_80092904.c	a768b971add717e89edcd758fb52e4df35467d7fa96ebb1031c9a0eeebb730c5

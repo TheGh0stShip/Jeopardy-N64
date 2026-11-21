@@ -1,0 +1,11 @@
+# image	vram	section	address	origin  (sections of exact units placed by their own contents)
+main	0x800067B0	.rodata	0x80000534	section-content
+main	0x8000BAB8	.rodata	0x80000648	section-content
+main	0x80017854	.rodata	0x80000970	section-content
+main	0x80018F64	.rodata	0x80000DF0	section-content
+main	0x80019AA0	.rodata	0x80000EC0	section-content
+main	0x800268CC	.rodata	0x80001528	section-content
+main	0x800301A8	.rodata	0x800017C8	section-content
+main	0x8003124C	.rodata	0x80001880	section-content
+main	0x80033DD4	.rodata	0x80001A08	section-content
+main	0x800914CC	.rodata	0x80075F08	section-content

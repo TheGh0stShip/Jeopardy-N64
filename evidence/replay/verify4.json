@@ -1,0 +1,13 @@
+{
+ "ok": true,
+ "results": 480,
+ "replayed": 480,
+ "rejected": [],
+ "missing": [],
+ "notices": {
+  "the object file differs outside its loaded sections (debug or path records)": 443
+ },
+ "donor_function_rows": 33,
+ "donor_units": 33,
+ "orphans": []
+}

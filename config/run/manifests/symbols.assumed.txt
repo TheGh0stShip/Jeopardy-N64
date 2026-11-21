@@ -1,0 +1,2 @@
+// Addresses the strict verifier had to assume.  Review, then append to the project's symbol file.
+D_800D768C = 0x800D768C; // used by func_80016548

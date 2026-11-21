@@ -1,0 +1,5 @@
+# image main; pipeline kmc+as; ROM_START SIZE SOURCE FLAGS
+0x3F734	0x8	main/func_8003EB34.c	-O2 -G0 -mips3 -mgp32 -mfp32	# 0x8003EB34 exact
+0x47D60	0x8	main/func_80047160.c	-O2 -G0 -mips3 -mgp32 -mfp32	# 0x80047160 exact
+0x48928	0x18	main/func_80047D28.c	-O2 -G0 -mips3 -mgp32 -mfp32	# 0x80047D28 exact
+0x4E9E8	0xC	main/func_8004DDE8.c	-O2 -G0 -mips3 -mgp32 -mfp32	# 0x8004DDE8 exact

@@ -1,0 +1,141 @@
+#include "n64dk_lift.h"
+
+struct n64dk_m140_40 { u8 pad[0x140]; struct { u8 b[0x40]; } m[1]; };
+struct n64dk_m4C40_40 { u8 pad[0x4C40]; struct { u8 b[0x40]; } m[1]; };
+struct gd_4_s32 { u8 pad[0x4]; s32 v; };
+struct gd_8_s32 { u8 pad[0x8]; s32 v; };
+struct gd_10_s16 { u8 pad[0x10]; s16 v; };
+struct gd_12_s16 { u8 pad[0x12]; s16 v; };
+struct gd_14_s16 { u8 pad[0x14]; s16 v; };
+struct gd_18_s32 { u8 pad[0x18]; s32 v; };
+struct n64dk_e8 { u8 b[8]; };
+struct n64dk_v4 { u8 pad[0x4]; void *v; };
+extern s32 D_8004DE18;
+extern s32 D_8004DE30;
+extern s32 D_8004DED8;
+extern s32 D_80050788;
+extern s32 D_80050790;
+extern s32 D_800507A0;
+extern s32 D_800507B0;
+extern s32 D_800507C0;
+extern s32 D_800507D0;
+extern s32 D_800507E0;
+extern s32 D_800507F0;
+extern s32 D_80058858;
+extern struct n64dk_e8 *D_800E0F4C;
+extern s32 D_800E5C58;
+s32 func_8003F00C();
+s32 func_8003F260(s32, f32, f32, f32);
+
+void func_80002C84(s32 arg0, s32 arg1) {
+    s32 sp10;
+    s32 sp14;
+    s32 sp18;
+
+    sp14 = ((struct gd_8_s32 *)arg0)->v & 15;
+    sp18 = (s32)D_800E0F4C++;
+    (*(s32 *)sp18) = 0xE7000000;
+    ((struct gd_4_s32 *)sp18)->v = 0;
+    sp18 = (s32)D_800E0F4C++;
+    (*(s32 *)sp18) = 0xB900031D;
+    ((struct gd_4_s32 *)sp18)->v = 0x552078;
+    sp18 = (s32)D_800E0F4C++;
+    (*(s32 *)sp18) = 0xBC000002;
+    ((struct gd_4_s32 *)sp18)->v = 0x80000100;
+    sp18 = (s32)D_800E0F4C++;
+    (*(s32 *)sp18) = 0x3860010;
+    ((struct gd_4_s32 *)sp18)->v = (s32)&D_80050790;
+    sp18 = (s32)D_800E0F4C++;
+    (*(s32 *)sp18) = 0x3880010;
+    ((struct gd_4_s32 *)sp18)->v = (s32)&D_800507A0;
+    sp18 = (s32)D_800E0F4C++;
+    (*(s32 *)sp18) = 0x38A0010;
+    ((struct gd_4_s32 *)sp18)->v = (s32)&D_800507B0;
+    sp18 = (s32)D_800E0F4C++;
+    (*(s32 *)sp18) = 0x38C0010;
+    ((struct gd_4_s32 *)sp18)->v = (s32)&D_800507C0;
+    sp18 = (s32)D_800E0F4C++;
+    (*(s32 *)sp18) = 0x38E0010;
+    ((struct gd_4_s32 *)sp18)->v = (s32)&D_800507D0;
+    sp18 = (s32)D_800E0F4C++;
+    (*(s32 *)sp18) = 0x3900010;
+    ((struct gd_4_s32 *)sp18)->v = (s32)&D_800507E0;
+    sp18 = (s32)D_800E0F4C++;
+    (*(s32 *)sp18) = 0x3920010;
+    ((struct gd_4_s32 *)sp18)->v = (s32)&D_800507F0;
+    sp18 = (s32)D_800E0F4C++;
+    (*(s32 *)sp18) = 0x3940010;
+    ((struct gd_4_s32 *)sp18)->v = (s32)&D_80050788;
+    func_8003F260(((s32)&((struct n64dk_m4C40_40 *)arg1)->m[*(s32 *)arg0]), ((f32)((struct gd_10_s16 *)arg0)->v), ((f32)((struct gd_12_s16 *)arg0)->v), ((f32)((struct gd_14_s16 *)arg0)->v));
+    func_8003F00C(((s32)&((struct n64dk_m140_40 *)arg1)->m[*(s32 *)arg0]), ((struct gd_18_s32 *)arg0)->v, ((struct gd_18_s32 *)arg0)->v, ((struct gd_18_s32 *)arg0)->v);
+    sp18 = (s32)D_800E0F4C++;
+    (*(s32 *)sp18) = 0x1020040;
+    ((struct n64dk_v4 *)sp18)->v = (void *)&((struct n64dk_m4C40_40 *)arg1)->m[*(s32 *)arg0];
+    sp18 = (s32)D_800E0F4C++;
+    (*(s32 *)sp18) = 0x1000040;
+    ((struct n64dk_v4 *)sp18)->v = (void *)&((struct n64dk_m140_40 *)arg1)->m[*(s32 *)arg0];
+    sp10 = 0;
+    for (;;) {
+        if (sp10 >= 6) {
+            break;
+        }
+        sp18 = (s32)D_800E0F4C++;
+        (*(s32 *)sp18) = 0xBC00000A;
+        ((struct gd_4_s32 *)sp18)->v = -1;
+        sp18 = (s32)D_800E0F4C++;
+        (*(s32 *)sp18) = 0xBC00040A;
+        ((struct gd_4_s32 *)sp18)->v = -1;
+        sp18 = (s32)D_800E0F4C++;
+        (*(s32 *)sp18) = 0xBB000001;
+        ((struct gd_4_s32 *)sp18)->v = -1;
+        sp18 = (s32)D_800E0F4C;
+        (*(s32 *)sp18) = 0xE7000000;
+        ((struct gd_4_s32 *)sp18)->v = 0;
+        sp18 = (s32)D_800E0F4C++;
+        (*(s32 *)sp18) = 0xFC121824;
+        ((struct gd_4_s32 *)sp18)->v = 0xFF33FFFF;
+        sp18 = (s32)D_800E0F4C++;
+        (*(s32 *)sp18) = 0xFD100000;
+        ((struct gd_4_s32 *)sp18)->v = *(s32 *)((sp10 * 4) + ((s32)&D_800E5C58));
+        sp18 = (s32)D_800E0F4C++;
+        (*(s32 *)sp18) = 0xF5100000;
+        ((struct gd_4_s32 *)sp18)->v = 0x7094260;
+        sp18 = (s32)D_800E0F4C++;
+        (*(s32 *)sp18) = 0xE6000000;
+        ((struct gd_4_s32 *)sp18)->v = 0;
+        sp18 = (s32)D_800E0F4C++;
+        (*(s32 *)sp18) = 0xF3000000;
+        ((struct gd_4_s32 *)sp18)->v = 0x77FF080;
+        sp18 = (s32)D_800E0F4C++;
+        (*(s32 *)sp18) = 0xE7000000;
+        ((struct gd_4_s32 *)sp18)->v = 0;
+        sp18 = (s32)D_800E0F4C++;
+        (*(s32 *)sp18) = 0xF5102000;
+        ((struct gd_4_s32 *)sp18)->v = 0x94260;
+        sp18 = (s32)D_800E0F4C++;
+        (*(s32 *)sp18) = 0xF2000000;
+        ((struct gd_4_s32 *)sp18)->v = 0xFC07C;
+        sp18 = (s32)D_800E0F4C++;
+        (*(s32 *)sp18) = 0xE7000000;
+        ((struct gd_4_s32 *)sp18)->v = 0;
+        sp18 = (s32)D_800E0F4C++;
+        (*(s32 *)sp18) = 0x6000000;
+        ((struct gd_4_s32 *)sp18)->v = *(s32 *)((*(s32 *)((sp14 * 4) + ((s32)&D_8004DED8))) + (sp10 * 4));
+        sp18 = (s32)D_800E0F4C++;
+        (*(s32 *)sp18) = 0xE7000000;
+        ((struct gd_4_s32 *)sp18)->v = 0;
+        sp10++;
+    }
+    if (D_80058858 == 1) {
+        sp18 = (s32)D_800E0F4C++;
+        (*(s32 *)sp18) = 0x6000000;
+        ((struct gd_4_s32 *)sp18)->v = *(s32 *)(((sp14 & 15) * 4) + ((s32)&D_8004DE30));
+    } else {
+        sp18 = (s32)D_800E0F4C++;
+        (*(s32 *)sp18) = 0x6000000;
+        ((struct gd_4_s32 *)sp18)->v = *(s32 *)(((sp14 & 15) * 4) + ((s32)&D_8004DE18));
+    }
+    sp18 = (s32)D_800E0F4C++;
+    (*(s32 *)sp18) = 0xE7000000;
+    ((struct gd_4_s32 *)sp18)->v = 0;
+}

@@ -1,0 +1,180 @@
+{
+ "behavioural": null,
+ "build": {
+  "flags": [
+   "-march=vr4300",
+   "-mabi=o64"
+  ],
+  "normalizer_args": [],
+  "pin_origins": {
+   "D_80000000": "recipe",
+   "D_8003AD24": "recipe",
+   "D_8003AD5C": "recipe",
+   "D_800D0220": "recipe",
+   "D_800D0BA0": "recipe",
+   "L_8003AD24": "recipe"
+  },
+  "pipeline": "gnu-as",
+  "section_bases": {},
+  "symbols": {
+   "D_80000000": "0x80000000",
+   "D_8003AD24": "0x8003AD24",
+   "D_8003AD5C": "0x8003AD5C",
+   "D_800D0220": "0x800D0220",
+   "D_800D0BA0": "0x800D0BA0",
+   "L_8003AD24": "0x8003AD24"
+  }
+ },
+ "claims": {
+  "assumptions_present": false,
+  "behavioural_evidence": false,
+  "byte_identity": true,
+  "code_identity": true,
+  "ownership_complete": false,
+  "pins_independent": true,
+  "proof_grade": false,
+  "source_provenance": "insufficient-provenance",
+  "source_provenance_creditable": false,
+  "strict_proof": false,
+  "unit_identity": false
+ },
+ "comparison_sha256": "8b2ae7248c7c5e403a63dd31bbe19716c3ddbaf918d2e6d550458f836576afdd",
+ "declarations": {
+  "files": [
+   {
+    "name": "<project>/survey/symbol_addrs.txt",
+    "sha256": "2221c7932ff983d0843fd4debb0a1e5b099889284db3bd02dd9abeaf1e7f0518"
+   },
+   {
+    "name": "<project>/survey/sdk_symbols.txt",
+    "sha256": "e872ae4e14bac6f0958d86f5b2df4d87d46e61e0e1b8eff7992a706aea30c0a7"
+   },
+   {
+    "name": "<symbols>/declared_symbols.txt",
+    "sha256": "789e8e7710b8e57bccbb297069a27f5b9a2ae15124f8d0628446198a5c6b03a3"
+   }
+  ],
+  "map_sha256": "4170ae638588b0e76a4f0b02423140bf18c5b8f8a95a25825dac7a67a6ff2d10"
+ },
+ "earned_by": "assembly",
+ "environment": {
+  "LANG": "99fed2d548c2eb1022f4067f97fe838a2c3ea60ee0e0f53086788505c3ababad"
+ },
+ "headers": {
+  "headers": {},
+  "missing": []
+ },
+ "identity": "bb00d41317c9e0e843fa5ce8d2da7bf211cdd3f346af71104390b915fb7a6713",
+ "image": {
+  "rom_key": "c5bcf3eff6bcdd9e",
+  "sha256": "2ebd827db509397f27c557e017bdcdaaed0a748a73babc25f322bb2faab66100",
+  "size": 4194304
+ },
+ "issued": {
+  "at": "2026-11-21T19:52:44Z"
+ },
+ "kit_driver_sha256": "0e93063125a045b5b09d93b12178a41447d38d75b19bb20509ea0950a6a5002f",
+ "link": {
+  "linker_script": null,
+  "note": "no link step: the verifier relocates the object at declared addresses"
+ },
+ "object": {
+  "loaded_sha256": "ac3ffaaaeb91c0e5b07268952262ad04a0d752fc0e4691356dfcfa11ac834800",
+  "object_sha256": "8b358fd81f6be9a6d7283d86b8fa14a74a727bb5b0642f2ea120036fe1290eef"
+ },
+ "owned": {
+  "code_sha256": "bfb2ea0fea8643a55a8e23e83a1ea1555b1823554bc7a7a50c1f0c3ad8e898ab",
+  "data": {}
+ },
+ "ownership": {
+  "function_starts_sha256": "70af65e6e816fd1beaff628ac35e277ced423be162bee02dfa4336e6d1f89a7f",
+  "section_sizes": {}
+ },
+ "proof": {
+  "proof_grade": false,
+  "reasons": [
+   "owned target bytes are not exact",
+   "section ownership is not verified",
+   "source provenance is insufficient-provenance"
+  ]
+ },
+ "provenance": {
+  "evidence": [],
+  "origin": "draft",
+  "reasons": [
+   "assembly existence is not handwritten provenance"
+  ],
+  "verdict": "insufficient-provenance"
+ },
+ "relocations": {
+  "section_bases": {
+   ".rodata.jtbl_8003B1CC": "0x8003B1CC",
+   ".text": "0x8003AF3C"
+  },
+  "sites": 29,
+  "sites_sha256": "ae418b0cc35919fc191d3303479153b25d286fb61f75da3b1fc935d07344ef12",
+  "symbols": {
+   "D_80000000": "0x80000000",
+   "D_8003AD24": "0x8003AD24",
+   "D_8003AD5C": "0x8003AD5C",
+   "D_800D0220": "0x800D0220",
+   "D_800D0BA0": "0x800D0BA0",
+   "L_8003AD24": "0x8003AD24",
+   "func_8003A604": "0x8003A604",
+   "func_8003A670": "0x8003A670",
+   "func_8003AE7C": "0x8003AE7C",
+   "func_8003AEF0": "0x8003AEF0",
+   "func_8003B344": "0x8003B344"
+  }
+ },
+ "schema": "n64dk-proof-receipt/1",
+ "source": {
+  "kind": "assembly",
+  "name": "func_8003AF3C.s",
+  "sha256": "1a0be880598597b1fdb4a2f77ea89113cb4e31edbf8f28bc188c9fd8a9da50ca"
+ },
+ "subject": {
+  "catalogue_size": 1032,
+  "image": "main",
+  "image_offset": "0x0003BB3C",
+  "name": "func_8003AF3C",
+  "size": 1032,
+  "vram": "0x8003AF3C"
+ },
+ "toolchain": {
+  "pipeline": "gnu-as",
+  "recipe": null,
+  "toolchain_digest": "f93b44ae7ab70c91f757e1af36f3e23c9ac80f09085fb8b6c6b4c983dd76bf79"
+ },
+ "verdict": {
+  "class": "assembly",
+  "strict": {
+   "assumptions": [],
+   "conflicts": [],
+   "notes": [
+    ".rodata.jtbl_8003B1CC (36 bytes) is not a section the strict comparison knows: its content was not compared"
+   ],
+   "sections": [
+    {
+     "section": ".rodata.jtbl_8003B1CC",
+     "size": 36,
+     "status": "unverified"
+    }
+   ],
+   "text_equal": true,
+   "verdict": "assumed"
+  }
+ },
+ "verifier": "b32bb4b4558997094bcc894542263b34db847e5db6279945b124620cab45ea98",
+ "wrapper": {
+  "assembler_flags": [
+   "-EB",
+   "-march=vr4300",
+   "-mabi=o64",
+   "-G0",
+   "-no-pad-sections"
+  ],
+  "lane_code": {},
+  "normalizer_hook": null
+ }
+}

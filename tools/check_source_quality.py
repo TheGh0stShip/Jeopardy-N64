@@ -6,7 +6,7 @@ from pathlib import Path
 FORBIDDEN = (
     "N64DK_M2C_PRELUDE", "M2C_ERROR", "M2C_TRAP_IF", "M2C_BREAK",
     "M2C_CARRY", "M2C_LWL", "M2C_FIRST3BYTES", "M2C_UNALIGNED32",
-    "m2c_unhandled",
+    "M2C_BITWISE", "m2c_unhandled",
 )
 
 

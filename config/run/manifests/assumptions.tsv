@@ -1,0 +1,3 @@
+# image	unit	kind	name	address
+main	func_80016548	section	.rodata	0x8000095C
+main	func_80016548	symbol	D_800D768C	0x800D768C

@@ -1,0 +1,2 @@
+# image main; pipeline kmc+asn64; ROM_START SIZE SOURCE FLAGS  (# VRAM, strict verdict)
+0x17148	0x148	main/func_80016548.c	-O0 -G0 -mips3 -mgp32 -mfp32	# 0x80016548 assumed

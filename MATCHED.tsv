@@ -1,1 +1,444 @@
 image	function	vram	rom_offset	size	code_size	outcome	how	source	distance	reproduced_by	unit_class	reason_code	next_step
+main	func_80002854	0x80002854	0x3454	0x430	0x430	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80002854.c	0	C	game
+main	func_80002C84	0x80002C84	0x3884	0x808	0x808	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80002C84.c	0	C	game
+main	func_80003928	0x80003928	0x4528	0x98C	0x98C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80003928.c	0	C	game
+main	func_800042B8	0x800042B8	0x4EB8	0x7C	0x7C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800042B8.c	0	C	game
+main	func_80004334	0x80004334	0x4F34	0x88	0x88	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80004334.c	0	C	game
+main	func_800043BC	0x800043BC	0x4FBC	0x6A8	0x6A8	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800043BC.c	0	C	game
+main	func_80004A64	0x80004A64	0x5664	0x6AC	0x6AC	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80004A64.c	0	C	game
+main	func_80005110	0x80005110	0x5D10	0x6B0	0x6B0	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80005110.c	0	C	game
+main	func_800057C0	0x800057C0	0x63C0	0x94	0x94	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800057C0.c	0	C	game
+main	func_80005858	0x80005858	0x6458	0x250	0x250	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80005858.c	0	C	game
+main	func_80005AA8	0x80005AA8	0x66A8	0x118	0x118	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80005AA8.c	0	C	game
+main	func_80005BC0	0x80005BC0	0x67C0	0x50	0x50	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80005BC0.c	0	C	game
+main	func_80005C10	0x80005C10	0x6810	0x1E8	0x1E8	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80005C10.c	0	C	game
+main	func_80005DF8	0x80005DF8	0x69F8	0xAC	0xAC	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80005DF8.c	0	C	game
+main	func_8000640C	0x8000640C	0x700C	0x8C	0x8C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8000640C.c	0	C	game
+main	func_80006498	0x80006498	0x7098	0xD4	0xD4	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80006498.c	0	C	game
+main	func_8000656C	0x8000656C	0x716C	0x84	0x84	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8000656C.c	0	C	game
+main	func_800065F0	0x800065F0	0x71F0	0x74	0x74	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800065F0.c	0	C	game
+main	func_80006664	0x80006664	0x7264	0xD8	0xD8	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80006664.c	0	C	game
+main	func_8000673C	0x8000673C	0x733C	0x38	0x38	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8000673C.c	0	C	game
+main	func_80006774	0x80006774	0x7374	0x38	0x38	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80006774.c	0	C	game
+main	func_800067B0	0x800067B0	0x73B0	0x4F0	0x4F0	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800067B0.c	0	C	game
+main	func_80006CA0	0x80006CA0	0x78A0	0x1A4	0x1A4	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80006CA0.c	0	C	game
+main	func_80006E44	0x80006E44	0x7A44	0x2B8	0x2B8	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80006E44.c	0	C	game
+main	func_800070FC	0x800070FC	0x7CFC	0x60	0x60	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800070FC.c	0	C	game
+main	func_8000715C	0x8000715C	0x7D5C	0x29C	0x29C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8000715C.c	0	C	game
+main	func_800073F8	0x800073F8	0x7FF8	0x78	0x78	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800073F8.c	0	C	game
+main	func_80007470	0x80007470	0x8070	0x184	0x184	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80007470.c	0	C	game
+main	func_800075F8	0x800075F8	0x81F8	0x74	0x74	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800075F8.c	0	C	game
+main	func_8000766C	0x8000766C	0x826C	0x90	0x90	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8000766C.c	0	C	game
+main	func_800076FC	0x800076FC	0x82FC	0x88	0x88	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800076FC.c	0	C	game
+main	func_80007784	0x80007784	0x8384	0x54	0x54	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80007784.c	0	C	game
+main	func_800077D8	0x800077D8	0x83D8	0x84	0x84	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800077D8.c	0	C	game
+main	func_8000785C	0x8000785C	0x845C	0xA8	0xA8	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8000785C.c	0	C	game
+main	func_800079C4	0x800079C4	0x85C4	0xFC	0xFC	donor	donor unit wof: src/main/func_80009804/func_80009804.c	src/donor/wof/src/main/func_80009804/func_80009804.c		C	game
+main	func_80007AC0	0x80007AC0	0x86C0	0xB0	0xB0	donor	donor unit wof: src/main/func_80009900/func_80009900.c	src/donor/wof/src/main/func_80009900/func_80009900.c		C	game
+main	func_80007B70	0x80007B70	0x8770	0xC4	0xC4	donor	donor unit wof: src/main/func_800099B0/func_800099B0.c	src/donor/wof/src/main/func_800099B0/func_800099B0.c		C	game
+main	func_80007C34	0x80007C34	0x8834	0x6C	0x6C	donor	donor unit wof: src/main/func_80009A74/func_80009A74.c	src/donor/wof/src/main/func_80009A74/func_80009A74.c		C	game
+main	func_80007CA0	0x80007CA0	0x88A0	0x1B8	0x1B8	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80007CA0.c	0	C	game
+main	func_80007E58	0x80007E58	0x8A58	0x70	0x70	donor	donor unit wof: src/main/func_80009C98/func_80009C98.c	src/donor/wof/src/main/func_80009C98/func_80009C98.c		C	game
+main	func_80007EC8	0x80007EC8	0x8AC8	0x24	0x24	donor	donor unit wof: src/main/func_80009D08/func_80009D08.c	src/donor/wof/src/main/func_80009D08/func_80009D08.c		C	game
+main	func_80007EEC	0x80007EEC	0x8AEC	0x4C	0x4C	donor	donor unit wof: src/main/func_80009D2C/func_80009D2C.c	src/donor/wof/src/main/func_80009D2C/func_80009D2C.c		C	game
+main	func_80007F38	0x80007F38	0x8B38	0x24	0x24	donor	donor unit wof: src/main/func_80009D08/func_80009D08.c	src/donor/wof/src/main/func_80009D08/func_80009D08.c		C	game
+main	func_80007F5C	0x80007F5C	0x8B5C	0x28	0x28	donor	donor unit wof: src/main/func_8000EE50/func_8000EE50.c	src/donor/wof/src/main/func_8000EE50/func_8000EE50.c		C	game
+main	func_80007F84	0x80007F84	0x8B84	0x24	0x24	donor	donor unit wof: src/main/func_80009D08/func_80009D08.c	src/donor/wof/src/main/func_80009D08/func_80009D08.c		C	game
+main	func_80007FA8	0x80007FA8	0x8BA8	0x1C0	0x1C0	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80007FA8.c	0	C	game
+main	func_80008168	0x80008168	0x8D68	0x24	0x24	donor	donor unit wof: src/main/func_80009D08/func_80009D08.c	src/donor/wof/src/main/func_80009D08/func_80009D08.c		C	game
+main	func_80008190	0x80008190	0x8D90	0xA4	0xA4	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80008190.c	0	C	game
+main	func_80008234	0x80008234	0x8E34	0x384	0x384	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80008234.c	0	C	game
+main	func_800085B8	0x800085B8	0x91B8	0x20	0x20	donor	donor unit wof: src/main/func_8002EDC0/func_8002EDC0.c	src/donor/wof/src/main/func_8002EDC0/func_8002EDC0.c		C	game
+main	func_80008A08	0x80008A08	0x9608	0x238	0x238	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80008A08.c	0	C	game
+main	func_80008C40	0x80008C40	0x9840	0x48	0x48	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80008C40.c	0	C	game
+main	func_80009174	0x80009174	0x9D74	0xE4	0xE4	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80009174.c	0	C	game
+main	func_80009258	0x80009258	0x9E58	0x84	0x84	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80009258.c	0	C	game
+main	func_800092DC	0x800092DC	0x9EDC	0x814	0x814	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800092DC.c	0	C	game
+main	func_80009AF0	0x80009AF0	0xA6F0	0x1E8	0x1E8	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80009AF0.c	0	C	game
+main	func_80009CD8	0x80009CD8	0xA8D8	0x24	0x24	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80009CD8.c	0	C	game
+main	func_80009CFC	0x80009CFC	0xA8FC	0xAA4	0xAA4	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80009CFC.c	0	C	game
+main	func_8000B128	0x8000B128	0xBD28	0x28	0x28	donor	donor unit wof: src/main/func_8000EE50/func_8000EE50.c	src/donor/wof/src/main/func_8000EE50/func_8000EE50.c		C	game
+main	func_8000B150	0x8000B150	0xBD50	0xF8	0xF8	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8000B150.c	0	C	game
+main	func_8000B248	0x8000B248	0xBE48	0x100	0x100	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8000B248.c	0	C	game
+main	func_8000B348	0x8000B348	0xBF48	0x210	0x210	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8000B348.c	0	C	game
+main	func_8000B558	0x8000B558	0xC158	0x370	0x370	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8000B558.c	0	C	game
+main	func_8000B8C8	0x8000B8C8	0xC4C8	0x1F0	0x1F0	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8000B8C8.c	0	C	game
+main	func_8000BAB8	0x8000BAB8	0xC6B8	0x1BC	0x1BC	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8000BAB8.c	0	C	game
+main	func_8000C1E0	0x8000C1E0	0xCDE0	0x80	0x80	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8000C1E0.c	0	C	game
+main	func_8000C260	0x8000C260	0xCE60	0x60	0x60	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8000C260.c	0	C	game
+main	func_8000C2C0	0x8000C2C0	0xCEC0	0x78	0x78	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8000C2C0.c	0	C	game
+main	func_8000C600	0x8000C600	0xD200	0x50	0x50	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8000C600.c	0	C	game
+main	func_8000C650	0x8000C650	0xD250	0x44	0x44	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8000C650.c	0	C	game
+main	func_8000C694	0x8000C694	0xD294	0x300	0x300	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8000C694.c	0	C	game
+main	func_8000CC84	0x8000CC84	0xD884	0x3DC	0x3DC	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8000CC84.c	0	C	game
+main	func_8000D060	0x8000D060	0xDC60	0x2EC	0x2EC	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8000D060.c	0	C	game
+main	func_8000D34C	0x8000D34C	0xDF4C	0x78	0x78	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8000D34C.c	0	C	game
+main	func_8000D3C8	0x8000D3C8	0xDFC8	0x6B0	0x6B0	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8000D3C8.c	0	C	game
+main	func_8000DA78	0x8000DA78	0xE678	0x1258	0x1258	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8000DA78.c	0	C	game
+main	func_8000ECD0	0x8000ECD0	0xF8D0	0x2A8	0x2A8	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8000ECD0.c	0	C	game
+main	func_8000EF78	0x8000EF78	0xFB78	0x1160	0x1160	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8000EF78.c	0	C	game
+main	func_800100D8	0x800100D8	0x10CD8	0x150	0x150	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800100D8.c	0	C	game
+main	func_80010228	0x80010228	0x10E28	0x434	0x434	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80010228.c	0	C	game
+main	func_8001065C	0x8001065C	0x1125C	0x620	0x620	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8001065C.c	0	C	game
+main	func_80010C7C	0x80010C7C	0x1187C	0x400	0x400	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80010C7C.c	0	C	game
+main	func_8001107C	0x8001107C	0x11C7C	0x154	0x154	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8001107C.c	0	C	game
+main	func_800111D0	0x800111D0	0x11DD0	0xDC	0xDC	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800111D0.c	0	C	game
+main	func_800112AC	0x800112AC	0x11EAC	0x10C	0x10C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800112AC.c	0	C	game
+main	func_800113B8	0x800113B8	0x11FB8	0x204	0x204	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800113B8.c	0	C	game
+main	func_800115BC	0x800115BC	0x121BC	0xC8	0xC8	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800115BC.c	0	C	game
+main	func_80011684	0x80011684	0x12284	0x148	0x148	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80011684.c	0	C	game
+main	func_800117CC	0x800117CC	0x123CC	0x48	0x48	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800117CC.c	0	C	game
+main	func_80011814	0x80011814	0x12414	0x128	0x128	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80011814.c	0	C	game
+main	func_8001193C	0x8001193C	0x1253C	0x5C	0x5C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8001193C.c	0	C	game
+main	func_800119F0	0x800119F0	0x125F0	0x8C	0x8C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft after variant search)	src/main/func_800119F0.c	0	C	game
+main	func_80011A7C	0x80011A7C	0x1267C	0x5C	0x5C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80011A7C.c	0	C	game
+main	func_80011AD8	0x80011AD8	0x126D8	0x4C	0x4C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80011AD8.c	0	C	game
+main	func_80012B08	0x80012B08	0x13708	0x19C	0x19C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80012B08.c	0	C	game
+main	func_80012CA4	0x80012CA4	0x138A4	0x84	0x84	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80012CA4.c	0	C	game
+main	func_80013920	0x80013920	0x14520	0x60	0x60	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80013920.c	0	C	game
+main	func_80013980	0x80013980	0x14580	0x130	0x130	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80013980.c	0	C	game
+main	func_80014854	0x80014854	0x15454	0x88	0x88	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80014854.c	0	C	game
+main	func_800162E0	0x800162E0	0x16EE0	0x88	0x88	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800162E0.c	0	C	game
+main	func_80016368	0x80016368	0x16F68	0x88	0x88	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80016368.c	0	C	game
+main	func_800163F0	0x800163F0	0x16FF0	0x74	0x74	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800163F0.c	0	C	game
+main	func_80016468	0x80016468	0x17068	0xE0	0xE0	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80016468.c	0	C	game
+main	func_80016690	0x80016690	0x17290	0x398	0x398	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80016690.c	0	C	game
+main	func_80016A28	0x80016A28	0x17628	0xD8	0xD8	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80016A28.c	0	C	game
+main	func_80016B00	0x80016B00	0x17700	0x314	0x314	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80016B00.c	0	C	game
+main	func_80016E14	0x80016E14	0x17A14	0x374	0x374	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80016E14.c	0	C	game
+main	func_80017188	0x80017188	0x17D88	0x3A0	0x3A0	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80017188.c	0	C	game
+main	func_80017528	0x80017528	0x18128	0x32C	0x32C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80017528.c	0	C	game
+main	func_80017854	0x80017854	0x18454	0x474	0x474	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80017854.c	0	C	game
+main	func_800184E4	0x800184E4	0x190E4	0x6C	0x6C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800184E4.c	0	C	game
+main	func_80018550	0x80018550	0x19150	0x3E8	0x3E8	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80018550.c	0	C	game
+main	func_80018938	0x80018938	0x19538	0xFC	0xFC	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80018938.c	0	C	game
+main	func_80018A34	0x80018A34	0x19634	0x78	0x78	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80018A34.c	0	C	game
+main	func_80018F64	0x80018F64	0x19B64	0x390	0x390	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80018F64.c	0	C	game
+main	func_80019750	0x80019750	0x1A350	0xB8	0xB8	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80019750.c	0	C	game
+main	func_80019808	0x80019808	0x1A408	0x158	0x158	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80019808.c	0	C	game
+main	func_80019960	0x80019960	0x1A560	0x140	0x140	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 -g (draft)	src/main/func_80019960.c	0	C	game
+main	func_80019AA0	0x80019AA0	0x1A6A0	0x6E0	0x6E0	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80019AA0.c	0	C	game
+main	func_8001AB70	0x8001AB70	0x1B770	0x140	0x140	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8001AB70.c	0	C	game
+main	func_8001ACB0	0x8001ACB0	0x1B8B0	0x12C	0x12C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8001ACB0.c	0	C	game
+main	func_8001ADDC	0x8001ADDC	0x1B9DC	0x454	0x454	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8001ADDC.c	0	C	game
+main	func_8001B230	0x8001B230	0x1BE30	0x38	0x38	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8001B230.c	0	C	game
+main	func_8001B268	0x8001B268	0x1BE68	0x3A0	0x3A0	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8001B268.c	0	C	game
+main	func_8001B608	0x8001B608	0x1C208	0x5B0	0x5B0	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8001B608.c	0	C	game
+main	func_8001BBB8	0x8001BBB8	0x1C7B8	0x17C	0x17C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8001BBB8.c	0	C	game
+main	func_8001BD34	0x8001BD34	0x1C934	0x22C	0x22C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8001BD34.c	0	C	game
+main	func_8001BF60	0x8001BF60	0x1CB60	0x22C	0x22C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8001BF60.c	0	C	game
+main	func_8001C860	0x8001C860	0x1D460	0x17C	0x17C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8001C860.c	0	C	game
+main	func_8001DA5C	0x8001DA5C	0x1E65C	0x67C	0x67C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8001DA5C.c	0	C	game
+main	func_8001E0D8	0x8001E0D8	0x1ECD8	0x3CC	0x3CC	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8001E0D8.c	0	C	game
+main	func_8001E4A4	0x8001E4A4	0x1F0A4	0x3A0	0x3A0	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8001E4A4.c	0	C	game
+main	func_8001EDC4	0x8001EDC4	0x1F9C4	0x2F0	0x2F0	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8001EDC4.c	0	C	game
+main	func_8001F7C8	0x8001F7C8	0x203C8	0x138	0x138	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8001F7C8.c	0	C	game
+main	func_8001F900	0x8001F900	0x20500	0x204	0x204	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8001F900.c	0	C	game
+main	func_8001FB04	0x8001FB04	0x20704	0xF4	0xF4	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8001FB04.c	0	C	game
+main	func_8001FEB4	0x8001FEB4	0x20AB4	0x54	0x54	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8001FEB4.c	0	C	game
+main	func_8001FF08	0x8001FF08	0x20B08	0x26C	0x26C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8001FF08.c	0	C	game
+main	func_800204D4	0x800204D4	0x210D4	0x170	0x170	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800204D4.c	0	C	game
+main	func_80020644	0x80020644	0x21244	0x64	0x64	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80020644.c	0	C	game
+main	func_800206A8	0x800206A8	0x212A8	0x58	0x58	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800206A8.c	0	C	game
+main	func_80020AA0	0x80020AA0	0x216A0	0x1A0	0x1A0	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80020AA0.c	0	C	game
+main	func_800212E8	0x800212E8	0x21EE8	0x144	0x144	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800212E8.c	0	C	game
+main	func_80021B10	0x80021B10	0x22710	0x88	0x88	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80021B10.c	0	C	game
+main	func_80021B98	0x80021B98	0x22798	0x290	0x290	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80021B98.c	0	C	game
+main	func_80021E28	0x80021E28	0x22A28	0x3DC	0x3DC	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80021E28.c	0	C	game
+main	func_80022204	0x80022204	0x22E04	0x198	0x198	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80022204.c	0	C	game
+main	func_8002239C	0x8002239C	0x22F9C	0x188	0x188	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8002239C.c	0	C	game
+main	func_80022B60	0x80022B60	0x23760	0x2B8	0x2B8	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80022B60.c	0	C	game
+main	func_80022E18	0x80022E18	0x23A18	0x40	0x40	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80022E18.c	0	C	game
+main	func_80022E58	0x80022E58	0x23A58	0x80	0x80	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80022E58.c	0	C	game
+main	func_80022ED8	0x80022ED8	0x23AD8	0xE0	0xE0	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80022ED8.c	0	C	game
+main	func_80022FB8	0x80022FB8	0x23BB8	0x5C	0x5C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80022FB8.c	0	C	game
+main	func_80023014	0x80023014	0x23C14	0x98	0x98	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80023014.c	0	C	game
+main	func_800230AC	0x800230AC	0x23CAC	0x11C	0x11C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800230AC.c	0	C	game
+main	func_800231C8	0x800231C8	0x23DC8	0x128	0x128	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800231C8.c	0	C	game
+main	func_800232F0	0x800232F0	0x23EF0	0x98	0x98	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800232F0.c	0	C	game
+main	func_80023388	0x80023388	0x23F88	0x11C	0x11C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80023388.c	0	C	game
+main	func_800234A4	0x800234A4	0x240A4	0x128	0x128	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800234A4.c	0	C	game
+main	func_800235CC	0x800235CC	0x241CC	0x2A4	0x2A4	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800235CC.c	0	C	game
+main	func_80023870	0x80023870	0x24470	0x278	0x278	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80023870.c	0	C	game
+main	func_80023AE8	0x80023AE8	0x246E8	0x274	0x274	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80023AE8.c	0	C	game
+main	func_80023D5C	0x80023D5C	0x2495C	0x274	0x274	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80023D5C.c	0	C	game
+main	func_80023FD0	0x80023FD0	0x24BD0	0x2A4	0x2A4	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80023FD0.c	0	C	game
+main	func_80024274	0x80024274	0x24E74	0x2AC	0x2AC	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80024274.c	0	C	game
+main	func_80024980	0x80024980	0x25580	0x8C	0x8C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80024980.c	0	C	game
+main	func_80024A0C	0x80024A0C	0x2560C	0xD8	0xD8	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80024A0C.c	0	C	game
+main	func_80024AE4	0x80024AE4	0x256E4	0x64	0x64	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80024AE4.c	0	C	game
+main	func_80024B48	0x80024B48	0x25748	0x340	0x340	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80024B48.c	0	C	game
+main	func_80024E88	0x80024E88	0x25A88	0x64C	0x64C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80024E88.c	0	C	game
+main	func_800254D4	0x800254D4	0x260D4	0x52C	0x52C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800254D4.c	0	C	game
+main	func_800268CC	0x800268CC	0x274CC	0x298	0x298	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800268CC.c	0	C	game
+main	func_80026B64	0x80026B64	0x27764	0x88	0x88	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80026B64.c	0	C	game
+main	func_80026DE8	0x80026DE8	0x279E8	0x27C	0x27C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80026DE8.c	0	C	game
+main	func_80027068	0x80027068	0x27C68	0xEC	0xEC	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80027068.c	0	C	game
+main	func_80027154	0x80027154	0x27D54	0x74	0x74	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80027154.c	0	C	game
+main	func_800271C8	0x800271C8	0x27DC8	0x94	0x94	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800271C8.c	0	C	game
+main	func_8002725C	0x8002725C	0x27E5C	0x12C	0x12C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8002725C.c	0	C	game
+main	func_80027388	0x80027388	0x27F88	0xA0	0xA0	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80027388.c	0	C	game
+main	func_80027428	0x80027428	0x28028	0xDC	0xDC	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80027428.c	0	C	game
+main	func_80027504	0x80027504	0x28104	0xB8	0xB8	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80027504.c	0	C	game
+main	func_800275BC	0x800275BC	0x281BC	0xA4	0xA4	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800275BC.c	0	C	game
+main	func_80027660	0x80027660	0x28260	0xB4	0xB4	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80027660.c	0	C	game
+main	func_80027714	0x80027714	0x28314	0x94	0x94	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80027714.c	0	C	game
+main	func_800277A8	0x800277A8	0x283A8	0x8C	0x8C	donor	donor unit wof: src/main/func_8000B670/func_8000B670.c	src/donor/wof/src/main/func_8000B670/func_8000B670.c		C	game
+main	func_80027838	0x80027838	0x28438	0x80	0x80	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80027838.c	0	C	game
+main	func_800278B8	0x800278B8	0x284B8	0x54	0x54	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800278B8.c	0	C	game
+main	func_8002790C	0x8002790C	0x2850C	0x74	0x74	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8002790C.c	0	C	game
+main	func_80027980	0x80027980	0x28580	0x1AC	0x1AC	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80027980.c	0	C	game
+main	func_80027B2C	0x80027B2C	0x2872C	0x120	0x120	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80027B2C.c	0	C	game
+main	func_80027C4C	0x80027C4C	0x2884C	0x84	0x84	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80027C4C.c	0	C	game
+main	func_80027CD0	0x80027CD0	0x288D0	0xB8	0xB8	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80027CD0.c	0	C	game
+main	func_80027D88	0x80027D88	0x28988	0x58	0x58	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80027D88.c	0	C	game
+main	func_80027DE0	0x80027DE0	0x289E0	0x29C	0x29C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80027DE0.c	0	C	game
+main	func_8002807C	0x8002807C	0x28C7C	0x114	0x114	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8002807C.c	0	C	game
+main	func_800283D4	0x800283D4	0x28FD4	0x1B0	0x1B0	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800283D4.c	0	C	game
+main	func_80028584	0x80028584	0x29184	0xD8	0xD8	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80028584.c	0	C	game
+main	func_8002865C	0x8002865C	0x2925C	0xC4	0xC4	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8002865C.c	0	C	game
+main	func_80028D4C	0x80028D4C	0x2994C	0x1DC	0x1DC	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80028D4C.c	0	C	game
+main	func_80028F28	0x80028F28	0x29B28	0x2B0	0x2B0	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80028F28.c	0	C	game
+main	func_800293F8	0x800293F8	0x29FF8	0x1C4	0x1C4	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800293F8.c	0	C	game
+main	func_800295BC	0x800295BC	0x2A1BC	0x7C	0x7C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800295BC.c	0	C	game
+main	func_80029638	0x80029638	0x2A238	0x1C4	0x1C4	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80029638.c	0	C	game
+main	func_800297FC	0x800297FC	0x2A3FC	0x1AC	0x1AC	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800297FC.c	0	C	game
+main	func_80029E5C	0x80029E5C	0x2AA5C	0x1D4	0x1D4	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80029E5C.c	0	C	game
+main	func_8002A030	0x8002A030	0x2AC30	0x1D0	0x1D0	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8002A030.c	0	C	game
+main	func_8002A200	0x8002A200	0x2AE00	0xFC	0xFC	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8002A200.c	0	C	game
+main	func_8002A2FC	0x8002A2FC	0x2AEFC	0x30	0x30	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8002A2FC.c	0	C	game
+main	func_8002BE90	0x8002BE90	0x2CA90	0x104	0x104	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8002BE90.c	0	C	game
+main	func_8002BF94	0x8002BF94	0x2CB94	0x110	0x110	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8002BF94.c	0	C	game
+main	func_8002C0A4	0x8002C0A4	0x2CCA4	0x1C4	0x1C4	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8002C0A4.c	0	C	game
+main	func_8002C268	0x8002C268	0x2CE68	0x1C4	0x1C4	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8002C268.c	0	C	game
+main	func_8002C42C	0x8002C42C	0x2D02C	0x1C4	0x1C4	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8002C42C.c	0	C	game
+main	func_8002CBE0	0x8002CBE0	0x2D7E0	0x78	0x78	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8002CBE0.c	0	C	game
+main	func_8002CC58	0x8002CC58	0x2D858	0x238	0x238	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8002CC58.c	0	C	game
+main	func_8002DBAC	0x8002DBAC	0x2E7AC	0x148	0x148	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8002DBAC.c	0	C	game
+main	func_8002DCF4	0x8002DCF4	0x2E8F4	0x6C	0x6C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8002DCF4.c	0	C	game
+main	func_8002DD60	0x8002DD60	0x2E960	0x5C	0x5C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8002DD60.c	0	C	game
+main	func_8002DDBC	0x8002DDBC	0x2E9BC	0x12C	0x12C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8002DDBC.c	0	C	game
+main	func_8002DEE8	0x8002DEE8	0x2EAE8	0x148	0x148	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8002DEE8.c	0	C	game
+main	func_8002E1F0	0x8002E1F0	0x2EDF0	0x590	0x590	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8002E1F0.c	0	C	game
+main	func_8002E780	0x8002E780	0x2F380	0xFC	0xFC	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8002E780.c	0	C	game
+main	func_8002E87C	0x8002E87C	0x2F47C	0x324	0x324	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8002E87C.c	0	C	game
+main	func_8002ED94	0x8002ED94	0x2F994	0x16C	0x16C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8002ED94.c	0	C	game
+main	func_8002EF00	0x8002EF00	0x2FB00	0xCB0	0xCB0	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8002EF00.c	0	C	game
+main	func_8002FBB0	0x8002FBB0	0x307B0	0x5F8	0x5F8	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8002FBB0.c	0	C	game
+main	func_800301A8	0x800301A8	0x30DA8	0x22C	0x22C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800301A8.c	0	C	game
+main	func_800303D4	0x800303D4	0x30FD4	0x3C	0x3C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800303D4.c	0	C	game
+main	func_80030410	0x80030410	0x31010	0x46C	0x46C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80030410.c	0	C	game
+main	func_8003087C	0x8003087C	0x3147C	0x30	0x30	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8003087C.c	0	C	game
+main	func_800308AC	0x800308AC	0x314AC	0x19C	0x19C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800308AC.c	0	C	game
+main	func_80030A48	0x80030A48	0x31648	0xC8	0xC8	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80030A48.c	0	C	game
+main	func_80030B10	0x80030B10	0x31710	0x160	0x160	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80030B10.c	0	C	game
+main	func_80030E9C	0x80030E9C	0x31A9C	0x118	0x118	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80030E9C.c	0	C	game
+main	func_80030FB4	0x80030FB4	0x31BB4	0x3C	0x3C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80030FB4.c	0	C	game
+main	func_80030FF0	0x80030FF0	0x31BF0	0xA0	0xA0	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80030FF0.c	0	C	game
+main	func_80031090	0x80031090	0x31C90	0x1BC	0x1BC	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80031090.c	0	C	game
+main	func_8003124C	0x8003124C	0x31E4C	0x1630	0x1630	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8003124C.c	0	C	game
+main	func_8003287C	0x8003287C	0x3347C	0x4C	0x4C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8003287C.c	0	C	game
+main	func_800328C8	0x800328C8	0x334C8	0x148	0x148	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800328C8.c	0	C	game
+main	func_80032A10	0x80032A10	0x33610	0x2E0	0x2E0	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80032A10.c	0	C	game
+main	func_80032CF0	0x80032CF0	0x338F0	0x104	0x104	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80032CF0.c	0	C	game
+main	func_80032DF4	0x80032DF4	0x339F4	0x1D8	0x1D8	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80032DF4.c	0	C	game
+main	func_80033324	0x80033324	0x33F24	0x308	0x308	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80033324.c	0	C	game
+main	func_8003362C	0x8003362C	0x3422C	0xFC	0xFC	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8003362C.c	0	C	game
+main	func_80033728	0x80033728	0x34328	0x50	0x50	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80033728.c	0	C	game
+main	func_80033778	0x80033778	0x34378	0x48	0x48	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80033778.c	0	C	game
+main	func_8003393C	0x8003393C	0x3453C	0x58	0x58	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8003393C.c	0	C	game
+main	func_80033994	0x80033994	0x34594	0x440	0x440	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80033994.c	0	C	game
+main	func_80033DD4	0x80033DD4	0x349D4	0x2F0	0x2F0	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80033DD4.c	0	C	game
+main	func_800340C4	0x800340C4	0x34CC4	0x438	0x438	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800340C4.c	0	C	game
+main	func_800344FC	0x800344FC	0x350FC	0x2B8	0x2B8	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800344FC.c	0	C	game
+main	func_800347B4	0x800347B4	0x353B4	0x46C	0x46C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800347B4.c	0	C	game
+main	func_80034C20	0x80034C20	0x35820	0xD0	0xD0	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80034C20.c	0	C	game
+main	func_80034CF0	0x80034CF0	0x358F0	0xD0	0xD0	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80034CF0.c	0	C	game
+main	func_80034DC0	0x80034DC0	0x359C0	0x20	0x20	donor	donor unit wof: src/main/func_80044E38/ptstart.c	src/donor/wof/src/main/func_80044E38/ptstart.c		C	game
+main	func_80034DE0	0x80034DE0	0x359E0	0x260	0x260	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80034DE0.c	0	C	game
+main	func_80035040	0x80035040	0x35C40	0xC4	0xC4	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80035040.c	0	C	game
+main	func_80035104	0x80035104	0x35D04	0x34	0x34	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80035104.c	0	C	game
+main	func_80035138	0x80035138	0x35D38	0x28	0x28	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80035138.c	0	C	game
+main	func_80035160	0x80035160	0x35D60	0xFC	0xFC	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80035160.c	0	C	game
+main	func_8003525C	0x8003525C	0x35E5C	0x74	0x74	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8003525C.c	0	C	game
+main	func_800352D0	0x800352D0	0x35ED0	0xA0	0xA0	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800352D0.c	0	C	game
+main	func_80035370	0x80035370	0x35F70	0xAC	0xAC	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80035370.c	0	C	game
+main	func_8003541C	0x8003541C	0x3601C	0x10C	0x10C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8003541C.c	0	C	game
+main	func_80035528	0x80035528	0x36128	0xD4	0xD4	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80035528.c	0	C	game
+main	func_800355FC	0x800355FC	0x361FC	0x9C	0x9C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800355FC.c	0	C	game
+main	func_80035698	0x80035698	0x36298	0xC8	0xC8	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80035698.c	0	C	game
+main	func_80035760	0x80035760	0x36360	0xF8	0xF8	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80035760.c	0	C	game
+main	func_80035858	0x80035858	0x36458	0x190	0x190	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80035858.c	0	C	game
+main	func_800359E8	0x800359E8	0x365E8	0x190	0x190	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800359E8.c	0	C	game
+main	func_80035B78	0x80035B78	0x36778	0x94	0x94	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80035B78.c	0	C	game
+main	func_80035C0C	0x80035C0C	0x3680C	0x8C	0x8C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80035C0C.c	0	C	game
+main	func_80035C98	0x80035C98	0x36898	0x7C	0x7C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80035C98.c	0	C	game
+main	func_80035D14	0x80035D14	0x36914	0x134	0x134	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80035D14.c	0	C	game
+main	func_80035E48	0x80035E48	0x36A48	0xB4	0xB4	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80035E48.c	0	C	game
+main	func_80035EFC	0x80035EFC	0x36AFC	0x50	0x50	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80035EFC.c	0	C	game
+main	func_80035F50	0x80035F50	0x36B50	0x78	0x78	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80035F50.c	0	C	game
+main	func_80035FC8	0x80035FC8	0x36BC8	0xEC	0xEC	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80035FC8.c	0	C	game
+main	func_800360B4	0x800360B4	0x36CB4	0x150	0x150	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800360B4.c	0	C	game
+main	func_80036204	0x80036204	0x36E04	0x1F4	0x1F4	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80036204.c	0	C	game
+main	func_800363F8	0x800363F8	0x36FF8	0x50	0x50	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800363F8.c	0	C	game
+main	func_80036448	0x80036448	0x37048	0xC8	0xC8	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80036448.c	0	C	game
+main	func_80036510	0x80036510	0x37110	0x21C	0x21C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80036510.c	0	C	game
+main	func_80039E20	0x80039E20	0x3AA20	0x38	0x38	exact	kmc+builtin -O2 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80039E20.c	0	C	rsp
+main	func_80039E58	0x80039E58	0x3AA58	0x30	0x30	exact	kmc+asn64 -O2 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80039E58.c	0	C	game
+main	func_80039F44	0x80039F44	0x3AB44	0x40	0x40	exact	kmc+builtin -O2 -G0 -mips3 -mgp32 -mfp32 (draft after variant search)	src/main/func_80039F44.c	0	C	game
+main	func_8003A060	0x8003A060	0x3AC60	0x3C	0x3C	exact	kmc+builtin -O2 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8003A060.c	0	C	game
+main	func_8003A604	0x8003A604	0x3B204	0x6C	0x6C	exact	kmc+builtin -O2 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8003A604.c	0	C	game
+main	func_8003A95C	0x8003A95C	0x3B55C	0x4C	0x4C	exact	kmc+builtin -O2 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8003A95C.c	0	C	game
+main	func_8003A9A8	0x8003A9A8	0x3B5A8	0x80	0x80	exact	kmc+builtin -O2 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8003A9A8.c	0	C	game
+main	func_8003AA28	0x8003AA28	0x3B628	0x80	0x80	exact	kmc+builtin -O2 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8003AA28.c	0	C	game
+main	func_8003AAA8	0x8003AAA8	0x3B6A8	0x58	0x58	exact	kmc+asn64 -O2 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8003AAA8.c	0	C	game
+main	func_8003AC9C	0x8003AC9C	0x3B89C	0x70	0x70	exact	kmc+asn64 -O2 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8003AC9C.c	0	C	game
+main	func_8003B648	0x8003B648	0x3C248	0x20	0x20	exact	kmc+asn64 -O2 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8003B648.c	0	C	game
+main	func_8003C0B8	0x8003C0B8	0x3CCB8	0x50	0x50	exact	ido5.3 -O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (draft)	src/main/func_8003C0B8.c	0	C	sdk
+main	func_8003C108	0x8003C108	0x3CD08	0x44	0x44	exact	ido5.3 -O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (draft)	src/main/func_8003C108.c	0	C	game
+main	func_8003C14C	0x8003C14C	0x3CD4C	0x2C	0x2C	exact	ido5.3 -O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (draft)	src/main/func_8003C14C.c	0	C	game
+main	func_8003CDC8	0x8003CDC8	0x3D9C8	0x8	0x8	exact	kmc+builtin -O2 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8003CDC8.c	0	C	game
+main	func_8003CE28	0x8003CE28	0x3DA28	0x38	0x38	exact	ido5.3 -O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (draft)	src/main/func_8003CE28.c	0	C	sdk
+main	func_8003CE60	0x8003CE60	0x3DA60	0x60	0x60	exact	ido5.3 -O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (draft)	src/main/func_8003CE60.c	0	C	sdk
+main	func_8003CF08	0x8003CF08	0x3DB08	0x8	0x8	exact	kmc+builtin -O2 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8003CF08.c	0	C	game
+main	func_8003D4A8	0x8003D4A8	0x3E0A8	0x30	0x30	exact	ido5.3 -O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (draft)	src/main/func_8003D4A8.c	0	C	sdk
+main	func_8003D4FC	0x8003D4FC	0x3E0FC	0x38	0x38	exact	ido5.3 -O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (draft)	src/main/func_8003D4FC.c	0	C	sdk
+main	func_8003D534	0x8003D534	0x3E134	0x34	0x34	exact	ido5.3 -O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (draft)	src/main/func_8003D534.c	0	C	sdk
+main	func_8003D568	0x8003D568	0x3E168	0x40	0x34	exact	ido5.3 -O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (draft)	src/main/func_8003D568.c	0	C	sdk
+main	func_8003E5B4	0x8003E5B4	0x3F1B4	0x8	0x8	exact	kmc+builtin -O2 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8003E5B4.c	0	C	game
+main	func_8003EB34	0x8003EB34	0x3F734	0x8	0x8	exact	kmc+as -O2 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8003EB34.c	0	C	game
+main	func_8003ECA4	0x8003ECA4	0x3F8A4	0x174	0x168	exact	ido5.3 -O3 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (draft)	src/main/func_8003ECA4.c	0	C	sdk
+main	func_8003F218	0x8003F218	0x3FE18	0x48	0x48	exact	ido5.3 -O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (draft)	src/main/func_8003F218.c	0	C	sdk
+main	func_8003F308	0x8003F308	0x3FF08	0x44	0x44	exact	ido5.3 -O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (draft)	src/main/func_8003F308.c	0	C	sdk
+main	func_8003F34C	0x8003F34C	0x3FF4C	0x54	0x54	exact	ido5.3 -O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (draft)	src/main/func_8003F34C.c	0	C	sdk
+main	func_8003F3A0	0x8003F3A0	0x3FFA0	0x54	0x54	exact	ido5.3 -O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (draft)	src/main/func_8003F3A0.c	0	C	sdk
+main	func_8003F524	0x8003F524	0x40124	0xA4	0xA4	exact	ido5.3 -O3 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (draft)	src/main/func_8003F524.c	0	C	sdk
+main	func_800418B8	0x800418B8	0x424B8	0x8	0x8	exact	kmc+builtin -O2 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800418B8.c	0	C	game
+main	func_800418C0	0x800418C0	0x424C0	0x8	0x8	exact	kmc+builtin -O2 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800418C0.c	0	C	game
+main	func_800419B4	0x800419B4	0x425B4	0x8	0x8	exact	kmc+builtin -O2 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800419B4.c	0	C	game
+main	func_80041B30	0x80041B30	0x42730	0xEC	0xEC	exact	ido5.3 -O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (draft)	src/main/func_80041B30.c	0	C	sdk
+main	func_80042814	0x80042814	0x43414	0x70	0x70	exact	ido5.3 -O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (draft)	src/main/func_80042814.c	0	C	sdk
+main	func_80042A34	0x80042A34	0x43634	0x74	0x74	exact	ido5.3 -O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (draft)	src/main/func_80042A34.c	0	C	sdk
+main	func_80042AA8	0x80042AA8	0x436A8	0x20	0x20	donor	donor unit wof: src/main/func_8003FB08/alFilterNew.c	src/donor/wof/src/main/func_8003FB08/alFilterNew.c		C	game
+main	func_80043338	0x80043338	0x43F38	0x80	0x7C	exact	ido5.3 -O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (draft)	src/main/func_80043338.c	0	C	sdk
+main	func_80043CAC	0x80043CAC	0x448AC	0x18	0x18	exact	ido5.3 -O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (draft)	src/main/func_80043CAC.c	0	C	game
+main	func_8004465C	0x8004465C	0x4525C	0x8	0x8	exact	kmc+builtin -O2 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8004465C.c	0	C	game
+main	func_8004505C	0x8004505C	0x45C5C	0x8	0x8	exact	kmc+builtin -O2 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8004505C.c	0	C	game
+main	func_800457E8	0x800457E8	0x463E8	0x54	0x54	exact	ido5.3 -O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (draft)	src/main/func_800457E8.c	0	C	sdk
+main	func_8004583C	0x8004583C	0x4643C	0x80	0x80	exact	ido5.3 -O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (draft)	src/main/func_8004583C.c	0	C	sdk
+main	func_80045970	0x80045970	0x46570	0x8	0x8	exact	kmc+builtin -O2 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80045970.c	0	C	game
+main	func_80045978	0x80045978	0x46578	0x24	0x24	exact	ido5.3 -O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (draft)	src/main/func_80045978.c	0	C	sdk
+main	func_80045E78	0x80045E78	0x46A78	0x70	0x70	exact	ido5.3 -O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (draft)	src/main/func_80045E78.c	0	C	sdk
+main	func_800467FC	0x800467FC	0x473FC	0x8	0x8	exact	kmc+builtin -O2 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800467FC.c	0	C	game
+main	func_80047128	0x80047128	0x47D28	0x1C	0x1C	exact	ido5.3 -O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (draft)	src/main/func_80047128.c	0	C	game
+main	func_80047144	0x80047144	0x47D44	0x1C	0x1C	exact	ido5.3 -O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (draft)	src/main/func_80047144.c	0	C	game
+main	func_80047160	0x80047160	0x47D60	0x8	0x8	exact	kmc+as -O2 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80047160.c	0	C	sdk
+main	func_80047168	0x80047168	0x47D68	0x8	0x8	exact	kmc+builtin -O2 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80047168.c	0	C	game
+main	func_80047D28	0x80047D28	0x48928	0x20	0x18	exact	kmc+as -O2 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80047D28.c	0	C	game
+main	func_80048B08	0x80048B08	0x49708	0x10	0x10	exact	ido5.3 -O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (draft)	src/main/func_80048B08.c	0	C	game
+main	func_80048BB8	0x80048BB8	0x497B8	0x10	0x8	exact	kmc+builtin -O2 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80048BB8.c	0	C	game
+main	func_80048BC8	0x80048BC8	0x497C8	0x50	0x50	exact	ido5.3 -O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (draft)	src/main/func_80048BC8.c	0	C	sdk
+main	func_80048F28	0x80048F28	0x49B28	0x50	0x50	exact	ido5.3 -O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (draft)	src/main/func_80048F28.c	0	C	sdk
+main	func_80048F78	0x80048F78	0x49B78	0x44	0x44	exact	ido5.3 -O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (draft)	src/main/func_80048F78.c	0	C	sdk
+main	func_80048FBC	0x80048FBC	0x49BBC	0x2C	0x2C	exact	ido5.3 -O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (draft)	src/main/func_80048FBC.c	0	C	game
+main	func_8004AC00	0x8004AC00	0x4B800	0x8	0x8	exact	kmc+builtin -O2 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8004AC00.c	0	C	game
+main	func_8004B4BC	0x8004B4BC	0x4C0BC	0x8	0x8	exact	kmc+builtin -O2 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8004B4BC.c	0	C	game
+main	func_8004B4C4	0x8004B4C4	0x4C0C4	0x8	0x8	exact	kmc+builtin -O2 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8004B4C4.c	0	C	game
+main	func_8004B4CC	0x8004B4CC	0x4C0CC	0x8	0x8	exact	kmc+builtin -O2 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8004B4CC.c	0	C	game
+main	func_8004B4D4	0x8004B4D4	0x4C0D4	0x8	0x8	exact	kmc+builtin -O2 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8004B4D4.c	0	C	game
+main	func_8004B888	0x8004B888	0x4C488	0x8	0x8	exact	kmc+builtin -O2 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8004B888.c	0	C	game
+main	func_8004B918	0x8004B918	0x4C518	0x50	0x50	exact	ido5.3 -O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (draft)	src/main/func_8004B918.c	0	C	sdk
+main	func_8004B968	0x8004B968	0x4C568	0x130	0x12C	exact	ido5.3 -O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (draft)	src/main/func_8004B968.c	0	C	sdk
+main	func_8004BBB4	0x8004BBB4	0x4C7B4	0x190	0x190	exact	ido5.3 -O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (draft)	src/main/func_8004BBB4.c	0	C	sdk
+main	func_8004BD44	0x8004BD44	0x4C944	0x44	0x40	exact	ido5.3 -O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (draft)	src/main/func_8004BD44.c	0	C	sdk
+main	func_8004C128	0x8004C128	0x4CD28	0x20	0x20	exact	ido5.3 -O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (draft)	src/main/func_8004C128.c	0	C	sdk
+main	func_8004C148	0x8004C148	0x4CD48	0x80	0x80	exact	ido5.3 -O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (draft)	src/main/func_8004C148.c	0	C	sdk
+main	func_8004C688	0x8004C688	0x4D288	0x20	0x14	exact	ido5.3 -O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (draft)	src/main/func_8004C688.c	0	C	game
+main	func_8004CC44	0x8004CC44	0x4D844	0x8	0x8	exact	kmc+builtin -O2 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8004CC44.c	0	C	game
+main	func_8004CC4C	0x8004CC4C	0x4D84C	0x8	0x8	exact	kmc+builtin -O2 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8004CC4C.c	0	C	game
+main	func_8004D398	0x8004D398	0x4DF98	0x50	0x50	exact	ido5.3 -O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (draft)	src/main/func_8004D398.c	0	C	sdk
+main	func_8004D3E8	0x8004D3E8	0x4DFE8	0x50	0x4C	exact	ido5.3 -O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (draft)	src/main/func_8004D3E8.c	0	C	sdk
+main	func_8004DA38	0x8004DA38	0x4E638	0x50	0x50	exact	ido5.3 -O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (draft)	src/main/func_8004DA38.c	0	C	sdk
+main	func_8004DDE8	0x8004DDE8	0x4E9E8	0x18	0xC	exact	kmc+as -O2 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8004DDE8.c	0	C	game
+main	func_80076178	0x80076178	0x76D78	0xE8	0xE8	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80076178.c	0	C	game
+main	func_80076260	0x80076260	0x76E60	0x16C	0x16C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80076260.c	0	C	game
+main	func_800763CC	0x800763CC	0x76FCC	0x22C	0x22C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800763CC.c	0	C	game
+main	func_800765F8	0x800765F8	0x771F8	0x470	0x470	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800765F8.c	0	C	game
+main	func_80076A68	0x80076A68	0x77668	0x3C4	0x3C4	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80076A68.c	0	C	game
+main	func_80076E30	0x80076E30	0x77A30	0x68	0x68	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80076E30.c	0	C	game
+main	func_80076E98	0x80076E98	0x77A98	0xCC	0xCC	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80076E98.c	0	C	game
+main	func_80076F64	0x80076F64	0x77B64	0x2D8	0x2D8	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80076F64.c	0	C	game
+main	func_8007723C	0x8007723C	0x77E3C	0xEC	0xEC	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8007723C.c	0	C	game
+main	func_80077328	0x80077328	0x77F28	0x18C	0x18C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80077328.c	0	C	game
+main	func_800774B4	0x800774B4	0x780B4	0x840	0x840	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800774B4.c	0	C	game
+main	func_80077CF4	0x80077CF4	0x788F4	0x1214	0x1214	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80077CF4.c	0	C	game
+main	func_80078F08	0x80078F08	0x79B08	0xB48	0xB48	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80078F08.c	0	C	game
+main	func_80079A50	0x80079A50	0x7A650	0xD10	0xD10	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80079A50.c	0	C	game
+main	func_8007A760	0x8007A760	0x7B360	0x468	0x468	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8007A760.c	0	C	game
+main	func_8007ABC8	0x8007ABC8	0x7B7C8	0x2190	0x2190	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8007ABC8.c	0	C	game
+main	func_8007CD58	0x8007CD58	0x7D958	0x47C	0x47C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8007CD58.c	0	C	game
+main	func_8007D1D4	0x8007D1D4	0x7DDD4	0x1E5C	0x1E5C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8007D1D4.c	0	C	game
+main	func_8007F030	0x8007F030	0x7FC30	0x1D38	0x1D38	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8007F030.c	0	C	game
+main	func_80080D68	0x80080D68	0x81968	0xCAC	0xCAC	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80080D68.c	0	C	game
+main	func_80081A14	0x80081A14	0x82614	0x514	0x514	donor	donor unit wof: src/main/func_80094064/func_80094064.c	src/donor/wof/src/main/func_80094064/func_80094064.c		C	game
+main	func_80081F28	0x80081F28	0x82B28	0x10F0	0x10F0	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80081F28.c	0	C	game
+main	func_80083018	0x80083018	0x83C18	0xC78	0xC78	donor	donor unit wof: src/main/func_80095664/func_80095664.c	src/donor/wof/src/main/func_80095664/func_80095664.c		C	game
+main	func_80083C90	0x80083C90	0x84890	0x190	0x190	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80083C90.c	0	C	game
+main	func_80083E20	0x80083E20	0x84A20	0x30	0x30	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80083E20.c	0	C	game
+main	func_80083E50	0x80083E50	0x84A50	0x30	0x30	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80083E50.c	0	C	game
+main	func_80083E80	0x80083E80	0x84A80	0x1F04	0x1F04	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80083E80.c	0	C	game
+main	func_80085D84	0x80085D84	0x86984	0x150C	0x150C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80085D84.c	0	C	game
+main	func_80087290	0x80087290	0x87E90	0x3AC	0x3AC	donor	donor unit wof: src/main/func_800998E0/func_800998E0.c	src/donor/wof/src/main/func_800998E0/func_800998E0.c		C	game
+main	func_8008763C	0x8008763C	0x8823C	0x3AC	0x3AC	donor	donor unit wof: src/main/func_80099C8C/func_80099C8C.c	src/donor/wof/src/main/func_80099C8C/func_80099C8C.c		C	game
+main	func_800879E8	0x800879E8	0x885E8	0x7B4	0x7B4	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800879E8.c	0	C	game
+main	func_8008819C	0x8008819C	0x88D9C	0x790	0x790	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8008819C.c	0	C	game
+main	func_8008892C	0x8008892C	0x8952C	0xBC0	0xBC0	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8008892C.c	0	C	game
+main	func_800894EC	0x800894EC	0x8A0EC	0xAEC	0xAEC	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800894EC.c	0	C	game
+main	func_80089FD8	0x80089FD8	0x8ABD8	0x50	0x50	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80089FD8.c	0	C	game
+main	func_8008A028	0x8008A028	0x8AC28	0x154	0x154	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8008A028.c	0	C	game
+main	func_8008A17C	0x8008A17C	0x8AD7C	0x338	0x338	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8008A17C.c	0	C	game
+main	func_8008A4B8	0x8008A4B8	0x8B0B8	0x58	0x58	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8008A4B8.c	0	C	game
+main	func_8008A510	0x8008A510	0x8B110	0x3E4	0x3E4	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8008A510.c	0	C	game
+main	func_8008A8F8	0x8008A8F8	0x8B4F8	0x374	0x374	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8008A8F8.c	0	C	game
+main	func_8008AC6C	0x8008AC6C	0x8B86C	0xBC	0xBC	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8008AC6C.c	0	C	game
+main	func_8008AD28	0x8008AD28	0x8B928	0xD4	0xD4	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8008AD28.c	0	C	game
+main	func_8008AE00	0x8008AE00	0x8BA00	0xE0	0xE0	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8008AE00.c	0	C	game
+main	func_8008AEE0	0x8008AEE0	0x8BAE0	0x1C4	0x1C4	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8008AEE0.c	0	C	game
+main	func_8008B0A4	0x8008B0A4	0x8BCA4	0x4358	0x4358	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8008B0A4.c	0	C	game
+main	func_8008F400	0x8008F400	0x90000	0x9C	0x9C	donor	donor unit wof: src/main/func_800A19D8/func_800A19D8.c	src/donor/wof/src/main/func_800A19D8/func_800A19D8.c		C	game
+main	func_8008F49C	0x8008F49C	0x9009C	0x6C	0x6C	donor	donor unit wof: src/main/func_800A1A74/func_800A1A74.c	src/donor/wof/src/main/func_800A1A74/func_800A1A74.c		C	game
+main	func_8008F508	0x8008F508	0x90108	0x80	0x80	donor	donor unit wof: src/main/func_800A1AE0/func_800A1AE0.c	src/donor/wof/src/main/func_800A1AE0/func_800A1AE0.c		C	game
+main	func_8008F588	0x8008F588	0x90188	0x84	0x84	donor	donor unit wof: src/main/func_800A1B60/func_800A1B60.c	src/donor/wof/src/main/func_800A1B60/func_800A1B60.c		C	game
+main	func_8008F60C	0x8008F60C	0x9020C	0x90C	0x90C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8008F60C.c	0	C	game
+main	func_8008FF18	0x8008FF18	0x90B18	0x574	0x574	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8008FF18.c	0	C	game
+main	func_80090490	0x80090490	0x91090	0x34	0x34	donor	donor unit wof: src/main/func_800A2B08/func_800A2B08.c	src/donor/wof/src/main/func_800A2B08/func_800A2B08.c		C	game
+main	func_800904C8	0x800904C8	0x910C8	0x1F8	0x1F8	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800904C8.c	0	C	game
+main	func_800906C0	0x800906C0	0x912C0	0x4C	0x4C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800906C0.c	0	C	game
+main	func_8009070C	0x8009070C	0x9130C	0x3E4	0x3E4	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8009070C.c	0	C	game
+main	func_80090AF0	0x80090AF0	0x916F0	0x2F8	0x2F8	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80090AF0.c	0	C	game
+main	func_80090DE8	0x80090DE8	0x919E8	0x3AC	0x3AC	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80090DE8.c	0	C	game
+main	func_80091194	0x80091194	0x91D94	0xF0	0xF0	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80091194.c	0	C	game
+main	func_80091284	0x80091284	0x91E84	0x144	0x144	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80091284.c	0	C	game
+main	func_800913C8	0x800913C8	0x91FC8	0x104	0x104	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800913C8.c	0	C	game
+main	func_800914CC	0x800914CC	0x920CC	0x2C0	0x2C0	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800914CC.c	0	C	game
+main	func_8009178C	0x8009178C	0x9238C	0x8FC	0x8FC	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8009178C.c	0	C	game
+main	func_80092088	0x80092088	0x92C88	0x108	0x108	donor	donor unit wof: src/main/func_800A46FC/func_800A46FC.c	src/donor/wof/src/main/func_800A46FC/func_800A46FC.c		C	game
+main	func_80092190	0x80092190	0x92D90	0x84	0x84	donor	donor unit wof: src/main/func_800A4804/func_800A4804.c	src/donor/wof/src/main/func_800A4804/func_800A4804.c		C	game
+main	func_80092214	0x80092214	0x92E14	0x98	0x98	donor	donor unit wof: src/main/func_800A4888/func_800A4888.c	src/donor/wof/src/main/func_800A4888/func_800A4888.c		C	game
+main	func_800922AC	0x800922AC	0x92EAC	0xF8	0xF8	donor	donor unit wof: src/main/func_800A4920/func_800A4920.c	src/donor/wof/src/main/func_800A4920/func_800A4920.c		C	game
+main	func_800923A8	0x800923A8	0x92FA8	0xC0	0xC0	donor	donor unit wof: src/main/func_800A4A18/func_800A4A18.c	src/donor/wof/src/main/func_800A4A18/func_800A4A18.c		C	game
+main	func_80092468	0x80092468	0x93068	0x3C	0x3C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80092468.c	0	C	game
+main	func_800924A4	0x800924A4	0x930A4	0xA0	0xA0	donor	donor unit wof: src/main/func_800A4B14/func_800A4B14.c	src/donor/wof/src/main/func_800A4B14/func_800A4B14.c		C	game
+main	func_80092544	0x80092544	0x93144	0x50	0x50	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80092544.c	0	C	game
+main	func_80092594	0x80092594	0x93194	0x24	0x24	donor	donor unit wof: src/main/func_80009D08/func_80009D08.c	src/donor/wof/src/main/func_80009D08/func_80009D08.c		C	game
+main	func_800925B8	0x800925B8	0x931B8	0x48	0x48	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800925B8.c	0	C	game
+main	func_80092600	0x80092600	0x93200	0x4C	0x4C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80092600.c	0	C	game
+main	func_8009264C	0x8009264C	0x9324C	0x3C	0x3C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_8009264C.c	0	C	game
+main	func_80092688	0x80092688	0x93288	0x8C	0x8C	donor	donor unit wof: src/main/func_800A4CF8/func_800A4CF8.c	src/donor/wof/src/main/func_800A4CF8/func_800A4CF8.c		C	game
+main	func_80092714	0x80092714	0x93314	0x4C	0x4C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80092714.c	0	C	game
+main	func_80092760	0x80092760	0x93360	0x88	0x88	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80092760.c	0	C	game
+main	func_800927E8	0x800927E8	0x933E8	0x2C	0x2C	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800927E8.c	0	C	game
+main	func_80092814	0x80092814	0x93414	0x50	0x50	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80092814.c	0	C	game
+main	func_80092864	0x80092864	0x93464	0x50	0x50	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80092864.c	0	C	game
+main	func_800928B4	0x800928B4	0x934B4	0x50	0x50	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_800928B4.c	0	C	game
+main	func_80092904	0x80092904	0x93504	0x100	0x100	exact	kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 (draft)	src/main/func_80092904.c	0	C	game
