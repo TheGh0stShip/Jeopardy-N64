@@ -65,7 +65,7 @@ def generate(root: Path) -> tuple[dict, dict]:
         measures = {
             "total_code": str(size), "matched_code": str(size if source_exact else 0),
             "matched_code_percent": 100.0 if source_exact else 0.0,
-            "fuzzy_match_percent": 100.0 if source_exact else 0.0,
+            "fuzzy_match_percent": 0.0,
             "total_functions": 1, "matched_functions": int(source_exact),
             "matched_functions_percent": 100.0 if source_exact else 0.0,
             "total_units": 1, "complete_code": "0", "complete_code_percent": 0.0,
@@ -76,7 +76,7 @@ def generate(root: Path) -> tuple[dict, dict]:
             "measures": measures,
             "functions": [{"name": row["function"], "size": str(size),
                            "address": str(int(row["vram"], 0)),
-                           "fuzzy_match_percent": 100.0 if source_exact else 0.0}],
+                           "fuzzy_match_percent": 0.0}],
             "metadata": {"progress_categories": ["catalogued-code"],
                          **({"source_path": row["source"]} if source_exact else {})},
         })
@@ -108,7 +108,7 @@ def generate(root: Path) -> tuple[dict, dict]:
     totals = {
         "total_code": str(total_bytes), "matched_code": str(source_bytes),
         "matched_code_percent": 100 * source_bytes / total_bytes,
-        "fuzzy_match_percent": 100 * source_bytes / total_bytes,
+        "fuzzy_match_percent": 0.0,
         "total_functions": len(inventory), "matched_functions": source_functions,
         "matched_functions_percent": 100 * source_functions / len(inventory),
         "total_units": len(inventory), "complete_code": "0", "complete_code_percent": 0.0,
@@ -117,7 +117,7 @@ def generate(root: Path) -> tuple[dict, dict]:
     ctotals = dict(totals)
     ctotals.update({
         "matched_code": str(c_bytes), "matched_code_percent": 100 * c_bytes / total_bytes,
-        "fuzzy_match_percent": 100 * c_bytes / total_bytes,
+        "fuzzy_match_percent": 0.0,
         "matched_functions": c_functions,
         "matched_functions_percent": 100 * c_functions / len(inventory),
     })
