@@ -8,12 +8,17 @@ Matching decompilation of the USA Nintendo 64 release of **Jeopardy!**. The curr
 | Ordinary matching C | 443 functions / 258,880 bytes | 805 / 411,016 | **62.99% of code** |
 | Hand-written assembly | 37 functions / 6,352 bytes | 805 / 411,016 | 1.55% of code |
 | Not decompiled | 324 functions / 145,456 bytes | 805 / 411,016 | 35.39% of code |
+| Fully linked executable code | 805 functions / 411,016 bytes | 805 / 411,016 | **100.00%** |
 
 [![Byte-identical source](https://bytematch.dev/TheGh0stShip/Jeopardy-N64.svg?version=usa-catalogued&category=catalogued-code&measure=matched_code_percent&label=Byte-identical%20source)](https://bytematch.dev/TheGh0stShip/Jeopardy-N64/usa-catalogued)
+[![Fully linked](https://bytematch.dev/TheGh0stShip/Jeopardy-N64.svg?version=usa-catalogued&category=catalogued-code&measure=complete_code_percent&label=Fully%20linked)](https://bytematch.dev/TheGh0stShip/Jeopardy-N64/usa-catalogued)
 [![Ordinary matching C](https://bytematch.dev/TheGh0stShip/Jeopardy-N64.svg?version=usa-catalogued&category=matching-c&measure=matched_code_percent&label=Ordinary%20matching%20C)](https://bytematch.dev/TheGh0stShip/Jeopardy-N64/usa-catalogued)
 [![Functions](https://bytematch.dev/TheGh0stShip/Jeopardy-N64.svg?version=usa-catalogued&category=catalogued-code&measure=matched_functions&label=Functions)](https://bytematch.dev/TheGh0stShip/Jeopardy-N64/usa-catalogued)
 
-These are function-level matching results, not yet a whole-ROM rebuild. The project does **not** currently link a cartridge or reproduce the retail ROM SHA-1; ByteMatch fully-linked progress therefore remains zero until a pinned link and cartridge rebuild exist.
+The project now builds a complete cartridge whose SHA-1 matches the retail ROM. All 805
+catalogued executable units are compiled or assembled from checked-in source; no executable unit
+is copied from the ROM. This makes fully-linked progress 100% without inflating decompilation
+progress: the 324 generated-assembly functions remain explicitly not decompiled.
 
 ## Target
 
@@ -31,6 +36,11 @@ These are function-level matching results, not yet a whole-ROM rebuild. The proj
 
 Every credited function was rebuilt with its recorded recipe and compared with its complete owned instruction range. A second machine replayed all 480 credited C/assembly results after applying three reviewed boundary corrections: 480 accepted, zero rejected, zero missing. The evidence is retained under `evidence/`, and the corrections and supporting operations are under `config/`.
 
+The whole-ROM gate independently links 805/805 executable units, reports zero raw executable
+units and zero differing bytes, and reproduces SHA-1
+`c5bcf3eff6bcdd9e7846ce5fd5db3095db9c58ed`. The reports are under `evidence/link/`; see
+[`BUILD.md`](BUILD.md) for clean reproduction instructions.
+
 - `src/main/` — 410 kit-written matching-C functions.
 - `src/donor/wof/` — 33 Wheel of Fortune source functions independently rebuilt against Jeopardy; provenance is retained in `docs/source-provenance.md`.
 - `asm/main/` — 37 verified original hand-written assembly functions.
@@ -47,7 +57,8 @@ The 410 generated C files originally carried identical per-file compatibility pr
 - Donor C receives credit only after independent rebuilding against this ROM; provenance remains explicit.
 - Original assembly counts as byte-identical source but remains separate from the ordinary-C category.
 - Raw nonmatching assembly, awaiting-symbol candidates, masked-address comparisons, and compatibility shims receive no strict credit.
-- Fully-linked credit requires a pinned linked image consuming the published sources.
+- Fully-linked credit is backed by the pinned image and SHA-1-identical cartridge reports in
+  `evidence/link/`; every catalogued executable unit is source-owned.
 - Completion requires a deterministic build that reproduces the target cartridge SHA-1.
 
 See [the verification contract](docs/verification.md), [the import report](docs/import/REPORT.md), and [the unresolved queue](docs/UNRESOLVED.md).
@@ -60,4 +71,13 @@ ROM data and proprietary compiler binaries are not included. Verify your legally
 python3 tools/verify_rom.py '/path/to/Jeopardy! (USA).z64'
 ```
 
-The current replay uses N64 Decomp Kit and the recorded manifests/receipts. A conventional one-command whole-ROM build remains the next project-level milestone.
+Extract once, then build and verify the whole cartridge:
+
+```sh
+make extract ROM='/path/to/Jeopardy! (USA).z64'
+make clean
+make -j1
+make verify
+```
+
+The current replay and cartridge build use N64 Decomp Kit and the recorded manifests/receipts.

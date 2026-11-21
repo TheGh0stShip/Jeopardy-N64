@@ -1,0 +1,161 @@
+{
+ "rom_bytes": 4194304,
+ "entry": "0x80000400",
+ "fixed": [
+  {
+   "rom": "0x0",
+   "rom_end": "0x40",
+   "kind": "header",
+   "name": "header"
+  },
+  {
+   "rom": "0x40",
+   "rom_end": "0x1000",
+   "kind": "boot",
+   "name": "ipl3",
+   "note": "CIC 6102"
+  }
+ ],
+ "main": {
+  "method": "static",
+  "vram": "0x80000400",
+  "end": "0x80092A08",
+  "rom": "0x1000",
+  "rom_end": "0x93608",
+  "kind": "rom",
+  "sections": [
+   {
+    "section": ".text",
+    "vram": "0x80000400",
+    "vram_end": "0x8000043C",
+    "size": 60,
+    "rom": "0x1000",
+    "rom_end": "0x103C"
+   },
+   {
+    "section": ".rodata",
+    "vram": "0x8000043C",
+    "vram_end": "0x80002638",
+    "size": 8700,
+    "rom": "0x103C",
+    "rom_end": "0x3238"
+   },
+   {
+    "section": ".text",
+    "vram": "0x80002638",
+    "vram_end": "0x8004DDF8",
+    "size": 309184,
+    "rom": "0x3238",
+    "rom_end": "0x4E9F8"
+   },
+   {
+    "section": ".data",
+    "vram": "0x8004DDF8",
+    "vram_end": "0x80092A08",
+    "size": 281616,
+    "rom": "0x4E9F8",
+    "rom_end": "0x93608"
+   },
+   {
+    "section": ".bss",
+    "vram": "0x80092A08",
+    "vram_end": "0x80156F68",
+    "size": 804192,
+    "note": "no ROM bytes: cleared at start-up"
+   }
+  ],
+  "rsp": [
+   {
+    "vram": "0x80036B80",
+    "vram_end": "0x80036EC0",
+    "kind": "rsp",
+    "note": "RSP microcode or its data inside the program image: not R4300 code"
+   },
+   {
+    "vram": "0x80037100",
+    "vram_end": "0x80037B80",
+    "kind": "rsp",
+    "note": "RSP microcode or its data inside the program image: not R4300 code"
+   },
+   {
+    "vram": "0x80037F80",
+    "vram_end": "0x800382C0",
+    "kind": "rsp",
+    "note": "RSP microcode or its data inside the program image: not R4300 code"
+   },
+   {
+    "vram": "0x80038500",
+    "vram_end": "0x80039E40",
+    "kind": "rsp",
+    "note": "RSP microcode or its data inside the program image: not R4300 code"
+   }
+  ]
+ },
+ "microcode": [
+  "? 2.0 @0x71B10",
+  "? 2.0 @0x72310"
+ ],
+ "sdk_version": [
+  "2.0D/2.0E/2.0F/2.0G/2.0H:libultra_rom",
+  "2.0D/2.0E/2.0F/2.0G/2.0H:libultra",
+  "2.0I:libultra_rom"
+ ],
+ "audio": {
+  "containers": 1,
+  "samples": 60,
+  "midi": 0,
+  "intervals": 491
+ },
+ "graphics": {
+  "family": "f3d",
+  "display_lists": 327
+ },
+ "code_segments": [],
+ "code_not_placed": [],
+ "classified_bytes": {
+  "-/-": 965632,
+  "-/fill_00": 168,
+  "audio/libaudio.ALADPCMBook": 8160,
+  "audio/libaudio.ALADPCMloop": 44,
+  "audio/libaudio.ALBank": 16,
+  "audio/libaudio.ALBankFile": 8,
+  "audio/libaudio.ALEnvelope": 1072,
+  "audio/libaudio.ALInstrument": 284,
+  "audio/libaudio.ALKeyMap": 18,
+  "audio/libaudio.ALSound": 1072,
+  "audio/libaudio.ALWaveTable": 1200,
+  "audio/libaudio.adpcm_sample": 1110340,
+  "graphics/display_list": 16408,
+  "graphics/dl_blob": 110560,
+  "loader_range/pi": 1375666,
+  "program/.data": 281616,
+  "program/.rodata": 8700,
+  "program/.text": 298428,
+  "program/rsp_text": 10816,
+  "rom_metadata/header": 64,
+  "rom_metadata/ipl3": 4032
+ },
+ "unknown_bytes": 965632,
+ "largest_unknown": [
+  "investigate: text end: functions 0x80092A04, datamap 0x8004DDF8 (unexplained)",
+  "ROM 0x24E1B0..0x2C9BA0 (0x7b9f0 bytes) is unclassified; 6.7 bits/byte, zlib ratio 0.79: raw media or lightly packed data (audio, textures, animation)",
+  "ROM 0x3079D8..0x3317EF (0x29e17 bytes) is unclassified; 5.1 bits/byte, zlib ratio 0.18: raw structured data (tables, text, level data)",
+  "ROM 0x2E36F0..0x2F8368 (0x14c78 bytes) is unclassified; 3.6 bits/byte, zlib ratio 0.19: raw structured data (tables, text, level data)",
+  "ROM 0x3F1533..0x400000 (0xeacd bytes) is unclassified; 1.4 bits/byte, zlib ratio 0.11: raw structured data (tables, text, level data)",
+  "ROM 0x2FA4B0..0x3069E8 (0xc538 bytes) is unclassified; 3.8 bits/byte, zlib ratio 0.19: raw structured data (tables, text, level data)",
+  "ROM 0x2DA5C0..0x2E0810 (0x6250 bytes) is unclassified; 5.2 bits/byte, zlib ratio 0.39: raw structured data (tables, text, level data)",
+  "review function boundaries flagged in functions.toml: 4 falls_through, 3 cross_branch, 1 interior_alias"
+ ],
+ "extracted": [
+  "header.bin",
+  "ipl3.bin",
+  "main.text.bin",
+  "main.rodata.bin",
+  "main.text.bin",
+  "main.data.bin",
+  "main.rsp_80036B80.bin",
+  "main.rsp_80037100.bin",
+  "main.rsp_80037F80.bin",
+  "main.rsp_80038500.bin"
+ ]
+}

@@ -1,0 +1,132 @@
+# Written by `n64dk decompile-init` from the ROM alone.  Everything here is a starting point.
+
+[toolchains]
+root = "<home>/.cache/n64dk-lab/toolroot"
+
+[images.main]
+path = "baserom.z64"
+catalogue = "survey/functions.toml"
+manifests = []
+
+[run]
+pipeline = "kmc+asn64"            # SDK fingerprint attributes 89% of the game code to kmc
+flags = "-O2 -G0 -mips3 -mgp32 -mfp32"
+symbols = ["survey/symbol_addrs.txt", "survey/sdk_symbols.txt"]
+calibrate = 96                 # functions sampled to measure the title's real recipe
+declare_assumed = true         # declare D_<address> data the identical cases lean on, verify again
+
+# Compilers without a built-in pipeline, as configured lanes (`n64dk compilers` lists them).
+[pipelines.ido52]                 # ido5.2
+family = "ido"
+default_flags = ["-O2", "-mips2"]
+flag_sets = [["-O1", "-mips2"], ["-O2", "-mips1"], ["-O2", "-g3", "-mips2"]]
+steps = [
+  "{root}/usr/bin/qemu-irix -L {root} {root}/usr/lib/driver -c -Xcpluscomm -G0 -non_shared -woff 649,838,712 -32 {flags} {includes} -o {object} {source}",
+]
+[pipelines.ido52.vars]
+root = "<home>/.cache/n64dk-lab/toolroot/ido5.2"
+[pipelines.ido52.env]
+TMPDIR = "/tmp"
+
+[pipelines.ido60]                 # ido6.0
+family = "ido"
+default_flags = ["-O2", "-mips2"]
+flag_sets = [["-O1", "-mips2"], ["-O2", "-mips1"], ["-O2", "-g3", "-mips2"]]
+steps = [
+  "{root}/usr/bin/qemu-irix -silent -L {root} {root}/usr/lib/driver -c -Xcpluscomm -G0 -non_shared -woff 649,838,712 -32 {flags} {includes} -o {object} {source}",
+]
+[pipelines.ido60.vars]
+root = "<home>/.cache/n64dk-lab/toolroot/ido6.0"
+[pipelines.ido60.env]
+TMPDIR = "/tmp"
+
+[pipelines.mipspro744]                 # mips_pro_744
+family = "ido"
+default_flags = ["-O2", "-mips2"]
+flag_sets = [["-O1", "-mips2"], ["-O2", "-mips1"], ["-O2", "-g3", "-mips2"]]
+steps = [
+  "{root}/usr/bin/qemu-irix -silent -L {root} {root}/usr/lib/driver -c -Xcpluscomm -G0 -non_shared -woff 649,838,712 -32 {flags} {includes} -o {object} {source}",
+]
+[pipelines.mipspro744.vars]
+root = "<home>/.cache/n64dk-lab/toolroot/mips_pro_744"
+[pipelines.mipspro744.env]
+TMPDIR = "/tmp"
+
+[pipelines.gcc272sn0001]                 # gcc2.7.2sn0001
+family = "gcc"
+default_flags = ["-O2", "-G0", "-mips3", "-mhard-float", "-meb"]
+flag_sets = [["-O1", "-G0", "-mips3", "-mhard-float", "-meb"]]
+steps = [
+  "gcc -E -P -undef -D__GNUC__=2 -D__GNUC_MINOR__=7 -Dmips -D__mips__ -D__mips -Dn64 -D__n64__ -D__n64 -D_MIPSEB {includes} {source} -o {workdir}/{stem}.i",
+  "{wibo} {root}/cc1n64.exe -quiet {flags} {workdir}/{stem}.i -o {workdir}/{stem}.s",
+  "{wibo} {root}/asn64.exe -q {workdir}/{stem}.s -o {workdir}/{stem}.obj",
+  "{root}/psyq-obj-parser {workdir}/{stem}.obj -o {object} -b -n -s",
+]
+[pipelines.gcc272sn0001.vars]
+root = "<home>/.cache/n64dk-lab/toolroot/gcc2.7.2sn0001"
+wibo = "<home>/.cache/n64dk-lab/toolroot/sn-gcc-2.8/wibo"
+
+[pipelines.gcc272sn0004]                 # gcc2.7.2sn0004
+family = "gcc"
+default_flags = ["-O2", "-G0", "-mcpu=vr4300", "-mips3", "-mhard-float", "-meb"]
+flag_sets = [["-O1", "-G0", "-mcpu=vr4300", "-mips3", "-mhard-float", "-meb"]]
+steps = [
+  "gcc -E -P -undef -D__GNUC__=2 -D__GNUC_MINOR__=7 -Dmips -D__mips__ -D__mips -Dn64 -D__n64__ -D__n64 -D_MIPSEB {includes} {source} -o {workdir}/{stem}.i",
+  "{wibo} {root}/cc1n64.exe -quiet {flags} {workdir}/{stem}.i -o {workdir}/{stem}.s",
+  "{wibo} {root}/asn64.exe -q -G0 {workdir}/{stem}.s -o {workdir}/{stem}.obj",
+  "{root}/psyq-obj-parser {workdir}/{stem}.obj -o {object} -b -n",
+]
+[pipelines.gcc272sn0004.vars]
+root = "<home>/.cache/n64dk-lab/toolroot/gcc2.7.2sn0004"
+wibo = "<home>/.cache/n64dk-lab/toolroot/sn-gcc-2.8/wibo"
+
+[pipelines.gcc272sn0006]                 # gcc2.7.2sn0006
+family = "gcc"
+default_flags = ["-O2", "-G0", "-mcpu=vr4300", "-mips3", "-mhard-float", "-meb"]
+flag_sets = [["-O1", "-G0", "-mcpu=vr4300", "-mips3", "-mhard-float", "-meb"]]
+steps = [
+  "gcc -E -P -undef -D__GNUC__=2 -D__GNUC_MINOR__=7 -Dmips -D__mips__ -D__mips -Dn64 -D__n64__ -D__n64 -D_MIPSEB {includes} {source} -o {workdir}/{stem}.i",
+  "{wibo} {root}/cc1n64.exe -quiet {flags} {workdir}/{stem}.i -o {workdir}/{stem}.s",
+  "{wibo} {root}/asn64.exe -q -G0 {workdir}/{stem}.s -o {workdir}/{stem}.obj",
+  "{root}/psyq-obj-parser {workdir}/{stem}.obj -o {object} -b -n -s",
+]
+[pipelines.gcc272sn0006.vars]
+root = "<home>/.cache/n64dk-lab/toolroot/gcc2.7.2sn0006"
+wibo = "<home>/.cache/n64dk-lab/toolroot/sn-gcc-2.8/wibo"
+
+[pipelines.gcc272snew]                 # gcc2.7.2snew
+family = "gcc"
+default_flags = ["-O2", "-mips3"]
+flag_sets = [["-O2", "-mips2"], ["-O1", "-mips3"]]
+steps = [
+  "{root}/cpp -lang-c -undef {includes} {source} {workdir}/{stem}.i",
+  "{root}/cc1 -mfp32 -mgp32 -G0 -quiet -mcpu=vr4300 -fno-exceptions {flags} {workdir}/{stem}.i -o {workdir}/{stem}.s",
+  "python3 {root}/modern-asn64.py {gnu_as} {workdir}/{stem}.s -G0 -EB -mips3 -O1 -mabi=32 -mgp32 -march=vr4300 -mfp32 -mno-shared -o {object}",
+]
+[pipelines.gcc272snew.vars]
+root = "<home>/.cache/n64dk-lab/toolroot/gcc2.7.2snew"
+gnu_as = "<home>/.cache/n64dk-lab/toolroot/mips-binutils/usr/bin/mips-linux-gnu-as"
+[pipelines.gcc272snew.env]
+LD_LIBRARY_PATH = "<home>/.cache/n64dk-lab/toolroot/mips-binutils/usr/lib/x86_64-linux-gnu"
+
+[pipelines.gcc281pm]                 # gcc2.8.1pm
+family = "gcc"
+default_flags = ["-O2", "-G0", "-mips3", "-mgp32", "-mfp32"]
+flag_sets = [["-O2", "-fforce-addr", "-G0", "-mips3", "-mgp32", "-mfp32"], ["-O1", "-G0", "-mips3", "-mgp32", "-mfp32"], ["-O2", "-G0", "-mips2"]]
+steps = [
+  "{root}/gcc -G0 -c -B {root}/ {flags} {includes} {source} -o {object}",
+]
+[pipelines.gcc281pm.vars]
+root = "<home>/.cache/n64dk-lab/toolroot/gcc2.8.1pm"
+
+[pipelines.egcs112]                 # egcs_1.1.2-4c
+family = "gcc"
+default_flags = ["-O2", "-mips3"]
+flag_sets = [["-O2", "-mips2", "-mcpu=4300", "-mno-abicalls"], ["-O2", "-g", "-mips2", "-mcpu=4300"], ["-O1", "-mips3"]]
+steps = [
+  "{root}/gcc -c -G 0 -fno-PIC -mgp32 -mfp32 -mcpu=4300 -nostdinc {flags} {includes} {source} -o {object}",
+]
+[pipelines.egcs112.vars]
+root = "<home>/.cache/n64dk-lab/toolroot/egcs_1.1.2-4c"
+[pipelines.egcs112.env]
+COMPILER_PATH = "<home>/.cache/n64dk-lab/toolroot/egcs_1.1.2-4c"

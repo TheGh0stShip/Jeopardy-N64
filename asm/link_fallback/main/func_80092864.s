@@ -1,0 +1,25 @@
+.set noat
+.set noreorder
+.section .text
+.global func_80092864
+func_80092864:
+    .word 0x27BDFFE8
+    .word 0xAFBF0014
+    .word 0xAFBE0010
+    .word 0x03A0F021
+    .word 0xE7CD0018
+    .word 0xE7CC001C
+    .word 0x3C048007
+    .word 0x2484612C
+    .word 0x0C00205A
+    .word 0x00000000
+    .word 0x44800000
+    .word 0x44800800
+    .word 0x08024A27
+    .word 0x00000000
+    .word 0x03C0E821
+    .word 0x8FBF0014
+    .word 0x8FBE0010
+    .word 0x27BD0018
+    .word 0x03E00008
+    .word 0x00000000

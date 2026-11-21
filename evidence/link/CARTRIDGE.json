@@ -1,0 +1,41 @@
+{
+ "bytes_by_provenance": {
+  "linked": 599560,
+  "preserved": 3594744,
+  "preserved-compressed": 0,
+  "repacked": 0
+ },
+ "compressed_exactly_repacked_bytes": 0,
+ "compressed_payload_reconstructed": 0,
+ "credit": "a measurement: grants no credit and changes no run, receipt or evidence store",
+ "differing_bytes": 0,
+ "first_difference": null,
+ "images": {
+  "main": {
+   "coverage": {
+    "assembly": 188416,
+    "assumed": 0,
+    "exact": 226976,
+    "raw-other": 184168,
+    "raw-unit": 0
+   },
+   "differing_bytes": 0,
+   "outcome": "identical",
+   "placed": "ROM 0x1000",
+   "source_data_bytes": 3656,
+   "source_text_bytes": 411736
+  }
+ },
+ "linked_from_source_bytes": {
+  "data": 3656,
+  "text": 411736
+ },
+ "preserved_inputs_needed": 3594744,
+ "rom_bytes": 4194304,
+ "rom_bytes_kept_in": [
+  "cartridge.z64 (holds ROM bytes; never package it)"
+ ],
+ "rom_sha1_match": true,
+ "schema": "n64dk-cartridge-relink/1",
+ "translation_units_reconstructed": "not measured (original unit boundaries are not part of this check)"
+}

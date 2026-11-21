@@ -1,0 +1,43 @@
+.set noat
+.set noreorder
+.section .text
+.global func_80092214
+func_80092214:
+    .word 0x27BDFFF8
+    .word 0xAFBE0000
+    .word 0x03A0F021
+    .word 0xAFC40008
+    .word 0xAFC5000C
+    .word 0x8FC2000C
+    .word 0x8FC30008
+    .word 0x90640000
+    .word 0x3083007F
+    .word 0x306400FF
+    .word 0x00041BC0
+    .word 0xAC430000
+    .word 0x8FC2000C
+    .word 0x8FC3000C
+    .word 0x8FC50008
+    .word 0x24A40001
+    .word 0x90850000
+    .word 0x000521C0
+    .word 0x8C630000
+    .word 0x00642025
+    .word 0xAC440000
+    .word 0x8FC2000C
+    .word 0x8FC3000C
+    .word 0x8FC50008
+    .word 0x24A40002
+    .word 0x90850000
+    .word 0x30A400FE
+    .word 0x308500FF
+    .word 0x00052042
+    .word 0x308500FF
+    .word 0x8C630000
+    .word 0x00652025
+    .word 0xAC440000
+    .word 0x03C0E821
+    .word 0x8FBE0000
+    .word 0x27BD0008
+    .word 0x03E00008
+    .word 0x00000000

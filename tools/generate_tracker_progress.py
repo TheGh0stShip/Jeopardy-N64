@@ -19,6 +19,42 @@ def key(row: dict[str, str]) -> tuple[str, int]:
     return row["image"], int(row["vram"], 0)
 
 
+def linked_functions(root: Path, inventory: list[dict[str, str]]) -> set[tuple[str, int]]:
+    """Validate the checked-in whole-ROM relink evidence and its source manifest."""
+    units = rows(root / "link/units.tsv")
+    expected = {key(row): row for row in inventory}
+    linked: set[tuple[str, int]] = set()
+    for unit in units:
+        unit_key = ("main", int(unit["vram"], 0))
+        original = expected.get(unit_key)
+        source = Path(unit["file"])
+        if unit_key in linked or original is None or source.is_absolute() or ".." in source.parts:
+            raise ValueError(f"invalid linked unit: {unit_key}")
+        if (unit["function"] != original["function"]
+                or int(unit["code_size"], 0) != int(original["code_size"], 0)
+                or hashlib.sha256((root / source).read_bytes()).hexdigest() != unit["source_sha256"]):
+            raise ValueError(f"stale linked unit: {unit_key}")
+        linked.add(unit_key)
+    if linked != set(expected):
+        raise ValueError("link manifest does not cover the complete inventory")
+    cartridge = json.loads((root / "evidence/link/CARTRIDGE.json").read_text())
+    relink = json.loads((root / "evidence/link/RELINK.json").read_text())
+    image = cartridge.get("images", {}).get("main", {})
+    unit_report = relink.get("units", {})
+    if not (cartridge.get("rom_sha1_match") is True
+            and cartridge.get("differing_bytes") == 0
+            and image.get("outcome") == "identical"
+            and image.get("coverage", {}).get("raw-unit") == 0
+            and relink.get("outcome") == "identical"
+            and relink.get("differing_bytes") == 0
+            and unit_report.get("linked") == len(inventory)
+            and unit_report.get("objects_by_result") == {"linked-identical": len(inventory)}
+            and not relink.get("overlaps") and not relink.get("problems")
+            and not relink.get("level_blockers")):
+        raise ValueError("whole-ROM relink evidence is incomplete or stale")
+    return linked
+
+
 def generate(root: Path) -> tuple[dict, dict]:
     config = json.loads((root / "progress-config.json").read_text())
     inventory = rows(root / "progress-inventory.tsv")
@@ -27,6 +63,7 @@ def generate(root: Path) -> tuple[dict, dict]:
     if not inventory or len(matched) != len(matched_rows):
         raise ValueError("inventory must be non-empty and matches unique")
 
+    linked = linked_functions(root, inventory)
     seen: set[tuple[str, int]] = set()
     c_files: set[Path] = set()
     source_files: set[Path] = set()
@@ -68,8 +105,8 @@ def generate(root: Path) -> tuple[dict, dict]:
             "fuzzy_match_percent": 0.0,
             "total_functions": 1, "matched_functions": int(source_exact),
             "matched_functions_percent": 100.0 if source_exact else 0.0,
-            "total_units": 1, "complete_code": "0", "complete_code_percent": 0.0,
-            "complete_units": 0,
+            "total_units": 1, "complete_code": str(size), "complete_code_percent": 100.0,
+            "complete_units": 1,
         }
         units.append({
             "name": f"{row['image']}/{row['function']}@{row['vram']}",
@@ -77,7 +114,7 @@ def generate(root: Path) -> tuple[dict, dict]:
             "functions": [{"name": row["function"], "size": str(size),
                            "address": str(int(row["vram"], 0)),
                            "fuzzy_match_percent": 0.0}],
-            "metadata": {"progress_categories": ["catalogued-code"],
+            "metadata": {"progress_categories": ["catalogued-code"], "complete": True,
                          **({"source_path": row["source"]} if source_exact else {})},
         })
 
@@ -103,6 +140,8 @@ def generate(root: Path) -> tuple[dict, dict]:
              "measurement": ratio(c_bytes, total_bytes, "bytes")},
             {"id": "matching-c-functions", "label": "Functions reproduced as ordinary C", "scope": config["scope"],
              "measurement": ratio(c_functions, len(inventory), "functions")},
+            {"id": "fully-linked-code", "label": "Code linked in the SHA-1-identical cartridge", "scope": config["scope"],
+             "measurement": ratio(total_bytes, total_bytes, "bytes")},
         ],
     }
     totals = {
@@ -111,8 +150,8 @@ def generate(root: Path) -> tuple[dict, dict]:
         "fuzzy_match_percent": 0.0,
         "total_functions": len(inventory), "matched_functions": source_functions,
         "matched_functions_percent": 100 * source_functions / len(inventory),
-        "total_units": len(inventory), "complete_code": "0", "complete_code_percent": 0.0,
-        "complete_units": 0,
+        "total_units": len(inventory), "complete_code": str(total_bytes), "complete_code_percent": 100.0,
+        "complete_units": len(inventory),
     }
     ctotals = dict(totals)
     ctotals.update({
