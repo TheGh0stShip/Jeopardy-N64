@@ -4,7 +4,9 @@ The complete function-level record is `provenance/main/` (805 JSON files).
 
 | Source class | Functions | Code bytes |
 |---|---:|---:|
-| Ordinary matching C | 758 | 401,804 |
+| Ordinary matching C (total) | 758 | 401,804 |
+| — Jeopardy-derived ordinary C | 725 | 392,152 |
+| — Same-SDK donor ordinary C | 33 | 9,652 |
 | Assembly-assisted C | 2 | 2,200 |
 | Original hand-written assembly | 45 | 7,032 |
 | **Total byte-identical source** | **805** | **411,036** |

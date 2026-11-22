@@ -74,11 +74,15 @@ def generate() -> tuple[dict, dict, str, str, str]:
     validate_link()
     total_bytes = sum(int(row["code_size"], 0) for row in records)
     ordinary = [row for row in records if row["reproduced_by"] == "C"]
+    donor_c = [row for row in ordinary if row.get("kind") == "donor-c"]
+    project_c = [row for row in ordinary if row.get("kind") != "donor-c"]
     assisted = [row for row in records if row["reproduced_by"].startswith("C with an assembly")]
     assembly = [row for row in records if row["status"] == "assembly"]
     if len(ordinary) + len(assisted) + len(assembly) != EXPECTED_FUNCTIONS:
         raise ValueError("unclassified source units")
     c_bytes = sum(int(row["code_size"], 0) for row in ordinary)
+    donor_c_bytes = sum(int(row["code_size"], 0) for row in donor_c)
+    project_c_bytes = sum(int(row["code_size"], 0) for row in project_c)
     assisted_bytes = sum(int(row["code_size"], 0) for row in assisted)
     assembly_bytes = sum(int(row["code_size"], 0) for row in assembly)
     scope = (
@@ -116,6 +120,8 @@ def generate() -> tuple[dict, dict, str, str, str]:
 
     totals = measures(total_bytes, EXPECTED_FUNCTIONS)
     ctotals = measures(c_bytes, len(ordinary))
+    project_c_totals = measures(project_c_bytes, len(project_c))
+    donor_c_totals = measures(donor_c_bytes, len(donor_c))
     assisted_totals = measures(assisted_bytes, len(assisted))
     assembly_totals = measures(assembly_bytes, len(assembly))
     units = []
@@ -141,6 +147,8 @@ def generate() -> tuple[dict, dict, str, str, str]:
         "categories": [
             {"id": "catalogued-code", "name": "Byte-identical source", "measures": totals},
             {"id": "matching-c", "name": "Ordinary matching C", "measures": ctotals},
+            {"id": "jeopardy-c", "name": "Jeopardy-derived ordinary C", "measures": project_c_totals},
+            {"id": "same-sdk-donor-c", "name": "Same-SDK donor ordinary C", "measures": donor_c_totals},
             {"id": "assisted-c", "name": "Assembly-assisted C", "measures": assisted_totals},
             {"id": "original-assembly", "name": "Original hand-written assembly", "measures": assembly_totals},
         ],
