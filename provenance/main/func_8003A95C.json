@@ -1,0 +1,30 @@
+{
+ "code_size": "0x4C",
+ "credit": "a generated project tree: it copies results the strict verifier settled and grants no credit; only `make verify` / `make verify-receipts` against your own ROM confirm them again",
+ "distance": "0",
+ "export_source": "src/main/func_8003A95C.c",
+ "file": "src/main/func_8003A95C.c",
+ "function": "func_8003A95C",
+ "how": "kmc+builtin -O2 -G0 -mips3 -mgp32 -mfp32 (draft)",
+ "image": "main",
+ "inputs_sha256": "a63c8c9ba2c06856731ef5d8950f9e927d9cff9a871c534affd039790533a9d0",
+ "kind": "c",
+ "link_layout_object": "",
+ "offset": "0x3B55C",
+ "outcome": "exact",
+ "raw": null,
+ "receipt": "none",
+ "recipe": {
+  "flags": "-O2 -G0 -mips3 -mgp32 -mfp32",
+  "pipeline": "kmc+builtin"
+ },
+ "reproduced_by": "C",
+ "schema": "n64dk-generated-project/1",
+ "size": "0x4C",
+ "source_normalization": "replaced repeated compatibility prelude with src/main/n64dk_lift.h; no function-body instruction placeholders were present; exact fixed-link and SHA-1 gates replayed afterward",
+ "source_sha256": "2df98c9debb2be6907bbc953bf0032fd1c352cfad57fc2a288ad96709772d6be",
+ "status": "exact",
+ "unit": "main/func_8003A95C",
+ "unit_class": "game",
+ "vram": "0x8003A95C"
+}

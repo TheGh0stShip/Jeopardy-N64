@@ -1,0 +1,2690 @@
+{
+ "schema": "n64dk-data-sources/1",
+ "sources": [
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_8000043C",
+   "origin": "lab data agent d1: jump table + strings (part not owned by a matched unit's own data)",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x34",
+     "vram": "0x8000043C"
+    }
+   },
+   "source": "src/data/data_8000043C.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "-O2 -mips2 -non_shared -Xcpluscomm -G 0",
+   "image": "main",
+   "name": "data_8000049C",
+   "origin": "lab data agent d1: float table",
+   "pipeline": "ido5.3",
+   "sections": {
+    ".rodata": {
+     "size": "0x20",
+     "vram": "0x8000049C"
+    }
+   },
+   "source": "src/data/data_8000049C.c",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_800004BC",
+   "origin": "lab data agent d1: jump table + constants (part not owned by a matched unit's own data)",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0xC",
+     "vram": "0x800004BC"
+    }
+   },
+   "source": "src/data/data_800004BC.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "-O2 -mips2 -non_shared -Xcpluscomm -G 0",
+   "image": "main",
+   "name": "data_800004F4",
+   "origin": "lab data agent d1: float table",
+   "pipeline": "ido5.3",
+   "sections": {
+    ".rodata": {
+     "size": "0x20",
+     "vram": "0x800004F4"
+    }
+   },
+   "source": "src/data/data_800004F4.c",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80000514",
+   "origin": "lab data agent d1: strings",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata": {
+     "size": "0x20",
+     "vram": "0x80000514"
+    }
+   },
+   "source": "src/data/data_80000514.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80000548",
+   "origin": "lab data agent d1: strings",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata": {
+     "size": "0xA4",
+     "vram": "0x80000548"
+    }
+   },
+   "source": "src/data/data_80000548.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_800005EC",
+   "origin": "lab data agent d1: strings",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata": {
+     "size": "0x14",
+     "vram": "0x800005EC"
+    }
+   },
+   "source": "src/data/data_800005EC.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "-O2 -mips2 -non_shared -Xcpluscomm -G 0",
+   "image": "main",
+   "name": "data_80000600",
+   "origin": "lab data agent d1: float table",
+   "pipeline": "ido5.3",
+   "sections": {
+    ".rodata": {
+     "size": "0x30",
+     "vram": "0x80000600"
+    }
+   },
+   "source": "src/data/data_80000600.c",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80000630",
+   "origin": "lab data agent d1: strings",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata": {
+     "size": "0x18",
+     "vram": "0x80000630"
+    }
+   },
+   "source": "src/data/data_80000630.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80000680",
+   "origin": "lab data agent d1: strings",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata": {
+     "size": "0x14",
+     "vram": "0x80000680"
+    }
+   },
+   "source": "src/data/data_80000680.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_800006A0",
+   "origin": "lab data agent d1: strings",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata": {
+     "size": "0xC0",
+     "vram": "0x800006A0"
+    }
+   },
+   "source": "src/data/data_800006A0.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_800008DC",
+   "origin": "lab data agent d1: constants",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata": {
+     "size": "0x4",
+     "vram": "0x800008DC"
+    }
+   },
+   "source": "src/data/data_800008DC.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80000948",
+   "origin": "lab data agent d1: strings",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata": {
+     "size": "0x14",
+     "vram": "0x80000948"
+    }
+   },
+   "source": "src/data/data_80000948.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80000964",
+   "origin": "lab data agent d1: strings",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata": {
+     "size": "0xC",
+     "vram": "0x80000964"
+    }
+   },
+   "source": "src/data/data_80000964.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "-O2 -mips2 -non_shared -Xcpluscomm -G 0",
+   "image": "main",
+   "name": "data_80000A00",
+   "origin": "lab data agent d1: strings",
+   "pipeline": "ido5.3",
+   "sections": {
+    ".rodata": {
+     "size": "0x3A0",
+     "vram": "0x80000A00"
+    }
+   },
+   "source": "src/data/data_80000A00.c",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80000DA0",
+   "origin": "lab data agent d1: strings",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata": {
+     "size": "0x50",
+     "vram": "0x80000DA0"
+    }
+   },
+   "source": "src/data/data_80000DA0.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80000E90",
+   "origin": "lab data agent d1: strings",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata": {
+     "size": "0x30",
+     "vram": "0x80000E90"
+    }
+   },
+   "source": "src/data/data_80000E90.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80000F70",
+   "origin": "lab data agent d1: strings",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata": {
+     "size": "0x8",
+     "vram": "0x80000F70"
+    }
+   },
+   "source": "src/data/data_80000F70.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "-O2 -mips2 -non_shared -Xcpluscomm -G 0",
+   "image": "main",
+   "name": "data_80000FEC",
+   "origin": "lab data agent d1: strings",
+   "pipeline": "ido5.3",
+   "sections": {
+    ".rodata": {
+     "size": "0x130",
+     "vram": "0x80000FEC"
+    }
+   },
+   "source": "src/data/data_80000FEC.c",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_8000111C",
+   "origin": "lab data agent d1: strings",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata": {
+     "size": "0xC",
+     "vram": "0x8000111C"
+    }
+   },
+   "source": "src/data/data_8000111C.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "-O2 -mips2 -non_shared -Xcpluscomm -G 0",
+   "image": "main",
+   "name": "data_80001148",
+   "origin": "lab data agent d1: strings",
+   "pipeline": "ido5.3",
+   "sections": {
+    ".rodata": {
+     "size": "0x70",
+     "vram": "0x80001148"
+    }
+   },
+   "source": "src/data/data_80001148.c",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_800011B8",
+   "origin": "lab data agent d1: strings",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata": {
+     "size": "0xC",
+     "vram": "0x800011B8"
+    }
+   },
+   "source": "src/data/data_800011B8.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "-O2 -mips2 -non_shared -Xcpluscomm -G 0",
+   "image": "main",
+   "name": "data_80001244",
+   "origin": "lab data agent d1: strings",
+   "pipeline": "ido5.3",
+   "sections": {
+    ".rodata": {
+     "size": "0x20",
+     "vram": "0x80001244"
+    }
+   },
+   "source": "src/data/data_80001244.c",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80001264",
+   "origin": "lab data agent d1: strings",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata": {
+     "size": "0x2C",
+     "vram": "0x80001264"
+    }
+   },
+   "source": "src/data/data_80001264.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "-O2 -mips2 -non_shared -Xcpluscomm -G 0",
+   "image": "main",
+   "name": "data_80001300",
+   "origin": "lab data agent d1: strings",
+   "pipeline": "ido5.3",
+   "sections": {
+    ".rodata": {
+     "size": "0x220",
+     "vram": "0x80001300"
+    }
+   },
+   "source": "src/data/data_80001300.c",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80001520",
+   "origin": "lab data agent d1: strings",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata": {
+     "size": "0x8",
+     "vram": "0x80001520"
+    }
+   },
+   "source": "src/data/data_80001520.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "-O2 -mips2 -non_shared -Xcpluscomm -G 0",
+   "image": "main",
+   "name": "data_800015AC",
+   "origin": "lab data agent d1: strings",
+   "pipeline": "ido5.3",
+   "sections": {
+    ".rodata": {
+     "size": "0x60",
+     "vram": "0x800015AC"
+    }
+   },
+   "source": "src/data/data_800015AC.c",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_8000160C",
+   "origin": "lab data agent d1: strings",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata": {
+     "size": "0x44",
+     "vram": "0x8000160C"
+    }
+   },
+   "source": "src/data/data_8000160C.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "-O2 -mips2 -non_shared -Xcpluscomm -G 0",
+   "image": "main",
+   "name": "data_800016E0",
+   "origin": "lab data agent d1: strings",
+   "pipeline": "ido5.3",
+   "sections": {
+    ".rodata": {
+     "size": "0xA0",
+     "vram": "0x800016E0"
+    }
+   },
+   "source": "src/data/data_800016E0.c",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_800017AC",
+   "origin": "lab data agent d1: strings",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata": {
+     "size": "0x1C",
+     "vram": "0x800017AC"
+    }
+   },
+   "source": "src/data/data_800017AC.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "-O2 -mips2 -non_shared -Xcpluscomm -G 0",
+   "image": "main",
+   "name": "data_800017E4",
+   "origin": "lab data agent d1: strings",
+   "pipeline": "ido5.3",
+   "sections": {
+    ".rodata": {
+     "size": "0x20",
+     "vram": "0x800017E4"
+    }
+   },
+   "source": "src/data/data_800017E4.c",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80001804",
+   "origin": "lab data agent d1: strings",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata": {
+     "size": "0x7C",
+     "vram": "0x80001804"
+    }
+   },
+   "source": "src/data/data_80001804.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_800019E4",
+   "origin": "lab data agent d1: strings",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata": {
+     "size": "0x20",
+     "vram": "0x800019E4"
+    }
+   },
+   "source": "src/data/data_800019E4.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80001A04",
+   "origin": "lab data agent d1: constants",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata": {
+     "size": "0x4",
+     "vram": "0x80001A04"
+    }
+   },
+   "source": "src/data/data_80001A04.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "-O2 -mips2 -non_shared -Xcpluscomm -G 0",
+   "image": "main",
+   "name": "data_80001A44",
+   "origin": "lab data agent d1: double table",
+   "pipeline": "ido5.3",
+   "sections": {
+    ".rodata": {
+     "size": "0x130",
+     "vram": "0x80001A44"
+    }
+   },
+   "source": "src/data/data_80001A44.c",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80001B74",
+   "origin": "lab data agent d1: strings",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata": {
+     "size": "0x6C",
+     "vram": "0x80001B74"
+    }
+   },
+   "source": "src/data/data_80001B74.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80001C04",
+   "origin": "lab data agent d1: constants",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata": {
+     "size": "0x4",
+     "vram": "0x80001C04"
+    }
+   },
+   "source": "src/data/data_80001C04.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "-O2 -mips2 -non_shared -Xcpluscomm -G 0",
+   "image": "main",
+   "name": "data_80001C08",
+   "origin": "lab data agent d1: byte table",
+   "pipeline": "ido5.3",
+   "sections": {
+    ".rodata": {
+     "size": "0x100",
+     "vram": "0x80001C08"
+    }
+   },
+   "source": "src/data/data_80001C08.c",
+   "source_root": "tree"
+  },
+  {
+   "flags": "-O2 -mips2 -non_shared -Xcpluscomm -G 0",
+   "image": "main",
+   "name": "data_80001D58",
+   "origin": "lab data agent d1: double table",
+   "pipeline": "ido5.3",
+   "sections": {
+    ".rodata": {
+     "size": "0x40",
+     "vram": "0x80001D58"
+    }
+   },
+   "source": "src/data/data_80001D58.c",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80001D98",
+   "origin": "lab data agent d1: constants",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata": {
+     "size": "0x10",
+     "vram": "0x80001D98"
+    }
+   },
+   "source": "src/data/data_80001D98.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80001DC8",
+   "origin": "lab data agent d1: jump table + strings (part not owned by a matched unit's own data)",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x20",
+     "vram": "0x80001DC8"
+    }
+   },
+   "source": "src/data/data_80001DC8.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80001E0C",
+   "origin": "lab data agent d1: jump table + strings (part not owned by a matched unit's own data)",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x1C",
+     "vram": "0x80001E0C"
+    }
+   },
+   "source": "src/data/data_80001E0C.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "-O2 -mips2 -non_shared -Xcpluscomm -G 0",
+   "image": "main",
+   "name": "data_80002378",
+   "origin": "lab data agent d1: double table",
+   "pipeline": "ido5.3",
+   "sections": {
+    ".rodata": {
+     "size": "0x10",
+     "vram": "0x80002378"
+    }
+   },
+   "source": "src/data/data_80002378.c",
+   "source_root": "tree"
+  },
+  {
+   "flags": "-O2 -mips2 -non_shared -Xcpluscomm -G 0",
+   "image": "main",
+   "name": "data_80002388",
+   "origin": "lab data agent d1: short table",
+   "pipeline": "ido5.3",
+   "sections": {
+    ".rodata": {
+     "size": "0x80",
+     "vram": "0x80002388"
+    }
+   },
+   "source": "src/data/data_80002388.c",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80002408",
+   "origin": "lab data agent d1: constants",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata": {
+     "size": "0x10",
+     "vram": "0x80002408"
+    }
+   },
+   "source": "src/data/data_80002408.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80002418",
+   "origin": "lab data agent d1: strings",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata": {
+     "size": "0x20",
+     "vram": "0x80002418"
+    }
+   },
+   "source": "src/data/data_80002418.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80002438",
+   "origin": "lab data agent d1: constants",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata": {
+     "size": "0x4",
+     "vram": "0x80002438"
+    }
+   },
+   "source": "src/data/data_80002438.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_8000250C",
+   "origin": "lab data agent d1: constants",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata": {
+     "size": "0xC",
+     "vram": "0x8000250C"
+    }
+   },
+   "source": "src/data/data_8000250C.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80002598",
+   "origin": "lab data agent d1: constants",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata": {
+     "size": "0x10",
+     "vram": "0x80002598"
+    }
+   },
+   "source": "src/data/data_80002598.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "-O2 -mips2 -non_shared -Xcpluscomm -G 0",
+   "image": "main",
+   "name": "data_800025A8",
+   "origin": "lab data agent d1: double table",
+   "pipeline": "ido5.3",
+   "sections": {
+    ".rodata": {
+     "size": "0x40",
+     "vram": "0x800025A8"
+    }
+   },
+   "source": "src/data/data_800025A8.c",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_800025E8",
+   "origin": "lab data agent d1: constants",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata": {
+     "size": "0x10",
+     "vram": "0x800025E8"
+    }
+   },
+   "source": "src/data/data_800025E8.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "-O2 -mips2 -non_shared -Xcpluscomm -G 0",
+   "image": "main",
+   "name": "data_80066350",
+   "origin": "lab data agent d10: PathKey D_80066350[300]: path track frames 0..299 (x,y,z + 3 floats) read by func_80016548",
+   "pipeline": "ido5.3",
+   "sections": {
+    ".data": {
+     "size": "0x1C20",
+     "vram": "0x80066350"
+    }
+   },
+   "source": "src/data/data_80066350.c",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80067F70",
+   "origin": "lab data agent d10: frame 300 of the D_80066350 path track (6 floats)",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata": {
+     "size": "0x18",
+     "vram": "0x80067F70"
+    }
+   },
+   "source": "src/data/data_80067F70.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "-O2 -mips2 -non_shared -Xcpluscomm -G 0",
+   "image": "main",
+   "name": "data_80067F88",
+   "origin": "lab data agent d11: two PathKey[301] float keyframe paths (D_80067F88, D_80069BC0) used by func_80016690/func_80016548",
+   "pipeline": "ido5.3",
+   "sections": {
+    ".data": {
+     "size": "0x3870",
+     "vram": "0x80067F88"
+    }
+   },
+   "source": "src/data/data_80067F88.c",
+   "source_root": "tree"
+  },
+  {
+   "flags": "-O2 -mips2 -non_shared -Xcpluscomm -G 0",
+   "image": "main",
+   "name": "data_8006B7F8",
+   "origin": "lab data agent d12: two float[301][6] path keyframe tables D_8006B7F8, D_8006D430",
+   "pipeline": "ido5.3",
+   "sections": {
+    ".data": {
+     "size": "0x3870",
+     "vram": "0x8006B7F8"
+    }
+   },
+   "source": "src/data/data_8006B7F8.c",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_8006F068",
+   "origin": "lab data agent d13: camera-path keyframe table float[301][6] (.float rows; C version pads past end)",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data.d13": {
+     "size": "0x1C38",
+     "vram": "0x8006F068"
+    }
+   },
+   "source": "src/data/data_8006F068.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80070CA0",
+   "origin": "lab data agent d13: RSP graphics ucode data, unused variant (SGI RSP SW 2.0H)",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data.d13": {
+     "size": "0x800",
+     "vram": "0x80070CA0"
+    }
+   },
+   "source": "src/data/data_80070CA0.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_800714A0",
+   "origin": "lab data agent d13: RSP graphics ucode data for text D_80037C00 (func_800092DC OSTask)",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data.d13": {
+     "size": "0x800",
+     "vram": "0x800714A0"
+    }
+   },
+   "source": "src/data/data_800714A0.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80071CA0",
+   "origin": "lab data agent d13: RSP audio ucode (aspMain) data for text D_80039000 (func_80006E44 OSTask)",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data.d13": {
+     "size": "0x2C0",
+     "vram": "0x80071CA0"
+    }
+   },
+   "source": "src/data/data_80071CA0.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80071F60",
+   "origin": "lab data agent d13: libultra address-range mask table (0x803FFFFF is a mask)",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data.d13": {
+     "size": "0x58",
+     "vram": "0x80071F60"
+    }
+   },
+   "source": "src/data/data_80071F60.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "-O2 -mips2 -non_shared -Xcpluscomm -G 0",
+   "image": "main",
+   "name": "data_80071FD8",
+   "origin": "lab data agent d13: vi.c __osViCurr/__osViNext = &vi[0]/&vi[1]",
+   "pipeline": "ido5.3",
+   "sections": {
+    ".data": {
+     "size": "0x10",
+     "vram": "0x80071FD8"
+    }
+   },
+   "source": "src/data/data_80071FD8.c",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80071FE8",
+   "origin": "lab data agent d13: zero-initialised SDK globals D_80071FE8, D_80071FF8",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data.d13": {
+     "size": "0x20",
+     "vram": "0x80071FE8"
+    }
+   },
+   "source": "src/data/data_80071FE8.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "-O2 -mips2 -non_shared -Xcpluscomm -G 0",
+   "image": "main",
+   "name": "data_80072008",
+   "origin": "lab data agent d13: drvrnew.c SMALLROOM/BIGROOM/ECHO/CHORUS/FLANGE/NULL_PARAMS",
+   "pipeline": "ido5.3",
+   "sections": {
+    ".data": {
+     "size": "0x190",
+     "vram": "0x80072008"
+    }
+   },
+   "source": "src/data/data_80072008.c",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80072198",
+   "origin": "lab data agent d13: small libaudio data (0x0A6B99CD + zeros), unidentified",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data.d13": {
+     "size": "0x30",
+     "vram": "0x80072198"
+    }
+   },
+   "source": "src/data/data_80072198.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "-O2 -mips2 -non_shared -Xcpluscomm -G 0",
+   "image": "main",
+   "name": "data_800721C8",
+   "origin": "lab data agent d13: env.c eqpower[128] s16",
+   "pipeline": "ido5.3",
+   "sections": {
+    ".data": {
+     "size": "0x100",
+     "vram": "0x800721C8"
+    }
+   },
+   "source": "src/data/data_800721C8.c",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80072308",
+   "origin": "lab data agent d13: pointer to bss D_800D2F40 + zeros, unidentified",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data.d13": {
+     "size": "0x10",
+     "vram": "0x80072308"
+    }
+   },
+   "source": "src/data/data_80072308.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "-O2 -mips2 -non_shared -Xcpluscomm -G 0",
+   "image": "main",
+   "name": "data_80072318",
+   "origin": "lab data agent d13: thread.c __osThreadTail, __osRunQueue, __osActiveQueue, __osRunningThread, __osFaultedThread",
+   "pipeline": "ido5.3",
+   "sections": {
+    ".data": {
+     "size": "0x20",
+     "vram": "0x80072318"
+    }
+   },
+   "source": "src/data/data_80072318.c",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80072348",
+   "origin": "lab data agent d13: 0x003FFF01 word + D_80072358 zeros, unidentified",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data.d13": {
+     "size": "0x30",
+     "vram": "0x80072348"
+    }
+   },
+   "source": "src/data/data_80072348.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "-O2 -mips2 -non_shared -Xcpluscomm -G 0",
+   "image": "main",
+   "name": "data_80072378",
+   "origin": "lab data agent d13: xprintf.c spaces[], zeroes[]",
+   "pipeline": "ido5.3",
+   "sections": {
+    ".data": {
+     "size": "0x50",
+     "vram": "0x80072378"
+    }
+   },
+   "source": "src/data/data_80072378.c",
+   "source_root": "tree"
+  },
+  {
+   "flags": "-O2 -mips2 -non_shared -Xcpluscomm -G 0",
+   "image": "main",
+   "name": "data_800723C8",
+   "origin": "lab data agent d13: xlitob.c ldigs[], udigs[]",
+   "pipeline": "ido5.3",
+   "sections": {
+    ".data": {
+     "size": "0x30",
+     "vram": "0x800723C8"
+    }
+   },
+   "source": "src/data/data_800723C8.c",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_800723F8",
+   "origin": "lab data agent d13: zero words before owned object",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data.d13": {
+     "size": "0x8",
+     "vram": "0x800723F8"
+    }
+   },
+   "source": "src/data/data_800723F8.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80072410",
+   "origin": "lab data agent d13: libultra data with D_80072408/D_80072438 queue pointers, video-mode entries D_80072468/D_8007246C",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data.d13": {
+     "size": "0x158",
+     "vram": "0x80072410"
+    }
+   },
+   "source": "src/data/data_80072410.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "-O2 -mips2 -non_shared -Xcpluscomm -G 0",
+   "image": "main",
+   "name": "data_80072568",
+   "origin": "lab data agent d14: libultra osViModeTable (42 OSViMode)",
+   "pipeline": "ido5.3",
+   "sections": {
+    ".data": {
+     "size": "0xD20",
+     "vram": "0x80072568"
+    }
+   },
+   "source": "src/data/data_80072568.c",
+   "source_root": "tree"
+  },
+  {
+   "flags": "-O2 -mips2 -non_shared -Xcpluscomm -G 0",
+   "image": "main",
+   "name": "data_800732A8",
+   "origin": "lab data agent d14: MPEG decoder lib .data: bit masks, Huffman/zigzag/quant tables, f64 consts, RCS $Revision strings, error strings",
+   "pipeline": "ido5.3",
+   "sections": {
+    ".data": {
+     "size": "0x2C60",
+     "vram": "0x800732A8"
+    }
+   },
+   "source": "src/data/data_800732A8.c",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80075F43",
+   "origin": "lab data agent d14: tail bytes of the double 90000.0 (donor func_800922AC owns the rest)",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata.b": {
+     "size": "0x5",
+     "vram": "0x80075F43"
+    }
+   },
+   "source": "src/data/data_80075F43.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "-O2 -mips2 -non_shared -Xcpluscomm -G 0",
+   "image": "main",
+   "name": "data_80075F48",
+   "origin": "lab data agent d14: MPEG library RCS revision strings and \"not yet implemented\" error messages",
+   "pipeline": "ido5.3",
+   "sections": {
+    ".data": {
+     "size": "0x230",
+     "vram": "0x80075F48"
+    }
+   },
+   "source": "src/data/data_80075F48.c",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80007ABC",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x4",
+     "vram": "0x80007ABC"
+    }
+   },
+   "source": "src/data/data_80007ABC.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80007B6C",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x4",
+     "vram": "0x80007B6C"
+    }
+   },
+   "source": "src/data/data_80007B6C.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80007C30",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x4",
+     "vram": "0x80007C30"
+    }
+   },
+   "source": "src/data/data_80007C30.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80007C9C",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x4",
+     "vram": "0x80007C9C"
+    }
+   },
+   "source": "src/data/data_80007C9C.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80007EC4",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x4",
+     "vram": "0x80007EC4"
+    }
+   },
+   "source": "src/data/data_80007EC4.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80007EE8",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x4",
+     "vram": "0x80007EE8"
+    }
+   },
+   "source": "src/data/data_80007EE8.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80007F34",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x4",
+     "vram": "0x80007F34"
+    }
+   },
+   "source": "src/data/data_80007F34.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80007F58",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x4",
+     "vram": "0x80007F58"
+    }
+   },
+   "source": "src/data/data_80007F58.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80007F80",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x4",
+     "vram": "0x80007F80"
+    }
+   },
+   "source": "src/data/data_80007F80.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80007FA4",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x4",
+     "vram": "0x80007FA4"
+    }
+   },
+   "source": "src/data/data_80007FA4.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80008188",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x4",
+     "vram": "0x80008188"
+    }
+   },
+   "source": "src/data/data_80008188.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_800085D4",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x4",
+     "vram": "0x800085D4"
+    }
+   },
+   "source": "src/data/data_800085D4.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_8000B14C",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x4",
+     "vram": "0x8000B14C"
+    }
+   },
+   "source": "src/data/data_8000B14C.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80027830",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x4",
+     "vram": "0x80027830"
+    }
+   },
+   "source": "src/data/data_80027830.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80034DDC",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x4",
+     "vram": "0x80034DDC"
+    }
+   },
+   "source": "src/data/data_80034DDC.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_8003AD24",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x14",
+     "vram": "0x8003AD24"
+    }
+   },
+   "source": "src/data/data_8003AD24.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_8003AD5C",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x14",
+     "vram": "0x8003AD5C"
+    }
+   },
+   "source": "src/data/data_8003AD5C.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_8003FC64",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x4",
+     "vram": "0x8003FC64"
+    }
+   },
+   "source": "src/data/data_8003FC64.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_8003FCDC",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0xC",
+     "vram": "0x8003FCDC"
+    }
+   },
+   "source": "src/data/data_8003FCDC.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_8003FD24",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x64",
+     "vram": "0x8003FD24"
+    }
+   },
+   "source": "src/data/data_8003FD24.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80042AC4",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x4",
+     "vram": "0x80042AC4"
+    }
+   },
+   "source": "src/data/data_80042AC4.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80043324",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x4",
+     "vram": "0x80043324"
+    }
+   },
+   "source": "src/data/data_80043324.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80043334",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x4",
+     "vram": "0x80043334"
+    }
+   },
+   "source": "src/data/data_80043334.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80048354",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x4",
+     "vram": "0x80048354"
+    }
+   },
+   "source": "src/data/data_80048354.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_800483CC",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0xC",
+     "vram": "0x800483CC"
+    }
+   },
+   "source": "src/data/data_800483CC.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80048430",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x8",
+     "vram": "0x80048430"
+    }
+   },
+   "source": "src/data/data_80048430.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80048520",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x8",
+     "vram": "0x80048520"
+    }
+   },
+   "source": "src/data/data_80048520.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_8004BD84",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x4",
+     "vram": "0x8004BD84"
+    }
+   },
+   "source": "src/data/data_8004BD84.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_8004C08C",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0xC",
+     "vram": "0x8004C08C"
+    }
+   },
+   "source": "src/data/data_8004C08C.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_8004C520",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x8",
+     "vram": "0x8004C520"
+    }
+   },
+   "source": "src/data/data_8004C520.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_8004DDF8",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x8",
+     "vram": "0x8004DDF8"
+    }
+   },
+   "source": "src/data/data_8004DDF8.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80076E2C",
+   "origin": "lab data agent d15: literal words between functions",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x4",
+     "vram": "0x80076E2C"
+    }
+   },
+   "source": "src/data/data_80076E2C.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80081F24",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x4",
+     "vram": "0x80081F24"
+    }
+   },
+   "source": "src/data/data_80081F24.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80083C8C",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x4",
+     "vram": "0x80083C8C"
+    }
+   },
+   "source": "src/data/data_80083C8C.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80087638",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x4",
+     "vram": "0x80087638"
+    }
+   },
+   "source": "src/data/data_80087638.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_800879E4",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x4",
+     "vram": "0x800879E4"
+    }
+   },
+   "source": "src/data/data_800879E4.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_8008A4B4",
+   "origin": "lab data agent d15: literal words between functions",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x4",
+     "vram": "0x8008A4B4"
+    }
+   },
+   "source": "src/data/data_8008A4B4.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_8008A8F4",
+   "origin": "lab data agent d15: literal words between functions",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x4",
+     "vram": "0x8008A8F4"
+    }
+   },
+   "source": "src/data/data_8008A8F4.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_8008ADFC",
+   "origin": "lab data agent d15: literal words between functions",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x4",
+     "vram": "0x8008ADFC"
+    }
+   },
+   "source": "src/data/data_8008ADFC.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_8008F3FC",
+   "origin": "lab data agent d15: literal words between functions",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x4",
+     "vram": "0x8008F3FC"
+    }
+   },
+   "source": "src/data/data_8008F3FC.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_8008F498",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x4",
+     "vram": "0x8008F498"
+    }
+   },
+   "source": "src/data/data_8008F498.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_8008F504",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x4",
+     "vram": "0x8008F504"
+    }
+   },
+   "source": "src/data/data_8008F504.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_8008F584",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x4",
+     "vram": "0x8008F584"
+    }
+   },
+   "source": "src/data/data_8008F584.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_8008F608",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x4",
+     "vram": "0x8008F608"
+    }
+   },
+   "source": "src/data/data_8008F608.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_8009048C",
+   "origin": "lab data agent d15: literal words between functions",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x4",
+     "vram": "0x8009048C"
+    }
+   },
+   "source": "src/data/data_8009048C.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_800904C0",
+   "origin": "lab data agent d15: literal words between functions",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x8",
+     "vram": "0x800904C0"
+    }
+   },
+   "source": "src/data/data_800904C0.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_8009218C",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x4",
+     "vram": "0x8009218C"
+    }
+   },
+   "source": "src/data/data_8009218C.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80092210",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x4",
+     "vram": "0x80092210"
+    }
+   },
+   "source": "src/data/data_80092210.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_800922A8",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x4",
+     "vram": "0x800922A8"
+    }
+   },
+   "source": "src/data/data_800922A8.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_800923A0",
+   "origin": "lab data agent d15: literal words between functions",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x8",
+     "vram": "0x800923A0"
+    }
+   },
+   "source": "src/data/data_800923A0.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80092464",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x4",
+     "vram": "0x80092464"
+    }
+   },
+   "source": "src/data/data_80092464.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80092540",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x4",
+     "vram": "0x80092540"
+    }
+   },
+   "source": "src/data/data_80092540.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_800925B4",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x4",
+     "vram": "0x800925B4"
+    }
+   },
+   "source": "src/data/data_800925B4.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80092710",
+   "origin": "lab data agent d15: zero padding",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x4",
+     "vram": "0x80092710"
+    }
+   },
+   "source": "src/data/data_80092710.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80092A04",
+   "origin": "lab data agent d15: literal words between functions",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x4",
+     "vram": "0x80092A04"
+    }
+   },
+   "source": "src/data/data_80092A04.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_800042B4",
+   "origin": "lab data agent d2: inter-function padding word(s)",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata.d2": {
+     "size": "0x4",
+     "vram": "0x800042B4"
+    }
+   },
+   "source": "src/data/data_800042B4.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80005854",
+   "origin": "lab data agent d2: inter-function padding word(s)",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata.d2": {
+     "size": "0x4",
+     "vram": "0x80005854"
+    }
+   },
+   "source": "src/data/data_80005854.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_800067AC",
+   "origin": "lab data agent d2: inter-function padding word(s)",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata.d2": {
+     "size": "0x4",
+     "vram": "0x800067AC"
+    }
+   },
+   "source": "src/data/data_800067AC.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_800075F4",
+   "origin": "lab data agent d2: inter-function padding word(s)",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata.d2": {
+     "size": "0x4",
+     "vram": "0x800075F4"
+    }
+   },
+   "source": "src/data/data_800075F4.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_8000818C",
+   "origin": "lab data agent d2: inter-function padding word(s)",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata.d2": {
+     "size": "0x4",
+     "vram": "0x8000818C"
+    }
+   },
+   "source": "src/data/data_8000818C.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80008F3C",
+   "origin": "lab data agent d2: inter-function padding word(s)",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata.d2": {
+     "size": "0x4",
+     "vram": "0x80008F3C"
+    }
+   },
+   "source": "src/data/data_80008F3C.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_8000C994",
+   "origin": "lab data agent d2: inter-function padding word(s)",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata.d2": {
+     "size": "0x4",
+     "vram": "0x8000C994"
+    }
+   },
+   "source": "src/data/data_8000C994.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_8000D3C4",
+   "origin": "lab data agent d2: inter-function padding word(s)",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata.d2": {
+     "size": "0x4",
+     "vram": "0x8000D3C4"
+    }
+   },
+   "source": "src/data/data_8000D3C4.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80016464",
+   "origin": "lab data agent d2: inter-function padding word(s)",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata.d2": {
+     "size": "0x4",
+     "vram": "0x80016464"
+    }
+   },
+   "source": "src/data/data_80016464.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_8001835C",
+   "origin": "lab data agent d2: inter-function padding word(s)",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata.d2": {
+     "size": "0x4",
+     "vram": "0x8001835C"
+    }
+   },
+   "source": "src/data/data_8001835C.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_800192F4",
+   "origin": "lab data agent d2: inter-function padding word(s)",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata.d2": {
+     "size": "0x4",
+     "vram": "0x800192F4"
+    }
+   },
+   "source": "src/data/data_800192F4.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_8001974C",
+   "origin": "lab data agent d2: inter-function padding word(s)",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata.d2": {
+     "size": "0x4",
+     "vram": "0x8001974C"
+    }
+   },
+   "source": "src/data/data_8001974C.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_8001AB6C",
+   "origin": "lab data agent d2: inter-function padding word(s)",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata.d2": {
+     "size": "0x4",
+     "vram": "0x8001AB6C"
+    }
+   },
+   "source": "src/data/data_8001AB6C.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80027064",
+   "origin": "lab data agent d2: inter-function padding word(s)",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata.d2": {
+     "size": "0x4",
+     "vram": "0x80027064"
+    }
+   },
+   "source": "src/data/data_80027064.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80027834",
+   "origin": "lab data agent d2: inter-function padding word(s)",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata.d2": {
+     "size": "0x4",
+     "vram": "0x80027834"
+    }
+   },
+   "source": "src/data/data_80027834.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80035F4C",
+   "origin": "lab data agent d2: inter-function padding word(s)",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata.d2": {
+     "size": "0x4",
+     "vram": "0x80035F4C"
+    }
+   },
+   "source": "src/data/data_80035F4C.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_8003672C",
+   "origin": "lab data agent d2: stray word + rspboot text part 1 (rspbootTextStart=D_80036730)",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata.d2": {
+     "size": "0x38",
+     "vram": "0x8003672C"
+    }
+   },
+   "source": "src/data/data_8003672C.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80036788",
+   "origin": "lab data agent d2: rspboot text rest (end 80036800), unused Fast3D-family gfx ucode text 80036800..80037C00, gspFast3D text D_80037C00..80039000, aspMain text D_80039000..80039E20",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata.d2": {
+     "size": "0x3698",
+     "vram": "0x80036788"
+    }
+   },
+   "source": "src/data/data_80036788.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_8003AD0C",
+   "origin": "lab data agent d2: inter-function padding word(s)",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata.d2": {
+     "size": "0x4",
+     "vram": "0x8003AD0C"
+    }
+   },
+   "source": "src/data/data_8003AD0C.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_8003B644",
+   "origin": "lab data agent d2: inter-function padding word(s)",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata.d2": {
+     "size": "0x4",
+     "vram": "0x8003B644"
+    }
+   },
+   "source": "src/data/data_8003B644.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_8003BCA4",
+   "origin": "lab data agent d2: inter-function padding word(s)",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata.d2": {
+     "size": "0x4",
+     "vram": "0x8003BCA4"
+    }
+   },
+   "source": "src/data/data_8003BCA4.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_8003BCD4",
+   "origin": "lab data agent d2: inter-function padding word(s)",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata.d2": {
+     "size": "0x4",
+     "vram": "0x8003BCD4"
+    }
+   },
+   "source": "src/data/data_8003BCD4.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_8003E154",
+   "origin": "lab data agent d2: inter-function padding word(s)",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata.d2": {
+     "size": "0x4",
+     "vram": "0x8003E154"
+    }
+   },
+   "source": "src/data/data_8003E154.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_8003EFB4",
+   "origin": "lab data agent d2: inter-function padding word(s)",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata.d2": {
+     "size": "0x4",
+     "vram": "0x8003EFB4"
+    }
+   },
+   "source": "src/data/data_8003EFB4.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80040730",
+   "origin": "lab data agent d2: inter-function padding word(s)",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata.d2": {
+     "size": "0x8",
+     "vram": "0x80040730"
+    }
+   },
+   "source": "src/data/data_80040730.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80044004",
+   "origin": "lab data agent d2: inter-function padding word(s)",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata.d2": {
+     "size": "0x4",
+     "vram": "0x80044004"
+    }
+   },
+   "source": "src/data/data_80044004.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80047A20",
+   "origin": "lab data agent d2: inter-function padding word(s)",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata.d2": {
+     "size": "0x8",
+     "vram": "0x80047A20"
+    }
+   },
+   "source": "src/data/data_80047A20.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80048E70",
+   "origin": "lab data agent d2: inter-function padding word(s)",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata.d2": {
+     "size": "0x8",
+     "vram": "0x80048E70"
+    }
+   },
+   "source": "src/data/data_80048E70.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80049598",
+   "origin": "lab data agent d2: inter-function padding word(s)",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata.d2": {
+     "size": "0x10",
+     "vram": "0x80049598"
+    }
+   },
+   "source": "src/data/data_80049598.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_8004BA94",
+   "origin": "lab data agent d2: inter-function padding word(s)",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".rodata.d2": {
+     "size": "0x4",
+     "vram": "0x8004BA94"
+    }
+   },
+   "source": "src/data/data_8004BA94.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_8004DE00",
+   "origin": "lab data agent d3: ROM offset/size tables, pointer tables to them, config words, func pointers D_8004DFE4..",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x1F8",
+     "vram": "0x8004DE00"
+    }
+   },
+   "source": "src/data/data_8004DE00.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "-O2 -mips2 -non_shared -Xcpluscomm -G 0",
+   "image": "main",
+   "name": "data_8004DFF8",
+   "origin": "lab data agent d3: main-menu label strings + MenuItem D_8004E084[6]",
+   "pipeline": "ido5.3",
+   "sections": {
+    ".data": {
+     "size": "0xF0",
+     "vram": "0x8004DFF8"
+    }
+   },
+   "source": "src/data/data_8004DFF8.c",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_8004E0E8",
+   "origin": "lab data agent d3: menu header, state words D_8004E10C.., segment/heap address table D_8004E190.., per-file ints D_8004E1EC..D_8004E204",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x120",
+     "vram": "0x8004E0E8"
+    }
+   },
+   "source": "src/data/data_8004E0E8.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "-O2 -mips2 -non_shared -Xcpluscomm -G 0",
+   "image": "main",
+   "name": "data_8004E208",
+   "origin": "lab data agent d3: f32 guLookAt camera params (func_8000BC74): D_8004E208..D_8004E228 + D_8004E22C[243][9]",
+   "pipeline": "ido5.3",
+   "sections": {
+    ".data": {
+     "size": "0x2250",
+     "vram": "0x8004E208"
+    }
+   },
+   "source": "src/data/data_8004E208.c",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80050458",
+   "origin": "lab data agent d3: camera position structs D_80050490/96/A0/AC (mixed s32/f32)",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data": {
+     "size": "0x298",
+     "vram": "0x80050458"
+    }
+   },
+   "source": "src/data/data_80050458.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "-O2 -mips2 -non_shared -Xcpluscomm -G 0",
+   "image": "main",
+   "name": "data_800506F0",
+   "origin": "lab data agent d3: state s32s, LightData/AmbientData tables D_80050720..D_800507F0, build-date D_80050808, RomFile D_80050820[7], \"You are the BIG winner!\" D_80050874, D_8005088C",
+   "pipeline": "ido5.3",
+   "sections": {
+    ".data": {
+     "size": "0x1A0",
+     "vram": "0x800506F0"
+    }
+   },
+   "source": "src/data/data_800506F0.c",
+   "source_root": "tree"
+  },
+  {
+   "flags": "-O2 -mips2 -non_shared -Xcpluscomm -G 0",
+   "image": "main",
+   "name": "data_80050890",
+   "origin": "lab data agent d4: s32 flag D_80050890, 123 leftover Robotech strings, 6 string-pointer tables, table-of-tables D_80050FD4, 4-byte tail",
+   "pipeline": "ido5.3",
+   "sections": {
+    ".data": {
+     "size": "0x760",
+     "vram": "0x80050890"
+    }
+   },
+   "source": "src/data/data_80050890.c",
+   "source_root": "tree"
+  },
+  {
+   "flags": "-O2 -mips2 -non_shared -Xcpluscomm -G 0",
+   "image": "main",
+   "name": "data_80050FF0",
+   "origin": "lab data agent d4: Font8 struct: 8-bit text font (header, 96 offsets, 96x3 metrics, texels)",
+   "pipeline": "ido5.3",
+   "sections": {
+    ".data": {
+     "size": "0xF50",
+     "vram": "0x80050FF0"
+    }
+   },
+   "source": "src/data/data_80050FF0.c",
+   "source_root": "tree"
+  },
+  {
+   "flags": "-O2 -mips2 -non_shared -Xcpluscomm -G 0",
+   "image": "main",
+   "name": "data_80051F40",
+   "origin": "lab data agent d4: Font16 struct: 16-bit text font (header, 96 offsets, 96x3 metrics, texels)",
+   "pipeline": "ido5.3",
+   "sections": {
+    ".data": {
+     "size": "0x3C20",
+     "vram": "0x80051F40"
+    }
+   },
+   "source": "src/data/data_80051F40.c",
+   "source_root": "tree"
+  },
+  {
+   "flags": "-O2 -mips2 -non_shared -Xcpluscomm -G 0",
+   "image": "main",
+   "name": "data_80055B60",
+   "origin": "lab data agent d5: colour triplets D_80055B74 u8[10][3], copyright/controller strings, credits char* table D_80055DF8, ROM segment-address tables D_80055F28.., small s16/s32 tables",
+   "pipeline": "ido5.3",
+   "sections": {
+    ".data": {
+     "size": "0x500",
+     "vram": "0x80055B60"
+    }
+   },
+   "source": "src/data/data_80055B60.c",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_80056060",
+   "origin": "lab data agent d5: D_80056060 s32 zero (split off: IDO pads .data to 16)",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data.d5": {
+     "size": "0x4",
+     "vram": "0x80056060"
+    }
+   },
+   "source": "src/data/data_80056060.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "-O2 -mips2 -non_shared -Xcpluscomm -G 0",
+   "image": "main",
+   "name": "data_80056064",
+   "origin": "lab data agent d5: s32 tables, pointer pair D_800560A4, Sprite{x,y,w,h,seg[4]} record arrays",
+   "pipeline": "ido5.3",
+   "sections": {
+    ".data": {
+     "size": "0x2060",
+     "vram": "0x80056064"
+    }
+   },
+   "source": "src/data/data_80056064.c",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_800580C4",
+   "origin": "lab data agent d5: D_800580C4 s32 zero (split off: IDO padding)",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".data.d5": {
+     "size": "0x4",
+     "vram": "0x800580C4"
+    }
+   },
+   "source": "src/data/data_800580C4.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "",
+   "image": "main",
+   "name": "data_800580C8",
+   "origin": "lab data agent d6: two zero s32 globals D_800580C8, D_800580CC",
+   "pipeline": "gnu-as",
+   "sections": {
+    ".d6data": {
+     "size": "0x8",
+     "vram": "0x800580C8"
+    }
+   },
+   "source": "src/data/data_800580C8.s",
+   "source_root": "tree"
+  },
+  {
+   "flags": "-O2 -mips2 -non_shared -Xcpluscomm -G 0",
+   "image": "main",
+   "name": "data_800580D0",
+   "origin": "lab data agent d6: 135 s32 globals/tables, 2 u8 tables, 22 pointer tables (strings, func_ handlers, bss), float[301][6] path table D_80059DC8",
+   "pipeline": "ido5.3",
+   "sections": {
+    ".data": {
+     "size": "0x3930",
+     "vram": "0x800580D0"
+    }
+   },
+   "source": "src/data/data_800580D0.c",
+   "source_root": "tree"
+  },
+  {
+   "flags": "-O2 -mips2 -non_shared -Xcpluscomm -G 0",
+   "image": "main",
+   "name": "data_8005BA00",
+   "origin": "lab data agent d7: two Vec3f[301] object paths (D_8005BA00, D_8005D638)",
+   "pipeline": "ido5.3",
+   "sections": {
+    ".data": {
+     "size": "0x3870",
+     "vram": "0x8005BA00"
+    }
+   },
+   "source": "src/data/data_8005BA00.c",
+   "source_root": "tree"
+  },
+  {
+   "flags": "-O2 -mips2 -non_shared -Xcpluscomm -G 0",
+   "image": "main",
+   "name": "data_8005F270",
+   "origin": "lab data agent d8: two PathKey[301] float keyframe tables (D_8005F270, D_80060EA8)",
+   "pipeline": "ido5.3",
+   "sections": {
+    ".data": {
+     "size": "0x3870",
+     "vram": "0x8005F270"
+    }
+   },
+   "source": "src/data/data_8005F270.c",
+   "source_root": "tree"
+  },
+  {
+   "flags": "-O2 -mips2 -non_shared -Xcpluscomm -G 0",
+   "image": "main",
+   "name": "data_80062AE0",
+   "origin": "lab data agent d9: two Vec3f[301] camera/object path keyframe tables (D_80062AE0, D_80064718) used by func_80016690 via func_80016548",
+   "pipeline": "ido5.3",
+   "sections": {
+    ".data": {
+     "size": "0x3870",
+     "vram": "0x80062AE0"
+    }
+   },
+   "source": "src/data/data_80062AE0.c",
+   "source_root": "tree"
+  }
+ ]
+}

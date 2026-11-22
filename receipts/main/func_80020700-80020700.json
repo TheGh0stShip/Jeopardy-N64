@@ -1,0 +1,203 @@
+{
+ "behavioural": null,
+ "build": {
+  "flags": [
+   "-O0",
+   "-G0",
+   "-mips3",
+   "-mgp32",
+   "-mfp32"
+  ],
+  "normalizer_args": [],
+  "pin_origins": {
+   "D_800E0F4C": "run-declaration"
+  },
+  "pipeline": "kmc+asn64",
+  "section_bases": {},
+  "symbols": {
+   "D_800E0F4C": "0x800E0F4C"
+  }
+ },
+ "claims": {
+  "assumptions_present": false,
+  "behavioural_evidence": false,
+  "byte_identity": true,
+  "code_identity": true,
+  "ownership_complete": true,
+  "pins_independent": true,
+  "proof_grade": true,
+  "source_provenance": "genuine-c",
+  "source_provenance_creditable": true,
+  "strict_proof": true,
+  "unit_identity": true
+ },
+ "comparison_sha256": "f1bbca90bd3df3c6f0d8464fdb7075d7dcd1ee404cadc0a4173c36e78a31f8ea",
+ "declarations": {
+  "files": [
+   {
+    "name": "<project>/survey/symbol_addrs.txt",
+    "sha256": "2221c7932ff983d0843fd4debb0a1e5b099889284db3bd02dd9abeaf1e7f0518"
+   },
+   {
+    "name": "<project>/survey/sdk_symbols.txt",
+    "sha256": "e872ae4e14bac6f0958d86f5b2df4d87d46e61e0e1b8eff7992a706aea30c0a7"
+   }
+  ],
+  "map_sha256": "ab08e847d08293500f3eb9a538972a1c258e159b5218cd29b6436bf81e96e6f9"
+ },
+ "earned_by": "generated-c",
+ "environment": {
+  "LANG": "99fed2d548c2eb1022f4067f97fe838a2c3ea60ee0e0f53086788505c3ababad"
+ },
+ "headers": {
+  "headers": {},
+  "missing": []
+ },
+ "identity": "0b3579b7644721ae27b67192a9084f1c739f335304aad7929aa1ab0b78d85976",
+ "image": {
+  "rom_key": "c5bcf3eff6bcdd9e",
+  "sha256": "2ebd827db509397f27c557e017bdcdaaed0a748a73babc25f322bb2faab66100",
+  "size": 4194304
+ },
+ "issued": {
+  "at": "2026-11-22T06:54:21Z"
+ },
+ "kit_driver_sha256": "461a0cf4ba284f5d537c950b632211ddad3d332d8c45483d8cacc90247a360e5",
+ "link": {
+  "linker_script": null,
+  "note": "no link step: the verifier relocates the object at declared addresses"
+ },
+ "object": {
+  "loaded_sha256": "8153af29e408bbb51ee5a1c73c2102af3514d1663b083c45d3d923de012daa6b",
+  "object_sha256": "e70e440713a67ba0401944875ffe3f5e541a8f2220d22eb6a058ee509813fdfa"
+ },
+ "owned": {
+  "code_sha256": "9ce10c289e5d3623c2d9eccd7af2904e0dbbdd069732bd45f4def7d3bb164094",
+  "data": {}
+ },
+ "ownership": {
+  "function_starts_sha256": "70af65e6e816fd1beaff628ac35e277ced423be162bee02dfa4336e6d1f89a7f",
+  "section_sizes": {}
+ },
+ "proof": {
+  "proof_grade": true,
+  "reasons": []
+ },
+ "provenance": {
+  "evidence": [],
+  "origin": "N64 Decomp Kit agent-stage (Jeopardy!)",
+  "reasons": [
+   "no forbidden assembly escape found"
+  ],
+  "verdict": "genuine-c"
+ },
+ "relocations": {
+  "section_bases": {
+   ".text": "0x80020700"
+  },
+  "sites": 50,
+  "sites_sha256": "070e75816be4823f31b14d876fd41369bdf6ba0f4b58c81ebdea4649f0966190",
+  "symbols": {
+   "D_800E0F4C": "0x800E0F4C"
+  }
+ },
+ "schema": "n64dk-proof-receipt/1",
+ "source": {
+  "kind": "c",
+  "name": "func_80020700.c",
+  "sha256": "e23e1f1546f5c2e65ecf74b35cbf120db63b7bfa4caf28234e2817e5110fc255"
+ },
+ "subject": {
+  "catalogue_size": 928,
+  "image": "main",
+  "image_offset": "0x00021300",
+  "name": "func_80020700",
+  "size": 928,
+  "vram": "0x80020700"
+ },
+ "toolchain": {
+  "pipeline": "kmc+asn64",
+  "recipe": {
+   "identity": "8a8faeb2431460c295a1d3d5b3cc54caaccad697765e10c99aa26548ecabd33b",
+   "lane": "kmc+asn64",
+   "stages": [
+    {
+     "component": "kmc/gcc",
+     "files": [
+      [
+       "gcc",
+       "181803fe0a8406ed21f8470d09f77fe2c91044941b8c18eb30432b82bf9f41e1"
+      ]
+     ],
+     "stage": "driver"
+    },
+    {
+     "component": "kmc/cpp",
+     "files": [
+      [
+       "cpp",
+       "61c1756ddbc47eaaa086cce5a7e3e455cecabd220d5a709be98874f55472545e"
+      ],
+      [
+       "cccp",
+       "61c1756ddbc47eaaa086cce5a7e3e455cecabd220d5a709be98874f55472545e"
+      ]
+     ],
+     "stage": "preprocess"
+    },
+    {
+     "component": "kmc/cc1",
+     "files": [
+      [
+       "cc1",
+       "28cfa07804df7b40d5a13a525dc63eb2fa12f1b0133dc737950dce59611d3972"
+      ]
+     ],
+     "stage": "compile"
+    },
+    {
+     "component": "kit/asn64-converter",
+     "files": [],
+     "stage": "convert"
+    },
+    {
+     "component": "binutils/as",
+     "files": [
+      [
+       "usr/bin/mips-linux-gnu-as",
+       "f93b44ae7ab70c91f757e1af36f3e23c9ac80f09085fb8b6c6b4c983dd76bf79"
+      ]
+     ],
+     "stage": "assemble"
+    }
+   ]
+  },
+  "toolchain_digest": "619f66e3e3df7ba2125251f4950bdb7d92b011637d6ea41622b88f15e529fdd4"
+ },
+ "verdict": {
+  "class": "exact",
+  "strict": {
+   "assumptions": [],
+   "conflicts": [],
+   "notes": [],
+   "sections": [],
+   "text_equal": true,
+   "verdict": "exact"
+  }
+ },
+ "verifier": "b32bb4b4558997094bcc894542263b34db847e5db6279945b124620cab45ea98",
+ "wrapper": {
+  "assembler_flags": [
+   "-march=vr4300",
+   "-mabi=32",
+   "-EB",
+   "-G0",
+   "--no-pad-sections",
+   "-mips3"
+  ],
+  "lane_code": {
+   "asn64": "253eb28f07280cbf398d78e6376e672b254882b714fff96e28202df3261051c4"
+  },
+  "normalizer_hook": null
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "code_size": "0x12C",
+ "credit": "a generated project tree: it copies results the strict verifier settled and grants no credit; only `make verify` / `make verify-receipts` against your own ROM confirm them again",
+ "distance": "0",
+ "export_source": "src/main/unit_8003D608.c",
+ "file": "src/main/unit_8003D608.c",
+ "function": "func_8003DB88",
+ "how": "ido5.3 -O3 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (whole translation unit, N64 Decomp Kit agent-stage)",
+ "image": "main",
+ "inputs_sha256": "2a7e35fdb090eb3e190f06310023e9bbf42a6983155f74f467d993ca0a701cb0",
+ "kind": "c",
+ "link_layout_object": "",
+ "offset": "0x3E788",
+ "outcome": "exact",
+ "raw": null,
+ "receipt": "unit",
+ "recipe": {
+  "flags": "-O3 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0",
+  "pipeline": "ido5.3",
+  "unit_offset": "0x3E208",
+  "unit_size": "0xB4C"
+ },
+ "reproduced_by": "C",
+ "schema": "n64dk-generated-project/1",
+ "size": "0x12C",
+ "source_origin": "decompals/ultralib/src/audio/load.c (lab agent a9)",
+ "source_sha256": "a8c7cb657ff042f45a14c3427bf6a8f35ae3ca446949c998aa2bcb38bd05bee0",
+ "status": "exact",
+ "unit": "main/func_8003DB88",
+ "unit_class": "game",
+ "vram": "0x8003DB88"
+}

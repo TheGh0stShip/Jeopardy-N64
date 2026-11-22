@@ -12,7 +12,7 @@ typedef unsigned long long u64;
 typedef float f32;
 typedef double f64;
 
-/* Provisional types retained until shared game structures are recovered. */
+/* Provisional names retained only where shared game structures are not recovered yet. */
 typedef s32 M2C_UNK;
 #define M2C_FIELD(expr, type_ptr, offset) (*(type_ptr)((s8 *)(expr) + (offset)))
 
@@ -26,4 +26,3 @@ typedef char static_assert_s32[sizeof(s32) == 4 ? 1 : -1];
 typedef char static_assert_s64[sizeof(s64) == 8 ? 1 : -1];
 
 #endif
-

@@ -1,0 +1,171 @@
+{
+ "behavioural": null,
+ "build": {
+  "flags": [
+   "-O2",
+   "-mips2"
+  ],
+  "normalizer_args": [],
+  "pin_origins": {},
+  "pipeline": "custom:ido52",
+  "section_bases": {},
+  "symbols": {}
+ },
+ "claims": {
+  "assumptions_present": true,
+  "behavioural_evidence": false,
+  "byte_identity": true,
+  "code_identity": true,
+  "ownership_complete": true,
+  "pins_independent": true,
+  "proof_grade": false,
+  "source_provenance": "genuine-c",
+  "source_provenance_creditable": true,
+  "strict_proof": false,
+  "unit_identity": true
+ },
+ "comparison_sha256": "3222fdb992dbcccde528b68a98cf14872c42e4732ddb81ff07d5ba9e29877b37",
+ "declarations": {
+  "files": [
+   {
+    "name": "<project>/survey/symbol_addrs.txt",
+    "sha256": "2221c7932ff983d0843fd4debb0a1e5b099889284db3bd02dd9abeaf1e7f0518"
+   },
+   {
+    "name": "<project>/survey/sdk_symbols.txt",
+    "sha256": "e872ae4e14bac6f0958d86f5b2df4d87d46e61e0e1b8eff7992a706aea30c0a7"
+   }
+  ],
+  "map_sha256": "ab08e847d08293500f3eb9a538972a1c258e159b5218cd29b6436bf81e96e6f9"
+ },
+ "earned_by": "generated-c",
+ "environment": {
+  "LANG": "99fed2d548c2eb1022f4067f97fe838a2c3ea60ee0e0f53086788505c3ababad"
+ },
+ "headers": {
+  "headers": {},
+  "missing": []
+ },
+ "identity": "3acb3df67237b750d4d23e0ef33292d1e93f082c8aed38396dd3cc468cb6c130",
+ "image": {
+  "rom_key": "c5bcf3eff6bcdd9e",
+  "sha256": "2ebd827db509397f27c557e017bdcdaaed0a748a73babc25f322bb2faab66100",
+  "size": 4194304
+ },
+ "issued": {
+  "at": "2026-11-22T03:02:19Z"
+ },
+ "kit_driver_sha256": "461a0cf4ba284f5d537c950b632211ddad3d332d8c45483d8cacc90247a360e5",
+ "link": {
+  "linker_script": null,
+  "note": "no link step: the verifier relocates the object at declared addresses"
+ },
+ "object": {
+  "loaded_sha256": "8f954e7d580060a40b87fe2e750484f673778a858309a9d525e99717f4f9af6b",
+  "object_sha256": "3a4847be7065525f27203acb20e13d6e82a227c07a013e611e40907ad882b930"
+ },
+ "owned": {
+  "code_sha256": "1e5491db089554dac266c28b00b261e1ee680def81cc9daf67dcf62a7cbeeaa0",
+  "data": {}
+ },
+ "ownership": {
+  "function_starts_sha256": "70af65e6e816fd1beaff628ac35e277ced423be162bee02dfa4336e6d1f89a7f",
+  "section_sizes": {}
+ },
+ "proof": {
+  "proof_grade": false,
+  "reasons": [
+   "owned target bytes are not exact"
+  ]
+ },
+ "provenance": {
+  "evidence": [],
+  "origin": "N64 Decomp Kit agent-stage (Jeopardy!)",
+  "reasons": [
+   "no forbidden assembly escape found"
+  ],
+  "verdict": "genuine-c"
+ },
+ "relocations": {
+  "section_bases": {},
+  "sites": 4,
+  "sites_sha256": "0dbf4e059bed038c010078fa7475b3db0774a7a23a27b339a774e63f92a3aedf",
+  "symbols": {
+   "D_80072198": null
+  }
+ },
+ "schema": "n64dk-proof-receipt/1",
+ "source": {
+  "kind": "c",
+  "name": "func_8003FDF8.c",
+  "sha256": "fb4eeccd3a457f1ec8ef24ce2dd405b4c6033eb2d3a5aa411361daa31b44387c"
+ },
+ "subject": {
+  "catalogue_size": 48,
+  "image": "main",
+  "image_offset": "0x000409F8",
+  "name": "func_8003FDF8",
+  "size": 48,
+  "vram": "0x8003FDF8"
+ },
+ "toolchain": {
+  "pipeline": "custom:ido52",
+  "recipe": {
+   "identity": "bb9a72ecee1bc06ad6a63175702a17f96379d2d673933120e8697c674b879565",
+   "lane": "custom:ido52",
+   "stages": [
+    {
+     "component": "ido5.2/driver",
+     "files": [
+      [
+       "usr/lib/driver",
+       "96d795939e3a68f78eb2bf27d908eb245a9a99f332c026a3404a0864362aa91f"
+      ]
+     ],
+     "stage": "driver"
+    },
+    {
+     "component": "qemu-irix",
+     "files": [
+      [
+       "usr/bin/qemu-irix",
+       "9dc3d30412961dedcb60d45201061458b8051af0a1930e3d3732940c0c372675"
+      ]
+     ],
+     "stage": "emulate"
+    }
+   ]
+  },
+  "toolchain_digest": "cfcf8a1e9b18678f381cef421ea7e4433b7dda1e78845e0323d6b4106fca0e76"
+ },
+ "verdict": {
+  "class": "assumed",
+  "strict": {
+   "assumptions": [
+    {
+     "address": "0x80072198",
+     "call": false,
+     "kind": "symbol",
+     "name": "D_80072198",
+     "sites": [
+      "0x0",
+      "0x4",
+      "0x8",
+      "0x28"
+     ]
+    }
+   ],
+   "conflicts": [],
+   "notes": [],
+   "sections": [],
+   "text_equal": true,
+   "verdict": "assumed"
+  }
+ },
+ "verifier": "b32bb4b4558997094bcc894542263b34db847e5db6279945b124620cab45ea98",
+ "wrapper": {
+  "assembler_flags": null,
+  "lane_code": {},
+  "normalizer_hook": null
+ }
+}

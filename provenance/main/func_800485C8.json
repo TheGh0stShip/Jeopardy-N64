@@ -1,0 +1,29 @@
+{
+ "code_size": "0x110",
+ "credit": "a generated project tree: it copies results the strict verifier settled and grants no credit; only `make verify` / `make verify-receipts` against your own ROM confirm them again",
+ "distance": "0",
+ "export_source": "src/main/func_800485C8.c",
+ "file": "src/main/func_800485C8.c",
+ "function": "func_800485C8",
+ "how": "ido5.3 -O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0",
+ "image": "main",
+ "inputs_sha256": "af1182a4182565bcf578c346bbde83a7c8f7d210e338be1666fc1ef9394f1cc5",
+ "kind": "c",
+ "link_layout_object": "",
+ "offset": "0x491C8",
+ "outcome": "exact",
+ "raw": null,
+ "receipt": "none",
+ "recipe": {
+  "flags": "-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0",
+  "pipeline": "ido5.3"
+ },
+ "reproduced_by": "C",
+ "schema": "n64dk-generated-project/1",
+ "size": "0x110",
+ "source_sha256": "bba846c6fe8c77bb4dd86eba69411b6e66c0dcc7812fb85a79576fc553d522eb",
+ "status": "exact",
+ "unit": "main/func_800485C8",
+ "unit_class": "sdk",
+ "vram": "0x800485C8"
+}

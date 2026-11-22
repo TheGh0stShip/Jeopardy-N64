@@ -1,0 +1,36 @@
+# kmc+asn64 rows proposed by donor transplant from wof; SOURCE paths are relative to
+# src/wof/ (the source and the headers it includes, in the donor's layout)
+# ROM_START	SIZE	SOURCE	FLAGS
+0x283A8	0x88	src/main/func_8000B670/func_8000B670.c	--assembler=asn64 -O0 -G0 -mips3 -mgp32 -mfp32
+0x359C0	0x1C	src/main/func_80044E38/ptstart.c	--assembler=asn64 -O0 -G0 -mips3 -mgp32 -mfp32
+0x436A8	0x1C	src/main/func_8003FB08/alFilterNew.c	--assembler=asn64 -O2 -G0 -mips3 -mgp32 -mfp32
+0x82614	0x510	src/main/func_80094064/func_80094064.c	--assembler=asn64 -O0 -G0 -mips3 -mgp32 -mfp32
+0x83C18	0xC74	src/main/func_80095664/func_80095664.c	--assembler=asn64 -O0 -G0 -mips3 -mgp32 -mfp32
+0x85C4	0xF8	src/main/func_80009804/func_80009804.c	--assembler=asn64 -O0 -G0 -mips3 -mgp32 -mfp32
+0x86C0	0xAC	src/main/func_80009900/func_80009900.c	--assembler=asn64 -O0 -G0 -mips3 -mgp32 -mfp32
+0x8770	0xC0	src/main/func_800099B0/func_800099B0.c	--assembler=asn64 -O0 -G0 -mips3 -mgp32 -mfp32
+0x87E90	0x3A8	src/main/func_800998E0/func_800998E0.c	--assembler=asn64 -O0 -G0 -mips3 -mgp32 -mfp32
+0x8823C	0x3A8	src/main/func_80099C8C/func_80099C8C.c	--assembler=asn64 -O0 -G0 -mips3 -mgp32 -mfp32
+0x8834	0x68	src/main/func_80009A74/func_80009A74.c	--assembler=asn64 -O0 -G0 -mips3 -mgp32 -mfp32
+0x8A58	0x6C	src/main/func_80009C98/func_80009C98.c	--assembler=asn64 --symbol=guRandom:0x8003FDF8 -O0 -G0 -mips3 -mgp32 -mfp32
+0x8AC8	0x20	src/main/func_80009D08/func_80009D08.c	--assembler=asn64 -O0 -G0 -mips3 -mgp32 -mfp32
+0x8AEC	0x48	src/main/func_80009D2C/func_80009D2C.c	--assembler=asn64 -O0 -G0 -mips3 -mgp32 -mfp32
+0x8B38	0x20	src/main/func_80009D08/func_80009D08.c	--assembler=asn64 -O0 -G0 -mips3 -mgp32 -mfp32
+0x8B5C	0x24	src/main/func_8000EE50/func_8000EE50.c	--assembler=asn64 -O0 -G0 -mips3 -mgp32 -mfp32
+0x8B84	0x20	src/main/func_80009D08/func_80009D08.c	--assembler=asn64 -O0 -G0 -mips3 -mgp32 -mfp32
+0x8D68	0x20	src/main/func_80009D08/func_80009D08.c	--assembler=asn64 -O0 -G0 -mips3 -mgp32 -mfp32
+0x90000	0x98	src/main/func_800A19D8/func_800A19D8.c	--assembler=asn64 -O0 -G0 -mips3 -mgp32 -mfp32
+0x9009C	0x68	src/main/func_800A1A74/func_800A1A74.c	--assembler=asn64 -O0 -G0 -mips3 -mgp32 -mfp32
+0x90108	0x7C	src/main/func_800A1AE0/func_800A1AE0.c	--assembler=asn64 -O0 -G0 -mips3 -mgp32 -mfp32
+0x90188	0x80	src/main/func_800A1B60/func_800A1B60.c	--assembler=asn64 -O0 -G0 -mips3 -mgp32 -mfp32
+0x91090	0x30	src/main/func_800A2B08/func_800A2B08.c	--assembler=asn64 -O0 -G0 -mips3 -mgp32 -mfp32
+0x91B8	0x1C	src/main/func_8002EDC0/func_8002EDC0.c	--assembler=asn64 -O0 -G0 -mips3 -mgp32 -mfp32
+0x92C88	0x104	src/main/func_800A46FC/func_800A46FC.c	--assembler=asn64 -O0 -G0 -mips3 -mgp32 -mfp32
+0x92D90	0x80	src/main/func_800A4804/func_800A4804.c	--assembler=asn64 -O0 -G0 -mips3 -mgp32 -mfp32
+0x92E14	0x94	src/main/func_800A4888/func_800A4888.c	--assembler=asn64 -O0 -G0 -mips3 -mgp32 -mfp32
+0x92EAC	0xF4	src/main/func_800A4920/func_800A4920.c	--assembler=asn64 --section-base=.rodata:0x80075F28 -O0 -G0 -mips3 -mgp32 -mfp32
+0x92FA8	0xBC	src/main/func_800A4A18/func_800A4A18.c	--assembler=asn64 -O0 -G0 -mips3 -mgp32 -mfp32
+0x930A4	0x9C	src/main/func_800A4B14/func_800A4B14.c	--assembler=asn64 -O0 -G0 -mips3 -mgp32 -mfp32
+0x93194	0x20	src/main/func_80009D08/func_80009D08.c	--assembler=asn64 -O0 -G0 -mips3 -mgp32 -mfp32
+0x93288	0x88	src/main/func_800A4CF8/func_800A4CF8.c	--assembler=asn64 -O0 -G0 -mips3 -mgp32 -mfp32
+0xBD28	0x24	src/main/func_8000EE50/func_8000EE50.c	--assembler=asn64 -O0 -G0 -mips3 -mgp32 -mfp32

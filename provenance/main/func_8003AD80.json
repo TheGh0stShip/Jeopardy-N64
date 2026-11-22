@@ -1,0 +1,35 @@
+{
+ "asm_provenance": {
+  "evidence": "addi (not addiu) $sp adjust, $ra stored at 0($sp), $t0-$t5 used directly; the rows before it are vector stubs copied to 0x80000000/0x80000180",
+  "routine": "exception vector install (part of 0x8003AD0C..0x8003AE2C)",
+  "source": "hand-written"
+ },
+ "code_size": "0xAC",
+ "credit": "a generated project tree: it copies results the strict verifier settled and grants no credit; only `make verify` / `make verify-receipts` against your own ROM confirm them again",
+ "distance": "64",
+ "export_source": "asm_not_decompiled/main/func_8003AD80.s",
+ "file": "asm/main/func_8003AD80.s",
+ "function": "func_8003AD80",
+ "how": "kmc+as -O2 -G0 -mips3 -mgp32 -mfp32",
+ "image": "main",
+ "inputs_sha256": "73867cdaba9485ca779583182fc572368fee1f6b74158f0df69f2a1d0b4b6d09",
+ "kind": "handwritten",
+ "link_layout_object": "",
+ "offset": "0x3B980",
+ "outcome": "open",
+ "raw": null,
+ "receipt": "none",
+ "recipe": {
+  "assembler": "gnu-as -march=vr4300 -mabi=o64",
+  "flags": "",
+  "pipeline": "gnu-as"
+ },
+ "reproduced_by": "assembly (hand-written in the original)",
+ "schema": "n64dk-generated-project/1",
+ "size": "0xAC",
+ "source_sha256": "0970dc875f8bed1effbddb6bc379629a71e80bd57c05dda47ac412dce146ee98",
+ "status": "assembly",
+ "unit": "main/func_8003AD80",
+ "unit_class": "handwritten",
+ "vram": "0x8003AD80"
+}

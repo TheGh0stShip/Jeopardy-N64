@@ -1,0 +1,96 @@
+/* libultra data incl. osViModeTable entries */
+.section .data.d13, "aw", @progbits
+.align 2
+
+    .word 0x00000000
+    .word 0x00000000
+    .word 0x00000000
+    .word 0x00000000
+    .word 0x00000000
+    .word 0x00000000
+    .word 0x00000000
+    .word 0x00000000
+    .word 0x00000000
+    .word 0x00000000
+.globl D_80072438
+D_80072438:
+    .word 0x00000000
+    .word 0x00000000
+    .word 0x00000000
+    .word 0x00000000
+    .word 0x00000000
+    .word 0x00000000
+    .word 0x00000000
+    .word 0x00000000
+    .word 0x00000000
+    .word 0x00000000
+    .word 0x00000000
+    .word 0x00000000
+.globl D_80072468
+D_80072468:
+    .word D_80072408
+.globl D_8007246C
+D_8007246C:
+    .word D_80072438
+    .word 0x00000000
+    .word 0x00000000
+    .word 0x10000000
+    .word 0x0000311E
+    .word 0x00000140
+    .word 0x04541E3A
+    .word 0x00000271
+    .word 0x00170C69
+    .word 0x0C6F0C6D
+    .word 0x00800300
+    .word 0x00000200
+    .word 0x00000000
+    .word 0x00000280
+    .word 0x00000400
+    .word 0x005F0239
+    .word 0x0009026B
+    .word 0x00000002
+    .word 0x00000280
+    .word 0x00000400
+    .word 0x005F0239
+    .word 0x0009026B
+    .word 0x00000002
+    .word 0x1E000000
+    .word 0x0000311E
+    .word 0x00000140
+    .word 0x04651E39
+    .word 0x0000020D
+    .word 0x00040C11
+    .word 0x0C190C1A
+    .word 0x006C02EC
+    .word 0x00000200
+    .word 0x00000000
+    .word 0x00000280
+    .word 0x00000400
+    .word 0x002501FF
+    .word 0x000E0204
+    .word 0x00000002
+    .word 0x00000280
+    .word 0x00000400
+    .word 0x002501FF
+    .word 0x000E0204
+    .word 0x00000002
+    .word 0x02000000
+    .word 0x0000311E
+    .word 0x00000140
+    .word 0x03E52239
+    .word 0x0000020D
+    .word 0x00000C15
+    .word 0x0C150C15
+    .word 0x006C02EC
+    .word 0x00000200
+    .word 0x00000000
+    .word 0x00000280
+    .word 0x00000400
+    .word 0x002501FF
+    .word 0x000E0204
+    .word 0x00000002
+    .word 0x00000280
+    .word 0x00000400
+    .word 0x002501FF
+    .word 0x000E0204
+    .word 0x00000002

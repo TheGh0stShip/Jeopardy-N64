@@ -1,0 +1,32 @@
+{
+ "code_size": "0x8",
+ "credit": "a generated project tree: it copies results the strict verifier settled and grants no credit; only `make verify` / `make verify-receipts` against your own ROM confirm them again",
+ "distance": "0",
+ "export_source": "src/main/unit_800457E8.c",
+ "file": "src/main/unit_800457E8.c",
+ "function": "func_800467FC",
+ "how": "ido5.3 --section-base=.rodata:0x80002138 -O3 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 --symbol=D_80071FF8:0x80071FF8 (whole translation unit, N64 Decomp Kit agent-stage)",
+ "image": "main",
+ "inputs_sha256": "43f2bee97710fbb41b0b5a627ac1f6396170b04a35f24434b5e52fbf1955cf86",
+ "kind": "c",
+ "link_layout_object": "",
+ "offset": "0x473FC",
+ "outcome": "exact",
+ "raw": null,
+ "receipt": "unit",
+ "recipe": {
+  "flags": "--section-base=.rodata:0x80002138 -O3 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 --symbol=D_80071FF8:0x80071FF8",
+  "pipeline": "ido5.3",
+  "unit_offset": "0x463E8",
+  "unit_size": "0x1940"
+ },
+ "reproduced_by": "C",
+ "schema": "n64dk-generated-project/1",
+ "size": "0x8",
+ "source_origin": "donor: decompals/ultralib src/audio/seqplayer.c (commit e24c836), preprocessed; catalogue names and project symbols substituted (lab agent a9)",
+ "source_sha256": "21c5be8561a52cce4cce009db7b6093374b5f4aa8c4eefadd4179fc76392016a",
+ "status": "exact",
+ "unit": "main/func_800467FC",
+ "unit_class": "game",
+ "vram": "0x800467FC"
+}

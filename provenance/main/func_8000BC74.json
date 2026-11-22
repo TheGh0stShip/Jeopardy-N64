@@ -1,0 +1,32 @@
+{
+ "code_size": "0x56C",
+ "credit": "a generated project tree: it copies results the strict verifier settled and grants no credit; only `make verify` / `make verify-receipts` against your own ROM confirm them again",
+ "distance": "0",
+ "export_source": "src/main/func_8000BC74.c",
+ "file": "src/main/func_8000BC74.c",
+ "function": "func_8000BC74",
+ "how": "kmc+asn64 --section-base=.rodata:0x80000674 -O0 -G0 -mips3 -mgp32 -mfp32 --symbol=D_8004E208:0x8004E208 --symbol=D_8004E20C:0x8004E20C --symbol=D_8004E210:0x8004E210 --symbol=D_8004E214:0x8004E214 --symbol=D_8004E218:0x8004E218 --symbol=D_8004E21C:0x8004E21C --symbol=D_8004E220:0x8004E220 --symbol=D_8004E224:0x8004E224 --symbol=D_8004E228:0x8004E228 --symbol=D_800506F8:0x800506F8 --symbol=D_800D768C:0x800D768C --symbol=D_800DFE18:0x800DFE18 --symbol=D_800DFE1C:0x800DFE1C --symbol=D_800DFE20:0x800DFE20 --symbol=D_800E0F4C:0x800E0F4C --symbol=D_800E3B30:0x800E3B30 (N64 Decomp Kit agent-stage)",
+ "image": "main",
+ "inputs_sha256": "5727541b3a8706ede0df52ff15b0af382529f09dcd0eb0b1b2b694497a0f79b3",
+ "kind": "c",
+ "link_layout_object": "",
+ "offset": "0xC874",
+ "outcome": "exact",
+ "owned_sections": {
+  ".rodata": 12
+ },
+ "raw": null,
+ "receipt": "present",
+ "recipe": {
+  "flags": "--section-base=.rodata:0x80000674 -O0 -G0 -mips3 -mgp32 -mfp32 --symbol=D_8004E208:0x8004E208 --symbol=D_8004E20C:0x8004E20C --symbol=D_8004E210:0x8004E210 --symbol=D_8004E214:0x8004E214 --symbol=D_8004E218:0x8004E218 --symbol=D_8004E21C:0x8004E21C --symbol=D_8004E220:0x8004E220 --symbol=D_8004E224:0x8004E224 --symbol=D_8004E228:0x8004E228 --symbol=D_800506F8:0x800506F8 --symbol=D_800D768C:0x800D768C --symbol=D_800DFE18:0x800DFE18 --symbol=D_800DFE1C:0x800DFE1C --symbol=D_800DFE20:0x800DFE20 --symbol=D_800E0F4C:0x800E0F4C --symbol=D_800E3B30:0x800E3B30",
+  "pipeline": "kmc+asn64"
+ },
+ "reproduced_by": "C",
+ "schema": "n64dk-generated-project/1",
+ "size": "0x56C",
+ "source_sha256": "e6936d6be0b7e9009a858faf5c35f9c3d1432c5495db4543ce052a3fd89a1078",
+ "status": "exact",
+ "unit": "main/func_8000BC74",
+ "unit_class": "game",
+ "vram": "0x8000BC74"
+}

@@ -1,0 +1,226 @@
+{
+ "behavioural": null,
+ "build": {
+  "flags": [
+   "-O1",
+   "-mips2",
+   "-non_shared",
+   "-Xcpluscomm",
+   "-Wab,-r4300_mul",
+   "-G",
+   "0"
+  ],
+  "normalizer_args": [],
+  "pin_origins": {
+   "section:.bss": "run-declaration"
+  },
+  "pipeline": "ido5.3",
+  "section_bases": {
+   ".bss": "0x800D1DB0"
+  },
+  "symbols": {}
+ },
+ "claims": {
+  "assumptions_present": true,
+  "behavioural_evidence": false,
+  "byte_identity": true,
+  "code_identity": true,
+  "ownership_complete": true,
+  "pins_independent": true,
+  "proof_grade": false,
+  "source_provenance": "genuine-c",
+  "source_provenance_creditable": true,
+  "strict_proof": false,
+  "unit_identity": true
+ },
+ "comparison_sha256": "32ebff85bd3339efe61dfb8fa1a3507065b4186460861931985aedb00f3d7202",
+ "declarations": {
+  "files": [
+   {
+    "name": "<project>/survey/symbol_addrs.txt",
+    "sha256": "2221c7932ff983d0843fd4debb0a1e5b099889284db3bd02dd9abeaf1e7f0518"
+   },
+   {
+    "name": "<project>/survey/sdk_symbols.txt",
+    "sha256": "e872ae4e14bac6f0958d86f5b2df4d87d46e61e0e1b8eff7992a706aea30c0a7"
+   }
+  ],
+  "map_sha256": "ab08e847d08293500f3eb9a538972a1c258e159b5218cd29b6436bf81e96e6f9"
+ },
+ "earned_by": "generated-c",
+ "environment": {
+  "LANG": "99fed2d548c2eb1022f4067f97fe838a2c3ea60ee0e0f53086788505c3ababad"
+ },
+ "headers": {
+  "headers": {},
+  "missing": []
+ },
+ "identity": "16d8648fc808b75b4a2b361aece01c6d62336218604ac0927897978ed504434a",
+ "image": {
+  "rom_key": "c5bcf3eff6bcdd9e",
+  "sha256": "2ebd827db509397f27c557e017bdcdaaed0a748a73babc25f322bb2faab66100",
+  "size": 4194304
+ },
+ "issued": {
+  "at": "2026-11-22T03:02:17Z"
+ },
+ "kit_driver_sha256": "461a0cf4ba284f5d537c950b632211ddad3d332d8c45483d8cacc90247a360e5",
+ "link": {
+  "linker_script": null,
+  "note": "no link step: the verifier relocates the object at declared addresses"
+ },
+ "object": {
+  "loaded_sha256": "77ad7c621b8edefe189e85746c7c1e27e5427719fc7b92f85ad9f1237112e8e1",
+  "object_sha256": "07fcfc259aa55809a9bd34dfc9a2370a17ed63ece7846e974cdd97ef16ab53ca"
+ },
+ "owned": {
+  "code_sha256": "a37a02a928c257210e5c3f81fc5616f75ff0405240acdb06df65b4971f0748de",
+  "data": {}
+ },
+ "ownership": {
+  "function_starts_sha256": "70af65e6e816fd1beaff628ac35e277ced423be162bee02dfa4336e6d1f89a7f",
+  "section_sizes": {}
+ },
+ "proof": {
+  "proof_grade": false,
+  "reasons": [
+   "owned target bytes are not exact"
+  ]
+ },
+ "provenance": {
+  "evidence": [],
+  "origin": "N64 Decomp Kit agent-stage (Jeopardy!)",
+  "reasons": [
+   "no forbidden assembly escape found"
+  ],
+  "verdict": "genuine-c"
+ },
+ "relocations": {
+  "section_bases": {
+   ".bss": "0x800D1DB0"
+  },
+  "sites": 33,
+  "sites_sha256": "e3855f30b8ad148ed8f5f186124621c8f4a037f9940fba2c502e96284864b232",
+  "symbols": {
+   "D_80071FD4": null,
+   "__osDisableInt": "0x8003FCE8",
+   "bzero": "0x8003C498",
+   "func_8003FD08": "0x8003FD08",
+   "osPiRawReadIo": "0x80041258"
+  }
+ },
+ "schema": "n64dk-proof-receipt/1",
+ "source": {
+  "kind": "c",
+  "name": "func_8003C3A8.c",
+  "sha256": "b9a4503e94971922b4f9179e7f215031ade066580ed00fb5218bab2bb748c5e7"
+ },
+ "subject": {
+  "catalogue_size": 240,
+  "image": "main",
+  "image_offset": "0x0003CFA8",
+  "name": "func_8003C3A8",
+  "size": 240,
+  "vram": "0x8003C3A8"
+ },
+ "toolchain": {
+  "pipeline": "ido5.3",
+  "recipe": {
+   "identity": "cb44802379cab322668ec6dc4f8894dd213868cf76ef2d26656dc960f68145ac",
+   "lane": "ido5.3",
+   "stages": [
+    {
+     "component": "ido5.3/cc",
+     "files": [
+      [
+       "cc",
+       "76d796c9591c9f5504949f85b29c32a6039a663791afe2f36f34ca18425b64d0"
+      ]
+     ],
+     "stage": "driver"
+    },
+    {
+     "component": "ido5.3/cfe",
+     "files": [
+      [
+       "cfe",
+       "7033dfb267f39a6e5381c0769f4fc46bbde193cfec771314429d8367ace898f2"
+      ]
+     ],
+     "stage": "preprocess"
+    },
+    {
+     "component": "ido5.3/cfe",
+     "files": [
+      [
+       "cfe",
+       "7033dfb267f39a6e5381c0769f4fc46bbde193cfec771314429d8367ace898f2"
+      ]
+     ],
+     "stage": "frontend"
+    },
+    {
+     "component": "ido5.3/uopt",
+     "files": [
+      [
+       "uopt",
+       "4e11956bdce9cac4c2934320cb29c55d1f3d3a0281ee594fafa5ebec88df4dd5"
+      ]
+     ],
+     "stage": "optimize"
+    },
+    {
+     "component": "ido5.3/ugen",
+     "files": [
+      [
+       "ugen",
+       "1734564701d39db213d6fe9c8f2cff16b82b28939fb1418348de479b41b7ac72"
+      ]
+     ],
+     "stage": "codegen"
+    },
+    {
+     "component": "ido5.3/as1",
+     "files": [
+      [
+       "as1",
+       "39c9750c189df37d4df0f33e5eddec9d4e743cbecad0326af3dda437826dc695"
+      ]
+     ],
+     "stage": "assemble"
+    }
+   ]
+  },
+  "toolchain_digest": "f9e412ad420964a88c2afdeece277d07522ef975c3d9da3da151c97bea158acd"
+ },
+ "verdict": {
+  "class": "assumed",
+  "strict": {
+   "assumptions": [
+    {
+     "address": "0x80071FD4",
+     "call": false,
+     "kind": "symbol",
+     "name": "D_80071FD4",
+     "sites": [
+      "0xA8",
+      "0xAC",
+      "0xC0",
+      "0xC8"
+     ]
+    }
+   ],
+   "conflicts": [],
+   "notes": [],
+   "sections": [],
+   "text_equal": true,
+   "verdict": "assumed"
+  }
+ },
+ "verifier": "b32bb4b4558997094bcc894542263b34db847e5db6279945b124620cab45ea98",
+ "wrapper": {
+  "assembler_flags": null,
+  "lane_code": {},
+  "normalizer_hook": null
+ }
+}

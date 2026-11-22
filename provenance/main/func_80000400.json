@@ -1,0 +1,35 @@
+{
+ "asm_provenance": {
+  "evidence": "sets $sp to 0x803FFFF0, clears .bss 0x80092A08..0x80156F68 word by word, jal the boot function (0x80035F50), then break: the standard N64 SDK entry, written in assembly",
+  "routine": "entry point",
+  "source": "SDK boot entry (entry.s, the game's makerom entry)"
+ },
+ "code_size": "0x3C",
+ "credit": "a generated project tree: it copies results the strict verifier settled and grants no credit; only `make verify` / `make verify-receipts` against your own ROM confirm them again",
+ "distance": "",
+ "export_source": "asm_not_decompiled/main/func_80000400.s",
+ "file": "asm/main/func_80000400.s",
+ "function": "func_80000400",
+ "how": "kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32",
+ "image": "main",
+ "inputs_sha256": "4f7b5d6a93c6c0b2c15ab612e9f2fec6705f1147d901c7ffe079b39288d29998",
+ "kind": "handwritten",
+ "link_layout_object": "",
+ "offset": "0x1000",
+ "outcome": "blocked-boundary",
+ "raw": null,
+ "receipt": "none",
+ "recipe": {
+  "assembler": "gnu-as -march=vr4300 -mabi=o64",
+  "flags": "",
+  "pipeline": "gnu-as"
+ },
+ "reproduced_by": "assembly (hand-written in the original)",
+ "schema": "n64dk-generated-project/1",
+ "size": "0x3C",
+ "source_sha256": "a2cbca9b2925d3c37966bcf1cd0067bc9ad02ea808310e5c4fba08aec4909b9a",
+ "status": "assembly",
+ "unit": "main/func_80000400",
+ "unit_class": "boot",
+ "vram": "0x80000400"
+}

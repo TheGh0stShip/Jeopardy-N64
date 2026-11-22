@@ -1,0 +1,463 @@
+{
+ "behavioural": null,
+ "build": {
+  "flags": [
+   "-O0",
+   "-G0",
+   "-mips3",
+   "-mgp32",
+   "-mfp32"
+  ],
+  "normalizer_args": [],
+  "pin_origins": {},
+  "pipeline": "kmc+asn64",
+  "section_bases": {},
+  "symbols": {}
+ },
+ "claims": {
+  "assumptions_present": true,
+  "behavioural_evidence": false,
+  "byte_identity": true,
+  "code_identity": true,
+  "ownership_complete": true,
+  "pins_independent": true,
+  "proof_grade": false,
+  "source_provenance": "genuine-c",
+  "source_provenance_creditable": true,
+  "strict_proof": false,
+  "unit_identity": true
+ },
+ "comparison_sha256": "ea350df01ed93f79459cb259c4b8d4ca367795b7f51acbef0f741239f184ec62",
+ "declarations": {
+  "files": [
+   {
+    "name": "<project>/survey/symbol_addrs.txt",
+    "sha256": "2221c7932ff983d0843fd4debb0a1e5b099889284db3bd02dd9abeaf1e7f0518"
+   },
+   {
+    "name": "<project>/survey/sdk_symbols.txt",
+    "sha256": "e872ae4e14bac6f0958d86f5b2df4d87d46e61e0e1b8eff7992a706aea30c0a7"
+   }
+  ],
+  "map_sha256": "ab08e847d08293500f3eb9a538972a1c258e159b5218cd29b6436bf81e96e6f9"
+ },
+ "earned_by": "generated-c",
+ "environment": {
+  "LANG": "99fed2d548c2eb1022f4067f97fe838a2c3ea60ee0e0f53086788505c3ababad"
+ },
+ "headers": {
+  "headers": {},
+  "missing": []
+ },
+ "identity": "c207a4badf3d6e2f50e3a8bc910414f4717aac94d19c02bb13d15f303ce4de08",
+ "image": {
+  "rom_key": "c5bcf3eff6bcdd9e",
+  "sha256": "2ebd827db509397f27c557e017bdcdaaed0a748a73babc25f322bb2faab66100",
+  "size": 4194304
+ },
+ "issued": {
+  "at": "2026-11-22T03:02:16Z"
+ },
+ "kit_driver_sha256": "461a0cf4ba284f5d537c950b632211ddad3d332d8c45483d8cacc90247a360e5",
+ "link": {
+  "linker_script": null,
+  "note": "no link step: the verifier relocates the object at declared addresses"
+ },
+ "object": {
+  "loaded_sha256": "7c575a3e2842eb7ab245ceb97bb2e649f461e9258adcdd393ea98ec5863dec06",
+  "object_sha256": "b87588bb58690cb455b020878a79c28f154665e085ebb00735557a045aa77b23"
+ },
+ "owned": {
+  "code_sha256": "908d3be2938b0528cae024040a830ceab3d5782df2201e6fb2b06a78c9ba0080",
+  "data": {}
+ },
+ "ownership": {
+  "function_starts_sha256": "70af65e6e816fd1beaff628ac35e277ced423be162bee02dfa4336e6d1f89a7f",
+  "section_sizes": {}
+ },
+ "proof": {
+  "proof_grade": false,
+  "reasons": [
+   "owned target bytes are not exact"
+  ]
+ },
+ "provenance": {
+  "evidence": [],
+  "origin": "N64 Decomp Kit agent-stage (Jeopardy!)",
+  "reasons": [
+   "no forbidden assembly escape found"
+  ],
+  "verdict": "genuine-c"
+ },
+ "relocations": {
+  "section_bases": {
+   ".text": "0x8002C5F0"
+  },
+  "sites": 153,
+  "sites_sha256": "ac820d37c741b1fbd3468f894e6ed2d172701ba4f366cae2f5246dff2a59fa6a",
+  "symbols": {
+   "D_8004DFD2": null,
+   "D_800560F8": null,
+   "D_800580C4": null,
+   "D_800580DC": null,
+   "D_8005812C": null,
+   "D_80058844": null,
+   "D_80058848": null,
+   "D_80058D88": null,
+   "D_80059830": null,
+   "D_80059864": null,
+   "D_80059878": null,
+   "D_80059898": null,
+   "D_800598AC": null,
+   "D_800598D8": null,
+   "D_8005998C": null,
+   "D_800DDF98": null,
+   "D_800DF030": null,
+   "D_800E0DF0": null,
+   "D_800E3310": null,
+   "D_800E3660": null,
+   "func_80008C40": "0x80008C40",
+   "func_8002B718": "0x8002B718",
+   "func_8002EF00": "0x8002EF00",
+   "func_80035E48": "0x80035E48"
+  }
+ },
+ "schema": "n64dk-proof-receipt/1",
+ "source": {
+  "kind": "c",
+  "name": "func_8002C5F0.c",
+  "sha256": "ae4189683ff9a7ccc74e858053b6d2596662c8128988660352108a3b31a06ee6"
+ },
+ "subject": {
+  "catalogue_size": 1520,
+  "image": "main",
+  "image_offset": "0x0002D1F0",
+  "name": "func_8002C5F0",
+  "size": 1520,
+  "vram": "0x8002C5F0"
+ },
+ "toolchain": {
+  "pipeline": "kmc+asn64",
+  "recipe": {
+   "identity": "8a8faeb2431460c295a1d3d5b3cc54caaccad697765e10c99aa26548ecabd33b",
+   "lane": "kmc+asn64",
+   "stages": [
+    {
+     "component": "kmc/gcc",
+     "files": [
+      [
+       "gcc",
+       "181803fe0a8406ed21f8470d09f77fe2c91044941b8c18eb30432b82bf9f41e1"
+      ]
+     ],
+     "stage": "driver"
+    },
+    {
+     "component": "kmc/cpp",
+     "files": [
+      [
+       "cpp",
+       "61c1756ddbc47eaaa086cce5a7e3e455cecabd220d5a709be98874f55472545e"
+      ],
+      [
+       "cccp",
+       "61c1756ddbc47eaaa086cce5a7e3e455cecabd220d5a709be98874f55472545e"
+      ]
+     ],
+     "stage": "preprocess"
+    },
+    {
+     "component": "kmc/cc1",
+     "files": [
+      [
+       "cc1",
+       "28cfa07804df7b40d5a13a525dc63eb2fa12f1b0133dc737950dce59611d3972"
+      ]
+     ],
+     "stage": "compile"
+    },
+    {
+     "component": "kit/asn64-converter",
+     "files": [],
+     "stage": "convert"
+    },
+    {
+     "component": "binutils/as",
+     "files": [
+      [
+       "usr/bin/mips-linux-gnu-as",
+       "f93b44ae7ab70c91f757e1af36f3e23c9ac80f09085fb8b6c6b4c983dd76bf79"
+      ]
+     ],
+     "stage": "assemble"
+    }
+   ]
+  },
+  "toolchain_digest": "619f66e3e3df7ba2125251f4950bdb7d92b011637d6ea41622b88f15e529fdd4"
+ },
+ "verdict": {
+  "class": "assumed",
+  "strict": {
+   "assumptions": [
+    {
+     "address": "0x8004DFD2",
+     "call": false,
+     "kind": "symbol",
+     "name": "D_8004DFD2",
+     "sites": [
+      "0x7C",
+      "0x80"
+     ]
+    },
+    {
+     "address": "0x800560F8",
+     "call": false,
+     "kind": "symbol",
+     "name": "D_800560F8",
+     "sites": [
+      "0x430",
+      "0x434",
+      "0x488",
+      "0x48C",
+      "0x498",
+      "0x49C",
+      "0x4C0",
+      "0x4C4"
+     ]
+    },
+    {
+     "address": "0x800580C4",
+     "call": false,
+     "kind": "symbol",
+     "name": "D_800580C4",
+     "sites": [
+      "0x490",
+      "0x494"
+     ]
+    },
+    {
+     "address": "0x800580DC",
+     "call": false,
+     "kind": "symbol",
+     "name": "D_800580DC",
+     "sites": [
+      "0x254",
+      "0x258"
+     ]
+    },
+    {
+     "address": "0x8005812C",
+     "call": false,
+     "kind": "symbol",
+     "name": "D_8005812C",
+     "sites": [
+      "0x1A8",
+      "0x1AC",
+      "0x1F4",
+      "0x1F8"
+     ]
+    },
+    {
+     "address": "0x80058844",
+     "call": false,
+     "kind": "symbol",
+     "name": "D_80058844",
+     "sites": [
+      "0x8C",
+      "0x90",
+      "0x4E0",
+      "0x4E4"
+     ]
+    },
+    {
+     "address": "0x80058848",
+     "call": false,
+     "kind": "symbol",
+     "name": "D_80058848",
+     "sites": [
+      "0x84",
+      "0x88",
+      "0x4B8",
+      "0x4BC"
+     ]
+    },
+    {
+     "address": "0x80058D88",
+     "call": false,
+     "kind": "symbol",
+     "name": "D_80058D88",
+     "sites": [
+      "0x94",
+      "0x98",
+      "0x9C",
+      "0xA0"
+     ]
+    },
+    {
+     "address": "0x80059830",
+     "call": false,
+     "kind": "symbol",
+     "name": "D_80059830",
+     "sites": [
+      "0x520",
+      "0x524"
+     ]
+    },
+    {
+     "address": "0x80059864",
+     "call": false,
+     "kind": "symbol",
+     "name": "D_80059864",
+     "sites": [
+      "0x4F8",
+      "0x4FC"
+     ]
+    },
+    {
+     "address": "0x80059878",
+     "call": false,
+     "kind": "symbol",
+     "name": "D_80059878",
+     "sites": [
+      "0x530",
+      "0x534"
+     ]
+    },
+    {
+     "address": "0x80059898",
+     "call": false,
+     "kind": "symbol",
+     "name": "D_80059898",
+     "sites": [
+      "0x4A8",
+      "0x4AC"
+     ]
+    },
+    {
+     "address": "0x800598AC",
+     "call": false,
+     "kind": "symbol",
+     "name": "D_800598AC",
+     "sites": [
+      "0x440",
+      "0x444",
+      "0x508",
+      "0x50C"
+     ]
+    },
+    {
+     "address": "0x800598D8",
+     "call": false,
+     "kind": "symbol",
+     "name": "D_800598D8",
+     "sites": [
+      "0x4D0",
+      "0x4D4"
+     ]
+    },
+    {
+     "address": "0x8005998C",
+     "call": false,
+     "kind": "symbol",
+     "name": "D_8005998C",
+     "sites": [
+      "0x198",
+      "0x19C",
+      "0x1E4",
+      "0x1E8",
+      "0x210",
+      "0x214",
+      "0x220",
+      "0x224"
+     ]
+    },
+    {
+     "address": "0x800DDF98",
+     "call": false,
+     "kind": "symbol",
+     "name": "D_800DDF98",
+     "sites": [
+      "0x410",
+      "0x414",
+      "0x468",
+      "0x46C"
+     ]
+    },
+    {
+     "address": "0x800DF030",
+     "call": false,
+     "kind": "symbol",
+     "name": "D_800DF030",
+     "sites": [
+      "0xA4",
+      "0xA8",
+      "0xDC",
+      "0xE0",
+      "0x150",
+      "0x154",
+      "0x170",
+      "0x174"
+     ]
+    },
+    {
+     "address": "0x800E0DF0",
+     "call": false,
+     "kind": "symbol",
+     "name": "D_800E0DF0",
+     "sites": [
+      "0x324",
+      "0x328"
+     ]
+    },
+    {
+     "address": "0x800E3310",
+     "call": false,
+     "kind": "symbol",
+     "name": "D_800E3310",
+     "sites": [
+      "0x424",
+      "0x428",
+      "0x47C",
+      "0x480"
+     ]
+    },
+    {
+     "address": "0x800E3660",
+     "call": false,
+     "kind": "symbol",
+     "name": "D_800E3660",
+     "sites": [
+      "0x2AC",
+      "0x2B0",
+      "0x2D8",
+      "0x2DC",
+      "0x30C",
+      "0x310",
+      "0x358",
+      "0x35C"
+     ]
+    }
+   ],
+   "conflicts": [],
+   "notes": [],
+   "sections": [],
+   "text_equal": true,
+   "verdict": "assumed"
+  }
+ },
+ "verifier": "b32bb4b4558997094bcc894542263b34db847e5db6279945b124620cab45ea98",
+ "wrapper": {
+  "assembler_flags": [
+   "-march=vr4300",
+   "-mabi=32",
+   "-EB",
+   "-G0",
+   "--no-pad-sections",
+   "-mips3"
+  ],
+  "lane_code": {
+   "asn64": "253eb28f07280cbf398d78e6376e672b254882b714fff96e28202df3261051c4"
+  },
+  "normalizer_hook": null
+ }
+}

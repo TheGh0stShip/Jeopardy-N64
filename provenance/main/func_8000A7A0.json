@@ -1,0 +1,29 @@
+{
+ "code_size": "0x988",
+ "credit": "a generated project tree: it copies results the strict verifier settled and grants no credit; only `make verify` / `make verify-receipts` against your own ROM confirm them again",
+ "distance": "0",
+ "export_source": "src/main/func_8000A7A0.c",
+ "file": "src/main/func_8000A7A0.c",
+ "function": "func_8000A7A0",
+ "how": "kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 --symbol=D_8000060C:0x8000060C --symbol=D_80000610:0x80000610 --symbol=D_80000614:0x80000614 --symbol=D_80000618:0x80000618 --symbol=D_8000061C:0x8000061C --symbol=D_80000620:0x80000620 --symbol=D_80000624:0x80000624 --symbol=D_80000628:0x80000628 --symbol=D_8000062C:0x8000062C --symbol=D_800E0F4C:0x800E0F4C (N64 Decomp Kit agent-stage)",
+ "image": "main",
+ "inputs_sha256": "0d53738c2c493ab7e9daa7e3b919c5947c2b8eaa4d3a608c595f13413a0cc126",
+ "kind": "c",
+ "link_layout_object": "",
+ "offset": "0xB3A0",
+ "outcome": "exact",
+ "raw": null,
+ "receipt": "present",
+ "recipe": {
+  "flags": "-O0 -G0 -mips3 -mgp32 -mfp32 --symbol=D_8000060C:0x8000060C --symbol=D_80000610:0x80000610 --symbol=D_80000614:0x80000614 --symbol=D_80000618:0x80000618 --symbol=D_8000061C:0x8000061C --symbol=D_80000620:0x80000620 --symbol=D_80000624:0x80000624 --symbol=D_80000628:0x80000628 --symbol=D_8000062C:0x8000062C --symbol=D_800E0F4C:0x800E0F4C",
+  "pipeline": "kmc+asn64"
+ },
+ "reproduced_by": "C",
+ "schema": "n64dk-generated-project/1",
+ "size": "0x988",
+ "source_sha256": "c408bdcd517ce1f5a285583e84aa34f1b77cd47223ef26a37e876f258ca99cfd",
+ "status": "exact",
+ "unit": "main/func_8000A7A0",
+ "unit_class": "game",
+ "vram": "0x8000A7A0"
+}

@@ -1,0 +1,32 @@
+{
+ "code_size": "0x108",
+ "credit": "a generated project tree: it copies results the strict verifier settled and grants no credit; only `make verify` / `make verify-receipts` against your own ROM confirm them again",
+ "distance": "",
+ "export_source": "donors/main/src/wof/src/main/func_800A46FC/func_800A46FC.c",
+ "file": "donors/main/src/wof/src/main/func_800A46FC/func_800A46FC.c",
+ "function": "func_80092088",
+ "how": "donor unit wof: src/main/func_800A46FC/func_800A46FC.c",
+ "image": "main",
+ "inputs_sha256": "66fcd358041bb2bbdff613534a8b9f59a810ff01b0e588bd2b218fb2124ac273",
+ "kind": "donor-c",
+ "link_layout_object": "",
+ "offset": "0x92C88",
+ "outcome": "donor",
+ "raw": null,
+ "receipt": "none",
+ "recipe": {
+  "flags": "--assembler=asn64 -O0 -G0 -mips3 -mgp32 -mfp32",
+  "manifest": "donors/main/proposed_wof_kmc_asn64.tsv",
+  "pipeline": "kmc+asn64",
+  "unit_offset": "0x92C88",
+  "unit_size": "0x104"
+ },
+ "reproduced_by": "C",
+ "schema": "n64dk-generated-project/1",
+ "size": "0x108",
+ "source_sha256": "22c536fd702a460135656e092e8dae92fc032a1eda252376b4fc4760e8a52d1a",
+ "status": "exact",
+ "unit": "main/func_80092088",
+ "unit_class": "game",
+ "vram": "0x80092088"
+}

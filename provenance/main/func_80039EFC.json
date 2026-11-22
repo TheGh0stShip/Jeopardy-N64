@@ -1,0 +1,29 @@
+{
+ "code_size": "0x48",
+ "credit": "a generated project tree: it copies results the strict verifier settled and grants no credit; only `make verify` / `make verify-receipts` against your own ROM confirm them again",
+ "distance": "0",
+ "export_source": "src/main/func_80039EFC.c",
+ "file": "src/main/func_80039EFC.c",
+ "function": "func_80039EFC",
+ "how": "kmc+asn64 -O2 -G0 -mips3 -mgp32 -mfp32 (N64 Decomp Kit agent-stage)",
+ "image": "main",
+ "inputs_sha256": "ad28209817d192d668b3bd51fd283d9070b0f04a7a9c2678dbdc4ad85e86a7a5",
+ "kind": "c",
+ "link_layout_object": "",
+ "offset": "0x3AAFC",
+ "outcome": "exact",
+ "raw": null,
+ "receipt": "present",
+ "recipe": {
+  "flags": "-O2 -G0 -mips3 -mgp32 -mfp32",
+  "pipeline": "kmc+asn64"
+ },
+ "reproduced_by": "C",
+ "schema": "n64dk-generated-project/1",
+ "size": "0x48",
+ "source_sha256": "44c87745257b017ed4591a5de37327ce5ec74b988c5c7f31c39a14a99cc24bd3",
+ "status": "exact",
+ "unit": "main/func_80039EFC",
+ "unit_class": "game",
+ "vram": "0x80039EFC"
+}

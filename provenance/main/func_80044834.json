@@ -1,0 +1,32 @@
+{
+ "code_size": "0x828",
+ "credit": "a generated project tree: it copies results the strict verifier settled and grants no credit; only `make verify` / `make verify-receipts` against your own ROM confirm them again",
+ "distance": "0",
+ "export_source": "src/main/unit_800445B8.c",
+ "file": "src/main/unit_800445B8.c",
+ "function": "func_80044834",
+ "how": "ido5.3 --section-base=.rodata:0x80001EF8 -O3 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 --symbol=D_80071FF8:0x80071FF8 (whole translation unit, N64 Decomp Kit agent-stage)",
+ "image": "main",
+ "inputs_sha256": "c2e1fc238a54fc37e8b3809868e6a2b4b00d0fcb6484a64599869527703d82a6",
+ "kind": "c",
+ "link_layout_object": "",
+ "offset": "0x45434",
+ "outcome": "exact",
+ "raw": null,
+ "receipt": "unit",
+ "recipe": {
+  "flags": "--section-base=.rodata:0x80001EF8 -O3 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 --symbol=D_80071FF8:0x80071FF8",
+  "pipeline": "ido5.3",
+  "unit_offset": "0x451B8",
+  "unit_size": "0x1230"
+ },
+ "reproduced_by": "C",
+ "schema": "n64dk-generated-project/1",
+ "size": "0x828",
+ "source_origin": "donor: N64 SDK 2.0F libaudio csplayer.c from the Wheel of Fortune donor tree, preprocessed; catalogue names and project symbols substituted (lab agent a8)",
+ "source_sha256": "8c44fb2aec5ffb8b3a77bf2dbf223c3856fec312d243e54c8856363e5b3e5607",
+ "status": "exact",
+ "unit": "main/func_80044834",
+ "unit_class": "game",
+ "vram": "0x80044834"
+}

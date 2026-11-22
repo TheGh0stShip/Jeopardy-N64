@@ -1,0 +1,32 @@
+{
+ "code_size": "0x148",
+ "credit": "a generated project tree: it copies results the strict verifier settled and grants no credit; only `make verify` / `make verify-receipts` against your own ROM confirm them again",
+ "distance": "0",
+ "export_source": "src/main/func_80016548.c",
+ "file": "src/main/func_80016548.c",
+ "function": "func_80016548",
+ "how": "kmc+asn64 --section-base=.rodata:0x8000095C -O0 -G0 -mips3 -mgp32 -mfp32 --normalizer-enable-FP32-PAIR --normalizer-enable-KMC-FP-PAIR-WORDS --normalizer-enable-KMC-LID-PAIR --normalizer-enable-KMC-LID-ALIGN4 --symbol=D_800D768C:0x800D768C (N64 Decomp Kit agent-stage)",
+ "image": "main",
+ "inputs_sha256": "7d6959694ed315f24e73d9e28f41b5dc607f4f14f98e890d275128888e23c42e",
+ "kind": "c",
+ "link_layout_object": "",
+ "offset": "0x17148",
+ "outcome": "exact",
+ "owned_sections": {
+  ".rodata": 8
+ },
+ "raw": null,
+ "receipt": "present",
+ "recipe": {
+  "flags": "--section-base=.rodata:0x8000095C -O0 -G0 -mips3 -mgp32 -mfp32 --normalizer-enable-FP32-PAIR --normalizer-enable-KMC-FP-PAIR-WORDS --normalizer-enable-KMC-LID-PAIR --normalizer-enable-KMC-LID-ALIGN4 --symbol=D_800D768C:0x800D768C",
+  "pipeline": "kmc+asn64"
+ },
+ "reproduced_by": "C",
+ "schema": "n64dk-generated-project/1",
+ "size": "0x148",
+ "source_sha256": "12eaad5695d7d84c1950297976acb53c4e7fb9a21ba36cda2d162febdc27778b",
+ "status": "exact",
+ "unit": "main/func_80016548",
+ "unit_class": "game",
+ "vram": "0x80016548"
+}

@@ -1,0 +1,17 @@
+[images.main]
+path = "baserom.z64"
+catalogue = "functions.toml"
+manifests = []
+
+[run]
+pipeline = "kmc+asn64"
+flags = "-O0 -G0 -mips3 -mgp32 -mfp32"
+symbols = ["symbol_addrs.txt", "sdk_symbols.txt"]
+
+# IDO 5.2: some of this title's SDK units (e.g. func_8003FDF8); found under the build's toolchain root
+[pipelines.ido52]
+family = "ido"
+default_flags = ["-O2", "-mips2"]
+steps = [
+  "{toolchain}/ido5.2/usr/bin/qemu-irix -L {toolchain}/ido5.2 {toolchain}/ido5.2/usr/lib/driver -c -Xcpluscomm -G0 -non_shared -woff 649,838,712 -32 {flags} {includes} -o {object} {source}",
+]

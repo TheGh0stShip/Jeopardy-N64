@@ -1,0 +1,35 @@
+{
+ "asm_provenance": {
+  "evidence": "jal osDestroyThread with move $a0,$zero in its delay slot and no frame: the exceptasm.s leaf every thread returns into",
+  "routine": "__osCleanupThread",
+  "source": "libultra exceptasm.s"
+ },
+ "code_size": "0x8",
+ "credit": "a generated project tree: it copies results the strict verifier settled and grants no credit; only `make verify` / `make verify-receipts` against your own ROM confirm them again",
+ "distance": "",
+ "export_source": "asm_not_decompiled/main/func_80040728.s",
+ "file": "asm/main/func_80040728.s",
+ "function": "func_80040728",
+ "how": "kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32",
+ "image": "main",
+ "inputs_sha256": "6b7156d80fb665b4523014a6ed7595878b5693d415c88cedf34769186f7594f3",
+ "kind": "handwritten",
+ "link_layout_object": "",
+ "offset": "0x41328",
+ "outcome": "blocked-boundary",
+ "raw": null,
+ "receipt": "none",
+ "recipe": {
+  "assembler": "gnu-as -march=vr4300 -mabi=o64",
+  "flags": "",
+  "pipeline": "gnu-as"
+ },
+ "reproduced_by": "assembly (hand-written in the original)",
+ "schema": "n64dk-generated-project/1",
+ "size": "0x8",
+ "source_sha256": "857858f19044dc4812dfb5be1d5375e57eea2d1c6615998101927adf89876220",
+ "status": "assembly",
+ "unit": "main/func_80040728",
+ "unit_class": "game",
+ "vram": "0x80040728"
+}

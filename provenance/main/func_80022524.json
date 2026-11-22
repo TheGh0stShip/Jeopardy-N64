@@ -1,0 +1,33 @@
+{
+ "code_size": "0x63C",
+ "credit": "a generated project tree: it copies results the strict verifier settled and grants no credit; only `make verify` / `make verify-receipts` against your own ROM confirm them again",
+ "distance": "0",
+ "export_source": "src/main/func_80022524.c",
+ "file": "src/main/func_80022524.c",
+ "function": "func_80022524",
+ "how": "kmc+asn64 --section-base=.rodata:0x80001290 -O0 -G0 -mips3 -mgp32 -mfp32 --normalizer-enable-FP32-PAIR --normalizer-enable-KMC-FP-PAIR-WORDS --normalizer-enable-KMC-LID-PAIR --symbol=D_010942B8:0x010942B8 --symbol=D_80001254:0x80001254 --symbol=D_80001264:0x80001264 --symbol=D_8000126C:0x8000126C --symbol=D_80001278:0x80001278 --symbol=D_8000127C:0x8000127C --symbol=D_80056100:0x80056100 --symbol=D_80056104:0x80056104 --symbol=D_80056108:0x80056108 --symbol=D_8005610C:0x8005610C --symbol=D_8005998C:0x8005998C --symbol=D_800D7680:0x800D7680 --symbol=D_800DE160:0x800DE160 --symbol=D_800DE548:0x800DE548 --symbol=D_800DE5D8:0x800DE5D8 --symbol=D_800DEFE0:0x800DEFE0 --symbol=D_800E0F4C:0x800E0F4C --symbol=D_800E3698:0x800E3698 (N64 Decomp Kit agent-stage)",
+ "image": "main",
+ "inputs_sha256": "52f4ec235bac84e88450c0cb079f68cae32dfafc0126e869186d0e71acbd9aeb",
+ "kind": "c",
+ "link_layout_object": "",
+ "offset": "0x23124",
+ "outcome": "exact",
+ "owned_sections": {
+  ".rodata": 112
+ },
+ "raw": null,
+ "receipt": "present",
+ "recipe": {
+  "flags": "--section-base=.rodata:0x80001290 -O0 -G0 -mips3 -mgp32 -mfp32 --normalizer-enable-FP32-PAIR --normalizer-enable-KMC-FP-PAIR-WORDS --normalizer-enable-KMC-LID-PAIR --symbol=D_010942B8:0x010942B8 --symbol=D_80001254:0x80001254 --symbol=D_80001264:0x80001264 --symbol=D_8000126C:0x8000126C --symbol=D_80001278:0x80001278 --symbol=D_8000127C:0x8000127C --symbol=D_80056100:0x80056100 --symbol=D_80056104:0x80056104 --symbol=D_80056108:0x80056108 --symbol=D_8005610C:0x8005610C --symbol=D_8005998C:0x8005998C --symbol=D_800D7680:0x800D7680 --symbol=D_800DE160:0x800DE160 --symbol=D_800DE548:0x800DE548 --symbol=D_800DE5D8:0x800DE5D8 --symbol=D_800DEFE0:0x800DEFE0 --symbol=D_800E0F4C:0x800E0F4C --symbol=D_800E3698:0x800E3698",
+  "pipeline": "kmc+asn64"
+ },
+ "reproduced_by": "C",
+ "schema": "n64dk-generated-project/1",
+ "size": "0x63C",
+ "source_origin": "hand-written from m2c draft (lab agent a6)",
+ "source_sha256": "5458ca3c62c7f260e1e2245b4724494434b65496d22ad51fe8958fa77526d2ee",
+ "status": "exact",
+ "unit": "main/func_80022524",
+ "unit_class": "game",
+ "vram": "0x80022524"
+}

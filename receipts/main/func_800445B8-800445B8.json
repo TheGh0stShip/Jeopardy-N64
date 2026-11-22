@@ -1,0 +1,258 @@
+{
+ "behavioural": null,
+ "build": {
+  "flags": [
+   "-O3",
+   "-mips2",
+   "-non_shared",
+   "-Xcpluscomm",
+   "-Wab,-r4300_mul",
+   "-G",
+   "0"
+  ],
+  "normalizer_args": [],
+  "pin_origins": {
+   "D_80071FF8": "run-declaration",
+   "section:.rodata": "run-declaration"
+  },
+  "pipeline": "ido5.3",
+  "section_bases": {
+   ".rodata": "0x80001EF8"
+  },
+  "symbols": {
+   "D_80071FF8": "0x80071FF8"
+  }
+ },
+ "claims": {
+  "assumptions_present": false,
+  "behavioural_evidence": false,
+  "byte_identity": true,
+  "code_identity": true,
+  "ownership_complete": true,
+  "pins_independent": true,
+  "proof_grade": true,
+  "source_provenance": "genuine-c",
+  "source_provenance_creditable": true,
+  "strict_proof": true,
+  "unit_identity": true
+ },
+ "comparison_sha256": "1b28639670b9eb6d3eb9d0fb4d4f9e19d1adaf9b5c1809a1f4eebf35f20ef9c4",
+ "declarations": {
+  "files": [
+   {
+    "name": "<project>/survey/symbol_addrs.txt",
+    "sha256": "2221c7932ff983d0843fd4debb0a1e5b099889284db3bd02dd9abeaf1e7f0518"
+   },
+   {
+    "name": "<project>/survey/sdk_symbols.txt",
+    "sha256": "e872ae4e14bac6f0958d86f5b2df4d87d46e61e0e1b8eff7992a706aea30c0a7"
+   }
+  ],
+  "map_sha256": "ab08e847d08293500f3eb9a538972a1c258e159b5218cd29b6436bf81e96e6f9"
+ },
+ "earned_by": "generated-c",
+ "environment": {
+  "LANG": "99fed2d548c2eb1022f4067f97fe838a2c3ea60ee0e0f53086788505c3ababad"
+ },
+ "headers": {
+  "headers": {},
+  "missing": []
+ },
+ "identity": "f53f65e20ccd71da7090afc4968e076769eeac8c40ce2825fabf39ab66a99ba3",
+ "image": {
+  "rom_key": "c5bcf3eff6bcdd9e",
+  "sha256": "2ebd827db509397f27c557e017bdcdaaed0a748a73babc25f322bb2faab66100",
+  "size": 4194304
+ },
+ "issued": {
+  "at": "2026-11-22T06:54:30Z"
+ },
+ "kit_driver_sha256": "461a0cf4ba284f5d537c950b632211ddad3d332d8c45483d8cacc90247a360e5",
+ "link": {
+  "linker_script": null,
+  "note": "no link step: the verifier relocates the object at declared addresses"
+ },
+ "object": {
+  "loaded_sha256": "46bdd0120dc15b24398520e99aa67db5231519f7f868dd95fef58c420df93514",
+  "object_sha256": "6d973efadd8ed9bb1be5f4695e697eb4b718bc9d839dd0f422bb28c058c0e8b1"
+ },
+ "owned": {
+  "code_sha256": "c74c93732a67563ade556abe332c6a2b8c165b036e766eee8ebff9df651b237e",
+  "data": {
+   ".rodata": {
+    "base": "0x80001EF8",
+    "sha256": "c60291b9cb0ac34b3b382ac277e611a1825437e99836c7223a538a3b4d181a92",
+    "size": 576
+   }
+  }
+ },
+ "ownership": {
+  "function_starts_sha256": "70af65e6e816fd1beaff628ac35e277ced423be162bee02dfa4336e6d1f89a7f",
+  "section_sizes": {}
+ },
+ "proof": {
+  "proof_grade": true,
+  "reasons": []
+ },
+ "provenance": {
+  "evidence": [],
+  "origin": "N64 Decomp Kit agent-stage (Jeopardy!)",
+  "reasons": [
+   "no forbidden assembly escape found"
+  ],
+  "verdict": "genuine-c"
+ },
+ "relocations": {
+  "section_bases": {
+   ".rodata": "0x80001EF8",
+   ".text": "0x800445B8"
+  },
+  "sites": 240,
+  "sites_sha256": "d03af66440afa0db0ec2be092cb40cc3ef6facea5d4ba68114de8c040b0eef41",
+  "symbols": {
+   "D_80071FF8": "0x80071FF8",
+   "__alCSeqNextDelta": "0x8003ECA4",
+   "__initChanState": "0x80046F2C",
+   "__initFromBank": "0x800458BC",
+   "__lookupSoundQuick": "0x80045EE8",
+   "__lookupVoice": "0x80045E04",
+   "__mapVoice": "0x80045E78",
+   "__seqpReleaseVoice": "0x80045A24",
+   "__seqpStopOsc": "0x80046E28",
+   "__setInstChanState": "0x800457E8",
+   "__unmapVoice": "0x80045BF8",
+   "__voiceNeedsNoteKill": "0x80045B50",
+   "__vsDelta": "0x80045978",
+   "__vsPan": "0x80045DBC",
+   "__vsVol": "0x8004599C",
+   "alCSeqNextEvent": "0x8003E5BC",
+   "alCents2Ratio": "0x80048858",
+   "alEvtqFlushType": "0x80042768",
+   "alEvtqNew": "0x80042A34",
+   "alEvtqNextEvent": "0x800429A8",
+   "alEvtqPostEvent": "0x80042884",
+   "alHeapDBAlloc": "0x8003D5A8",
+   "alLink": "0x8003D4D8",
+   "alSynAddPlayer": "0x80048BC8",
+   "alSynAllocVoice": "0x800478E0",
+   "alSynFreeVoice": "0x80047748",
+   "alSynSetFXMix": "0x800489D8",
+   "alSynSetPan": "0x80048A78",
+   "alSynSetPitch": "0x800488A8",
+   "alSynSetVol": "0x80048938",
+   "alSynStartVoiceParams": "0x80047AA8",
+   "alSynStopVoice": "0x80047A28",
+   "alUnlink": "0x8003D4A8",
+   "osSetIntMask": "0x80048528"
+  }
+ },
+ "schema": "n64dk-proof-receipt/1",
+ "source": {
+  "kind": "c",
+  "name": "func_800445B8.c",
+  "sha256": "8c44fb2aec5ffb8b3a77bf2dbf223c3856fec312d243e54c8856363e5b3e5607"
+ },
+ "subject": {
+  "catalogue_size": 112,
+  "image": "main",
+  "image_offset": "0x000451B8",
+  "name": "func_800445B8",
+  "size": 4656,
+  "vram": "0x800445B8"
+ },
+ "toolchain": {
+  "pipeline": "ido5.3",
+  "recipe": {
+   "identity": "cb44802379cab322668ec6dc4f8894dd213868cf76ef2d26656dc960f68145ac",
+   "lane": "ido5.3",
+   "stages": [
+    {
+     "component": "ido5.3/cc",
+     "files": [
+      [
+       "cc",
+       "76d796c9591c9f5504949f85b29c32a6039a663791afe2f36f34ca18425b64d0"
+      ]
+     ],
+     "stage": "driver"
+    },
+    {
+     "component": "ido5.3/cfe",
+     "files": [
+      [
+       "cfe",
+       "7033dfb267f39a6e5381c0769f4fc46bbde193cfec771314429d8367ace898f2"
+      ]
+     ],
+     "stage": "preprocess"
+    },
+    {
+     "component": "ido5.3/cfe",
+     "files": [
+      [
+       "cfe",
+       "7033dfb267f39a6e5381c0769f4fc46bbde193cfec771314429d8367ace898f2"
+      ]
+     ],
+     "stage": "frontend"
+    },
+    {
+     "component": "ido5.3/uopt",
+     "files": [
+      [
+       "uopt",
+       "4e11956bdce9cac4c2934320cb29c55d1f3d3a0281ee594fafa5ebec88df4dd5"
+      ]
+     ],
+     "stage": "optimize"
+    },
+    {
+     "component": "ido5.3/ugen",
+     "files": [
+      [
+       "ugen",
+       "1734564701d39db213d6fe9c8f2cff16b82b28939fb1418348de479b41b7ac72"
+      ]
+     ],
+     "stage": "codegen"
+    },
+    {
+     "component": "ido5.3/as1",
+     "files": [
+      [
+       "as1",
+       "39c9750c189df37d4df0f33e5eddec9d4e743cbecad0326af3dda437826dc695"
+      ]
+     ],
+     "stage": "assemble"
+    }
+   ]
+  },
+  "toolchain_digest": "f9e412ad420964a88c2afdeece277d07522ef975c3d9da3da151c97bea158acd"
+ },
+ "verdict": {
+  "class": "exact",
+  "strict": {
+   "assumptions": [],
+   "conflicts": [],
+   "notes": [],
+   "sections": [
+    {
+     "base": "0x80001EF8",
+     "compared": 576,
+     "section": ".rodata",
+     "size": 576,
+     "status": "equal"
+    }
+   ],
+   "text_equal": true,
+   "verdict": "exact"
+  }
+ },
+ "verifier": "b32bb4b4558997094bcc894542263b34db847e5db6279945b124620cab45ea98",
+ "wrapper": {
+  "assembler_flags": null,
+  "lane_code": {},
+  "normalizer_hook": null
+ }
+}

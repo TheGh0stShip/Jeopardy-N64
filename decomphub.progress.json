@@ -5,21 +5,21 @@
     {
       "id": "matching-source-code",
       "label": "Code reproduced from byte-identical source",
-      "scope": "Jeopardy! USA revision 0, ROM SHA-1 c5bcf3eff6bcdd9e7846ce5fd5db3095db9c58ed. The 805-function denominator includes three reviewed boundary corrections. Primary matching and fully-linked credit is restricted to fully replayed byte-identical source; ordinary C remains a separate category. All 805 executable units participate in a pinned source relink and the resulting cartridge matches the retail SHA-1, but generated assembly receives no decompilation completion credit.",
+      "scope": "Jeopardy! USA revision 0, ROM SHA-1 c5bcf3eff6bcdd9e7846ce5fd5db3095db9c58ed. All 805 catalogued functions link from checked-in source; the main image and cartridge reproduce exactly. Ordinary C, assembly-assisted C, and original hand-written assembly remain separate categories.",
       "measurement": {
         "kind": "ratio",
-        "completed": 265232,
-        "total": 411016,
+        "completed": 411036,
+        "total": 411036,
         "unit": "bytes"
       }
     },
     {
       "id": "matching-source-functions",
       "label": "Functions reproduced from byte-identical source",
-      "scope": "Jeopardy! USA revision 0, ROM SHA-1 c5bcf3eff6bcdd9e7846ce5fd5db3095db9c58ed. The 805-function denominator includes three reviewed boundary corrections. Primary matching and fully-linked credit is restricted to fully replayed byte-identical source; ordinary C remains a separate category. All 805 executable units participate in a pinned source relink and the resulting cartridge matches the retail SHA-1, but generated assembly receives no decompilation completion credit.",
+      "scope": "Jeopardy! USA revision 0, ROM SHA-1 c5bcf3eff6bcdd9e7846ce5fd5db3095db9c58ed. All 805 catalogued functions link from checked-in source; the main image and cartridge reproduce exactly. Ordinary C, assembly-assisted C, and original hand-written assembly remain separate categories.",
       "measurement": {
         "kind": "ratio",
-        "completed": 480,
+        "completed": 805,
         "total": 805,
         "unit": "functions"
       }
@@ -27,21 +27,21 @@
     {
       "id": "matching-c-code",
       "label": "Matching ordinary C code",
-      "scope": "Jeopardy! USA revision 0, ROM SHA-1 c5bcf3eff6bcdd9e7846ce5fd5db3095db9c58ed. The 805-function denominator includes three reviewed boundary corrections. Primary matching and fully-linked credit is restricted to fully replayed byte-identical source; ordinary C remains a separate category. All 805 executable units participate in a pinned source relink and the resulting cartridge matches the retail SHA-1, but generated assembly receives no decompilation completion credit.",
+      "scope": "Jeopardy! USA revision 0, ROM SHA-1 c5bcf3eff6bcdd9e7846ce5fd5db3095db9c58ed. All 805 catalogued functions link from checked-in source; the main image and cartridge reproduce exactly. Ordinary C, assembly-assisted C, and original hand-written assembly remain separate categories.",
       "measurement": {
         "kind": "ratio",
-        "completed": 258880,
-        "total": 411016,
+        "completed": 401796,
+        "total": 411036,
         "unit": "bytes"
       }
     },
     {
       "id": "matching-c-functions",
       "label": "Functions reproduced as ordinary C",
-      "scope": "Jeopardy! USA revision 0, ROM SHA-1 c5bcf3eff6bcdd9e7846ce5fd5db3095db9c58ed. The 805-function denominator includes three reviewed boundary corrections. Primary matching and fully-linked credit is restricted to fully replayed byte-identical source; ordinary C remains a separate category. All 805 executable units participate in a pinned source relink and the resulting cartridge matches the retail SHA-1, but generated assembly receives no decompilation completion credit.",
+      "scope": "Jeopardy! USA revision 0, ROM SHA-1 c5bcf3eff6bcdd9e7846ce5fd5db3095db9c58ed. All 805 catalogued functions link from checked-in source; the main image and cartridge reproduce exactly. Ordinary C, assembly-assisted C, and original hand-written assembly remain separate categories.",
       "measurement": {
         "kind": "ratio",
-        "completed": 443,
+        "completed": 757,
         "total": 805,
         "unit": "functions"
       }
@@ -49,11 +49,11 @@
     {
       "id": "fully-linked-code",
       "label": "Verified matching source linked in the cartridge",
-      "scope": "Jeopardy! USA revision 0, ROM SHA-1 c5bcf3eff6bcdd9e7846ce5fd5db3095db9c58ed. The 805-function denominator includes three reviewed boundary corrections. Primary matching and fully-linked credit is restricted to fully replayed byte-identical source; ordinary C remains a separate category. All 805 executable units participate in a pinned source relink and the resulting cartridge matches the retail SHA-1, but generated assembly receives no decompilation completion credit.",
+      "scope": "Jeopardy! USA revision 0, ROM SHA-1 c5bcf3eff6bcdd9e7846ce5fd5db3095db9c58ed. All 805 catalogued functions link from checked-in source; the main image and cartridge reproduce exactly. Ordinary C, assembly-assisted C, and original hand-written assembly remain separate categories.",
       "measurement": {
         "kind": "ratio",
-        "completed": 265232,
-        "total": 411016,
+        "completed": 411036,
+        "total": 411036,
         "unit": "bytes"
       }
     }

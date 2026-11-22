@@ -1,0 +1,34 @@
+{
+ "code_size": "0xEC",
+ "credit": "a generated project tree: it copies results the strict verifier settled and grants no credit; only `make verify` / `make verify-receipts` against your own ROM confirm them again",
+ "distance": "0",
+ "export_source": "src/main/unit_80042C18.c",
+ "file": "src/main/unit_80042C18.c",
+ "function": "func_80042C18",
+ "how": "ido5.3 --section-base=.rodata:0x80001E88 -O3 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (whole translation unit, N64 Decomp Kit agent-stage)",
+ "image": "main",
+ "inputs_sha256": "c7bea68600947fcb3b7a63b4c92719d1b0ca9032df6be9e1ff663ef7c45dbba3",
+ "kind": "c",
+ "link_layout_object": "",
+ "offset": "0x43818",
+ "outcome": "exact",
+ "owned_sections": {
+  ".rodata": 64
+ },
+ "raw": null,
+ "receipt": "present",
+ "recipe": {
+  "flags": "--section-base=.rodata:0x80001E88 -O3 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0",
+  "pipeline": "ido5.3",
+  "unit_offset": "0x43818",
+  "unit_size": "0x300"
+ },
+ "reproduced_by": "C",
+ "schema": "n64dk-generated-project/1",
+ "size": "0xEC",
+ "source_sha256": "939f356484459e1078abb0526ed1cc7d8a911c94ac8fd6ef4032c88e0d8f3dee",
+ "status": "exact",
+ "unit": "main/func_80042C18",
+ "unit_class": "sdk",
+ "vram": "0x80042C18"
+}

@@ -1,0 +1,172 @@
+{
+ "project": "proj",
+ "images": {
+  "main": {
+   "image": "main",
+   "vram": "0x80000400",
+   "end": "0x80092A08",
+   "bytes": 599560,
+   "functions": 806,
+   "function_bytes": 411976,
+   "executable_bytes": 411976,
+   "coverage": 1.0,
+   "text_sections": [
+    [
+     "0x80000400",
+     "0x8000043C"
+    ],
+    [
+     "0x80002638",
+     "0x80036B80"
+    ],
+    [
+     "0x80036EC0",
+     "0x80037100"
+    ],
+    [
+     "0x80037B80",
+     "0x80037F80"
+    ],
+    [
+     "0x800382C0",
+     "0x80038500"
+    ],
+    [
+     "0x80039E40",
+     "0x8004DDF8"
+    ]
+   ],
+   "text_bytes": 298428,
+   "function_bytes_in_text": 295092,
+   "islands": {
+    "count": 7,
+    "bytes": {
+     "high": 0,
+     "medium": 0,
+     "low": 188
+    },
+    "by_confidence": {
+     "high": 0,
+     "medium": 0,
+     "low": 7
+    },
+    "examples": [
+     {
+      "start": "0x80037CF8",
+      "end": "0x80037D50",
+      "bytes": 88,
+      "evidence": [
+       "after padding",
+       "in .text"
+      ],
+      "confidence": "low"
+     },
+     {
+      "start": "0x80039130",
+      "end": "0x8003915C",
+      "bytes": 44,
+      "evidence": [
+       "after padding",
+       "outside .text"
+      ],
+      "confidence": "low"
+     },
+     {
+      "start": "0x80036EE8",
+      "end": "0x80036EF4",
+      "bytes": 12,
+      "evidence": [
+       "after padding",
+       "in .text"
+      ],
+      "confidence": "low"
+     },
+     {
+      "start": "0x800379F8",
+      "end": "0x80037A04",
+      "bytes": 12,
+      "evidence": [
+       "after padding",
+       "outside .text"
+      ],
+      "confidence": "low"
+     },
+     {
+      "start": "0x80038E00",
+      "end": "0x80038E0C",
+      "bytes": 12,
+      "evidence": [
+       "after padding",
+       "outside .text"
+      ],
+      "confidence": "low"
+     },
+     {
+      "start": "0x800390B8",
+      "end": "0x800390C4",
+      "bytes": 12,
+      "evidence": [
+       "after padding",
+       "outside .text"
+      ],
+      "confidence": "low"
+     },
+     {
+      "start": "0x80037D50",
+      "end": "0x80037D58",
+      "bytes": 8,
+      "evidence": [
+       "after padding",
+       "in .text"
+      ],
+      "confidence": "low"
+     }
+    ]
+   },
+   "direct_calls": {
+    "targets": 579,
+    "missing": 0,
+    "missing_sites": 0,
+    "interior": 0,
+    "cross_image": 0,
+    "missing_in_other_image": 0,
+    "unmapped": 0,
+    "lead_ins": 0,
+    "examples_missing": [],
+    "examples_interior": [],
+    "examples_unmapped": []
+   },
+   "branches_outside": {
+    "targets": 0,
+    "examples": []
+   },
+   "prologues_outside": {
+    "count": 1,
+    "walk_as_functions": 0
+   },
+   "pointers": {
+    "to_uncatalogued_code": 0,
+    "to_gap_words": 293,
+    "translated_to_starts": 0,
+    "translated_to_gaps": 1
+   },
+   "verdict": "complete",
+   "reasons": [],
+   "doubts": []
+  }
+ },
+ "rom": {
+  "bytes": 4194304,
+  "code_not_placed": 0,
+  "code_not_placed_bytes": 0,
+  "examples_not_placed": [],
+  "classified_bytes": 4194304,
+  "unknown_bytes": 965632,
+  "microcode": 2
+ },
+ "rom_reasons": [],
+ "verdict": "complete",
+ "placed": [],
+ "extra_images": {},
+ "verdict_before": "complete"
+}

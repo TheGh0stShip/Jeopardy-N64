@@ -1,0 +1,300 @@
+{
+ "behavioural": null,
+ "build": {
+  "flags": [
+   "-O0",
+   "-G0",
+   "-mips3",
+   "-mgp32",
+   "-mfp32"
+  ],
+  "normalizer_args": [],
+  "pin_origins": {},
+  "pipeline": "kmc+asn64",
+  "section_bases": {},
+  "symbols": {}
+ },
+ "claims": {
+  "assumptions_present": true,
+  "behavioural_evidence": false,
+  "byte_identity": true,
+  "code_identity": true,
+  "ownership_complete": true,
+  "pins_independent": true,
+  "proof_grade": false,
+  "source_provenance": "genuine-c",
+  "source_provenance_creditable": true,
+  "strict_proof": false,
+  "unit_identity": true
+ },
+ "comparison_sha256": "5c4a2adb507b09694b60df87e107e9c1d8ed2c21bc9a3b608dc1afe5d9b7a6a8",
+ "declarations": {
+  "files": [
+   {
+    "name": "<project>/survey/symbol_addrs.txt",
+    "sha256": "2221c7932ff983d0843fd4debb0a1e5b099889284db3bd02dd9abeaf1e7f0518"
+   },
+   {
+    "name": "<project>/survey/sdk_symbols.txt",
+    "sha256": "e872ae4e14bac6f0958d86f5b2df4d87d46e61e0e1b8eff7992a706aea30c0a7"
+   }
+  ],
+  "map_sha256": "ab08e847d08293500f3eb9a538972a1c258e159b5218cd29b6436bf81e96e6f9"
+ },
+ "earned_by": "generated-c",
+ "environment": {
+  "LANG": "99fed2d548c2eb1022f4067f97fe838a2c3ea60ee0e0f53086788505c3ababad"
+ },
+ "headers": {
+  "headers": {},
+  "missing": []
+ },
+ "identity": "4230960b18cdf1e04cb39998569c1847c28bc01dba31861bdf2db115ffde704d",
+ "image": {
+  "rom_key": "c5bcf3eff6bcdd9e",
+  "sha256": "2ebd827db509397f27c557e017bdcdaaed0a748a73babc25f322bb2faab66100",
+  "size": 4194304
+ },
+ "issued": {
+  "at": "2026-11-22T03:02:16Z"
+ },
+ "kit_driver_sha256": "461a0cf4ba284f5d537c950b632211ddad3d332d8c45483d8cacc90247a360e5",
+ "link": {
+  "linker_script": null,
+  "note": "no link step: the verifier relocates the object at declared addresses"
+ },
+ "object": {
+  "loaded_sha256": "e511d6795c4ccd7a6b9503fb08224e82aa43ee20167580e83b502b91456d7fc4",
+  "object_sha256": "182ea9534acfefbdfbd99e137def503f6c3fd8d23d49a759bc757a390ecdff46"
+ },
+ "owned": {
+  "code_sha256": "cf5199587d2e9aa3637b535210b3f6e376f7ecbec5301852b0044a6c61827f64",
+  "data": {}
+ },
+ "ownership": {
+  "function_starts_sha256": "70af65e6e816fd1beaff628ac35e277ced423be162bee02dfa4336e6d1f89a7f",
+  "section_sizes": {}
+ },
+ "proof": {
+  "proof_grade": false,
+  "reasons": [
+   "owned target bytes are not exact"
+  ]
+ },
+ "provenance": {
+  "evidence": [],
+  "origin": "N64 Decomp Kit agent-stage (Jeopardy!)",
+  "reasons": [
+   "no forbidden assembly escape found"
+  ],
+  "verdict": "genuine-c"
+ },
+ "relocations": {
+  "section_bases": {
+   ".text": "0x8001CF5C"
+  },
+  "sites": 108,
+  "sites_sha256": "02dc6931f4a0dfe4e9a3f9b252181a06ff5e59e34c228bcee761270e26daaa1d",
+  "symbols": {
+   "D_0107B478": null,
+   "D_80056914": null,
+   "D_80056FD4": null,
+   "D_800580C4": null,
+   "D_800580C8": null,
+   "D_800580D4": null,
+   "D_80059614": null,
+   "func_8001B230": "0x8001B230",
+   "func_80020700": "0x80020700",
+   "func_80020AA0": "0x80020AA0",
+   "func_80020C40": "0x80020C40"
+  }
+ },
+ "schema": "n64dk-proof-receipt/1",
+ "source": {
+  "kind": "c",
+  "name": "func_8001CF5C.c",
+  "sha256": "fb4902b60ae4bf4a9198ed67fdb3bbfad8de9ac99db5245cf5f611b0993df48c"
+ },
+ "subject": {
+  "catalogue_size": 1408,
+  "image": "main",
+  "image_offset": "0x0001DB5C",
+  "name": "func_8001CF5C",
+  "size": 1408,
+  "vram": "0x8001CF5C"
+ },
+ "toolchain": {
+  "pipeline": "kmc+asn64",
+  "recipe": {
+   "identity": "8a8faeb2431460c295a1d3d5b3cc54caaccad697765e10c99aa26548ecabd33b",
+   "lane": "kmc+asn64",
+   "stages": [
+    {
+     "component": "kmc/gcc",
+     "files": [
+      [
+       "gcc",
+       "181803fe0a8406ed21f8470d09f77fe2c91044941b8c18eb30432b82bf9f41e1"
+      ]
+     ],
+     "stage": "driver"
+    },
+    {
+     "component": "kmc/cpp",
+     "files": [
+      [
+       "cpp",
+       "61c1756ddbc47eaaa086cce5a7e3e455cecabd220d5a709be98874f55472545e"
+      ],
+      [
+       "cccp",
+       "61c1756ddbc47eaaa086cce5a7e3e455cecabd220d5a709be98874f55472545e"
+      ]
+     ],
+     "stage": "preprocess"
+    },
+    {
+     "component": "kmc/cc1",
+     "files": [
+      [
+       "cc1",
+       "28cfa07804df7b40d5a13a525dc63eb2fa12f1b0133dc737950dce59611d3972"
+      ]
+     ],
+     "stage": "compile"
+    },
+    {
+     "component": "kit/asn64-converter",
+     "files": [],
+     "stage": "convert"
+    },
+    {
+     "component": "binutils/as",
+     "files": [
+      [
+       "usr/bin/mips-linux-gnu-as",
+       "f93b44ae7ab70c91f757e1af36f3e23c9ac80f09085fb8b6c6b4c983dd76bf79"
+      ]
+     ],
+     "stage": "assemble"
+    }
+   ]
+  },
+  "toolchain_digest": "619f66e3e3df7ba2125251f4950bdb7d92b011637d6ea41622b88f15e529fdd4"
+ },
+ "verdict": {
+  "class": "assumed",
+  "strict": {
+   "assumptions": [
+    {
+     "address": "0x0107B478",
+     "call": false,
+     "kind": "symbol",
+     "name": "D_0107B478",
+     "sites": [
+      "0x4A0",
+      "0x4A4"
+     ]
+    },
+    {
+     "address": "0x80056914",
+     "call": false,
+     "kind": "symbol",
+     "name": "D_80056914",
+     "sites": [
+      "0x12C",
+      "0x134",
+      "0x13C",
+      "0x144",
+      "0x148",
+      "0x150",
+      "0x154",
+      "0x15C"
+     ]
+    },
+    {
+     "address": "0x80056FD4",
+     "call": false,
+     "kind": "symbol",
+     "name": "D_80056FD4",
+     "sites": [
+      "0x70",
+      "0x78",
+      "0x80",
+      "0x88",
+      "0x8C",
+      "0x94",
+      "0x98",
+      "0xA0"
+     ]
+    },
+    {
+     "address": "0x800580C4",
+     "call": false,
+     "kind": "symbol",
+     "name": "D_800580C4",
+     "sites": [
+      "0x18C",
+      "0x190"
+     ]
+    },
+    {
+     "address": "0x800580C8",
+     "call": false,
+     "kind": "symbol",
+     "name": "D_800580C8",
+     "sites": [
+      "0x1BC",
+      "0x1C0",
+      "0x358",
+      "0x35C"
+     ]
+    },
+    {
+     "address": "0x800580D4",
+     "call": false,
+     "kind": "symbol",
+     "name": "D_800580D4",
+     "sites": [
+      "0x258",
+      "0x25C",
+      "0x3F4",
+      "0x3F8"
+     ]
+    },
+    {
+     "address": "0x80059614",
+     "call": false,
+     "kind": "symbol",
+     "name": "D_80059614",
+     "sites": [
+      "0x310",
+      "0x314",
+      "0x328",
+      "0x32C"
+     ]
+    }
+   ],
+   "conflicts": [],
+   "notes": [],
+   "sections": [],
+   "text_equal": true,
+   "verdict": "assumed"
+  }
+ },
+ "verifier": "b32bb4b4558997094bcc894542263b34db847e5db6279945b124620cab45ea98",
+ "wrapper": {
+  "assembler_flags": [
+   "-march=vr4300",
+   "-mabi=32",
+   "-EB",
+   "-G0",
+   "--no-pad-sections",
+   "-mips3"
+  ],
+  "lane_code": {
+   "asn64": "253eb28f07280cbf398d78e6376e672b254882b714fff96e28202df3261051c4"
+  },
+  "normalizer_hook": null
+ }
+}

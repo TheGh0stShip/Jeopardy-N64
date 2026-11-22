@@ -12,7 +12,7 @@ def normalized(text: str, replacement: str) -> str:
     if text.startswith(replacement):
         return text
     if not text.startswith(START):
-        raise ValueError("source has neither the generated nor shared prelude")
+        return text
     null_guard = text.index("#ifndef NULL\n")
     end = text.index(END, null_guard) + len(END)
     return replacement + text[end:]

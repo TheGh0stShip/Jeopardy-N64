@@ -1,0 +1,35 @@
+{
+ "asm_provenance": {
+  "evidence": "$at used as a value register (assembler macro expansions of blt/and), a single swl $zero for alignment, negu hoisted into a delay slot by the assembler; C on both KMC lanes cannot produce swl",
+  "routine": "bzero",
+  "source": "libultra bzero.s"
+ },
+ "code_size": "0x9C",
+ "credit": "a generated project tree: it copies results the strict verifier settled and grants no credit; only `make verify` / `make verify-receipts` against your own ROM confirm them again",
+ "distance": "27",
+ "export_source": "asm_not_decompiled/main/func_8003C498.s",
+ "file": "asm/main/func_8003C498.s",
+ "function": "func_8003C498",
+ "how": "kmc+asn64 -O1 -G0 -mips3 -mgp32 -mfp32",
+ "image": "main",
+ "inputs_sha256": "8b770cf0f0298ec6022ada5ab40ff57d3c955ba0aade956c32580c3b489486d7",
+ "kind": "handwritten",
+ "link_layout_object": "",
+ "offset": "0x3D098",
+ "outcome": "open",
+ "raw": null,
+ "receipt": "none",
+ "recipe": {
+  "assembler": "gnu-as -march=vr4300 -mabi=o64",
+  "flags": "",
+  "pipeline": "gnu-as"
+ },
+ "reproduced_by": "assembly (hand-written in the original)",
+ "schema": "n64dk-generated-project/1",
+ "size": "0xA0",
+ "source_sha256": "975d5bf4759863922fc14188a8dc823e5c79b68ae39a80c513818404225e0389",
+ "status": "assembly",
+ "unit": "main/func_8003C498",
+ "unit_class": "sdk",
+ "vram": "0x8003C498"
+}

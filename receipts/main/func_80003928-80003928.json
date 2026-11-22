@@ -1,0 +1,239 @@
+{
+ "behavioural": null,
+ "build": {
+  "flags": [
+   "-O0",
+   "-G0",
+   "-mips3",
+   "-mgp32",
+   "-mfp32"
+  ],
+  "normalizer_args": [],
+  "pin_origins": {},
+  "pipeline": "kmc+asn64",
+  "section_bases": {},
+  "symbols": {}
+ },
+ "claims": {
+  "assumptions_present": false,
+  "behavioural_evidence": false,
+  "byte_identity": true,
+  "code_identity": true,
+  "ownership_complete": true,
+  "pins_independent": true,
+  "proof_grade": true,
+  "source_provenance": "genuine-c",
+  "source_provenance_creditable": true,
+  "strict_proof": true,
+  "unit_identity": true
+ },
+ "comparison_sha256": "deb09fb9fb25d69c4702ae31331851ffeea173b17f65597af38173927064695e",
+ "declarations": {
+  "files": [
+   {
+    "name": "<project>/survey/symbol_addrs.txt",
+    "sha256": "2221c7932ff983d0843fd4debb0a1e5b099889284db3bd02dd9abeaf1e7f0518"
+   },
+   {
+    "name": "<project>/survey/sdk_symbols.txt",
+    "sha256": "e872ae4e14bac6f0958d86f5b2df4d87d46e61e0e1b8eff7992a706aea30c0a7"
+   },
+   {
+    "name": "<symbols>/declared_symbols.txt",
+    "sha256": "789e8e7710b8e57bccbb297069a27f5b9a2ae15124f8d0628446198a5c6b03a3"
+   }
+  ],
+  "map_sha256": "4170ae638588b0e76a4f0b02423140bf18c5b8f8a95a25825dac7a67a6ff2d10"
+ },
+ "earned_by": "generated-c",
+ "environment": {
+  "LANG": "99fed2d548c2eb1022f4067f97fe838a2c3ea60ee0e0f53086788505c3ababad"
+ },
+ "headers": {
+  "headers": {},
+  "missing": []
+ },
+ "identity": "c6260dc74340d858afb6da06c9e436c753e0c76fb9da911d7f5e9ce0f3fc3ecf",
+ "image": {
+  "rom_key": "c5bcf3eff6bcdd9e",
+  "sha256": "2ebd827db509397f27c557e017bdcdaaed0a748a73babc25f322bb2faab66100",
+  "size": 4194304
+ },
+ "issued": {
+  "at": "2026-11-21T19:52:32Z"
+ },
+ "kit_driver_sha256": "0e93063125a045b5b09d93b12178a41447d38d75b19bb20509ea0950a6a5002f",
+ "link": {
+  "linker_script": null,
+  "note": "no link step: the verifier relocates the object at declared addresses"
+ },
+ "object": {
+  "loaded_sha256": "0929fbca2467ec5135c503608e41a580cd00c7b057a89ca5ed42779d75f41187",
+  "object_sha256": "56aa66a004b0bcf3255bf061693c6d8edc18e51d2949e1aa3c4cffd35799054b"
+ },
+ "owned": {
+  "code_sha256": "36bf73da53da96074b86aeeac55e0e94be51e7a41993d7993f37c00d07e7ab5c",
+  "data": {}
+ },
+ "ownership": {
+  "function_starts_sha256": "70af65e6e816fd1beaff628ac35e277ced423be162bee02dfa4336e6d1f89a7f",
+  "section_sizes": {}
+ },
+ "proof": {
+  "proof_grade": true,
+  "reasons": []
+ },
+ "provenance": {
+  "evidence": [],
+  "origin": "draft",
+  "reasons": [
+   "no forbidden assembly escape found"
+  ],
+  "verdict": "genuine-c"
+ },
+ "relocations": {
+  "section_bases": {
+   ".text": "0x80003928"
+  },
+  "sites": 176,
+  "sites_sha256": "44b38f5e92627adefa1d4a6e620c51bd54baca01f7691a40b937be79a420d184",
+  "symbols": {
+   "D_01005138": "0x01005138",
+   "D_8004DDF8": "0x8004DDF8",
+   "D_80050704": "0x80050704",
+   "D_80050804": "0x80050804",
+   "D_800560F8": "0x800560F8",
+   "D_80058858": "0x80058858",
+   "D_80059998": "0x80059998",
+   "D_800D7710": "0x800D7710",
+   "D_800DE628": "0x800DE628",
+   "D_800E0E10": "0x800E0E10",
+   "D_800E3670": "0x800E3670",
+   "D_800E5C88": "0x800E5C88",
+   "D_800E69CC": "0x800E69CC",
+   "D_800E69D0": "0x800E69D0",
+   "D_800E8F08": "0x800E8F08",
+   "D_800E9078": "0x800E9078",
+   "D_800E90BC": "0x800E90BC",
+   "func_80002854": "0x80002854",
+   "func_80002C84": "0x80002C84",
+   "func_8000348C": "0x8000348C",
+   "func_800036D4": "0x800036D4",
+   "func_80005EA4": "0x80005EA4",
+   "func_80007784": "0x80007784",
+   "func_800077D8": "0x800077D8",
+   "func_8000785C": "0x8000785C",
+   "func_8000C600": "0x8000C600",
+   "func_80011AD8": "0x80011AD8",
+   "func_80012478": "0x80012478",
+   "func_80018938": "0x80018938",
+   "func_800192F8": "0x800192F8",
+   "func_8001F56C": "0x8001F56C",
+   "func_80027388": "0x80027388",
+   "func_80027714": "0x80027714",
+   "func_80032CF0": "0x80032CF0",
+   "func_80035138": "0x80035138",
+   "func_800359E8": "0x800359E8",
+   "func_80035E48": "0x80035E48"
+  }
+ },
+ "schema": "n64dk-proof-receipt/1",
+ "source": {
+  "kind": "c",
+  "name": "func_80003928.c",
+  "sha256": "7231fcf95f1ca8b16cb9b9f928e232a3c87a0ffb9d8b43390efc1056d1df5590"
+ },
+ "subject": {
+  "catalogue_size": 2444,
+  "image": "main",
+  "image_offset": "0x00004528",
+  "name": "func_80003928",
+  "size": 2444,
+  "vram": "0x80003928"
+ },
+ "toolchain": {
+  "pipeline": "kmc+asn64",
+  "recipe": {
+   "identity": "8a8faeb2431460c295a1d3d5b3cc54caaccad697765e10c99aa26548ecabd33b",
+   "lane": "kmc+asn64",
+   "stages": [
+    {
+     "component": "kmc/gcc",
+     "files": [
+      [
+       "gcc",
+       "181803fe0a8406ed21f8470d09f77fe2c91044941b8c18eb30432b82bf9f41e1"
+      ]
+     ],
+     "stage": "driver"
+    },
+    {
+     "component": "kmc/cpp",
+     "files": [
+      [
+       "cpp",
+       "61c1756ddbc47eaaa086cce5a7e3e455cecabd220d5a709be98874f55472545e"
+      ],
+      [
+       "cccp",
+       "61c1756ddbc47eaaa086cce5a7e3e455cecabd220d5a709be98874f55472545e"
+      ]
+     ],
+     "stage": "preprocess"
+    },
+    {
+     "component": "kmc/cc1",
+     "files": [
+      [
+       "cc1",
+       "28cfa07804df7b40d5a13a525dc63eb2fa12f1b0133dc737950dce59611d3972"
+      ]
+     ],
+     "stage": "compile"
+    },
+    {
+     "component": "kit/asn64-converter",
+     "files": [],
+     "stage": "convert"
+    },
+    {
+     "component": "binutils/as",
+     "files": [
+      [
+       "usr/bin/mips-linux-gnu-as",
+       "f93b44ae7ab70c91f757e1af36f3e23c9ac80f09085fb8b6c6b4c983dd76bf79"
+      ]
+     ],
+     "stage": "assemble"
+    }
+   ]
+  },
+  "toolchain_digest": "619f66e3e3df7ba2125251f4950bdb7d92b011637d6ea41622b88f15e529fdd4"
+ },
+ "verdict": {
+  "class": "exact",
+  "strict": {
+   "assumptions": [],
+   "conflicts": [],
+   "notes": [],
+   "sections": [],
+   "text_equal": true,
+   "verdict": "exact"
+  }
+ },
+ "verifier": "b32bb4b4558997094bcc894542263b34db847e5db6279945b124620cab45ea98",
+ "wrapper": {
+  "assembler_flags": [
+   "-march=vr4300",
+   "-mabi=32",
+   "-EB",
+   "-G0",
+   "--no-pad-sections",
+   "-mips3"
+  ],
+  "lane_code": {
+   "asn64": "fc386af04b0ecd17fa4445630fea5eab226682877e5f4e144fb0f41cdb5ea613"
+  },
+  "normalizer_hook": null
+ }
+}

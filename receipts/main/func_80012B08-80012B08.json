@@ -1,0 +1,209 @@
+{
+ "behavioural": null,
+ "build": {
+  "flags": [
+   "-O0",
+   "-G0",
+   "-mips3",
+   "-mgp32",
+   "-mfp32"
+  ],
+  "normalizer_args": [],
+  "pin_origins": {},
+  "pipeline": "kmc+asn64",
+  "section_bases": {},
+  "symbols": {}
+ },
+ "claims": {
+  "assumptions_present": false,
+  "behavioural_evidence": false,
+  "byte_identity": true,
+  "code_identity": true,
+  "ownership_complete": true,
+  "pins_independent": true,
+  "proof_grade": true,
+  "source_provenance": "genuine-c",
+  "source_provenance_creditable": true,
+  "strict_proof": true,
+  "unit_identity": true
+ },
+ "comparison_sha256": "3978c9f9b532ca1b2a87254dd2c45dcbdc1def142fe9d9047c05bdb2a75b0527",
+ "declarations": {
+  "files": [
+   {
+    "name": "<project>/survey/symbol_addrs.txt",
+    "sha256": "2221c7932ff983d0843fd4debb0a1e5b099889284db3bd02dd9abeaf1e7f0518"
+   },
+   {
+    "name": "<project>/survey/sdk_symbols.txt",
+    "sha256": "e872ae4e14bac6f0958d86f5b2df4d87d46e61e0e1b8eff7992a706aea30c0a7"
+   },
+   {
+    "name": "<symbols>/declared_symbols.txt",
+    "sha256": "789e8e7710b8e57bccbb297069a27f5b9a2ae15124f8d0628446198a5c6b03a3"
+   }
+  ],
+  "map_sha256": "4170ae638588b0e76a4f0b02423140bf18c5b8f8a95a25825dac7a67a6ff2d10"
+ },
+ "earned_by": "generated-c",
+ "environment": {
+  "LANG": "99fed2d548c2eb1022f4067f97fe838a2c3ea60ee0e0f53086788505c3ababad"
+ },
+ "headers": {
+  "headers": {},
+  "missing": []
+ },
+ "identity": "3ee3ee3e29ad191567ef0dfd7d9483cc2a88881368afe2d0d98a24cc2cb75796",
+ "image": {
+  "rom_key": "c5bcf3eff6bcdd9e",
+  "sha256": "2ebd827db509397f27c557e017bdcdaaed0a748a73babc25f322bb2faab66100",
+  "size": 4194304
+ },
+ "issued": {
+  "at": "2026-11-21T19:52:33Z"
+ },
+ "kit_driver_sha256": "0e93063125a045b5b09d93b12178a41447d38d75b19bb20509ea0950a6a5002f",
+ "link": {
+  "linker_script": null,
+  "note": "no link step: the verifier relocates the object at declared addresses"
+ },
+ "object": {
+  "loaded_sha256": "5d30bba714d0dfc1d5649a4dcbfdfe45fd48552706bf5c61fc83a17bb08136e4",
+  "object_sha256": "99cb0d21cc05368ba7f7d3e53c3d9f966961328ed32a9410fbe38ffa04b2b67b"
+ },
+ "owned": {
+  "code_sha256": "527e0d9c72fd4c80341a2abbf6b63f564cebf35e17d0cdf19b78e2f5aea473ba",
+  "data": {}
+ },
+ "ownership": {
+  "function_starts_sha256": "70af65e6e816fd1beaff628ac35e277ced423be162bee02dfa4336e6d1f89a7f",
+  "section_sizes": {}
+ },
+ "proof": {
+  "proof_grade": true,
+  "reasons": []
+ },
+ "provenance": {
+  "evidence": [],
+  "origin": "draft",
+  "reasons": [
+   "no forbidden assembly escape found"
+  ],
+  "verdict": "genuine-c"
+ },
+ "relocations": {
+  "section_bases": {
+   ".text": "0x80012B08"
+  },
+  "sites": 26,
+  "sites_sha256": "539332d258ae58b88e8f1bb9d75e474d53d48dd08419b80646fa27f640cdf378",
+  "symbols": {
+   "D_80055C1C": "0x80055C1C",
+   "D_800E3694": "0x800E3694",
+   "D_800E3722": "0x800E3722",
+   "D_800E3724": "0x800E3724",
+   "D_800E3742": "0x800E3742",
+   "func_8000A7A0": "0x8000A7A0",
+   "func_80011D18": "0x80011D18"
+  }
+ },
+ "schema": "n64dk-proof-receipt/1",
+ "source": {
+  "kind": "c",
+  "name": "func_80012B08.c",
+  "sha256": "0a2949d5ca41cbce4f3e2c8023c9c10e9ad82898be093f566ec097b18d09bb66"
+ },
+ "subject": {
+  "catalogue_size": 412,
+  "image": "main",
+  "image_offset": "0x00013708",
+  "name": "func_80012B08",
+  "size": 412,
+  "vram": "0x80012B08"
+ },
+ "toolchain": {
+  "pipeline": "kmc+asn64",
+  "recipe": {
+   "identity": "8a8faeb2431460c295a1d3d5b3cc54caaccad697765e10c99aa26548ecabd33b",
+   "lane": "kmc+asn64",
+   "stages": [
+    {
+     "component": "kmc/gcc",
+     "files": [
+      [
+       "gcc",
+       "181803fe0a8406ed21f8470d09f77fe2c91044941b8c18eb30432b82bf9f41e1"
+      ]
+     ],
+     "stage": "driver"
+    },
+    {
+     "component": "kmc/cpp",
+     "files": [
+      [
+       "cpp",
+       "61c1756ddbc47eaaa086cce5a7e3e455cecabd220d5a709be98874f55472545e"
+      ],
+      [
+       "cccp",
+       "61c1756ddbc47eaaa086cce5a7e3e455cecabd220d5a709be98874f55472545e"
+      ]
+     ],
+     "stage": "preprocess"
+    },
+    {
+     "component": "kmc/cc1",
+     "files": [
+      [
+       "cc1",
+       "28cfa07804df7b40d5a13a525dc63eb2fa12f1b0133dc737950dce59611d3972"
+      ]
+     ],
+     "stage": "compile"
+    },
+    {
+     "component": "kit/asn64-converter",
+     "files": [],
+     "stage": "convert"
+    },
+    {
+     "component": "binutils/as",
+     "files": [
+      [
+       "usr/bin/mips-linux-gnu-as",
+       "f93b44ae7ab70c91f757e1af36f3e23c9ac80f09085fb8b6c6b4c983dd76bf79"
+      ]
+     ],
+     "stage": "assemble"
+    }
+   ]
+  },
+  "toolchain_digest": "619f66e3e3df7ba2125251f4950bdb7d92b011637d6ea41622b88f15e529fdd4"
+ },
+ "verdict": {
+  "class": "exact",
+  "strict": {
+   "assumptions": [],
+   "conflicts": [],
+   "notes": [],
+   "sections": [],
+   "text_equal": true,
+   "verdict": "exact"
+  }
+ },
+ "verifier": "b32bb4b4558997094bcc894542263b34db847e5db6279945b124620cab45ea98",
+ "wrapper": {
+  "assembler_flags": [
+   "-march=vr4300",
+   "-mabi=32",
+   "-EB",
+   "-G0",
+   "--no-pad-sections",
+   "-mips3"
+  ],
+  "lane_code": {
+   "asn64": "fc386af04b0ecd17fa4445630fea5eab226682877e5f4e144fb0f41cdb5ea613"
+  },
+  "normalizer_hook": null
+ }
+}

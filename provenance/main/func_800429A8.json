@@ -1,0 +1,29 @@
+{
+ "code_size": "0x8C",
+ "credit": "a generated project tree: it copies results the strict verifier settled and grants no credit; only `make verify` / `make verify-receipts` against your own ROM confirm them again",
+ "distance": "0",
+ "export_source": "src/main/func_800429A8.c",
+ "file": "src/main/func_800429A8.c",
+ "function": "func_800429A8",
+ "how": "ido5.3 -O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (N64 Decomp Kit agent-stage)",
+ "image": "main",
+ "inputs_sha256": "b092cd7984c944f07fefc75e1a6c33d18059d1144063d05ce7ec24ad546a43bf",
+ "kind": "c",
+ "link_layout_object": "",
+ "offset": "0x435A8",
+ "outcome": "exact",
+ "raw": null,
+ "receipt": "present",
+ "recipe": {
+  "flags": "-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0",
+  "pipeline": "ido5.3"
+ },
+ "reproduced_by": "C",
+ "schema": "n64dk-generated-project/1",
+ "size": "0x8C",
+ "source_sha256": "b1cb000cc59cb0092516471c8cdb52dc94f5748228b3aff90dcd992e259af14e",
+ "status": "exact",
+ "unit": "main/func_800429A8",
+ "unit_class": "sdk",
+ "vram": "0x800429A8"
+}

@@ -1,0 +1,11 @@
+const char D_80001A44[] = "daily double value %d";
+const char D_80001A5C[] = "double value %d";
+const char D_80001A6C[] = " )))proc pc %x";
+const char D_80001A7C[] = "GetProcBefore: Could not find proc";
+const char D_80001AA0[] = "AllocProc: Out of Procs";
+const char D_80001AB8[] = "AllocProc: Reached end of procst.";
+const char D_80001ADC[] = "CreatProc: Failed to alloc proc";
+const char D_80001AFC[] = "DoProcs: Tried to execute a NULL";
+const char D_80001B20[] = "ProcPostEvent: bogus event";
+const char D_80001B3C[] = "proc %x overflow";
+const char D_80001B50[] = "ProcPostMessageClass: bogus message";

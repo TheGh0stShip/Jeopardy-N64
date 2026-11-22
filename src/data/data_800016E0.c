@@ -1,0 +1,12 @@
+const char D_800016E0[] = "Parser Type|Strict\r\n";
+const char D_800016F8[] = "Parser Type|Quick\r\n";
+const char D_8000170C[] = "Parser Type|Loose\r\n";
+const char D_80001720[] = "sound number %d\r\n";
+const char D_80001734[] = "video number %d\r\n";
+const char D_80001748[] = "Version: %s\r\n";
+const char D_80001758[] = "Wiley";
+const char D_80001760[] = "Mary";
+const char D_80001768[] = "Scot";
+const char D_80001770[] = "Moddie";
+const char D_80001778[] = "Jen";
+const char D_8000177C[] = "Jon";

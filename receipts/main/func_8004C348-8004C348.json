@@ -1,0 +1,216 @@
+{
+ "behavioural": null,
+ "build": {
+  "flags": [
+   "-O1",
+   "-non_shared",
+   "-Xcpluscomm",
+   "-Wab,-r4300_mul",
+   "-G",
+   "0",
+   "-mips2"
+  ],
+  "normalizer_args": [],
+  "pin_origins": {},
+  "pipeline": "ido5.3",
+  "section_bases": {},
+  "symbols": {}
+ },
+ "claims": {
+  "assumptions_present": true,
+  "behavioural_evidence": false,
+  "byte_identity": true,
+  "code_identity": true,
+  "ownership_complete": true,
+  "pins_independent": true,
+  "proof_grade": false,
+  "source_provenance": "genuine-c",
+  "source_provenance_creditable": true,
+  "strict_proof": false,
+  "unit_identity": true
+ },
+ "comparison_sha256": "12b911fcc1d9c0920ddb55eaea6d481ca5c31307c0c0b2f9c04369019e9969e1",
+ "declarations": {
+  "files": [
+   {
+    "name": "<project>/survey/symbol_addrs.txt",
+    "sha256": "2221c7932ff983d0843fd4debb0a1e5b099889284db3bd02dd9abeaf1e7f0518"
+   },
+   {
+    "name": "<project>/survey/sdk_symbols.txt",
+    "sha256": "e872ae4e14bac6f0958d86f5b2df4d87d46e61e0e1b8eff7992a706aea30c0a7"
+   }
+  ],
+  "map_sha256": "ab08e847d08293500f3eb9a538972a1c258e159b5218cd29b6436bf81e96e6f9"
+ },
+ "earned_by": "generated-c",
+ "environment": {
+  "LANG": "99fed2d548c2eb1022f4067f97fe838a2c3ea60ee0e0f53086788505c3ababad"
+ },
+ "headers": {
+  "headers": {},
+  "missing": []
+ },
+ "identity": "4fc3b47becf67d8b4e6e485015d3e0443b7bd7645e4b6c0dfabffe8f2ad23f9a",
+ "image": {
+  "rom_key": "c5bcf3eff6bcdd9e",
+  "sha256": "2ebd827db509397f27c557e017bdcdaaed0a748a73babc25f322bb2faab66100",
+  "size": 4194304
+ },
+ "issued": {
+  "at": "2026-11-22T03:02:22Z"
+ },
+ "kit_driver_sha256": "461a0cf4ba284f5d537c950b632211ddad3d332d8c45483d8cacc90247a360e5",
+ "link": {
+  "linker_script": null,
+  "note": "no link step: the verifier relocates the object at declared addresses"
+ },
+ "object": {
+  "loaded_sha256": "bd069929326f5dc98952b178dffd26cd77ac1c1ba7d70abf465207ebf78015f4",
+  "object_sha256": "0a3722b364e7092cd0e9e66e0e6c3c10108eaf93cd232d7de71d6b874e4793db"
+ },
+ "owned": {
+  "code_sha256": "e45e5a6957dd0ed1ed1f86ab9dea1d2eb8e83abcf99770e564aed908a15f180b",
+  "data": {}
+ },
+ "ownership": {
+  "function_starts_sha256": "70af65e6e816fd1beaff628ac35e277ced423be162bee02dfa4336e6d1f89a7f",
+  "section_sizes": {}
+ },
+ "proof": {
+  "proof_grade": false,
+  "reasons": [
+   "owned target bytes are not exact"
+  ]
+ },
+ "provenance": {
+  "evidence": [],
+  "origin": "N64 Decomp Kit agent-stage (Jeopardy!)",
+  "reasons": [
+   "no forbidden assembly escape found"
+  ],
+  "verdict": "genuine-c"
+ },
+ "relocations": {
+  "section_bases": {},
+  "sites": 4,
+  "sites_sha256": "21042596541d2b5e79408ced50c42de60734bbc62457c8e5927421f2c415a5c7",
+  "symbols": {
+   "D_8007246C": null,
+   "__osDisableInt": "0x8003FCE8",
+   "func_8003FD08": "0x8003FD08"
+  }
+ },
+ "schema": "n64dk-proof-receipt/1",
+ "source": {
+  "kind": "c",
+  "name": "func_8004C348.c",
+  "sha256": "e19fcf3558fda39b05c8529ccdb53903db5f4d58b9487543e6ff497eb9299ace"
+ },
+ "subject": {
+  "catalogue_size": 64,
+  "image": "main",
+  "image_offset": "0x0004CF48",
+  "name": "func_8004C348",
+  "size": 64,
+  "vram": "0x8004C348"
+ },
+ "toolchain": {
+  "pipeline": "ido5.3",
+  "recipe": {
+   "identity": "cb44802379cab322668ec6dc4f8894dd213868cf76ef2d26656dc960f68145ac",
+   "lane": "ido5.3",
+   "stages": [
+    {
+     "component": "ido5.3/cc",
+     "files": [
+      [
+       "cc",
+       "76d796c9591c9f5504949f85b29c32a6039a663791afe2f36f34ca18425b64d0"
+      ]
+     ],
+     "stage": "driver"
+    },
+    {
+     "component": "ido5.3/cfe",
+     "files": [
+      [
+       "cfe",
+       "7033dfb267f39a6e5381c0769f4fc46bbde193cfec771314429d8367ace898f2"
+      ]
+     ],
+     "stage": "preprocess"
+    },
+    {
+     "component": "ido5.3/cfe",
+     "files": [
+      [
+       "cfe",
+       "7033dfb267f39a6e5381c0769f4fc46bbde193cfec771314429d8367ace898f2"
+      ]
+     ],
+     "stage": "frontend"
+    },
+    {
+     "component": "ido5.3/uopt",
+     "files": [
+      [
+       "uopt",
+       "4e11956bdce9cac4c2934320cb29c55d1f3d3a0281ee594fafa5ebec88df4dd5"
+      ]
+     ],
+     "stage": "optimize"
+    },
+    {
+     "component": "ido5.3/ugen",
+     "files": [
+      [
+       "ugen",
+       "1734564701d39db213d6fe9c8f2cff16b82b28939fb1418348de479b41b7ac72"
+      ]
+     ],
+     "stage": "codegen"
+    },
+    {
+     "component": "ido5.3/as1",
+     "files": [
+      [
+       "as1",
+       "39c9750c189df37d4df0f33e5eddec9d4e743cbecad0326af3dda437826dc695"
+      ]
+     ],
+     "stage": "assemble"
+    }
+   ]
+  },
+  "toolchain_digest": "f9e412ad420964a88c2afdeece277d07522ef975c3d9da3da151c97bea158acd"
+ },
+ "verdict": {
+  "class": "assumed",
+  "strict": {
+   "assumptions": [
+    {
+     "address": "0x8007246C",
+     "call": false,
+     "kind": "symbol",
+     "name": "D_8007246C",
+     "sites": [
+      "0x10",
+      "0x14"
+     ]
+    }
+   ],
+   "conflicts": [],
+   "notes": [],
+   "sections": [],
+   "text_equal": true,
+   "verdict": "assumed"
+  }
+ },
+ "verifier": "b32bb4b4558997094bcc894542263b34db847e5db6279945b124620cab45ea98",
+ "wrapper": {
+  "assembler_flags": null,
+  "lane_code": {},
+  "normalizer_hook": null
+ }
+}

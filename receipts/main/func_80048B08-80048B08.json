@@ -1,0 +1,203 @@
+{
+ "behavioural": null,
+ "build": {
+  "flags": [
+   "-O2",
+   "-mips2",
+   "-non_shared",
+   "-Xcpluscomm",
+   "-Wab,-r4300_mul",
+   "-G",
+   "0"
+  ],
+  "normalizer_args": [],
+  "pin_origins": {},
+  "pipeline": "ido5.3",
+  "section_bases": {},
+  "symbols": {}
+ },
+ "claims": {
+  "assumptions_present": false,
+  "behavioural_evidence": false,
+  "byte_identity": true,
+  "code_identity": true,
+  "ownership_complete": true,
+  "pins_independent": true,
+  "proof_grade": true,
+  "source_provenance": "genuine-c",
+  "source_provenance_creditable": true,
+  "strict_proof": true,
+  "unit_identity": true
+ },
+ "comparison_sha256": "e7141c292805e7a60a9b8889d443dfe54a875db06cd472731106e09f669bca44",
+ "declarations": {
+  "files": [
+   {
+    "name": "<project>/survey/symbol_addrs.txt",
+    "sha256": "2221c7932ff983d0843fd4debb0a1e5b099889284db3bd02dd9abeaf1e7f0518"
+   },
+   {
+    "name": "<project>/survey/sdk_symbols.txt",
+    "sha256": "e872ae4e14bac6f0958d86f5b2df4d87d46e61e0e1b8eff7992a706aea30c0a7"
+   },
+   {
+    "name": "<symbols>/declared_symbols.txt",
+    "sha256": "789e8e7710b8e57bccbb297069a27f5b9a2ae15124f8d0628446198a5c6b03a3"
+   }
+  ],
+  "map_sha256": "4170ae638588b0e76a4f0b02423140bf18c5b8f8a95a25825dac7a67a6ff2d10"
+ },
+ "earned_by": "generated-c",
+ "environment": {
+  "LANG": "99fed2d548c2eb1022f4067f97fe838a2c3ea60ee0e0f53086788505c3ababad"
+ },
+ "headers": {
+  "headers": {},
+  "missing": []
+ },
+ "identity": "74e7bb711a674edc80207d5f9ca7ef7a986f8a6a7e38e9c978c27825606d09ec",
+ "image": {
+  "rom_key": "c5bcf3eff6bcdd9e",
+  "sha256": "2ebd827db509397f27c557e017bdcdaaed0a748a73babc25f322bb2faab66100",
+  "size": 4194304
+ },
+ "issued": {
+  "at": "2026-11-21T19:52:54Z"
+ },
+ "kit_driver_sha256": "0e93063125a045b5b09d93b12178a41447d38d75b19bb20509ea0950a6a5002f",
+ "link": {
+  "linker_script": null,
+  "note": "no link step: the verifier relocates the object at declared addresses"
+ },
+ "object": {
+  "loaded_sha256": "90e060eb025b2544e67d9f4947bd6c5f3394d7225b8f8e6fd96146d3c3574e2c",
+  "object_sha256": "efaaf642cf4dd04e219e95284df31eeb43bebe9af42afef89bddb59681358baf"
+ },
+ "owned": {
+  "code_sha256": "2fe1dd92a1e2e51d8df2e8fd192726aadf264e78a086387d9e91b5ebf4848877",
+  "data": {}
+ },
+ "ownership": {
+  "function_starts_sha256": "70af65e6e816fd1beaff628ac35e277ced423be162bee02dfa4336e6d1f89a7f",
+  "section_sizes": {}
+ },
+ "proof": {
+  "proof_grade": true,
+  "reasons": []
+ },
+ "provenance": {
+  "evidence": [],
+  "origin": "draft",
+  "reasons": [
+   "no forbidden assembly escape found"
+  ],
+  "verdict": "genuine-c"
+ },
+ "relocations": {
+  "section_bases": {},
+  "sites": 0,
+  "sites_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "symbols": {}
+ },
+ "schema": "n64dk-proof-receipt/1",
+ "source": {
+  "kind": "c",
+  "name": "func_80048B08.c",
+  "sha256": "033440842b08edfa9232e5dbb7a31f294f0ed4d0ce0f0b71ae7e268808dbdedd"
+ },
+ "subject": {
+  "catalogue_size": 16,
+  "image": "main",
+  "image_offset": "0x00049708",
+  "name": "func_80048B08",
+  "size": 16,
+  "vram": "0x80048B08"
+ },
+ "toolchain": {
+  "pipeline": "ido5.3",
+  "recipe": {
+   "identity": "cb44802379cab322668ec6dc4f8894dd213868cf76ef2d26656dc960f68145ac",
+   "lane": "ido5.3",
+   "stages": [
+    {
+     "component": "ido5.3/cc",
+     "files": [
+      [
+       "cc",
+       "76d796c9591c9f5504949f85b29c32a6039a663791afe2f36f34ca18425b64d0"
+      ]
+     ],
+     "stage": "driver"
+    },
+    {
+     "component": "ido5.3/cfe",
+     "files": [
+      [
+       "cfe",
+       "7033dfb267f39a6e5381c0769f4fc46bbde193cfec771314429d8367ace898f2"
+      ]
+     ],
+     "stage": "preprocess"
+    },
+    {
+     "component": "ido5.3/cfe",
+     "files": [
+      [
+       "cfe",
+       "7033dfb267f39a6e5381c0769f4fc46bbde193cfec771314429d8367ace898f2"
+      ]
+     ],
+     "stage": "frontend"
+    },
+    {
+     "component": "ido5.3/uopt",
+     "files": [
+      [
+       "uopt",
+       "4e11956bdce9cac4c2934320cb29c55d1f3d3a0281ee594fafa5ebec88df4dd5"
+      ]
+     ],
+     "stage": "optimize"
+    },
+    {
+     "component": "ido5.3/ugen",
+     "files": [
+      [
+       "ugen",
+       "1734564701d39db213d6fe9c8f2cff16b82b28939fb1418348de479b41b7ac72"
+      ]
+     ],
+     "stage": "codegen"
+    },
+    {
+     "component": "ido5.3/as1",
+     "files": [
+      [
+       "as1",
+       "39c9750c189df37d4df0f33e5eddec9d4e743cbecad0326af3dda437826dc695"
+      ]
+     ],
+     "stage": "assemble"
+    }
+   ]
+  },
+  "toolchain_digest": "f9e412ad420964a88c2afdeece277d07522ef975c3d9da3da151c97bea158acd"
+ },
+ "verdict": {
+  "class": "exact",
+  "strict": {
+   "assumptions": [],
+   "conflicts": [],
+   "notes": [],
+   "sections": [],
+   "text_equal": true,
+   "verdict": "exact"
+  }
+ },
+ "verifier": "b32bb4b4558997094bcc894542263b34db847e5db6279945b124620cab45ea98",
+ "wrapper": {
+  "assembler_flags": null,
+  "lane_code": {},
+  "normalizer_hook": null
+ }
+}

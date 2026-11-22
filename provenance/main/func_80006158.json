@@ -1,0 +1,32 @@
+{
+ "code_size": "0x2B4",
+ "credit": "a generated project tree: it copies results the strict verifier settled and grants no credit; only `make verify` / `make verify-receipts` against your own ROM confirm them again",
+ "distance": "0",
+ "export_source": "src/main/func_80006158.c",
+ "file": "src/main/func_80006158.c",
+ "function": "func_80006158",
+ "how": "kmc+builtin -O0 -G0 -mips3 -mgp32 -mfp32",
+ "image": "main",
+ "inputs_sha256": "2a2c23774b6332c132264dd6dcf73ce0c4b2b4827408c8b96165af66296e23a5",
+ "kind": "c",
+ "link_layout_object": "",
+ "offset": "0x6D58",
+ "outcome": "exact",
+ "owned_sections": {
+  ".rodata": 44
+ },
+ "raw": null,
+ "receipt": "none",
+ "recipe": {
+  "flags": "-O0 -G0 -mips3 -mgp32 -mfp32 --section-base=.rodata:0x800004C8",
+  "pipeline": "kmc+builtin"
+ },
+ "reproduced_by": "C",
+ "schema": "n64dk-generated-project/1",
+ "size": "0x2B4",
+ "source_sha256": "618ed09cd4f9f537fa667f4212b0a5e5e770e0e950eb769b3092997d36a5ab64",
+ "status": "exact",
+ "unit": "main/func_80006158",
+ "unit_class": "game",
+ "vram": "0x80006158"
+}

@@ -1,0 +1,32 @@
+{
+ "code_size": "0xE0",
+ "credit": "a generated project tree: it copies results the strict verifier settled and grants no credit; only `make verify` / `make verify-receipts` against your own ROM confirm them again",
+ "distance": "0",
+ "export_source": "src/main/unit_80041B08.c",
+ "file": "src/main/unit_80041B08.c",
+ "function": "func_80041C1C",
+ "how": "ido5.3 --section-base=.rodata:0x80001E28 --section-base=.data:0x800722C8 -O3 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 --symbol=D_80071FF8:0x80071FF8 --symbol=D_800721C8:0x800721C8 (whole translation unit, N64 Decomp Kit agent-stage)",
+ "image": "main",
+ "inputs_sha256": "b9bf3ecc1ff7510b4c6a25a381ca5ca4d18d171402a48d156e0e7082aa060599",
+ "kind": "c",
+ "link_layout_object": "",
+ "offset": "0x4281C",
+ "outcome": "exact",
+ "raw": null,
+ "receipt": "unit",
+ "recipe": {
+  "flags": "--section-base=.rodata:0x80001E28 --section-base=.data:0x800722C8 -O3 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 --symbol=D_80071FF8:0x80071FF8 --symbol=D_800721C8:0x800721C8",
+  "pipeline": "ido5.3",
+  "unit_offset": "0x42708",
+  "unit_size": "0xC60"
+ },
+ "reproduced_by": "C",
+ "schema": "n64dk-generated-project/1",
+ "size": "0xE0",
+ "source_origin": "~/.cache/n64dk-lab/sdk_src/ultralib/src/audio/env.c (lab agent a7)",
+ "source_sha256": "517941f301b178928048299c60eacb1ffd37fe47fbcaf4379404d39a3e2adcd8",
+ "status": "exact",
+ "unit": "main/func_80041C1C",
+ "unit_class": "sdk",
+ "vram": "0x80041C1C"
+}

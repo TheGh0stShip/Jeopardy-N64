@@ -1,0 +1,925 @@
+{
+ "swapped": 84,
+ "bytes": 108412,
+ "functions": [
+  "func_800457E8",
+  "func_800445B8",
+  "func_80025A00",
+  "func_800495A8",
+  "func_8002CE90",
+  "func_800148DC",
+  "func_80041B08",
+  "func_8003D608",
+  "func_8003E358",
+  "func_8004A698",
+  "func_8000A7A0",
+  "func_8004B158",
+  "func_8002ADF0",
+  "func_80040738",
+  "func_8001A330",
+  "func_800156E0",
+  "func_80014090",
+  "func_8002B718",
+  "func_80011D18",
+  "func_8004CBC8",
+  "func_8002142C",
+  "func_8003CDC8",
+  "func_8001C18C",
+  "func_80012478",
+  "func_80022524",
+  "func_8003B668",
+  "func_80047128",
+  "func_80013AB0",
+  "func_80017D88",
+  "func_8002A84C",
+  "func_8000BC74",
+  "func_8002A32C",
+  "func_8001345C",
+  "func_8003C638",
+  "func_8003F668",
+  "func_800085D8",
+  "func_80015EBC",
+  "func_80020C40",
+  "func_80024520",
+  "func_80020700",
+  "func_80020174",
+  "func_8004D438",
+  "func_8004DA88",
+  "func_80018AAC",
+  "func_80043CC4",
+  "func_80019414",
+  "func_8001314C",
+  "func_80042C18",
+  "func_8000C338",
+  "func_8004C888",
+  "func_80008C88",
+  "func_800288F8",
+  "func_8004A268",
+  "func_80047DD8",
+  "func_80021060",
+  "func_8001F56C",
+  "func_80043A50",
+  "func_800036D4",
+  "func_800418B8",
+  "func_8000348C",
+  "func_80008F40",
+  "func_8003C178",
+  "func_80040FB8",
+  "func_8003A670",
+  "func_8004382C",
+  "func_80002638",
+  "func_80033124",
+  "func_80048FE8",
+  "func_80011B24",
+  "func_8003A454",
+  "func_8001554C",
+  "func_80043190",
+  "func_800337C0",
+  "func_8004C718",
+  "func_8003BCE8",
+  "func_8001FBF8",
+  "func_80041458",
+  "func_80041668",
+  "func_80048708",
+  "func_80016548",
+  "func_800412B8",
+  "func_80043460",
+  "func_8003BCA8",
+  "func_8004CBB8"
+ ],
+ "handwritten_reclassified": [
+  "func_8003C498",
+  "func_8004036C",
+  "func_80040554",
+  "func_8004059C",
+  "func_80048068",
+  "func_8003AD80",
+  "func_80000400",
+  "func_80040728"
+ ],
+ "whole_units": [
+  {
+   "file": "src/main/unit_800457E8.c",
+   "rows": [
+    "func_800457E8",
+    "func_8004583C",
+    "func_800458BC",
+    "func_80045970",
+    "func_80045978",
+    "func_8004599C",
+    "func_80045A24",
+    "func_80045B50",
+    "func_80045BF8",
+    "func_80045C68",
+    "func_80045D44",
+    "func_80045DBC",
+    "func_80045E04",
+    "func_80045E78",
+    "func_80045EE8",
+    "func_80045FE4",
+    "func_800467FC",
+    "func_80046804",
+    "func_80046E28",
+    "func_80046F2C",
+    "func_80046F9C"
+   ],
+   "size": 6464
+  },
+  {
+   "file": "src/main/unit_800445B8.c",
+   "rows": [
+    "func_800445B8",
+    "func_80044628",
+    "func_8004465C",
+    "func_80044664",
+    "func_80044834",
+    "func_8004505C",
+    "func_80045064",
+    "func_80045678"
+   ],
+   "size": 4656
+  },
+  {
+   "file": "src/main/unit_800495A8.c",
+   "rows": [
+    "func_800495A8",
+    "func_80049C18"
+   ],
+   "size": 3264
+  },
+  {
+   "file": "src/main/unit_80041B08.c",
+   "rows": [
+    "func_80041B08",
+    "func_80041B30",
+    "func_80041C1C",
+    "func_80041CFC",
+    "func_80041ECC",
+    "func_80042164",
+    "func_80042214"
+   ],
+   "size": 3168
+  },
+  {
+   "file": "src/main/unit_8003D608.c",
+   "rows": [
+    "func_8003D608",
+    "func_8003D7DC",
+    "func_8003DB88",
+    "func_8003DCB4"
+   ],
+   "size": 2892
+  },
+  {
+   "file": "src/main/unit_8003E358.c",
+   "rows": [
+    "func_8003E358",
+    "func_8003E3F8",
+    "func_8003E498",
+    "func_8003E55C",
+    "func_8003E5B4",
+    "func_8003E5BC",
+    "func_8003E8B4",
+    "func_8003E9C8",
+    "func_8003EB34",
+    "func_8003EB3C",
+    "func_8003EC38",
+    "func_8003ECA4"
+   ],
+   "size": 2752
+  },
+  {
+   "file": "src/main/unit_8004A698.c",
+   "rows": [
+    "func_8004A698",
+    "func_8004AC00",
+    "func_8004AC08"
+   ],
+   "size": 2752
+  },
+  {
+   "file": "src/main/unit_8004B158.c",
+   "rows": [
+    "func_8004B158",
+    "func_8004B1A8",
+    "func_8004B248",
+    "func_8004B42C",
+    "func_8004B4BC",
+    "func_8004B4C4",
+    "func_8004B4CC",
+    "func_8004B4D4",
+    "func_8004B4DC",
+    "func_8004B65C",
+    "func_8004B888",
+    "func_8004B890",
+    "func_8004B918",
+    "func_8004B968"
+   ],
+   "size": 2364
+  },
+  {
+   "file": "src/main/unit_80040738.c",
+   "rows": [
+    "func_80040738",
+    "func_80040DDC",
+    "func_80040EC4"
+   ],
+   "size": 2176
+  },
+  {
+   "file": "src/main/unit_8004CBC8.c",
+   "rows": [
+    "func_8004CBC8",
+    "func_8004CC44",
+    "func_8004CC4C",
+    "func_8004CC54",
+    "func_8004D19C"
+   ],
+   "size": 1808
+  },
+  {
+   "file": "src/main/unit_8003CDC8.c",
+   "rows": [
+    "func_8003CDC8",
+    "func_8003CDD0",
+    "func_8003CE28",
+    "func_8003CE60",
+    "func_8003CEC0",
+    "func_8003CED8",
+    "func_8003CF08",
+    "func_8003CF10",
+    "func_8003D1A8"
+   ],
+   "size": 1760
+  },
+  {
+   "file": "src/main/unit_80047128.c",
+   "rows": [
+    "func_80047128",
+    "func_80047144",
+    "func_80047160",
+    "func_80047168",
+    "func_80047170",
+    "func_800471BC",
+    "func_80047340",
+    "func_80047460",
+    "func_80047544",
+    "func_80047598",
+    "func_800475F0",
+    "func_80047640",
+    "func_80047670"
+   ],
+   "size": 1568
+  },
+  {
+   "file": "src/main/unit_8004D438.c",
+   "rows": [
+    "func_8004D438",
+    "func_8004D5C0"
+   ],
+   "size": 864
+  },
+  {
+   "file": "src/main/unit_80042C18.c",
+   "rows": [
+    "func_80042C18",
+    "func_80042D04"
+   ],
+   "size": 768
+  },
+  {
+   "file": "src/main/unit_800418B8.c",
+   "rows": [
+    "func_800418B8",
+    "func_800418C0",
+    "func_800418C8",
+    "func_800419B4",
+    "func_800419BC",
+    "func_80041AC0"
+   ],
+   "size": 592
+  }
+ ],
+ "skipped": [
+  [
+   "func_8002C5F0",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8003DB88",
+   "rows already in a larger unit this run: ['func_8003DB88', 'func_8003DCB4']"
+  ],
+  [
+   "func_8001C9DC",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8001CF5C",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8001D4DC",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8001E844",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8001F0B4",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_800299A8",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80012D28",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80030C70",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80026BEC",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8002EBA0",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80028720",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8003F058",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80028BA8",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8003BF28",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_800436A0",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80043518",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80042FA4",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_800443D8",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8001FD54",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80032FCC",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80047B98",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8003EE18",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_800478E0",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8004C208",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80012F64",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80042884",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80042AF8",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_800192F8",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8003A09C",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_800291D8",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_800292E8",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8003C538",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_800417B8",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_800440C8",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8004A508",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_800492B0",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8003C3A8",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80047AA8",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8003A228",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80048D84",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_800477F8",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8003CB68",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8003E208",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8003FAA8",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_800493A8",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80039F84",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8003ABCC",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_800491E0",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8003A314",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8003AB00",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80048C18",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80007904",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80017CC8",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80013090",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80044280",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8003BE48",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80047748",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80048E78",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8004C3C8",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80042768",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8002DB04",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8003F47C",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_800433B8",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80048CDC",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8003A89C",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8003F5C8",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80044338",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80048938",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_800489D8",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80048B18",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8004C598",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80048280",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80047D48",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_800488A8",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80048A78",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8004A608",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8004C098",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8004D2D8",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_800429A8",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80042F18",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8004403C",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8003F3F4",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_800441C8",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8003E158",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80047A28",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8003A1B0",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8004CB40",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8003A3E0",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8004311C",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_800415A8",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8004C528",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8004C6A8",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8004D798",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8004D808",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80024920",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8003CC48",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8003CCA8",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8003CD08",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8003CD68",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8003D5A8",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_800411E8",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80041258",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_800413F8",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80048220",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80048194",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_800494AC",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80011998",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8003F260",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8003EFB8",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8003CAC8",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8003CB18",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8003F2B8",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8003FD88",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80041618",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80048858",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8003F00C",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80039EFC",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8003E318",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80044548",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80047CE8",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8004C1C8",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8004C348",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8004C388",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_800480B4",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_800480F0",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80048158",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8004955C",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8003BEF8",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8003E1D8",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8003E2E8",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8003FB88",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8003FDF8",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80044250",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80044588",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_800481F0",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80048438",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_800486D8",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8004C478",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8004C4A8",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8004D368",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80048088",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8004812C",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8004831C",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80049508",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80049534",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8003D4D8",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80049488",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8003A93C",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8003FDD8",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8003BCD8",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_80041248",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8004C4D8",
+   "project unit is already exact/c"
+  ],
+  [
+   "func_8004C4E8",
+   "project unit is already exact/c"
+  ]
+ ]
+}

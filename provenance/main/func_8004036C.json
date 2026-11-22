@@ -1,0 +1,35 @@
+{
+ "asm_provenance": {
+  "evidence": "nonstandard return (move $s2,$ra ... jr $s2), no frame, fixed $t1-$t5/$at temporaries, $a0 a byte offset into __osEventStateTab",
+  "routine": "send_mesg",
+  "source": "libultra exceptasm.s"
+ },
+ "code_size": "0xB4",
+ "credit": "a generated project tree: it copies results the strict verifier settled and grants no credit; only `make verify` / `make verify-receipts` against your own ROM confirm them again",
+ "distance": "",
+ "export_source": "asm_not_decompiled/main/func_8004036C.s",
+ "file": "asm/main/func_8004036C.s",
+ "function": "func_8004036C",
+ "how": "kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32",
+ "image": "main",
+ "inputs_sha256": "45a3b48b6d4b7f359c852de22541d09fa30c5079906fc591d39b612e7a92d87e",
+ "kind": "handwritten",
+ "link_layout_object": "",
+ "offset": "0x40F6C",
+ "outcome": "needs-tu",
+ "raw": null,
+ "receipt": "none",
+ "recipe": {
+  "assembler": "gnu-as -march=vr4300 -mabi=o64",
+  "flags": "",
+  "pipeline": "gnu-as"
+ },
+ "reproduced_by": "assembly (hand-written in the original)",
+ "schema": "n64dk-generated-project/1",
+ "size": "0xB4",
+ "source_sha256": "6477f7e298d2c782ba87ca54a6b9c958fa92abec898d2bb25dff78332459aca2",
+ "status": "assembly",
+ "unit": "main/func_8004036C",
+ "unit_class": "handwritten",
+ "vram": "0x8004036C"
+}

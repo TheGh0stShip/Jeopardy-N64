@@ -1,0 +1,176 @@
+{
+ "all_passed": true,
+ "generated_data": {
+  "bytes": 0,
+  "note": "nothing in the main segment is cut from the ROM",
+  "pointer_relocations": 0,
+  "sections": 0
+ },
+ "output": "/home/steve/tmp/jeopardy-v5-normalized-20261122/project/build/jeopardy.z64",
+ "relink": {
+  "assumed": "raw",
+  "coverage": {
+   "assembly": 190601,
+   "assumed": 0,
+   "exact": 408959,
+   "raw-other": 0,
+   "raw-unit": 0
+  },
+  "credit": "a measurement: the image linked from the project's units and raw blobs cut from your ROM, compared byte for byte; it grants no credit and changes no run, receipt or evidence store",
+  "data_sources": {
+   "configured": 179,
+   "failed": [],
+   "linked": 179
+  },
+  "diagnostics": [],
+  "differing_by_class": {},
+  "differing_bytes": 0,
+  "extent": {
+   "bytes": 599560,
+   "end": "0x80092A08",
+   "rom_offset": "0x1000",
+   "vram": "0x80000400"
+  },
+  "files": [
+   "RELINK.json",
+   "link.ld",
+   "obj/0001_func_80000400.o",
+   "obj/0002_func_80002638.o",
+   "obj/0003_func_80002854.o",
+   "obj/0004_func_80002C84.o",
+   "obj/0005_func_8000348C.o",
+   "obj/0006_func_800036D4.o",
+   "obj/0007_func_80003928.o",
+   "obj/0008_func_800042B8.o",
+   "obj/0009_func_80004334.o",
+   "obj/0010_func_800043BC.o",
+   "obj/0011_func_80004A64.o",
+   "obj/0012_func_80005110.o",
+   "obj/0013_func_800057C0.o",
+   "obj/0014_func_80005858.o",
+   "obj/0015_func_80005AA8.o",
+   "obj/0016_func_80005BC0.o",
+   "obj/0017_func_80005C10.o",
+   "obj/0018_func_80005DF8.o",
+   "obj/0019_func_80005EA4.o",
+   "obj/0020_func_80006158.o",
+   "obj/0021_func_8000640C.o",
+   "obj/0022_func_80006498.o",
+   "obj/0023_func_8000656C.o",
+   "obj/0024_func_800065F0.o",
+   "obj/0025_func_80006664.o",
+   "obj/0026_func_8000673C.o",
+   "obj/0027_func_80006774.o",
+   "obj/0028_func_800067B0.o",
+   "obj/0029_func_80006CA0.o",
+   "obj/0030_func_80006E44.o",
+   "obj/0031_func_800070FC.o",
+   "obj/0032_func_8000715C.o",
+   "obj/0033_func_800073F8.o",
+   "obj/0034_func_80007470.o",
+   "obj/0035_func_800075F8.o",
+   "obj/0036_func_8000766C.o",
+   "obj/0037_func_800076FC.o",
+   "obj/0038_func_80007784.o",
+   "obj/0039_func_800077D8.o",
+   "obj/0040_func_8000785C.o",
+   "obj/0041_func_80007904.o",
+   "obj/0042_func_800079C4.o",
+   "obj/0043_func_80007AC0.o",
+   "obj/0044_func_80007B70.o",
+   "obj/0045_func_80007C34.o",
+   "obj/0046_func_80007CA0.o",
+   "obj/0047_func_80007E58.o",
+   "obj/0048_func_80007EC8.o",
+   "... 842 more"
+  ],
+  "first_difference": null,
+  "holes": 0,
+  "image": "main",
+  "level": "3 (pinned relink) for image main alone: every unit linked from its source (C or assembly) at its own address, the bytes no unit owns (data, rodata, padding) linked as raw blobs, the image identical; levels 4-6 (order relink and above) are not tested",
+  "level_blockers": [],
+  "linker": "kit",
+  "outcome": "identical",
+  "outside_extent": [],
+  "overlaps": [],
+  "padding_yielded_bytes": 5,
+  "problems": [],
+  "raw_bytes": 0,
+  "returncode": 0,
+  "rom_bytes_kept_in": [
+   "raw/raw.o (the declared local extraction input)",
+   "relinked.bin"
+  ],
+  "schema": "n64dk-relink/1",
+  "sections": {
+   "inconsistent_symbol_bases": [],
+   "placed_by_declared_symbols": 1,
+   "unplaced": 0,
+   "unplaced_referenced": []
+  },
+  "source_bytes": 599560,
+  "source_data_by_class": {
+   "assembly": 183565,
+   "exact": 4427
+  },
+  "source_data_bytes": 187992,
+  "source_share": 1.0,
+  "source_text_bytes": 411568,
+  "spills": [],
+  "symbols": {
+   "common_without_address": [],
+   "declared_vs_linked": [
+    "func_80007904: linked 0x80007908, declared 0x80007904"
+   ],
+   "duplicates": [],
+   "from_raw_units": 0,
+   "gp_relative": false,
+   "hard": 0,
+   "pin_conflicts": [],
+   "provided": 752,
+   "stated": 94,
+   "unresolved": [],
+   "unscriptable": []
+  },
+  "units": {
+   "in_image": 805,
+   "linked": 805,
+   "objects": 709,
+   "objects_by_result": {
+    "linked-identical": 709
+   },
+   "raw_members_by_reason": {}
+  }
+ },
+ "schema": "jeopardy-cartridge-build/1",
+ "source_units": 805,
+ "stages": [
+  {
+   "actual_sha1": "bb52f3b494108cbea913ae729300afbfafd3718e",
+   "bytes": 317944,
+   "differing_bytes": 0,
+   "expected_sha1": "bb52f3b494108cbea913ae729300afbfafd3718e",
+   "first_difference": null,
+   "name": "code",
+   "passed": true
+  },
+  {
+   "actual_sha1": "9866a60305c9ade6f16b29114af08638a2dacfeb",
+   "bytes": 599560,
+   "differing_bytes": 0,
+   "expected_sha1": "9866a60305c9ade6f16b29114af08638a2dacfeb",
+   "first_difference": null,
+   "name": "main",
+   "passed": true
+  },
+  {
+   "actual_sha1": "c5bcf3eff6bcdd9e7846ce5fd5db3095db9c58ed",
+   "bytes": 4194304,
+   "differing_bytes": 0,
+   "expected_sha1": "c5bcf3eff6bcdd9e7846ce5fd5db3095db9c58ed",
+   "first_difference": null,
+   "name": "whole_rom",
+   "passed": true
+  }
+ ]
+}

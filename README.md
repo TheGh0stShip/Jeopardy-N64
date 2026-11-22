@@ -1,25 +1,33 @@
 # Jeopardy! (Nintendo 64) matching decompilation
 
-Matching decompilation of the USA Nintendo 64 release of **Jeopardy!**. The current source set reproduces 64.53% of catalogued executable bytes exactly; ordinary matching C accounts for 62.99%.
+Complete matching-source reconstruction of the USA Nintendo 64 release of **Jeopardy!**.
+All 805 catalogued functions and every byte of the main program image are built from checked-in
+source. A clean build reproduces the original cartridge bit for bit.
 
-| Progress | Verified | Catalogued | Share |
+| Progress | Verified | Total | Share |
 |---|---:|---:|---:|
-| Byte-identical source (C + original assembly) | 480 functions / 265,232 bytes | 805 / 411,016 | **64.53% of code** |
-| Ordinary matching C | 443 functions / 258,880 bytes | 805 / 411,016 | **62.99% of code** |
-| Hand-written assembly | 37 functions / 6,352 bytes | 805 / 411,016 | 1.55% of code |
-| Not decompiled | 324 functions / 145,456 bytes | 805 / 411,016 | 35.39% of code |
-| Fully linked matching source | 480 functions / 265,232 bytes | 805 / 411,016 | **64.53%** |
+| Byte-identical source | 805 functions / 411,036 bytes | 805 / 411,036 | **100.00%** |
+| Fully linked source | 805 functions / 411,036 bytes | 805 / 411,036 | **100.00%** |
+| Ordinary matching C | 757 functions / 401,796 bytes | 805 / 411,036 | **97.75% of code** |
+| Assembly-assisted C | 3 functions / 2,208 bytes | 805 / 411,036 | 0.54% of code |
+| Original hand-written assembly | 45 functions / 7,032 bytes | 805 / 411,036 | 1.71% of code |
 
 [![Byte-identical source](https://bytematch.dev/TheGh0stShip/Jeopardy-N64.svg?version=usa-catalogued&category=catalogued-code&measure=matched_code_percent&label=Byte-identical%20source)](https://bytematch.dev/TheGh0stShip/Jeopardy-N64/usa-catalogued)
 [![Fully linked](https://bytematch.dev/TheGh0stShip/Jeopardy-N64.svg?version=usa-catalogued&category=catalogued-code&measure=complete_code_percent&label=Fully%20linked)](https://bytematch.dev/TheGh0stShip/Jeopardy-N64/usa-catalogued)
 [![Ordinary matching C](https://bytematch.dev/TheGh0stShip/Jeopardy-N64.svg?version=usa-catalogued&category=matching-c&measure=matched_code_percent&label=Ordinary%20matching%20C)](https://bytematch.dev/TheGh0stShip/Jeopardy-N64/usa-catalogued)
 [![Functions](https://bytematch.dev/TheGh0stShip/Jeopardy-N64.svg?version=usa-catalogued&category=catalogued-code&measure=matched_functions&label=Functions)](https://bytematch.dev/TheGh0stShip/Jeopardy-N64/usa-catalogued)
 
-The project builds a complete cartridge whose SHA-1 matches the retail ROM. All 805 catalogued
-executable units are compiled or assembled from checked-in source; no executable unit is copied
-from the ROM. This whole-cartridge reproduction is separate build evidence. ByteMatch fully-linked
-decompilation credit is restricted to the 480 functions reproduced from verified matching source;
-the 324 generated-assembly placeholders receive no matching or fully-linked credit.
+## Verified build
+
+| Stage | SHA-1 | Differing bytes |
+|---|---|---:|
+| Compiled code | `bb52f3b494108cbea913ae729300afbfafd3718e` | 0 |
+| Main program image | `9866a60305c9ade6f16b29114af08638a2dacfeb` | 0 |
+| Whole cartridge | `c5bcf3eff6bcdd9e7846ce5fd5db3095db9c58ed` | 0 |
+
+The fixed-address relink contains 805/805 source units, 179 source data objects, no raw program
+bytes, no holes, no overlaps, and no unresolved symbols. Header, IPL3 and assets outside the main
+program are extracted from the user's legally obtained ROM; they are not distributed here.
 
 ## Target
 
@@ -31,56 +39,45 @@ the 324 generated-assembly placeholders receive no matching or fully-linked cred
 | ROM SHA-1 | `c5bcf3eff6bcdd9e7846ce5fd5db3095db9c58ed` |
 | ROM CRC | `69256460 B9A3F586` |
 | CIC | 6102 |
-| Compiler families | KMC GCC 2.7.2; IDO 5.3 for part of libultra |
+| Compilers | KMC GCC 2.7.2 and SGI IDO 5.x |
 
-## Evidence
+## Build
 
-Every credited function was rebuilt with its recorded recipe and compared with its complete owned instruction range. A second machine replayed all 480 credited C/assembly results after applying three reviewed boundary corrections: 480 accepted, zero rejected, zero missing. The evidence is retained under `evidence/`, and the corrections and supporting operations are under `config/`.
-
-The whole-ROM gate independently links 805/805 executable units, reports zero raw executable
-units and zero differing bytes, and reproduces SHA-1
-`c5bcf3eff6bcdd9e7846ce5fd5db3095db9c58ed`. The reports are under `evidence/link/`; see
-[`BUILD.md`](BUILD.md) for clean reproduction instructions.
-
-- `src/main/` — 410 kit-written matching-C functions.
-- `src/donor/wof/` — 33 Wheel of Fortune source functions independently rebuilt against Jeopardy; provenance is retained in `docs/source-provenance.md`.
-- `asm/main/` — 37 verified original hand-written assembly functions.
-- `asm/nonmatching/main/` — disassembly for the 324 functions still requiring decompilation; these receive no matching credit.
-- `src/awaiting/` — one additional byte-identical C candidate withheld from credit because a referenced data address is undeclared.
-- `MATCHED.tsv` and `progress-inventory.tsv` — the reviewed C list and complete corrected denominator.
-- `build/report.json` — the ByteMatch/objdiff report generated from those manifests.
-
-The 410 generated C files originally carried identical per-file compatibility preludes. They now include one audited shared header containing only fixed-width types, `M2C_UNK`, and the byte-offset `M2C_FIELD` helper. Unsafe placeholders such as `M2C_ERROR`, `M2C_CARRY`, unaligned-load no-ops, and `m2c_unhandled` are absent. Sixty files still use provisional unknown types and fourteen still use field-offset helpers; type/structure recovery remains source-quality work.
-
-## Verification policy
-
-- C receives matching credit only after exact original-toolchain recompilation and complete owned-range comparison.
-- Donor C receives credit only after independent rebuilding against this ROM; provenance remains explicit.
-- Original assembly counts as byte-identical source but remains separate from the ordinary-C category.
-- Raw nonmatching assembly, awaiting-symbol candidates, masked-address comparisons, and compatibility shims receive no strict credit.
-- Fully-linked credit is restricted to verified matching source that participates in the linked
-  image. Generated assembly may complete the cartridge build but receives no decompilation credit.
-- The separate whole-cartridge gate is backed by the pinned image and SHA-1-identical reports in
-  `evidence/link/`; every catalogued executable unit is source-owned.
-- Completion requires a deterministic build that reproduces the target cartridge SHA-1.
-
-See [the verification contract](docs/verification.md), [the import report](docs/import/REPORT.md), and [the unresolved queue](docs/UNRESOLVED.md).
-
-## ROM setup
-
-ROM data and proprietary compiler binaries are not included. Verify your legally obtained USA ROM with:
+ROM data and proprietary compilers are not included. With N64 Decomp Kit and the recorded
+toolchains installed:
 
 ```sh
-python3 tools/verify_rom.py '/path/to/Jeopardy! (USA).z64'
-```
-
-Extract once, then build and verify the whole cartridge:
-
-```sh
-make extract ROM='/path/to/Jeopardy! (USA).z64'
-make clean
+make extract BASEROM='/path/to/Jeopardy! (USA).z64'
 make -j1
 make verify
 ```
 
-The current replay and cartridge build use N64 Decomp Kit and the recorded manifests/receipts.
+`make extract` verifies the ROM and creates private, ignored build inputs. Subsequent builds do
+not read the original path. See [BUILD.md](BUILD.md) for requirements and gate details.
+
+## Source layout
+
+- `src/main/` — matching game, SDK, and library C, including reconstructed translation units.
+- `donors/main/` — independently verified same-SDK C with retained provenance.
+- `asm/main/` — the 45 provenance-confirmed original hand-written assembly functions.
+- `src/data/` — typed C data and symbolic data assembly for the complete main image.
+- `provenance/main/` and `receipts/main/` — per-function origin and strict verification records.
+- `manifests/` and `recipes.tsv` — compiler, assembler, placement, and ownership recipes.
+- `evidence/link/` — independently replayed fixed-link and SHA-1 reports.
+
+The three assembly-assisted C functions are identified in `tools/assisted_provenance.tsv`; the
+45 original assembly functions are documented in `tools/asm_provenance.tsv`. No generated
+assembly fallback receives credit because none remains in the linked program.
+
+## Verification policy
+
+Tracker output is regenerated from all 805 provenance records and the clean-build evidence:
+
+```sh
+python3 tools/generate_tracker_progress.py --check
+```
+
+The primary tracker category is byte-identical source and is fully linked. Ordinary C remains a
+separate category so original assembly and C that requires a documented compiler directive are
+not misrepresented. See [docs/verification.md](docs/verification.md) and
+[docs/source-provenance.md](docs/source-provenance.md).

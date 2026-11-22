@@ -1,0 +1,246 @@
+{
+ "behavioural": null,
+ "build": {
+  "flags": [
+   "-O1",
+   "-mips2",
+   "-non_shared",
+   "-Xcpluscomm",
+   "-Wab,-r4300_mul",
+   "-G",
+   "0"
+  ],
+  "normalizer_args": [],
+  "pin_origins": {
+   "D_80000300": "run-declaration",
+   "D_8000030C": "run-declaration",
+   "D_8000031C": "run-declaration",
+   "D_800D3130": "run-declaration",
+   "section:.data": "run-declaration"
+  },
+  "pipeline": "ido5.3",
+  "section_bases": {
+   ".data": "0x80072338"
+  },
+  "symbols": {
+   "D_80000300": "0x80000300",
+   "D_8000030C": "0x8000030C",
+   "D_8000031C": "0x8000031C",
+   "D_800D3130": "0x800D3130"
+  }
+ },
+ "claims": {
+  "assumptions_present": false,
+  "behavioural_evidence": false,
+  "byte_identity": true,
+  "code_identity": true,
+  "ownership_complete": true,
+  "pins_independent": true,
+  "proof_grade": true,
+  "source_provenance": "genuine-c",
+  "source_provenance_creditable": true,
+  "strict_proof": true,
+  "unit_identity": true
+ },
+ "comparison_sha256": "6168d1d02d08aa083bbce9ddaa3bab3b3a855d7056e65949a57b49e886cb2b9f",
+ "declarations": {
+  "files": [
+   {
+    "name": "<project>/survey/symbol_addrs.txt",
+    "sha256": "2221c7932ff983d0843fd4debb0a1e5b099889284db3bd02dd9abeaf1e7f0518"
+   },
+   {
+    "name": "<project>/survey/sdk_symbols.txt",
+    "sha256": "e872ae4e14bac6f0958d86f5b2df4d87d46e61e0e1b8eff7992a706aea30c0a7"
+   }
+  ],
+  "map_sha256": "ab08e847d08293500f3eb9a538972a1c258e159b5218cd29b6436bf81e96e6f9"
+ },
+ "earned_by": "generated-c",
+ "environment": {
+  "LANG": "99fed2d548c2eb1022f4067f97fe838a2c3ea60ee0e0f53086788505c3ababad"
+ },
+ "headers": {
+  "headers": {},
+  "missing": []
+ },
+ "identity": "562efa9708650a93e7d7e9242c52d7b1f0c988d2dfbc285bcfb57103e1869dfb",
+ "image": {
+  "rom_key": "c5bcf3eff6bcdd9e",
+  "sha256": "2ebd827db509397f27c557e017bdcdaaed0a748a73babc25f322bb2faab66100",
+  "size": 4194304
+ },
+ "issued": {
+  "at": "2026-11-22T06:54:31Z"
+ },
+ "kit_driver_sha256": "461a0cf4ba284f5d537c950b632211ddad3d332d8c45483d8cacc90247a360e5",
+ "link": {
+  "linker_script": null,
+  "note": "no link step: the verifier relocates the object at declared addresses"
+ },
+ "object": {
+  "loaded_sha256": "36e0630f1856177d0dde8a1ed9ac7ebd863684adffbdee695d7ebc7c0aa740ac",
+  "object_sha256": "aeb3b055b4d559d19d9c7ea99d29b2c9b3621360a71958e2adf320d374616de2"
+ },
+ "owned": {
+  "code_sha256": "04473f8caf0e4db6b99dca68b25def5e8907934506de80a0977ced4a8eed70dd",
+  "data": {
+   ".data": {
+    "base": "0x80072338",
+    "sha256": "84fc8a5999b9328a5247804b37600a628dacc96126dbef95f0d33d4fae491d51",
+    "size": 16
+   }
+  }
+ },
+ "ownership": {
+  "function_starts_sha256": "70af65e6e816fd1beaff628ac35e277ced423be162bee02dfa4336e6d1f89a7f",
+  "section_sizes": {}
+ },
+ "proof": {
+  "proof_grade": true,
+  "reasons": []
+ },
+ "provenance": {
+  "evidence": [],
+  "origin": "N64 Decomp Kit agent-stage (Jeopardy!)",
+  "reasons": [
+   "no forbidden assembly escape found"
+  ],
+  "verdict": "genuine-c"
+ },
+ "relocations": {
+  "section_bases": {
+   ".data": "0x80072338"
+  },
+  "sites": 48,
+  "sites_sha256": "fc3109505652f61a86b9dd8196818666c62c54f33192b2fc852ba2c6ba01dfb4",
+  "symbols": {
+   "D_80000300": "0x80000300",
+   "D_8000030C": "0x8000030C",
+   "D_8000031C": "0x8000031C",
+   "D_800D3130": "0x800D3130",
+   "__ll_mul": "0x800481F0",
+   "__osSiRawReadIo": "0x8004D398",
+   "__osSiRawWriteIo": "0x8004D3E8",
+   "__ull_div": "0x800480F0",
+   "bzero": "0x8003C498",
+   "func_8003FE28": "0x8003FE28",
+   "func_80048068": "0x80048068",
+   "func_80048078": "0x80048078",
+   "func_80048348": "0x80048348",
+   "osInvalICache": "0x8003FC68",
+   "osMapTLBRdb": "0x800483D8",
+   "osPiRawReadIo": "0x80041258",
+   "osWritebackDCache": "0x80048358"
+  }
+ },
+ "schema": "n64dk-proof-receipt/1",
+ "source": {
+  "kind": "c",
+  "name": "func_80047DD8.c",
+  "sha256": "1cdefdbedee2a8be302d729f305c5d2320c043a4b583fafa748e864111627628"
+ },
+ "subject": {
+  "catalogue_size": 656,
+  "image": "main",
+  "image_offset": "0x000489D8",
+  "name": "func_80047DD8",
+  "size": 656,
+  "vram": "0x80047DD8"
+ },
+ "toolchain": {
+  "pipeline": "ido5.3",
+  "recipe": {
+   "identity": "cb44802379cab322668ec6dc4f8894dd213868cf76ef2d26656dc960f68145ac",
+   "lane": "ido5.3",
+   "stages": [
+    {
+     "component": "ido5.3/cc",
+     "files": [
+      [
+       "cc",
+       "76d796c9591c9f5504949f85b29c32a6039a663791afe2f36f34ca18425b64d0"
+      ]
+     ],
+     "stage": "driver"
+    },
+    {
+     "component": "ido5.3/cfe",
+     "files": [
+      [
+       "cfe",
+       "7033dfb267f39a6e5381c0769f4fc46bbde193cfec771314429d8367ace898f2"
+      ]
+     ],
+     "stage": "preprocess"
+    },
+    {
+     "component": "ido5.3/cfe",
+     "files": [
+      [
+       "cfe",
+       "7033dfb267f39a6e5381c0769f4fc46bbde193cfec771314429d8367ace898f2"
+      ]
+     ],
+     "stage": "frontend"
+    },
+    {
+     "component": "ido5.3/uopt",
+     "files": [
+      [
+       "uopt",
+       "4e11956bdce9cac4c2934320cb29c55d1f3d3a0281ee594fafa5ebec88df4dd5"
+      ]
+     ],
+     "stage": "optimize"
+    },
+    {
+     "component": "ido5.3/ugen",
+     "files": [
+      [
+       "ugen",
+       "1734564701d39db213d6fe9c8f2cff16b82b28939fb1418348de479b41b7ac72"
+      ]
+     ],
+     "stage": "codegen"
+    },
+    {
+     "component": "ido5.3/as1",
+     "files": [
+      [
+       "as1",
+       "39c9750c189df37d4df0f33e5eddec9d4e743cbecad0326af3dda437826dc695"
+      ]
+     ],
+     "stage": "assemble"
+    }
+   ]
+  },
+  "toolchain_digest": "f9e412ad420964a88c2afdeece277d07522ef975c3d9da3da151c97bea158acd"
+ },
+ "verdict": {
+  "class": "exact",
+  "strict": {
+   "assumptions": [],
+   "conflicts": [],
+   "notes": [],
+   "sections": [
+    {
+     "base": "0x80072338",
+     "compared": 16,
+     "section": ".data",
+     "size": 16,
+     "status": "equal"
+    }
+   ],
+   "text_equal": true,
+   "verdict": "exact"
+  }
+ },
+ "verifier": "b32bb4b4558997094bcc894542263b34db847e5db6279945b124620cab45ea98",
+ "wrapper": {
+  "assembler_flags": null,
+  "lane_code": {},
+  "normalizer_hook": null
+ }
+}

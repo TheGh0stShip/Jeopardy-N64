@@ -1,0 +1,1205 @@
+{
+ "components": [
+  {
+   "disposition": "implemented-verified",
+   "emulator": "",
+   "files": [
+    {
+     "bytes": 248024,
+     "file": "cc",
+     "format": "ELF 64-bit little-endian x86-64",
+     "sha256": "76d796c9591c9f5504949f85b29c32a6039a663791afe2f36f34ca18425b64d0"
+    }
+   ],
+   "ident": "ido5.3/cc",
+   "installed": true,
+   "licence": "SGI proprietary; redistributed by the matching community",
+   "name": "IDO 5.3 cc driver",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "x86-64 ELF (recompiled from IRIX MIPS)",
+   "provenance": "authentic-n64",
+   "role": "driver",
+   "source_url": "https://github.com/decompals/ido-static-recomp (v1.2)",
+   "supply_class": "static-recompilation",
+   "version": "5.3"
+  },
+  {
+   "disposition": "implemented-verified",
+   "emulator": "",
+   "files": [
+    {
+     "bytes": 796896,
+     "file": "cfe",
+     "format": "ELF 64-bit little-endian x86-64",
+     "sha256": "7033dfb267f39a6e5381c0769f4fc46bbde193cfec771314429d8367ace898f2"
+    }
+   ],
+   "ident": "ido5.3/cfe",
+   "installed": true,
+   "licence": "",
+   "name": "IDO 5.3 C front end (with its built-in preprocessor)",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "x86-64 ELF (recompiled)",
+   "provenance": "authentic-n64",
+   "role": "frontend",
+   "source_url": "https://github.com/decompals/ido-static-recomp (v1.2)",
+   "supply_class": "static-recompilation",
+   "version": "5.3"
+  },
+  {
+   "disposition": "implemented-verified",
+   "emulator": "",
+   "files": [
+    {
+     "bytes": 149720,
+     "file": "acpp",
+     "format": "ELF 64-bit little-endian x86-64",
+     "sha256": "7bfdf2f79010eb95bd47e165036cac04a69e5f1290fde11736e5f6934f3e9189"
+    }
+   ],
+   "ident": "ido5.3/acpp",
+   "installed": true,
+   "licence": "",
+   "name": "IDO 5.3 ANSI preprocessor",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "x86-64 ELF (recompiled)",
+   "provenance": "authentic-n64",
+   "role": "preprocessor",
+   "source_url": "https://github.com/decompals/ido-static-recomp (v1.2)",
+   "supply_class": "static-recompilation",
+   "version": "5.3"
+  },
+  {
+   "disposition": "implemented-verified",
+   "emulator": "",
+   "files": [
+    {
+     "bytes": 674008,
+     "file": "uopt",
+     "format": "ELF 64-bit little-endian x86-64",
+     "sha256": "4e11956bdce9cac4c2934320cb29c55d1f3d3a0281ee594fafa5ebec88df4dd5"
+    }
+   ],
+   "ident": "ido5.3/uopt",
+   "installed": true,
+   "licence": "",
+   "name": "IDO 5.3 global optimiser",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "x86-64 ELF (recompiled)",
+   "provenance": "authentic-n64",
+   "role": "optimizer",
+   "source_url": "https://github.com/decompals/ido-static-recomp (v1.2)",
+   "supply_class": "static-recompilation",
+   "version": "5.3"
+  },
+  {
+   "disposition": "implemented-verified",
+   "emulator": "",
+   "files": [
+    {
+     "bytes": 600280,
+     "file": "ugen",
+     "format": "ELF 64-bit little-endian x86-64",
+     "sha256": "1734564701d39db213d6fe9c8f2cff16b82b28939fb1418348de479b41b7ac72"
+    }
+   ],
+   "ident": "ido5.3/ugen",
+   "installed": true,
+   "licence": "",
+   "name": "IDO 5.3 code generator",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "x86-64 ELF (recompiled)",
+   "provenance": "authentic-n64",
+   "role": "codegen",
+   "source_url": "https://github.com/decompals/ido-static-recomp (v1.2)",
+   "supply_class": "static-recompilation",
+   "version": "5.3"
+  },
+  {
+   "disposition": "implemented-verified",
+   "emulator": "",
+   "files": [
+    {
+     "bytes": 923864,
+     "file": "as1",
+     "format": "ELF 64-bit little-endian x86-64",
+     "sha256": "39c9750c189df37d4df0f33e5eddec9d4e743cbecad0326af3dda437826dc695"
+    }
+   ],
+   "ident": "ido5.3/as1",
+   "installed": true,
+   "licence": "",
+   "name": "IDO 5.3 assembler pass 1 (scheduling, delay slots)",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "x86-64 ELF (recompiled)",
+   "provenance": "authentic-n64",
+   "role": "assembler",
+   "source_url": "https://github.com/decompals/ido-static-recomp (v1.2)",
+   "supply_class": "static-recompilation",
+   "version": "5.3"
+  },
+  {
+   "disposition": "implemented-verified",
+   "emulator": "",
+   "files": [
+    {
+     "bytes": 186584,
+     "file": "as0",
+     "format": "ELF 64-bit little-endian x86-64",
+     "sha256": "72670d53952459fe5ac463e8844182cf4df9f6ccf469826c82ca858fdd665564"
+    }
+   ],
+   "ident": "ido5.3/as0",
+   "installed": true,
+   "licence": "",
+   "name": "IDO 5.3 assembler pass 0 (macro expansion)",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "x86-64 ELF (recompiled)",
+   "provenance": "authentic-n64",
+   "role": "assembler-macro",
+   "source_url": "https://github.com/decompals/ido-static-recomp (v1.2)",
+   "supply_class": "static-recompilation",
+   "version": "5.3"
+  },
+  {
+   "disposition": "implemented-verified",
+   "emulator": "",
+   "files": [
+    {
+     "bytes": 92304,
+     "file": "ujoin",
+     "format": "ELF 64-bit little-endian x86-64",
+     "sha256": "34a6fff6e693f8c9505777d2860b4795fe97a01e89ce8616f4a5b624b11c451d"
+    },
+    {
+     "bytes": 633048,
+     "file": "uld",
+     "format": "ELF 64-bit little-endian x86-64",
+     "sha256": "bc85b7963ac978af5a8c5902d1c3b868c01b09839c4f7e5c36a77960cbf61744"
+    },
+    {
+     "bytes": 141528,
+     "file": "umerge",
+     "format": "ELF 64-bit little-endian x86-64",
+     "sha256": "96ea21c084f4d4765562cd030ba2c9f314f5aefdd180b82d22e1ab5126fca913"
+    },
+    {
+     "bytes": 75920,
+     "file": "usplit",
+     "format": "ELF 64-bit little-endian x86-64",
+     "sha256": "f539dced35b1cfb8385a1431d7a7e0bc5a3223ea4c8347c884a9de850d89ab3b"
+    }
+   ],
+   "ident": "ido5.3/uld",
+   "installed": true,
+   "licence": "",
+   "name": "IDO 5.3 ucode linker/inliner (-O3 pipeline: uld, umerge, usplit, ujoin)",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "x86-64 ELF (recompiled)",
+   "provenance": "authentic-n64",
+   "role": "optimizer",
+   "source_url": "https://github.com/decompals/ido-static-recomp (v1.2)",
+   "supply_class": "static-recompilation",
+   "version": "5.3"
+  },
+  {
+   "disposition": "comparative-only",
+   "emulator": "",
+   "files": [
+    {
+     "bytes": 2898144,
+     "file": "copt",
+     "format": "ELF 64-bit little-endian x86-64",
+     "sha256": "e62a2a7276d2f9fa7f5daac25e01abe92cf4765173391cb0b616434c9c8122b3"
+    }
+   ],
+   "ident": "ido5.3/copt",
+   "installed": true,
+   "licence": "",
+   "name": "IDO 5.3 source optimiser (copt)",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "x86-64 ELF (recompiled)",
+   "provenance": "authentic-n64",
+   "role": "optimizer",
+   "source_url": "https://github.com/decompals/ido-static-recomp (v1.2)",
+   "supply_class": "static-recompilation",
+   "version": "5.3"
+  },
+  {
+   "disposition": "comparative-only",
+   "emulator": "",
+   "files": [
+    {
+     "bytes": 633048,
+     "file": "ld",
+     "format": "ELF 64-bit little-endian x86-64",
+     "sha256": "266c5a22192ce532a6dcdb7127c1da72faa37e7e71d44677ab91d723b8ed2113"
+    }
+   ],
+   "ident": "ido5.3/ld",
+   "installed": true,
+   "licence": "",
+   "name": "IDO 5.3 ld",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "x86-64 ELF (recompiled)",
+   "provenance": "authentic-assembler-linker",
+   "role": "linker",
+   "source_url": "https://github.com/decompals/ido-static-recomp (v1.2)",
+   "supply_class": "static-recompilation",
+   "version": "5.3"
+  },
+  {
+   "disposition": "implemented-verified",
+   "emulator": "",
+   "files": [
+    {
+     "bytes": 252120,
+     "file": "cc",
+     "format": "ELF 64-bit little-endian x86-64",
+     "sha256": "d886205c468987e49d1b294cc01c3d6bc886a879f4babb2f5035728d1df6029b"
+    }
+   ],
+   "ident": "ido7.1/cc",
+   "installed": true,
+   "licence": "",
+   "name": "IDO 7.1 cc driver",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "x86-64 ELF (recompiled)",
+   "provenance": "authentic-n64",
+   "role": "driver",
+   "source_url": "https://github.com/decompals/ido-static-recomp (v1.2)",
+   "supply_class": "static-recompilation",
+   "version": "7.1"
+  },
+  {
+   "disposition": "implemented-verified",
+   "emulator": "",
+   "files": [
+    {
+     "bytes": 809184,
+     "file": "cfe",
+     "format": "ELF 64-bit little-endian x86-64",
+     "sha256": "c264f0c1f3ece0d15c2cd2ff73fff20381e98ed09f630c8087e24010e2a5ce1a"
+    }
+   ],
+   "ident": "ido7.1/cfe",
+   "installed": true,
+   "licence": "",
+   "name": "IDO 7.1 C front end",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "x86-64 ELF (recompiled)",
+   "provenance": "authentic-n64",
+   "role": "frontend",
+   "source_url": "https://github.com/decompals/ido-static-recomp (v1.2)",
+   "supply_class": "static-recompilation",
+   "version": "7.1"
+  },
+  {
+   "disposition": "implemented-verified",
+   "emulator": "",
+   "files": [
+    {
+     "bytes": 678104,
+     "file": "uopt",
+     "format": "ELF 64-bit little-endian x86-64",
+     "sha256": "b21294d653fa414ba97413dc2e17c17bb417f7699166b330ed00a6a3723f03a5"
+    }
+   ],
+   "ident": "ido7.1/uopt",
+   "installed": true,
+   "licence": "",
+   "name": "IDO 7.1 global optimiser",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "x86-64 ELF (recompiled)",
+   "provenance": "authentic-n64",
+   "role": "optimizer",
+   "source_url": "https://github.com/decompals/ido-static-recomp (v1.2)",
+   "supply_class": "static-recompilation",
+   "version": "7.1"
+  },
+  {
+   "disposition": "implemented-verified",
+   "emulator": "",
+   "files": [
+    {
+     "bytes": 567512,
+     "file": "ugen",
+     "format": "ELF 64-bit little-endian x86-64",
+     "sha256": "a8bcc5d4dad3b67428cde0dac6002c1e1ef3f98ea69746ff05300cdab913d227"
+    }
+   ],
+   "ident": "ido7.1/ugen",
+   "installed": true,
+   "licence": "",
+   "name": "IDO 7.1 code generator",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "x86-64 ELF (recompiled)",
+   "provenance": "authentic-n64",
+   "role": "codegen",
+   "source_url": "https://github.com/decompals/ido-static-recomp (v1.2)",
+   "supply_class": "static-recompilation",
+   "version": "7.1"
+  },
+  {
+   "disposition": "implemented-verified",
+   "emulator": "",
+   "files": [
+    {
+     "bytes": 178392,
+     "file": "as0",
+     "format": "ELF 64-bit little-endian x86-64",
+     "sha256": "6734d45b9b92de4766dda32b9da88148e5445f3c1a7ea4862b2cd3dec9991b9c"
+    },
+    {
+     "bytes": 907480,
+     "file": "as1",
+     "format": "ELF 64-bit little-endian x86-64",
+     "sha256": "52160d61a732d209eed15e0ce6736eee23118e1c34ca5b9ec61474fe1a4011e3"
+    }
+   ],
+   "ident": "ido7.1/as1",
+   "installed": true,
+   "licence": "",
+   "name": "IDO 7.1 assembler pass 1",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "x86-64 ELF (recompiled)",
+   "provenance": "authentic-n64",
+   "role": "assembler",
+   "source_url": "https://github.com/decompals/ido-static-recomp (v1.2)",
+   "supply_class": "static-recompilation",
+   "version": "7.1"
+  },
+  {
+   "disposition": "comparative-only",
+   "emulator": "",
+   "files": [
+    {
+     "bytes": 252120,
+     "file": "NCC",
+     "format": "ELF 64-bit little-endian x86-64",
+     "sha256": "d886205c468987e49d1b294cc01c3d6bc886a879f4babb2f5035728d1df6029b"
+    },
+    {
+     "bytes": 1505504,
+     "file": "edgcpfe",
+     "format": "ELF 64-bit little-endian x86-64",
+     "sha256": "a2505f76d1e225fc6173459214ba5a200ae45dbbfd58c68930570dadaa853806"
+    }
+   ],
+   "ident": "ido7.1/edgcpfe",
+   "installed": true,
+   "licence": "",
+   "name": "IDO 7.1 EDG C++ front end",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "x86-64 ELF (recompiled)",
+   "provenance": "authentic-n64",
+   "role": "frontend",
+   "source_url": "https://github.com/decompals/ido-static-recomp (v1.2)",
+   "supply_class": "static-recompilation",
+   "version": "7.1"
+  },
+  {
+   "disposition": "speculation",
+   "emulator": "",
+   "files": [
+    {
+     "bytes": 735448,
+     "file": "upas",
+     "format": "ELF 64-bit little-endian x86-64",
+     "sha256": "bfac232de2073a72e93d2836eea2c41e52f99252f973af4f94bc675088929495"
+    }
+   ],
+   "ident": "ido7.1/upas",
+   "installed": true,
+   "licence": "",
+   "name": "IDO 7.1 Pascal front end",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "x86-64 ELF (recompiled)",
+   "provenance": "speculation",
+   "role": "frontend",
+   "source_url": "https://github.com/decompals/ido-static-recomp (v1.2)",
+   "supply_class": "static-recompilation",
+   "version": "7.1"
+  },
+  {
+   "disposition": "unavailable",
+   "emulator": "IRIX user-mode emulator",
+   "files": [],
+   "ident": "ido4.1/cc",
+   "installed": false,
+   "licence": "",
+   "name": "IDO 4.1 (IRIX 4, ECOFF output)",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "IRIX MIPS ECOFF",
+   "provenance": "authentic-n64",
+   "role": "driver",
+   "source_url": "https://github.com/decompme/compilers (ido4.1.tar.gz)",
+   "supply_class": "preserved-original",
+   "version": "4.1"
+  },
+  {
+   "disposition": "implemented-verified",
+   "emulator": "qemu-irix",
+   "files": [],
+   "ident": "ido5.2/driver",
+   "installed": false,
+   "licence": "",
+   "name": "IDO 5.2",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "IRIX MIPS ELF",
+   "provenance": "authentic-n64",
+   "role": "driver",
+   "source_url": "https://github.com/LLONSIT/qemu-irix-helpers (ido5.2.tar.xz)",
+   "supply_class": "preserved-original",
+   "version": "5.2"
+  },
+  {
+   "disposition": "implemented-verified",
+   "emulator": "qemu-irix",
+   "files": [],
+   "ident": "ido6.0/driver",
+   "installed": false,
+   "licence": "",
+   "name": "IDO 6.0",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "IRIX MIPS ELF",
+   "provenance": "authentic-n64",
+   "role": "driver",
+   "source_url": "https://github.com/LLONSIT/qemu-irix-helpers (ido6.0.tar.xz)",
+   "supply_class": "preserved-original",
+   "version": "6.0"
+  },
+  {
+   "disposition": "implemented-verified",
+   "emulator": "qemu-irix",
+   "files": [],
+   "ident": "mips_pro_744/driver",
+   "installed": false,
+   "licence": "",
+   "name": "MIPSpro 7.4.4",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "IRIX MIPS ELF",
+   "provenance": "authentic-n64",
+   "role": "driver",
+   "source_url": "https://github.com/LLONSIT/qemu-irix-helpers (mipspro7.4.4.tar.xz)",
+   "supply_class": "preserved-original",
+   "version": "7.4.4"
+  },
+  {
+   "disposition": "comparative-only",
+   "emulator": "qemu-irix",
+   "files": [],
+   "ident": "ido5.3_cfront/CC",
+   "installed": false,
+   "licence": "",
+   "name": "IDO 5.3 C++ (cfront)",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "IRIX MIPS ELF",
+   "provenance": "authentic-n64",
+   "role": "frontend",
+   "source_url": "https://github.com/decompme/compilers (ido5.3_cfront.tar.gz)",
+   "supply_class": "preserved-original",
+   "version": "5.3"
+  },
+  {
+   "disposition": "implemented-verified",
+   "emulator": "",
+   "files": [],
+   "ident": "qemu-irix",
+   "installed": false,
+   "licence": "",
+   "name": "qemu-irix (IRIX user-mode emulation)",
+   "origin": "bundled with the IRIX compiler archives",
+   "platform": "x86-64 ELF",
+   "provenance": "reconstructed",
+   "role": "emulator",
+   "source_url": "https://github.com/LLONSIT/qemu-irix-helpers",
+   "supply_class": "reconstructed",
+   "version": ""
+  },
+  {
+   "disposition": "implemented-verified",
+   "emulator": "",
+   "files": [
+    {
+     "bytes": 858504,
+     "file": "gcc",
+     "format": "ELF 32-bit little-endian i386",
+     "sha256": "181803fe0a8406ed21f8470d09f77fe2c91044941b8c18eb30432b82bf9f41e1"
+    }
+   ],
+   "ident": "kmc/gcc",
+   "installed": true,
+   "licence": "GPL (GCC)",
+   "name": "KMC GCC 2.7.2 driver",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "x86-64 ELF",
+   "provenance": "reconstructed",
+   "role": "driver",
+   "source_url": "https://github.com/decompals/mips-gcc-2.7.2",
+   "supply_class": "reconstructed",
+   "version": "2.7.2"
+  },
+  {
+   "disposition": "implemented-verified",
+   "emulator": "",
+   "files": [
+    {
+     "bytes": 1063872,
+     "file": "cccp",
+     "format": "ELF 32-bit little-endian i386",
+     "sha256": "61c1756ddbc47eaaa086cce5a7e3e455cecabd220d5a709be98874f55472545e"
+    },
+    {
+     "bytes": 1063872,
+     "file": "cpp",
+     "format": "ELF 32-bit little-endian i386",
+     "sha256": "61c1756ddbc47eaaa086cce5a7e3e455cecabd220d5a709be98874f55472545e"
+    }
+   ],
+   "ident": "kmc/cpp",
+   "installed": true,
+   "licence": "GPL",
+   "name": "KMC GCC 2.7.2 cpp (cccp)",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "x86-64 ELF",
+   "provenance": "reconstructed",
+   "role": "preprocessor",
+   "source_url": "https://github.com/decompals/mips-gcc-2.7.2",
+   "supply_class": "reconstructed",
+   "version": "2.7.2"
+  },
+  {
+   "disposition": "implemented-verified",
+   "emulator": "",
+   "files": [
+    {
+     "bytes": 2875076,
+     "file": "cc1",
+     "format": "ELF 32-bit little-endian i386",
+     "sha256": "28cfa07804df7b40d5a13a525dc63eb2fa12f1b0133dc737950dce59611d3972"
+    }
+   ],
+   "ident": "kmc/cc1",
+   "installed": true,
+   "licence": "GPL",
+   "name": "KMC GCC 2.7.2 cc1 (front end, optimiser and code generator in one)",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "x86-64 ELF",
+   "provenance": "reconstructed",
+   "role": "compiler",
+   "source_url": "https://github.com/decompals/mips-gcc-2.7.2",
+   "supply_class": "reconstructed",
+   "version": "2.7.2"
+  },
+  {
+   "disposition": "implemented-verified",
+   "emulator": "",
+   "files": [
+    {
+     "bytes": 1300976,
+     "file": "as",
+     "format": "ELF 64-bit little-endian x86-64",
+     "sha256": "ae891fb014e2f959e278bc51ae2fd47256b36955f752bbe4a38790ea4381139d"
+    }
+   ],
+   "ident": "kmc/as",
+   "installed": true,
+   "licence": "GPL",
+   "name": "KMC GNU as (binutils 2.6)",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "x86-64 ELF",
+   "provenance": "reconstructed",
+   "role": "assembler",
+   "source_url": "https://github.com/decompals/mips-binutils-2.6",
+   "supply_class": "reconstructed",
+   "version": "2.6"
+  },
+  {
+   "disposition": "implemented-unvalidated",
+   "emulator": "",
+   "files": [],
+   "ident": "gnu/as-2.9",
+   "installed": false,
+   "licence": "GPL",
+   "name": "period GNU as 2.9.x (gcc 2.8.1 / egcs 1.1.2 toolchains)",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "x86-64 ELF",
+   "provenance": "reconstructed",
+   "role": "assembler",
+   "source_url": "",
+   "supply_class": "source-rebuild",
+   "version": "2.9.1"
+  },
+  {
+   "disposition": "comparative-only",
+   "emulator": "",
+   "files": [
+    {
+     "bytes": 1221360,
+     "file": "ar",
+     "format": "ELF 64-bit little-endian x86-64",
+     "sha256": "f547ecfc0d047e6f4da092dc0c8ddec306fd5f776f1225111627376429553982"
+    }
+   ],
+   "ident": "kmc/ar",
+   "installed": true,
+   "licence": "",
+   "name": "KMC binutils ar",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "x86-64 ELF",
+   "provenance": "reconstructed",
+   "role": "archiver",
+   "source_url": "https://github.com/decompals/mips-binutils-2.6",
+   "supply_class": "reconstructed",
+   "version": "2.6"
+  },
+  {
+   "disposition": "implemented-verified",
+   "emulator": "",
+   "files": [],
+   "ident": "kit/asn64-converter",
+   "installed": true,
+   "licence": "",
+   "name": "kit ASN64-compatible assembly converter",
+   "origin": "n64dk/match/asn64.py",
+   "platform": "Python",
+   "provenance": "reconstructed",
+   "role": "assembler-macro",
+   "source_url": "",
+   "supply_class": "reconstructed",
+   "version": "round 10"
+  },
+  {
+   "disposition": "implemented-unvalidated",
+   "emulator": "",
+   "files": [],
+   "ident": "kit/at-symbol-loads",
+   "installed": true,
+   "licence": "",
+   "name": "kit expansion of symbol loads through $at",
+   "origin": "n64dk/match/normalize.py (at_symbol_loads)",
+   "platform": "Python",
+   "provenance": "reconstructed",
+   "role": "assembler-macro",
+   "source_url": "",
+   "supply_class": "reconstructed",
+   "version": "round 11"
+  },
+  {
+   "disposition": "implemented-unvalidated",
+   "emulator": "",
+   "files": [],
+   "ident": "kit/at-branch-macros",
+   "installed": true,
+   "licence": "",
+   "name": "kit rewrite of branch comparisons as branch macros",
+   "origin": "n64dk/match/normalize.py (at_branch_macros)",
+   "platform": "Python",
+   "provenance": "reconstructed",
+   "role": "assembler-macro",
+   "source_url": "",
+   "supply_class": "reconstructed",
+   "version": "round 12"
+  },
+  {
+   "disposition": "implemented-verified",
+   "emulator": "",
+   "files": [
+    {
+     "bytes": 950336,
+     "file": "usr/bin/mips-linux-gnu-as",
+     "format": "ELF 64-bit little-endian x86-64",
+     "sha256": "f93b44ae7ab70c91f757e1af36f3e23c9ac80f09085fb8b6c6b4c983dd76bf79"
+    }
+   ],
+   "ident": "binutils/as",
+   "installed": true,
+   "licence": "GPL",
+   "name": "GNU as (modern binutils, mips-linux-gnu)",
+   "origin": "distribution package",
+   "platform": "x86-64 ELF",
+   "provenance": "reconstructed",
+   "role": "assembler",
+   "source_url": "",
+   "supply_class": "reconstructed",
+   "version": "2.42"
+  },
+  {
+   "disposition": "implemented-verified",
+   "emulator": "",
+   "files": [
+    {
+     "bytes": 1839832,
+     "file": "usr/bin/mips-linux-gnu-ld.bfd",
+     "format": "ELF 64-bit little-endian x86-64",
+     "sha256": "736965c24a79202cfe30c9b6740fe539a36f9d7d28c93244e4ffe26872d1aaf5"
+    }
+   ],
+   "ident": "binutils/ld",
+   "installed": true,
+   "licence": "GPL",
+   "name": "GNU ld (modern binutils)",
+   "origin": "distribution package",
+   "platform": "x86-64 ELF",
+   "provenance": "reconstructed",
+   "role": "linker",
+   "source_url": "",
+   "supply_class": "reconstructed",
+   "version": "2.42"
+  },
+  {
+   "disposition": "implemented-verified",
+   "emulator": "wibo",
+   "files": [],
+   "ident": "sn/cc1n64-2.7.2-0001",
+   "installed": false,
+   "licence": "SN Systems proprietary; redistributed by the matching community",
+   "name": "SN Systems cc1n64 (GCC 2.7.2, build 0001)",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "PE32 (Windows)",
+   "provenance": "authentic-n64",
+   "role": "compiler",
+   "source_url": "https://github.com/decompme/compilers (n64_sn272_0001.tar.gz)",
+   "supply_class": "preserved-original",
+   "version": "2.7.2 b0001"
+  },
+  {
+   "disposition": "implemented-verified",
+   "emulator": "wibo",
+   "files": [],
+   "ident": "sn/cc1n64-2.7.2-0004",
+   "installed": false,
+   "licence": "",
+   "name": "SN Systems cc1n64 (GCC 2.7.2, build 0004)",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "PE32 (Windows)",
+   "provenance": "authentic-n64",
+   "role": "compiler",
+   "source_url": "https://github.com/Mr-Wiseguy/pcsx-redux (n64 release)",
+   "supply_class": "preserved-original",
+   "version": "2.7.2 b0004"
+  },
+  {
+   "disposition": "implemented-verified",
+   "emulator": "wibo",
+   "files": [],
+   "ident": "sn/cc1n64-2.7.2-0006",
+   "installed": false,
+   "licence": "",
+   "name": "SN Systems cc1n64 (GCC 2.7.2, build 0006)",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "PE32 (Windows)",
+   "provenance": "authentic-n64",
+   "role": "compiler",
+   "source_url": "https://github.com/decompme/compilers (n64_sn272_0006.tar.gz)",
+   "supply_class": "preserved-original",
+   "version": "2.7.2 b0006"
+  },
+  {
+   "disposition": "implemented-verified",
+   "emulator": "wibo",
+   "files": [
+    {
+     "bytes": 1447936,
+     "file": "cc1n64.exe",
+     "format": "PE (Windows)",
+     "sha256": "d90df1028c46d826e37146dbcc3e3385f78c59e05a9ddd952daa94c9ad379d9c"
+    }
+   ],
+   "ident": "sn/cc1n64-2.8.1",
+   "installed": true,
+   "licence": "",
+   "name": "SN Systems cc1n64 (GCC 2.8.1)",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "PE32 (Windows)",
+   "provenance": "authentic-n64",
+   "role": "compiler",
+   "source_url": "https://github.com/marijnvdwerf/sn64 (release 1,0,0,2)",
+   "supply_class": "preserved-original",
+   "version": "2.8.1 (1,0,0,2)"
+  },
+  {
+   "disposition": "comparative-only",
+   "emulator": "wibo",
+   "files": [],
+   "ident": "sn/cppn64",
+   "installed": false,
+   "licence": "",
+   "name": "SN Systems cppn64",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "PE32 (Windows)",
+   "provenance": "authentic-n64",
+   "role": "preprocessor",
+   "source_url": "https://github.com/decompme/compilers (n64_sn272_0001/0006)",
+   "supply_class": "preserved-original",
+   "version": "2.7.2"
+  },
+  {
+   "disposition": "comparative-only",
+   "emulator": "wibo",
+   "files": [],
+   "ident": "sn/ccn64",
+   "installed": false,
+   "licence": "",
+   "name": "SN Systems ccn64 driver",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "PE32 (Windows)",
+   "provenance": "authentic-n64",
+   "role": "driver",
+   "source_url": "https://github.com/decompme/compilers",
+   "supply_class": "preserved-original",
+   "version": "2.7.2"
+  },
+  {
+   "disposition": "comparative-only",
+   "emulator": "wibo",
+   "files": [],
+   "ident": "sn/cc1pln64",
+   "installed": false,
+   "licence": "",
+   "name": "SN Systems C++ compiler (cc1pln64)",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "PE32 (Windows)",
+   "provenance": "authentic-n64",
+   "role": "frontend",
+   "source_url": "https://github.com/marijnvdwerf/sn64",
+   "supply_class": "preserved-original",
+   "version": "2.7.2/2.8.1"
+  },
+  {
+   "disposition": "implemented-verified",
+   "emulator": "wibo",
+   "files": [
+    {
+     "bytes": 90624,
+     "file": "asn64.exe",
+     "format": "PE (Windows)",
+     "sha256": "3279da06e91702bf9e656931d1f39f0a2e64bcabeaedae37dcb816388bb2dd24"
+    }
+   ],
+   "ident": "sn/asn64",
+   "installed": true,
+   "licence": "",
+   "name": "SN Systems asn64 assembler",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "PE32 (Windows)",
+   "provenance": "authentic-assembler-linker",
+   "role": "assembler",
+   "source_url": "SN kit archives above",
+   "supply_class": "preserved-original",
+   "version": ""
+  },
+  {
+   "disposition": "implemented-verified",
+   "emulator": "",
+   "files": [
+    {
+     "bytes": 6179672,
+     "file": "psyq-obj-parser",
+     "format": "ELF 64-bit little-endian x86-64",
+     "sha256": "71626f59e2c7cb3e7f3f34d363375d5418d0f6581b601561fe1469f13cb78ce5"
+    }
+   ],
+   "ident": "psyq-obj-parser",
+   "installed": true,
+   "licence": "",
+   "name": "psyq-obj-parser (SN/PsyQ object to ELF)",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "x86-64 ELF",
+   "provenance": "reconstructed",
+   "role": "object-converter",
+   "source_url": "https://github.com/decompme/compilers (psyq-obj-parser.tar.gz)",
+   "supply_class": "reconstructed",
+   "version": ""
+  },
+  {
+   "disposition": "implemented-verified",
+   "emulator": "",
+   "files": [
+    {
+     "bytes": 7256672,
+     "file": "wibo",
+     "format": "ELF 64-bit little-endian x86-64",
+     "sha256": "13f86a2d618f0dbe67179d349625345eabf9b46450295cb4c904e49f6aff85af"
+    }
+   ],
+   "ident": "wibo",
+   "installed": true,
+   "licence": "",
+   "name": "wibo (Windows executables on Linux)",
+   "origin": "bundled with the SN kit",
+   "platform": "x86 ELF",
+   "provenance": "reconstructed",
+   "role": "emulator",
+   "source_url": "https://github.com/decompals/wibo",
+   "supply_class": "reconstructed",
+   "version": ""
+  },
+  {
+   "disposition": "implemented-verified",
+   "emulator": "",
+   "files": [],
+   "ident": "sn64-gcc-970404",
+   "installed": false,
+   "licence": "GPL",
+   "name": "SN64 GCC 2.7.2 rebuilt from source (970404)",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "x86-64 ELF",
+   "provenance": "reconstructed",
+   "role": "compiler",
+   "source_url": "https://github.com/decompals/SN64-gcc (gcc-2.7.2-970404)",
+   "supply_class": "reconstructed",
+   "version": "2.7.2"
+  },
+  {
+   "disposition": "implemented-verified",
+   "emulator": "",
+   "files": [],
+   "ident": "modern-asn64",
+   "installed": false,
+   "licence": "",
+   "name": "modern-asn64 (asn64 behaviour over GNU as)",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "Python",
+   "provenance": "reconstructed",
+   "role": "assembler-macro",
+   "source_url": "https://github.com/RocketRet/modern-asn64",
+   "supply_class": "reconstructed",
+   "version": ""
+  },
+  {
+   "disposition": "implemented-verified",
+   "emulator": "",
+   "files": [],
+   "ident": "gcc2.8.1pm",
+   "installed": false,
+   "licence": "GPL",
+   "name": "GCC 2.8.1 (Paper Mario build) with its binutils",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "x86-64 ELF",
+   "provenance": "reconstructed",
+   "role": "compiler",
+   "source_url": "https://github.com/pmret/gcc-papermario, pmret/binutils-papermario",
+   "supply_class": "reconstructed",
+   "version": "2.8.1"
+  },
+  {
+   "disposition": "unavailable",
+   "emulator": "",
+   "files": [],
+   "ident": "egcs-1.1.2-4",
+   "installed": false,
+   "licence": "GPL",
+   "name": "EGCS 1.1.2 mips-linux (original binaries)",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "i386 ELF",
+   "provenance": "authentic-n64",
+   "role": "compiler",
+   "source_url": "https://github.com/AngheloAlf/egcs_1.1.2-4",
+   "supply_class": "preserved-original",
+   "version": "2.91.66"
+  },
+  {
+   "disposition": "implemented-verified",
+   "emulator": "",
+   "files": [],
+   "ident": "egcs-1.1.2-4c",
+   "installed": false,
+   "licence": "GPL",
+   "name": "EGCS 1.1.2 rebuilt (gcc 2.91.66, binutils 2.9.5)",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "x86-64 ELF",
+   "provenance": "reconstructed",
+   "role": "compiler",
+   "source_url": "https://github.com/decompals/mips-gcc-egcs-2.91.66",
+   "supply_class": "reconstructed",
+   "version": "2.91.66"
+  },
+  {
+   "disposition": "comparative-only",
+   "emulator": "",
+   "files": [],
+   "ident": "gcc4.4.0-mips64-elf",
+   "installed": false,
+   "licence": "GPL",
+   "name": "GCC 4.4.0 mips64-elf",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "x86-64 ELF",
+   "provenance": "comparative",
+   "role": "compiler",
+   "source_url": "https://github.com/devwizard64/gcc4.4.0-mips64-elf",
+   "supply_class": "comparative",
+   "version": "4.4.0"
+  },
+  {
+   "disposition": "undistributable-local",
+   "emulator": "",
+   "files": [],
+   "ident": "psyq-ps1",
+   "installed": false,
+   "licence": "Sony/SN Systems SDK; not redistributable",
+   "name": "PsyQ PS1 SDK compilers (3.3-4.6) and psyq_263_221",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "DOS/Windows",
+   "provenance": "comparative",
+   "role": "compiler",
+   "source_url": "https://github.com/mkst/esa (psyq-binaries release)",
+   "supply_class": "comparative",
+   "version": "3.3-4.6"
+  },
+  {
+   "disposition": "comparative-only",
+   "emulator": "",
+   "files": [],
+   "ident": "old-gcc-psx",
+   "installed": false,
+   "licence": "GPL",
+   "name": "GCC 2.5.7-2.95.2 mipsel / -psx builds",
+   "origin": "decomp.me compiler build definitions (github.com/decompme/compilers values.yaml, read 2026-11-16)",
+   "platform": "x86-64 ELF",
+   "provenance": "comparative",
+   "role": "compiler",
+   "source_url": "https://github.com/decompals/old-gcc",
+   "supply_class": "comparative",
+   "version": "2.5.7-2.95.2"
+  },
+  {
+   "disposition": "speculation",
+   "emulator": "",
+   "files": [],
+   "ident": "sdevtc",
+   "installed": false,
+   "licence": "",
+   "name": "SN Systems SDevTC (Sega toolchains)",
+   "origin": "named in the directive",
+   "platform": "",
+   "provenance": "speculation",
+   "role": "compiler",
+   "source_url": "",
+   "supply_class": "reconstructed",
+   "version": ""
+  },
+  {
+   "disposition": "unavailable",
+   "emulator": "",
+   "files": [],
+   "ident": "sdk/makerom",
+   "installed": false,
+   "licence": "Nintendo SDK; not redistributable",
+   "name": "Nintendo SDK makerom / spicy (ROM assembly, segments, boot)",
+   "origin": "Nintendo 64 SDK",
+   "platform": "IRIX / Windows",
+   "provenance": "authentic-n64",
+   "role": "post-link",
+   "source_url": "",
+   "supply_class": "preserved-original",
+   "version": ""
+  },
+  {
+   "disposition": "unavailable",
+   "emulator": "",
+   "files": [],
+   "ident": "sdk/psylink",
+   "installed": false,
+   "licence": "SN Systems proprietary",
+   "name": "SN Systems psylink (N64)",
+   "origin": "SN Systems N64 kit",
+   "platform": "Windows",
+   "provenance": "authentic-assembler-linker",
+   "role": "linker",
+   "source_url": "",
+   "supply_class": "preserved-original",
+   "version": ""
+  }
+ ],
+ "digest": "645c496dcda7bbaed1ac09691c75939d70f465874116cd981a320863ecaa59b0",
+ "host": {
+  "machine": "x86_64",
+  "python": "3.14.4",
+  "system": "Linux"
+ },
+ "host_components": {
+  "host/gcc-E": "the host system's gcc -E (a modern GNU cpp)"
+ },
+ "probes": {},
+ "recipes": {
+  "custom:egcs112": {
+   "identity": "43af303fe4e15b206cf82bd367264b4f56a26edb9fb7b21ea4a8ad42777f7e77",
+   "runnable": false
+  },
+  "custom:gcc272sn0001": {
+   "identity": "0ad42981ae2a47bfd6cf78089a52e2c62bf737e205780ef28d29cede83e5550c",
+   "runnable": false
+  },
+  "custom:gcc272sn0004": {
+   "identity": "3436e186e70055bf0cde6481abb4f98d017d85675aefa74f61aa01149fa4f90e",
+   "runnable": false
+  },
+  "custom:gcc272sn0006": {
+   "identity": "e233504165be58b7107f25b1e5fc399075ce91d480247f3415cd70edb2b1f28a",
+   "runnable": false
+  },
+  "custom:gcc272snew": {
+   "identity": "b296fbc111903e2d68efa357b89f1dbafd88203de14aa4644cf56829d1dee586",
+   "runnable": false
+  },
+  "custom:gcc281pm": {
+   "identity": "1c91ce00d9f77dbdbf2dc38696b7f2b99b932a8a1db4f7477bf0d79ec0c434ae",
+   "runnable": false
+  },
+  "custom:ido52": {
+   "identity": "c70730c25b70ce0b02a4dc03f7534b4d55146e38e0da791d8fe2965369dac65c",
+   "runnable": false
+  },
+  "custom:ido60": {
+   "identity": "bb2240ae603163ef86fd99437aef70abf1f3eb64805b37fc99b38dcffb63895f",
+   "runnable": false
+  },
+  "custom:mipspro744": {
+   "identity": "2ebe7fb596583b294659bf409c114c8a35b44ea231d6ddef46f6301a2c9680fa",
+   "runnable": false
+  },
+  "ido5.3": {
+   "identity": "cb44802379cab322668ec6dc4f8894dd213868cf76ef2d26656dc960f68145ac",
+   "runnable": true
+  },
+  "ido7.1": {
+   "identity": "8c6b71a7a29ce112868333e4d3dcff95a00ca99bdb3b9ad9f4d0b90081e8d884",
+   "runnable": true
+  },
+  "kmc+as": {
+   "identity": "76b6f64ed982ee5210b8b8639786714c5b050f04cfd645721c7bb0bd127af10c",
+   "runnable": true
+  },
+  "kmc+asg": {
+   "identity": "0c2d00fa110de3fb66874d4a6396320f4f898dcddc0039bd5e5435ad4a1e9372",
+   "runnable": true
+  },
+  "kmc+asn64": {
+   "identity": "8a8faeb2431460c295a1d3d5b3cc54caaccad697765e10c99aa26548ecabd33b",
+   "runnable": true
+  },
+  "kmc+atload": {
+   "identity": "11c4ab43272e559a705e1067001c80cabb47c7998d81c62d16d14ad0ef556447",
+   "runnable": true
+  },
+  "kmc+atmacro": {
+   "identity": "e52afdf342b3f548d9fbafbb65d0ef49d629781ea0a426e803f377d711cc7209",
+   "runnable": true
+  },
+  "kmc+builtin": {
+   "identity": "ccae23f01e282bc9642a7cc8a2ae7d6f18ac0ffd3da36b9fbaae9b391feb51aa",
+   "runnable": true
+  },
+  "kmc+gas": {
+   "identity": "a50673d118976f78f508f8e8be388d5383b4b60a67a5a6d918091fe7355f514f",
+   "runnable": false
+  },
+  "sn": {
+   "identity": "e4d4c035676170960fafb60b20c8292e55ecbb97b9108e6969fb4be6690bb599",
+   "runnable": true
+  }
+ },
+ "schema": 1
+}

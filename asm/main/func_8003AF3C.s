@@ -182,15 +182,16 @@ glabel func_8003AF3C
     /* 8003B1C0 00000000 */ nop
     /* 8003B1C4 00400008 */ jr $v0
     /* 8003B1C8 00000000 */ nop
-    /* 8003B1CC 8003B1F0 */ lb $v1, -0x4E10($zero)
-    /* 8003B1D0 8003B23C */ lb $v1, -0x4DC4($zero)
-    /* 8003B1D4 8003B248 */ lb $v1, -0x4DB8($zero)
-    /* 8003B1D8 8003AFCC */ lb $v1, -0x5034($zero)
-    /* 8003B1DC 8003B254 */ lb $v1, -0x4DAC($zero)
-    /* 8003B1E0 8003B25C */ lb $v1, -0x4DA4($zero)
-    /* 8003B1E4 8003B2EC */ lb $v1, -0x4D14($zero)
-    /* 8003B1E8 8003B2F8 */ lb $v1, -0x4D08($zero)
-    /* 8003B1EC 8003B314 */ lb $v1, -0x4CEC($zero)
+glabel jtbl_8003B1CC
+    .word .L8003B1F0
+    .word .L8003B23C
+    .word .L8003B248
+    .word .L8003AFCC
+    .word .L8003B254
+    .word .L8003B25C
+    .word .L8003B2EC
+    .word .L8003B2F8
+    .word .L8003B314
 .L8003B1F0:
     /* 8003B1F0 8F41033C */ lw $at, 0x33C($k0)
     /* 8003B1F4 00000000 */ nop
@@ -289,15 +290,3 @@ glabel func_8003AF3C
     /* 8003B338 DF420330 */ ld $v0, 0x330($k0)
     /* 8003B33C 401AF000 */ mfc0 $k0, $30 /* ErrorEPC */
     /* 8003B340 42000018 */ eret
-.section .rodata
-.section .rodata.jtbl_8003B1CC, "a"
-glabel jtbl_8003B1CC
-    .word .L8003B1F0
-    .word .L8003B23C
-    .word .L8003B248
-    .word .L8003AFCC
-    .word .L8003B254
-    .word .L8003B25C
-    .word .L8003B2EC
-    .word .L8003B2F8
-    .word .L8003B314

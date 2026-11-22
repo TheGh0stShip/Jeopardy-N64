@@ -1,0 +1,33 @@
+{
+ "assisted": {
+  "provenance": "the function ends in a deliberate break 1,7 trap that no C expression emits (discarded and assigned divisions by zero ruled out by the stage session); kept as a one-instruction macro",
+  "what": "trap macro (break 1,7) in kseg_assert.h"
+ },
+ "code_size": "0x25C",
+ "credit": "a generated project tree: it copies results the strict verifier settled and grants no credit; only `make verify` / `make verify-receipts` against your own ROM confirm them again",
+ "distance": "0",
+ "export_source": "src/main/func_8001F56C.c",
+ "file": "src/main/func_8001F56C.c",
+ "function": "func_8001F56C",
+ "how": "kmc+asn64 -O0 -G0 -mips3 -mgp32 -mfp32 --symbol=D_800D7710:0x800D7710 --symbol=D_800E0E10:0x800E0E10 (N64 Decomp Kit agent-stage)",
+ "image": "main",
+ "inputs_sha256": "3bd19fc704e20035eeb4eb8374e337536b67555475bc8149ec010761851625d6",
+ "kind": "c",
+ "link_layout_object": "",
+ "offset": "0x2016C",
+ "outcome": "exact",
+ "raw": null,
+ "receipt": "present",
+ "recipe": {
+  "flags": "-O0 -G0 -mips3 -mgp32 -mfp32 --symbol=D_800D7710:0x800D7710 --symbol=D_800E0E10:0x800E0E10",
+  "pipeline": "kmc+asn64"
+ },
+ "reproduced_by": "C with an assembly macro or compiler directive (provenance recorded)",
+ "schema": "n64dk-generated-project/1",
+ "size": "0x25C",
+ "source_sha256": "45b80c16d969426ac33fcd6769885ee9f01b7c07505f678ec5647710c6b38768",
+ "status": "exact",
+ "unit": "main/func_8001F56C",
+ "unit_class": "game",
+ "vram": "0x8001F56C"
+}

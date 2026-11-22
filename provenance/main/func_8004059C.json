@@ -1,0 +1,35 @@
+{
+ "asm_provenance": {
+  "evidence": "lw v0,0(a0); lw t9,0(v0); jr ra; sw t9,0(a0): $t9 is produced by no compiler lane (KMC both lanes, IDO 5.3/7.1 -O1/-O2/-g); between __osEnqueueThread and __osDispatchThread",
+  "routine": "__osPopThread",
+  "source": "libultra exceptasm.s"
+ },
+ "code_size": "0x10",
+ "credit": "a generated project tree: it copies results the strict verifier settled and grants no credit; only `make verify` / `make verify-receipts` against your own ROM confirm them again",
+ "distance": "2",
+ "export_source": "asm_not_decompiled/main/func_8004059C.s",
+ "file": "asm/main/func_8004059C.s",
+ "function": "func_8004059C",
+ "how": "kmc+builtin -O2 -G0 -mips3 -mgp32 -mfp32",
+ "image": "main",
+ "inputs_sha256": "bc74241375cb9189a75c37380231eb2373c24b119c6a2178e15dc1b00fffc3cd",
+ "kind": "handwritten",
+ "link_layout_object": "",
+ "offset": "0x4119C",
+ "outcome": "near",
+ "raw": null,
+ "receipt": "none",
+ "recipe": {
+  "assembler": "gnu-as -march=vr4300 -mabi=o64",
+  "flags": "",
+  "pipeline": "gnu-as"
+ },
+ "reproduced_by": "assembly (hand-written in the original)",
+ "schema": "n64dk-generated-project/1",
+ "size": "0x10",
+ "source_sha256": "37fff762e459c04f85918c8e5d8be24e4bde3941493e8ab744ce32e7faeb1ef9",
+ "status": "assembly",
+ "unit": "main/func_8004059C",
+ "unit_class": "game",
+ "vram": "0x8004059C"
+}

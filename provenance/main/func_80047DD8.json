@@ -1,0 +1,32 @@
+{
+ "code_size": "0x28C",
+ "credit": "a generated project tree: it copies results the strict verifier settled and grants no credit; only `make verify` / `make verify-receipts` against your own ROM confirm them again",
+ "distance": "0",
+ "export_source": "src/main/func_80047DD8.c",
+ "file": "src/main/func_80047DD8.c",
+ "function": "func_80047DD8",
+ "how": "ido5.3 --section-base=.data:0x80072338 -O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 --symbol=D_80000300:0x80000300 --symbol=D_8000030C:0x8000030C --symbol=D_8000031C:0x8000031C --symbol=D_800D3130:0x800D3130 (N64 Decomp Kit agent-stage)",
+ "image": "main",
+ "inputs_sha256": "8a3a8a34fa29f11b74c26cc9650f371a9abf594a137bcd48b8af510ba1ec6efc",
+ "kind": "c",
+ "link_layout_object": "",
+ "offset": "0x489D8",
+ "outcome": "exact",
+ "owned_sections": {
+  ".data": 16
+ },
+ "raw": null,
+ "receipt": "present",
+ "recipe": {
+  "flags": "--section-base=.data:0x80072338 -O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 --symbol=D_80000300:0x80000300 --symbol=D_8000030C:0x8000030C --symbol=D_8000031C:0x8000031C --symbol=D_800D3130:0x800D3130",
+  "pipeline": "ido5.3"
+ },
+ "reproduced_by": "C",
+ "schema": "n64dk-generated-project/1",
+ "size": "0x290",
+ "source_sha256": "1cdefdbedee2a8be302d729f305c5d2320c043a4b583fafa748e864111627628",
+ "status": "exact",
+ "unit": "main/func_80047DD8",
+ "unit_class": "sdk",
+ "vram": "0x80047DD8"
+}

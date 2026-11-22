@@ -1,0 +1,292 @@
+{
+ "behavioural": null,
+ "build": {
+  "flags": [
+   "-O0",
+   "-G0",
+   "-mips3",
+   "-mgp32",
+   "-mfp32"
+  ],
+  "normalizer_args": [],
+  "pin_origins": {
+   "D_80000F70": "run-declaration",
+   "D_80056060": "run-declaration",
+   "D_80056064": "run-declaration",
+   "D_8005607C": "run-declaration",
+   "D_80056080": "run-declaration",
+   "D_8005608C": "run-declaration",
+   "D_800560A4": "run-declaration",
+   "D_800560E8": "run-declaration",
+   "D_800560F8": "run-declaration",
+   "D_800580E8": "run-declaration",
+   "D_80058120": "run-declaration",
+   "D_80058D5C": "run-declaration",
+   "D_80058D88": "run-declaration",
+   "D_80058F00": "run-declaration",
+   "D_8005998C": "run-declaration",
+   "D_80059998": "run-declaration",
+   "D_800DF030": "run-declaration",
+   "D_800E375C": "run-declaration",
+   "D_800E3B24": "run-declaration",
+   "D_800E3B28": "run-declaration",
+   "D_800E6E38": "run-declaration",
+   "D_800E8F14": "run-declaration",
+   "section:.rodata": "run-declaration"
+  },
+  "pipeline": "kmc+asn64",
+  "section_bases": {
+   ".rodata": "0x80000F78"
+  },
+  "symbols": {
+   "D_80000F70": "0x80000F70",
+   "D_80056060": "0x80056060",
+   "D_80056064": "0x80056064",
+   "D_8005607C": "0x8005607C",
+   "D_80056080": "0x80056080",
+   "D_8005608C": "0x8005608C",
+   "D_800560A4": "0x800560A4",
+   "D_800560E8": "0x800560E8",
+   "D_800560F8": "0x800560F8",
+   "D_800580E8": "0x800580E8",
+   "D_80058120": "0x80058120",
+   "D_80058D5C": "0x80058D5C",
+   "D_80058D88": "0x80058D88",
+   "D_80058F00": "0x80058F00",
+   "D_8005998C": "0x8005998C",
+   "D_80059998": "0x80059998",
+   "D_800DF030": "0x800DF030",
+   "D_800E375C": "0x800E375C",
+   "D_800E3B24": "0x800E3B24",
+   "D_800E3B28": "0x800E3B28",
+   "D_800E6E38": "0x800E6E38",
+   "D_800E8F14": "0x800E8F14"
+  }
+ },
+ "claims": {
+  "assumptions_present": false,
+  "behavioural_evidence": false,
+  "byte_identity": true,
+  "code_identity": true,
+  "ownership_complete": true,
+  "pins_independent": true,
+  "proof_grade": true,
+  "source_provenance": "genuine-c",
+  "source_provenance_creditable": true,
+  "strict_proof": true,
+  "unit_identity": true
+ },
+ "comparison_sha256": "f88535c6266f15521ce2de31cc9dc13258db149c9415ce31850abd50904f6e62",
+ "declarations": {
+  "files": [
+   {
+    "name": "<project>/survey/symbol_addrs.txt",
+    "sha256": "2221c7932ff983d0843fd4debb0a1e5b099889284db3bd02dd9abeaf1e7f0518"
+   },
+   {
+    "name": "<project>/survey/sdk_symbols.txt",
+    "sha256": "e872ae4e14bac6f0958d86f5b2df4d87d46e61e0e1b8eff7992a706aea30c0a7"
+   }
+  ],
+  "map_sha256": "ab08e847d08293500f3eb9a538972a1c258e159b5218cd29b6436bf81e96e6f9"
+ },
+ "earned_by": "generated-c",
+ "environment": {
+  "LANG": "99fed2d548c2eb1022f4067f97fe838a2c3ea60ee0e0f53086788505c3ababad"
+ },
+ "headers": {
+  "headers": {},
+  "missing": []
+ },
+ "identity": "61cc612b3d61e64c77b8237921bf3b5f43fb6595e1764dcec6a5f62bdf60e561",
+ "image": {
+  "rom_key": "c5bcf3eff6bcdd9e",
+  "sha256": "2ebd827db509397f27c557e017bdcdaaed0a748a73babc25f322bb2faab66100",
+  "size": 4194304
+ },
+ "issued": {
+  "at": "2026-11-22T06:54:20Z"
+ },
+ "kit_driver_sha256": "461a0cf4ba284f5d537c950b632211ddad3d332d8c45483d8cacc90247a360e5",
+ "link": {
+  "linker_script": null,
+  "note": "no link step: the verifier relocates the object at declared addresses"
+ },
+ "object": {
+  "loaded_sha256": "fdcac3a80edbb507d688e0a44d0ba8734926911ec0c09518cdd0c496773d0807",
+  "object_sha256": "07e6429303f10e995a86702c6ee9d3658bab8d6bed4c6111db85c9812c1d879c"
+ },
+ "owned": {
+  "code_sha256": "38651181455849ee3fe7de3a47d006cc2a10466d6c2914efa9ea7777fdccc7d3",
+  "data": {
+   ".rodata": {
+    "base": "0x80000F78",
+    "sha256": "8668f299bd4a48a0dad59c0cafe01ff6db72d7e8dc33546607019726ba12d0b6",
+    "size": 116
+   }
+  }
+ },
+ "ownership": {
+  "function_starts_sha256": "70af65e6e816fd1beaff628ac35e277ced423be162bee02dfa4336e6d1f89a7f",
+  "section_sizes": {}
+ },
+ "proof": {
+  "proof_grade": true,
+  "reasons": []
+ },
+ "provenance": {
+  "evidence": [],
+  "origin": "N64 Decomp Kit agent-stage (Jeopardy!)",
+  "reasons": [
+   "no forbidden assembly escape found"
+  ],
+  "verdict": "genuine-c"
+ },
+ "relocations": {
+  "section_bases": {
+   ".rodata": "0x80000F78",
+   ".text": "0x8001A330"
+  },
+  "sites": 215,
+  "sites_sha256": "bd9c5b524e2e9354b0227ada782951de127d8f942309e6f97c34822a41740e37",
+  "symbols": {
+   "D_80000F70": "0x80000F70",
+   "D_80056060": "0x80056060",
+   "D_80056064": "0x80056064",
+   "D_8005607C": "0x8005607C",
+   "D_80056080": "0x80056080",
+   "D_8005608C": "0x8005608C",
+   "D_800560A4": "0x800560A4",
+   "D_800560E8": "0x800560E8",
+   "D_800560F8": "0x800560F8",
+   "D_800580E8": "0x800580E8",
+   "D_80058120": "0x80058120",
+   "D_80058D5C": "0x80058D5C",
+   "D_80058D88": "0x80058D88",
+   "D_80058F00": "0x80058F00",
+   "D_8005998C": "0x8005998C",
+   "D_80059998": "0x80059998",
+   "D_800DF030": "0x800DF030",
+   "D_800E375C": "0x800E375C",
+   "D_800E3B24": "0x800E3B24",
+   "D_800E3B28": "0x800E3B28",
+   "D_800E6E38": "0x800E6E38",
+   "D_800E8F14": "0x800E8F14",
+   "func_80005EA4": "0x80005EA4",
+   "func_80019808": "0x80019808",
+   "func_80027CD0": "0x80027CD0",
+   "func_80035104": "0x80035104",
+   "func_80035760": "0x80035760",
+   "func_800359E8": "0x800359E8",
+   "func_8003FDF8": "0x8003FDF8",
+   "func_800494AC": "0x800494AC"
+  }
+ },
+ "schema": "n64dk-proof-receipt/1",
+ "source": {
+  "kind": "c",
+  "name": "func_8001A330.c",
+  "sha256": "1cff0f6f14b4237e949486d719c329ff1ee5a8b400a2c0d8705c6077d4eb2bb5"
+ },
+ "subject": {
+  "catalogue_size": 2108,
+  "image": "main",
+  "image_offset": "0x0001AF30",
+  "name": "func_8001A330",
+  "size": 2108,
+  "vram": "0x8001A330"
+ },
+ "toolchain": {
+  "pipeline": "kmc+asn64",
+  "recipe": {
+   "identity": "8a8faeb2431460c295a1d3d5b3cc54caaccad697765e10c99aa26548ecabd33b",
+   "lane": "kmc+asn64",
+   "stages": [
+    {
+     "component": "kmc/gcc",
+     "files": [
+      [
+       "gcc",
+       "181803fe0a8406ed21f8470d09f77fe2c91044941b8c18eb30432b82bf9f41e1"
+      ]
+     ],
+     "stage": "driver"
+    },
+    {
+     "component": "kmc/cpp",
+     "files": [
+      [
+       "cpp",
+       "61c1756ddbc47eaaa086cce5a7e3e455cecabd220d5a709be98874f55472545e"
+      ],
+      [
+       "cccp",
+       "61c1756ddbc47eaaa086cce5a7e3e455cecabd220d5a709be98874f55472545e"
+      ]
+     ],
+     "stage": "preprocess"
+    },
+    {
+     "component": "kmc/cc1",
+     "files": [
+      [
+       "cc1",
+       "28cfa07804df7b40d5a13a525dc63eb2fa12f1b0133dc737950dce59611d3972"
+      ]
+     ],
+     "stage": "compile"
+    },
+    {
+     "component": "kit/asn64-converter",
+     "files": [],
+     "stage": "convert"
+    },
+    {
+     "component": "binutils/as",
+     "files": [
+      [
+       "usr/bin/mips-linux-gnu-as",
+       "f93b44ae7ab70c91f757e1af36f3e23c9ac80f09085fb8b6c6b4c983dd76bf79"
+      ]
+     ],
+     "stage": "assemble"
+    }
+   ]
+  },
+  "toolchain_digest": "619f66e3e3df7ba2125251f4950bdb7d92b011637d6ea41622b88f15e529fdd4"
+ },
+ "verdict": {
+  "class": "exact",
+  "strict": {
+   "assumptions": [],
+   "conflicts": [],
+   "notes": [],
+   "sections": [
+    {
+     "base": "0x80000F78",
+     "compared": 116,
+     "section": ".rodata",
+     "size": 116,
+     "status": "equal"
+    }
+   ],
+   "text_equal": true,
+   "verdict": "exact"
+  }
+ },
+ "verifier": "b32bb4b4558997094bcc894542263b34db847e5db6279945b124620cab45ea98",
+ "wrapper": {
+  "assembler_flags": [
+   "-march=vr4300",
+   "-mabi=32",
+   "-EB",
+   "-G0",
+   "--no-pad-sections",
+   "-mips3"
+  ],
+  "lane_code": {
+   "asn64": "253eb28f07280cbf398d78e6376e672b254882b714fff96e28202df3261051c4"
+  },
+  "normalizer_hook": null
+ }
+}

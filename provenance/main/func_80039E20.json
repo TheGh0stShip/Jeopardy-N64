@@ -1,0 +1,30 @@
+{
+ "code_size": "0x38",
+ "credit": "a generated project tree: it copies results the strict verifier settled and grants no credit; only `make verify` / `make verify-receipts` against your own ROM confirm them again",
+ "distance": "0",
+ "export_source": "src/main/func_80039E20.c",
+ "file": "src/main/func_80039E20.c",
+ "function": "func_80039E20",
+ "how": "kmc+builtin -O2 -G0 -mips3 -mgp32 -mfp32 (draft)",
+ "image": "main",
+ "inputs_sha256": "6ec8617487274cd8c64bee559b4892dd6aebe2f9601e0b8e5eb9137afe738ca0",
+ "kind": "c",
+ "link_layout_object": "",
+ "offset": "0x3AA20",
+ "outcome": "exact",
+ "raw": null,
+ "receipt": "none",
+ "recipe": {
+  "flags": "-O2 -G0 -mips3 -mgp32 -mfp32",
+  "pipeline": "kmc+builtin"
+ },
+ "reproduced_by": "C",
+ "schema": "n64dk-generated-project/1",
+ "size": "0x38",
+ "source_normalization": "replaced repeated compatibility prelude with src/main/n64dk_lift.h; no function-body instruction placeholders were present; exact fixed-link and SHA-1 gates replayed afterward",
+ "source_sha256": "853de78f98c1d93617f4f06baa632ff703f8501fcf400e55cbb169afddacce31",
+ "status": "exact",
+ "unit": "main/func_80039E20",
+ "unit_class": "rsp",
+ "vram": "0x80039E20"
+}

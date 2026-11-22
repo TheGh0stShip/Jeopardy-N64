@@ -1,14 +1,23 @@
-# Provenance
+# Source provenance
 
-- 410 strict C functions (`export/src/main/`): written by N64 Decomp Kit from this ROM (its GCC -O0 translator and
-  drafts, with search). 334 of them (244,156 bytes) are -O0 translations; 76 are -O2/-O1/-O3 KMC or IDO functions.
-- 33 donor functions (`export/donors/main/`, 9,652 bytes): C from the public Wheel of Fortune (N64) repository
-  (same developer, GameTek), tree at commit `54c5cbd` ("Clean machine-translated Wheel of Fortune sources"), taken
-  by `n64dk source-donor` and rebuilt for this ROM; each has a strict receipt (`export/receipts/donors/`). The
-  bundled donor files are self-contained (preprocessed; no `#include`). One of their originals
-  (WoF `func_8003FB08.c`) includes `types.h`, which the repository did not ship at `54c5cbd`; the transplant
-  used a stand-in with the standard typedefs. The repository has since added `src/main/types.h` (commit
-  `6bbdff2`) with the same typedefs.
-- SDK headers used only while measuring the donor tree: decompals/ultralib at `e24c836` (include/, include/PR,
-  include/compiler/gcc, src/audio). None of them is part of any matched source here.
-- Toolchains are not included: KMC GCC 2.7.2 with the asn64 assembler, IDO 5.3 (the kit's lanes).
+The complete function-level record is `provenance/main/` (805 JSON files).
+
+| Source class | Functions | Code bytes |
+|---|---:|---:|
+| Ordinary matching C | 757 | 401,796 |
+| Assembly-assisted C | 3 | 2,208 |
+| Original hand-written assembly | 45 | 7,032 |
+| **Total byte-identical source** | **805** | **411,036** |
+
+Ordinary C includes game code, libultra/libaudio sources, reconstructed whole translation units,
+and same-SDK functions first sourced through the Wheel of Fortune donor tree and independently
+verified against Jeopardy. Origin information is retained in each provenance record and
+`tools/origin.tsv`.
+
+The three assisted C functions are documented in `tools/assisted_provenance.tsv`. They comprise a
+libgcc multiply macro, a deliberate trap macro, and IDO's `sqrtf` intrinsic directive. The 45
+assembly routines are documented in `tools/asm_provenance.tsv`; these are boot, exception, cache,
+thread, RSP, and other routines whose original implementation is assembly.
+
+Toolchains are not distributed. Recipes identify KMC GCC 2.7.2/ASN64, SGI IDO 5.x, and GNU MIPS
+assembly lanes required to reproduce the sources.

@@ -1,0 +1,32 @@
+{
+ "code_size": "0x6A4",
+ "credit": "a generated project tree: it copies results the strict verifier settled and grants no credit; only `make verify` / `make verify-receipts` against your own ROM confirm them again",
+ "distance": "0",
+ "export_source": "src/main/unit_80040738.c",
+ "file": "src/main/unit_80040738.c",
+ "function": "func_80040738",
+ "how": "ido5.3 -O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 --symbol=D_80072320:0x80072320 --symbol=D_80072348:0x80072348 --symbol=D_800D1EA4:0x800D1EA4 --symbol=D_800D2EC0:0x800D2EC0 (whole translation unit, N64 Decomp Kit agent-stage)",
+ "image": "main",
+ "inputs_sha256": "57a02f103b81066ddfae2cebff8e7ab7e552bb50171da3ed6945b86e680ecb66",
+ "kind": "c",
+ "link_layout_object": "",
+ "offset": "0x41338",
+ "outcome": "exact",
+ "raw": null,
+ "receipt": "present",
+ "recipe": {
+  "flags": "-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 --symbol=D_80072320:0x80072320 --symbol=D_80072348:0x80072348 --symbol=D_800D1EA4:0x800D1EA4 --symbol=D_800D2EC0:0x800D2EC0",
+  "pipeline": "ido5.3",
+  "unit_offset": "0x41338",
+  "unit_size": "0x880"
+ },
+ "reproduced_by": "C",
+ "schema": "n64dk-generated-project/1",
+ "size": "0x6A4",
+ "source_origin": "ultralib src/io/leointerrupt.c (VERSION_F) (lab agent a6)",
+ "source_sha256": "ff2e57c66df84ad5e5d5623a3ae1a40cf5f5314db4beaca9a24226e5d7e689ac",
+ "status": "exact",
+ "unit": "main/func_80040738",
+ "unit_class": "game",
+ "vram": "0x80040738"
+}

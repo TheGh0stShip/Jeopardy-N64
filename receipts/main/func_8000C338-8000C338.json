@@ -1,0 +1,270 @@
+{
+ "behavioural": null,
+ "build": {
+  "flags": [
+   "-O0",
+   "-G0",
+   "-mips3",
+   "-mgp32",
+   "-mfp32"
+  ],
+  "normalizer_args": [],
+  "pin_origins": {
+   "D_80050496": "run-declaration",
+   "D_800504A0": "run-declaration",
+   "D_80050704": "run-declaration",
+   "D_8005070C": "run-declaration",
+   "D_800D769A": "run-declaration",
+   "D_800D769E": "run-declaration",
+   "D_800D76A2": "run-declaration",
+   "D_800D76A4": "run-declaration",
+   "D_800D76A8": "run-declaration",
+   "D_800D76AC": "run-declaration",
+   "D_800E3606": "run-declaration",
+   "D_800E8EE8": "run-declaration",
+   "D_800E8EEC": "run-declaration",
+   "D_800E8EF0": "run-declaration",
+   "D_800E8FB0": "run-declaration",
+   "D_800E8FB8": "run-declaration",
+   "D_800E8FF4": "run-declaration",
+   "section:.rodata": "run-declaration"
+  },
+  "pipeline": "kmc+asn64",
+  "section_bases": {
+   ".rodata": "0x80000694"
+  },
+  "symbols": {
+   "D_80050496": "0x80050496",
+   "D_800504A0": "0x800504A0",
+   "D_80050704": "0x80050704",
+   "D_8005070C": "0x8005070C",
+   "D_800D769A": "0x800D769A",
+   "D_800D769E": "0x800D769E",
+   "D_800D76A2": "0x800D76A2",
+   "D_800D76A4": "0x800D76A4",
+   "D_800D76A8": "0x800D76A8",
+   "D_800D76AC": "0x800D76AC",
+   "D_800E3606": "0x800E3606",
+   "D_800E8EE8": "0x800E8EE8",
+   "D_800E8EEC": "0x800E8EEC",
+   "D_800E8EF0": "0x800E8EF0",
+   "D_800E8FB0": "0x800E8FB0",
+   "D_800E8FB8": "0x800E8FB8",
+   "D_800E8FF4": "0x800E8FF4"
+  }
+ },
+ "claims": {
+  "assumptions_present": false,
+  "behavioural_evidence": false,
+  "byte_identity": true,
+  "code_identity": true,
+  "ownership_complete": true,
+  "pins_independent": true,
+  "proof_grade": true,
+  "source_provenance": "genuine-c",
+  "source_provenance_creditable": true,
+  "strict_proof": true,
+  "unit_identity": true
+ },
+ "comparison_sha256": "f371b8fb5af9e2913c270c7e12cfb19e7dc4a5ceff30ecced495fbe0bc1f2c21",
+ "declarations": {
+  "files": [
+   {
+    "name": "<project>/survey/symbol_addrs.txt",
+    "sha256": "2221c7932ff983d0843fd4debb0a1e5b099889284db3bd02dd9abeaf1e7f0518"
+   },
+   {
+    "name": "<project>/survey/sdk_symbols.txt",
+    "sha256": "e872ae4e14bac6f0958d86f5b2df4d87d46e61e0e1b8eff7992a706aea30c0a7"
+   }
+  ],
+  "map_sha256": "ab08e847d08293500f3eb9a538972a1c258e159b5218cd29b6436bf81e96e6f9"
+ },
+ "earned_by": "generated-c",
+ "environment": {
+  "LANG": "99fed2d548c2eb1022f4067f97fe838a2c3ea60ee0e0f53086788505c3ababad"
+ },
+ "headers": {
+  "headers": {},
+  "missing": []
+ },
+ "identity": "b024074f0bea686dc0d95540a4b6162e062a62235d1584ade3f9ad66286d753b",
+ "image": {
+  "rom_key": "c5bcf3eff6bcdd9e",
+  "sha256": "2ebd827db509397f27c557e017bdcdaaed0a748a73babc25f322bb2faab66100",
+  "size": 4194304
+ },
+ "issued": {
+  "at": "2026-11-22T06:54:18Z"
+ },
+ "kit_driver_sha256": "461a0cf4ba284f5d537c950b632211ddad3d332d8c45483d8cacc90247a360e5",
+ "link": {
+  "linker_script": null,
+  "note": "no link step: the verifier relocates the object at declared addresses"
+ },
+ "object": {
+  "loaded_sha256": "f974b28f7138fceaddfc549b275fa2b45b98214f5a78865e28b419ec17908890",
+  "object_sha256": "e2f1f64d978e8994fecb5fb72fb33fdfde62b6e882657a94003a2f10953c4d4c"
+ },
+ "owned": {
+  "code_sha256": "15e84cf3d557677b198e82ba37cdf78f257606b4d33ce4240f5429698e5dc114",
+  "data": {
+   ".rodata": {
+    "base": "0x80000694",
+    "sha256": "31605e95632384d7193fb9070af9437e5764dd2fc30e8913cac8aa084d441cb2",
+    "size": 12
+   }
+  }
+ },
+ "ownership": {
+  "function_starts_sha256": "70af65e6e816fd1beaff628ac35e277ced423be162bee02dfa4336e6d1f89a7f",
+  "section_sizes": {}
+ },
+ "proof": {
+  "proof_grade": true,
+  "reasons": []
+ },
+ "provenance": {
+  "evidence": [],
+  "origin": "N64 Decomp Kit agent-stage (Jeopardy!)",
+  "reasons": [
+   "no forbidden assembly escape found"
+  ],
+  "verdict": "genuine-c"
+ },
+ "relocations": {
+  "section_bases": {
+   ".rodata": "0x80000694",
+   ".text": "0x8000C338"
+  },
+  "sites": 70,
+  "sites_sha256": "ea32c17e2b9878c8dbd7ae633131ebd738a5b32e2ae7f37911e0e2bfbbfd21df",
+  "symbols": {
+   "D_80050496": "0x80050496",
+   "D_800504A0": "0x800504A0",
+   "D_80050704": "0x80050704",
+   "D_8005070C": "0x8005070C",
+   "D_800D769A": "0x800D769A",
+   "D_800D769E": "0x800D769E",
+   "D_800D76A2": "0x800D76A2",
+   "D_800D76A4": "0x800D76A4",
+   "D_800D76A8": "0x800D76A8",
+   "D_800D76AC": "0x800D76AC",
+   "D_800E3606": "0x800E3606",
+   "D_800E8EE8": "0x800E8EE8",
+   "D_800E8EEC": "0x800E8EEC",
+   "D_800E8EF0": "0x800E8EF0",
+   "D_800E8FB0": "0x800E8FB0",
+   "D_800E8FB8": "0x800E8FB8",
+   "D_800E8FF4": "0x800E8FF4",
+   "func_80027714": "0x80027714"
+  }
+ },
+ "schema": "n64dk-proof-receipt/1",
+ "source": {
+  "kind": "c",
+  "name": "func_8000C338.c",
+  "sha256": "d8a5b713c48f10333cf4acc3a40ae7a0c4e2128d97e7f1291cbc6a3d29ab8bdf"
+ },
+ "subject": {
+  "catalogue_size": 712,
+  "image": "main",
+  "image_offset": "0x0000CF38",
+  "name": "func_8000C338",
+  "size": 712,
+  "vram": "0x8000C338"
+ },
+ "toolchain": {
+  "pipeline": "kmc+asn64",
+  "recipe": {
+   "identity": "8a8faeb2431460c295a1d3d5b3cc54caaccad697765e10c99aa26548ecabd33b",
+   "lane": "kmc+asn64",
+   "stages": [
+    {
+     "component": "kmc/gcc",
+     "files": [
+      [
+       "gcc",
+       "181803fe0a8406ed21f8470d09f77fe2c91044941b8c18eb30432b82bf9f41e1"
+      ]
+     ],
+     "stage": "driver"
+    },
+    {
+     "component": "kmc/cpp",
+     "files": [
+      [
+       "cpp",
+       "61c1756ddbc47eaaa086cce5a7e3e455cecabd220d5a709be98874f55472545e"
+      ],
+      [
+       "cccp",
+       "61c1756ddbc47eaaa086cce5a7e3e455cecabd220d5a709be98874f55472545e"
+      ]
+     ],
+     "stage": "preprocess"
+    },
+    {
+     "component": "kmc/cc1",
+     "files": [
+      [
+       "cc1",
+       "28cfa07804df7b40d5a13a525dc63eb2fa12f1b0133dc737950dce59611d3972"
+      ]
+     ],
+     "stage": "compile"
+    },
+    {
+     "component": "kit/asn64-converter",
+     "files": [],
+     "stage": "convert"
+    },
+    {
+     "component": "binutils/as",
+     "files": [
+      [
+       "usr/bin/mips-linux-gnu-as",
+       "f93b44ae7ab70c91f757e1af36f3e23c9ac80f09085fb8b6c6b4c983dd76bf79"
+      ]
+     ],
+     "stage": "assemble"
+    }
+   ]
+  },
+  "toolchain_digest": "619f66e3e3df7ba2125251f4950bdb7d92b011637d6ea41622b88f15e529fdd4"
+ },
+ "verdict": {
+  "class": "exact",
+  "strict": {
+   "assumptions": [],
+   "conflicts": [],
+   "notes": [],
+   "sections": [
+    {
+     "base": "0x80000694",
+     "compared": 12,
+     "section": ".rodata",
+     "size": 12,
+     "status": "equal"
+    }
+   ],
+   "text_equal": true,
+   "verdict": "exact"
+  }
+ },
+ "verifier": "b32bb4b4558997094bcc894542263b34db847e5db6279945b124620cab45ea98",
+ "wrapper": {
+  "assembler_flags": [
+   "-march=vr4300",
+   "-mabi=32",
+   "-EB",
+   "-G0",
+   "--no-pad-sections",
+   "-mips3"
+  ],
+  "lane_code": {
+   "asn64": "253eb28f07280cbf398d78e6376e672b254882b714fff96e28202df3261051c4"
+  },
+  "normalizer_hook": null
+ }
+}

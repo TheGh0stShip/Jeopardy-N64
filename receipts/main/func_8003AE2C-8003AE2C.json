@@ -1,0 +1,143 @@
+{
+ "behavioural": null,
+ "build": {
+  "flags": [
+   "-march=vr4300",
+   "-mabi=o64"
+  ],
+  "normalizer_args": [],
+  "pin_origins": {},
+  "pipeline": "gnu-as",
+  "section_bases": {},
+  "symbols": {}
+ },
+ "claims": {
+  "assumptions_present": false,
+  "behavioural_evidence": false,
+  "byte_identity": true,
+  "code_identity": true,
+  "ownership_complete": true,
+  "pins_independent": true,
+  "proof_grade": false,
+  "source_provenance": "insufficient-provenance",
+  "source_provenance_creditable": false,
+  "strict_proof": true,
+  "unit_identity": true
+ },
+ "comparison_sha256": "5b9ef805d4cb5e695bdf5f524ba6524237dd9ca4fcfdbe178685905bf6e3704a",
+ "declarations": {
+  "files": [
+   {
+    "name": "<project>/survey/symbol_addrs.txt",
+    "sha256": "2221c7932ff983d0843fd4debb0a1e5b099889284db3bd02dd9abeaf1e7f0518"
+   },
+   {
+    "name": "<project>/survey/sdk_symbols.txt",
+    "sha256": "e872ae4e14bac6f0958d86f5b2df4d87d46e61e0e1b8eff7992a706aea30c0a7"
+   },
+   {
+    "name": "<symbols>/declared_symbols.txt",
+    "sha256": "789e8e7710b8e57bccbb297069a27f5b9a2ae15124f8d0628446198a5c6b03a3"
+   }
+  ],
+  "map_sha256": "4170ae638588b0e76a4f0b02423140bf18c5b8f8a95a25825dac7a67a6ff2d10"
+ },
+ "earned_by": "assembly",
+ "environment": {
+  "LANG": "99fed2d548c2eb1022f4067f97fe838a2c3ea60ee0e0f53086788505c3ababad"
+ },
+ "headers": {
+  "headers": {},
+  "missing": []
+ },
+ "identity": "ab2fba3cb23d13cc76014721c080d0c7c0ef4b487ea0ecc79b54b48ab9b85bdd",
+ "image": {
+  "rom_key": "c5bcf3eff6bcdd9e",
+  "sha256": "2ebd827db509397f27c557e017bdcdaaed0a748a73babc25f322bb2faab66100",
+  "size": 4194304
+ },
+ "issued": {
+  "at": "2026-11-21T19:52:44Z"
+ },
+ "kit_driver_sha256": "0e93063125a045b5b09d93b12178a41447d38d75b19bb20509ea0950a6a5002f",
+ "link": {
+  "linker_script": null,
+  "note": "no link step: the verifier relocates the object at declared addresses"
+ },
+ "object": {
+  "loaded_sha256": "767cf17774105ff2694ef8c02302d30869c147d37635ee31ab03e8d1998725c2",
+  "object_sha256": "9c9c53394b23f2219c54557a93d64fd466187ed303917a81e5152547f781a75d"
+ },
+ "owned": {
+  "code_sha256": "70d25729f05f2ac89794cb3049a6181516cce6eeb4a19b2abc35a2a82d5ebdbd",
+  "data": {}
+ },
+ "ownership": {
+  "function_starts_sha256": "70af65e6e816fd1beaff628ac35e277ced423be162bee02dfa4336e6d1f89a7f",
+  "section_sizes": {}
+ },
+ "proof": {
+  "proof_grade": false,
+  "reasons": [
+   "source provenance is insufficient-provenance"
+  ]
+ },
+ "provenance": {
+  "evidence": [],
+  "origin": "draft",
+  "reasons": [
+   "assembly existence is not handwritten provenance"
+  ],
+  "verdict": "insufficient-provenance"
+ },
+ "relocations": {
+  "section_bases": {},
+  "sites": 1,
+  "sites_sha256": "457e41ecb91937376f2692e23fb0691cae3dbcb109b3cf683762da07d29bfd64",
+  "symbols": {
+   "func_8003AE7C": "0x8003AE7C"
+  }
+ },
+ "schema": "n64dk-proof-receipt/1",
+ "source": {
+  "kind": "assembly",
+  "name": "func_8003AE2C.s",
+  "sha256": "5f1538fc7351b2a4b8b2b5bf15ca002fcb2da125aa532dc646c2effe54e8e3ec"
+ },
+ "subject": {
+  "catalogue_size": 80,
+  "image": "main",
+  "image_offset": "0x0003BA2C",
+  "name": "func_8003AE2C",
+  "size": 80,
+  "vram": "0x8003AE2C"
+ },
+ "toolchain": {
+  "pipeline": "gnu-as",
+  "recipe": null,
+  "toolchain_digest": "f93b44ae7ab70c91f757e1af36f3e23c9ac80f09085fb8b6c6b4c983dd76bf79"
+ },
+ "verdict": {
+  "class": "assembly",
+  "strict": {
+   "assumptions": [],
+   "conflicts": [],
+   "notes": [],
+   "sections": [],
+   "text_equal": true,
+   "verdict": "exact"
+  }
+ },
+ "verifier": "b32bb4b4558997094bcc894542263b34db847e5db6279945b124620cab45ea98",
+ "wrapper": {
+  "assembler_flags": [
+   "-EB",
+   "-march=vr4300",
+   "-mabi=o64",
+   "-G0",
+   "-no-pad-sections"
+  ],
+  "lane_code": {},
+  "normalizer_hook": null
+ }
+}

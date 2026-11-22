@@ -1,53 +1,47 @@
 # Reproducing the Jeopardy! cartridge
 
-The project has two separate progress claims:
-
-- 64.53% of executable bytes have decompiled or original hand-written source accepted by the
-  strict matching tracker; and
-- 64.53% of the catalogued executable image receives fully-linked tracker credit because it is
-  reproduced from verified matching source. The complete cartridge can also be rebuilt, but the
-  generated assembly used for undecompiled functions receives no fully-linked credit.
-
-The build never ships ROM data. `make extract` validates and copies a legally obtained USA ROM
-into the gitignored `extracted/` directory. The subsequent build compiles or assembles every one
-of the 805 catalogued executable units. N64 Decomp Kit fills only non-executable/data gaps from
-the private extraction input, links the main image at its retail addresses, and constructs the
-cartridge. The gate rejects any `raw-unit` executable coverage.
-
 ## Requirements
 
-- N64 Decomp Kit with `relink-cartridge` on `PATH` (or set `N64DK`);
-- the KMC GCC 2.7.2, IDO 5.3 and MIPS binutils toolchains used by N64DK (set
-  `TOOLCHAIN_DIR` if they are not in `~/.cache/n64dk-lab/toolroot`);
-- Python 3 and GNU Make;
-- a legally obtained `Jeopardy! (USA).z64` with SHA-1
-  `c5bcf3eff6bcdd9e7846ce5fd5db3095db9c58ed`.
+- Python 3.11 or newer and GNU Make;
+- N64 Decomp Kit with the whole-translation-unit relink support recorded in `kit/`;
+- the KMC GCC 2.7.2, SGI IDO 5.x, ASN64 and GNU MIPS assembler toolchains recorded by
+  `toolchain.lock.json`;
+- a legally obtained USA ROM with SHA-1 `c5bcf3eff6bcdd9e7846ce5fd5db3095db9c58ed`.
 
-## Build
+Set `N64DK_TOOLCHAIN` (or `TOOLCHAIN_DIR`) when the toolchains are outside the kit's configured
+location.
+
+## Clean build
 
 ```sh
-make extract ROM='/path/to/Jeopardy! (USA).z64'
+make extract BASEROM='/path/to/Jeopardy! (USA).z64'
 make clean
 make -j1
 make verify
 ```
 
-After `make extract`, the original ROM path is no longer used. `make clean` intentionally keeps
-the private extraction; `make distclean` removes it. Successful verification reports:
+Extraction validates the ROM and writes only below ignored `build/`. The original ROM path can be
+made unavailable after extraction. The build then compiles/assembles 805 functions, builds 179
+main-image data sources, fixed-address links the main image, constructs the cartridge, and checks
+three independent SHA-1 gates.
+
+Expected result:
 
 ```text
-linked 805/805 executable units from source
-raw executable units: 0
-cartridge SHA-1: c5bcf3eff6bcdd9e7846ce5fd5db3095db9c58ed
+PASS code: bb52f3b494108cbea913ae729300afbfafd3718e (0 differing bytes)
+PASS main: 9866a60305c9ade6f16b29114af08638a2dacfeb (0 differing bytes)
+PASS whole_rom: c5bcf3eff6bcdd9e7846ce5fd5db3095db9c58ed (0 differing bytes)
 ```
 
-The output is `build/jeopardy.z64`. It and `extracted/` are private build products and must never
-be committed or distributed.
+The output ROM is `build/jeopardy.z64`. It and all extracted inputs are private build products and
+must not be committed or distributed.
 
-## Link fallbacks
+## Independent replay recorded here
 
-Forty-six functions use `asm/link_fallback/` in the unified link. Their separately verified C
-or mnemonic assembly remains published in the normal source trees and keeps its existing tracker
-classification. These fixed-word assembly files exist because standalone donor names, section
-ownership, or old-assembler relocation behavior does not survive a modern unified GNU link.
-They are explicit and auditable; they are not counted as additional decompiled C.
+`evidence/link/BUILD_REPORT.json` and `evidence/link/FINAL_RELINK.json` came from a clean Transfer
+build after the original ROM was renamed out of reach. They record 805/805 linked functions,
+179/179 linked data sources, and zero raw program bytes, holes, overlaps, unresolved symbols, or
+differences.
+
+Run `python3 tools/generate_tracker_progress.py --check` to verify that tracker manifests, source
+hashes, and checked-in evidence remain synchronized.

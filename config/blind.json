@@ -1,0 +1,84 @@
+{
+ "rom": "<home>/Downloads/Jeopardy! (USA).z64",
+ "title": "JEOPARDY!",
+ "sha1": "c5bcf3eff6bcdd9e7846ce5fd5db3095db9c58ed",
+ "rom_bytes": 4194304,
+ "program": "static",
+ "image": {
+  "vram": "0x80000400",
+  "bytes": 599560,
+  "packed": false
+ },
+ "text": "0x80000400..0x80092A04",
+ "text_bytes": 599556,
+ "functions": 806,
+ "function_kinds": {
+  "asm": 43,
+  "O0": 440,
+  "c": 213,
+  "leaf": 79,
+  "stub": 31
+ },
+ "dead_returns_merged": {
+  "merged": 0,
+  "debug_build": false
+ },
+ "sdk_named": 227,
+ "sdk_version": [
+  "2.0D/2.0E/2.0F/2.0G/2.0H:libultra_rom",
+  "2.0D/2.0E/2.0F/2.0G/2.0H:libultra",
+  "2.0I:libultra_rom"
+ ],
+ "compiler_fingerprint": {
+  "kmc": 0.894,
+  "ido": 0.106
+ },
+ "starting_recipe": {
+  "pipeline": "kmc+asn64",
+  "flags": "-O2 -G0 -mips3 -mgp32 -mfp32",
+  "why": "SDK fingerprint attributes 89% of the game code to kmc"
+ },
+ "compiler_lanes": [
+  "egcs112",
+  "gcc272sn0001",
+  "gcc272sn0004",
+  "gcc272sn0006",
+  "gcc272snew",
+  "gcc281pm",
+  "ido52",
+  "ido60",
+  "mipspro744"
+ ],
+ "loaded_from_elsewhere_bytes": 1439484,
+ "segments": [],
+ "code_not_placed": [],
+ "functions_all_images": 806,
+ "survey_errors": [],
+ "project": "<project>",
+ "layout": "survey/layout.json",
+ "discovery": {
+  "verdict_before": "complete",
+  "verdict": "complete",
+  "rom_reasons": [],
+  "placed": [],
+  "warning": null,
+  "images": {
+   "main": {
+    "verdict": "complete",
+    "coverage": 1.0,
+    "functions": 806,
+    "reasons": [],
+    "missing_call_targets": 0,
+    "unmapped_call_targets": 0,
+    "framed_functions_outside": 0,
+    "repaired_functions": 0,
+    "repaired_bytes": 0,
+    "verdict_after": "complete",
+    "coverage_after": 1.0,
+    "functions_after": 806,
+    "reasons_after": []
+   }
+  }
+ },
+ "functions_all_images_after_repair": 806
+}

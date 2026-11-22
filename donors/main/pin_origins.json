@@ -1,0 +1,39 @@
+{
+ "0x800079C4": null,
+ "0x80007AC0": null,
+ "0x80007B70": null,
+ "0x80007C34": null,
+ "0x80007E58": {
+  "guRandom": "declared: the project's symbol file gives this name this address"
+ },
+ "0x80007EC8": null,
+ "0x80007EEC": null,
+ "0x80007F38": null,
+ "0x80007F5C": null,
+ "0x80007F84": null,
+ "0x80008168": null,
+ "0x800085B8": null,
+ "0x8000B128": null,
+ "0x800277A8": null,
+ "0x80034DC0": null,
+ "0x80042AA8": null,
+ "0x80081A14": null,
+ "0x80083018": null,
+ "0x80087290": null,
+ "0x8008763C": null,
+ "0x8008F400": null,
+ "0x8008F49C": null,
+ "0x8008F508": null,
+ "0x8008F588": null,
+ "0x80090490": null,
+ "0x80092088": null,
+ "0x80092190": null,
+ "0x80092214": null,
+ "0x800922AC": {
+  "section:.rodata": "section-content"
+ },
+ "0x800923A8": null,
+ "0x800924A4": null,
+ "0x80092594": null,
+ "0x80092688": null
+}

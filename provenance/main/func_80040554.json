@@ -1,0 +1,35 @@
+{
+ "asm_provenance": {
+  "evidence": "queue walk by priority (offset 4) with $t6-$t9 chosen by hand and plain bnez+nop; neighbours are exceptasm.s routines",
+  "routine": "__osEnqueueThread",
+  "source": "libultra exceptasm.s"
+ },
+ "code_size": "0x48",
+ "credit": "a generated project tree: it copies results the strict verifier settled and grants no credit; only `make verify` / `make verify-receipts` against your own ROM confirm them again",
+ "distance": "23",
+ "export_source": "asm_not_decompiled/main/func_80040554.s",
+ "file": "asm/main/func_80040554.s",
+ "function": "func_80040554",
+ "how": "ido5.3 -O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0",
+ "image": "main",
+ "inputs_sha256": "20cecaf35de2879fe237b5d0cc3c30ef8eb1829c581831d84adeef34327019eb",
+ "kind": "handwritten",
+ "link_layout_object": "",
+ "offset": "0x41154",
+ "outcome": "open",
+ "raw": null,
+ "receipt": "none",
+ "recipe": {
+  "assembler": "gnu-as -march=vr4300 -mabi=o64",
+  "flags": "",
+  "pipeline": "gnu-as"
+ },
+ "reproduced_by": "assembly (hand-written in the original)",
+ "schema": "n64dk-generated-project/1",
+ "size": "0x48",
+ "source_sha256": "b4195b7bbb5dd80ad85b70d789d9cc6fed7be68790a84251f3950160532f4770",
+ "status": "assembly",
+ "unit": "main/func_80040554",
+ "unit_class": "sdk",
+ "vram": "0x80040554"
+}

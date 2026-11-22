@@ -1,0 +1,35 @@
+{
+ "asm_provenance": {
+  "evidence": "cfc1 v0,FpcCsr; ctc1 a0,FpcCsr; jr ra; nop: coprocessor control moves have no C form",
+  "routine": "__osSetFpcCsr",
+  "source": "libultra setfpccsr.s"
+ },
+ "code_size": "0x10",
+ "credit": "a generated project tree: it copies results the strict verifier settled and grants no credit; only `make verify` / `make verify-receipts` against your own ROM confirm them again",
+ "distance": "8",
+ "export_source": "asm_not_decompiled/main/func_80048068.s",
+ "file": "asm/main/func_80048068.s",
+ "function": "func_80048068",
+ "how": "sn -O2 -G0 -mcpu=vr4300 -mhard-float -meb -mips3",
+ "image": "main",
+ "inputs_sha256": "551447245b6b5b502e9c1f88e16d2a0b686a32bcb7283efb661c06de6a25f193",
+ "kind": "handwritten",
+ "link_layout_object": "",
+ "offset": "0x48C68",
+ "outcome": "near",
+ "raw": null,
+ "receipt": "none",
+ "recipe": {
+  "assembler": "gnu-as -march=vr4300 -mabi=o64",
+  "flags": "",
+  "pipeline": "gnu-as"
+ },
+ "reproduced_by": "assembly (hand-written in the original)",
+ "schema": "n64dk-generated-project/1",
+ "size": "0x10",
+ "source_sha256": "a71903cd5d6636f6a29861b7fe8dc730685846c57399050f4ff5dd6f3da2e10c",
+ "status": "assembly",
+ "unit": "main/func_80048068",
+ "unit_class": "game",
+ "vram": "0x80048068"
+}

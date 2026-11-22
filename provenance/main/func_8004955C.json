@@ -1,0 +1,30 @@
+{
+ "catalogue_correction": "exact at 0x3C; the row's last 0x10 byte(s) are zero padding between units (released)",
+ "code_size": "0x3C",
+ "credit": "a generated project tree: it copies results the strict verifier settled and grants no credit; only `make verify` / `make verify-receipts` against your own ROM confirm them again",
+ "distance": "0",
+ "export_source": "src/main/func_8004955C.c",
+ "file": "src/main/func_8004955C.c",
+ "function": "func_8004955C",
+ "how": "ido5.3 -O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 (N64 Decomp Kit agent-stage)",
+ "image": "main",
+ "inputs_sha256": "3d584334c6adee66c3a3bf10e80dd104178a8d75241bd24ad164ebd1c67035b4",
+ "kind": "c",
+ "link_layout_object": "",
+ "offset": "0x4A15C",
+ "outcome": "exact",
+ "raw": null,
+ "receipt": "present",
+ "recipe": {
+  "flags": "-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0",
+  "pipeline": "ido5.3"
+ },
+ "reproduced_by": "C",
+ "schema": "n64dk-generated-project/1",
+ "size": "0x3C",
+ "source_sha256": "fe4417da51f99b475fc529fe5519dc58ae006f058b6566aa29c88f03ad82ee25",
+ "status": "exact",
+ "unit": "main/func_8004955C",
+ "unit_class": "sdk",
+ "vram": "0x8004955C"
+}

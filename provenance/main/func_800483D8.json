@@ -1,0 +1,30 @@
+{
+ "code_size": "0x58",
+ "credit": "a generated project tree: it copies results the strict verifier settled and grants no credit; only `make verify` / `make verify-receipts` against your own ROM confirm them again",
+ "distance": "0",
+ "export_source": "asm/main/func_800483D8.s",
+ "file": "asm/main/func_800483D8.s",
+ "function": "func_800483D8",
+ "how": "gnu-as -march=vr4300 -mabi=o64",
+ "image": "main",
+ "inputs_sha256": "551ad811cfe0d5cb92b7e97ad67f90eb8d55d8869dcdd5c358fb38e3a5d98721",
+ "kind": "handwritten",
+ "link_layout_object": "",
+ "offset": "0x48FD8",
+ "outcome": "assembly",
+ "raw": null,
+ "receipt": "present",
+ "recipe": {
+  "assembler": "gnu-as -march=vr4300 -mabi=o64",
+  "flags": "",
+  "pipeline": "gnu-as"
+ },
+ "reproduced_by": "assembly (hand-written)",
+ "schema": "n64dk-generated-project/1",
+ "size": "0x60",
+ "source_sha256": "67b86eee630d06257a18aff7280a69050c8529df5f8db8b0946446030e3b93db",
+ "status": "assembly",
+ "unit": "main/func_800483D8",
+ "unit_class": "handwritten",
+ "vram": "0x800483D8"
+}

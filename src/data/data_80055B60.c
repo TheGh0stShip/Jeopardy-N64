@@ -1,0 +1,92 @@
+typedef signed short s16; typedef signed int s32; typedef unsigned int u32; typedef unsigned char u8;
+/* 0x20-byte sprite/layout record: drawn with func_80020700(x, y, w, h, seg[0]) */
+typedef struct { s32 x; s32 y; s32 w; s32 h; u32 seg[4]; } Sprite;
+
+extern char D_80000A14[];
+extern char D_80000A24[];
+extern char D_80000A34[];
+extern char D_80000A44[];
+extern char D_80000A54[];
+extern char D_80000A60[];
+extern char D_80000A74[];
+extern char D_80000A80[];
+extern char D_80000A90[];
+extern char D_80000AA0[];
+extern char D_80000AB0[];
+extern char D_80000ABC[];
+extern char D_80000ACC[];
+extern char D_80000AF4[];
+extern char D_80000B18[];
+extern char D_80000B2C[];
+extern char D_80000B48[];
+extern char D_80000B74[];
+extern char D_80000B88[];
+extern char D_80000B98[];
+extern char D_80000BA0[];
+extern char D_80000BBC[];
+extern char D_80000BD4[];
+extern char D_80000BE8[];
+extern char D_80000BF8[];
+extern char D_80000C14[];
+extern char D_80000C20[];
+extern char D_80000C34[];
+extern char D_80000C40[];
+extern char D_80000C50[];
+extern char D_80000C5C[];
+extern char D_80000C74[];
+extern char D_80000C84[];
+extern char D_80000C94[];
+extern char D_80000CA0[];
+extern char D_80000CB0[];
+extern char D_80000CBC[];
+extern char D_80000CC8[];
+extern char D_80000CD8[];
+extern char D_80000CE0[];
+extern char D_80000CEC[];
+extern char D_80000CF8[];
+extern char D_80000D0C[];
+extern char D_80000D2C[];
+extern char D_80000D38[];
+extern char D_80000D50[];
+extern char D_80000D5C[];
+extern char D_80000D70[];
+extern char D_80000D80[];
+extern char D_80000D8C[];
+extern char D_80000D9C[];
+extern char D_80000DA0[];
+extern char D_80000DAC[];
+extern char D_80050FF0[];
+extern char D_80051F40[];
+
+s16 D_80055B60[2] = { 1, 0 };
+void *D_80055B64[4] = { D_80051F40, D_80050FF0, D_80050FF0, D_80050FF0 };
+u8 D_80055B74[10][3] = { { 0x00, 0x00, 0x00 }, { 0x00, 0x00, 0xFF }, { 0x00, 0xFF, 0x00 }, { 0x00, 0xFF, 0xFF }, { 0xFF, 0x00, 0x00 }, { 0xFF, 0x00, 0xFF }, { 0xFF, 0xFF, 0x00 }, { 0xFF, 0xFF, 0xFF }, { 0xA0, 0xA0, 0xA0 }, { 0x60, 0x60, 0x60 } };
+s32 D_80055B94[34] = { 0, 0, -65536, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -65536, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -65536, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+s32 D_80055C1C[1] = { 0 };
+s32 D_80055C20[2] = { -13107160, 200 };
+s16 D_80055C28[2] = { 40, 0 };
+s32 D_80055C2C[2] = { -13041704, 200 };
+s32 D_80055C34[1] = { -2621440 };
+s32 D_80055C38[2] = { 999, 0 };
+s32 D_80055C40[2] = { 0, 0 };
+s32 D_80055C48[4] = { 0, 0, 0, 0 };
+s32 D_80055C58[4] = { -1263225856, -1263225856, 345793536, 0 };
+s32 D_80055C68[2] = { -1263225856, -1263225856 };
+s32 D_80055C70[4] = { 0, 0, 0, 0 };
+s32 D_80055C80[4] = { 0, 0, 345793536, 0 };
+s32 D_80055C90[1] = { 1 };
+s32 D_80055C94[1] = { 0 };
+char D_80055C98[272] = "Jeopardy! is based on the|television series produced by|Columbia TriStar Television,|a Sony Pictures Entertainment Company.||Jeopardy!# is a registered trademark of||Jeopardy Productions, Inc. |@1998 Jeopardy Productions, Inc.|All Rights Reserved|||Licensed by Nintendo\r\n";
+char D_80055DA8[32] = "No controllers are connected!\r\n";
+s32 D_80055DC8[6] = { -850, -797, -742, -687, -633, -579 };
+s32 D_80055DE0[6] = { -80, -4, 71, 147, 220, 294 };
+char *D_80055DF8[72] = { D_80000DAC, D_80000DA0, D_80000D9C, D_80000D8C, D_80000D80, D_80000D9C, D_80000D70, D_80000D9C, D_80000D5C, D_80000D50, D_80000D9C, D_80000D38, D_80000D2C, D_80000D9C, D_80000D0C, D_80000CF8, D_80000D9C, D_80000CEC, D_80000CE0, D_80000D9C, D_80000CD8, D_80000CC8, D_80000CBC, D_80000CB0, D_80000D9C, D_80000CA0, D_80000C94, D_80000D9C, D_80000C84, D_80000C74, D_80000D9C, D_80000C5C, D_80000C50, D_80000D9C, D_80000C40, D_80000C34, D_80000D9C, D_80000C20, D_80000C14, D_80000D9C, D_80000BF8, D_80000BE8, D_80000D9C, D_80000BD4, D_80000BBC, D_80000BA0, D_80000D9C, D_80000B98, D_80000B88, D_80000B74, D_80000D9C, D_80000B48, D_80000B2C, D_80000D9C, D_80000B18, D_80000AF4, D_80000ACC, D_80000D9C, D_80000ABC, D_80000AB0, D_80000C14, D_80000AA0, D_80000A90, D_80000A80, D_80000A74, D_80000D9C, D_80000A60, D_80000A54, D_80000A44, D_80000A34, D_80000A24, D_80000A14 };
+s32 D_80055F18[2] = { 0, 0 };
+s32 D_80055F20[2] = { 0, 808001568 };
+void *D_80055F28[1] = { (void *)0x100BE40 };  /* ROM segment addresses */
+void *D_80055F2C[29] = { (void *)0x100F798, (void *)0x100A220, (void *)0x100AB80, (void *)0x100B4E0, (void *)0x100BCB0, (void *)0x100EE00, (void *)0x100A090, (void *)0x100A9F0, (void *)0x100B350, (void *)0x100BB20, (void *)0x100E468, (void *)0x1009F00, (void *)0x100A860, (void *)0x100B1C0, (void *)0x100B990, (void *)0x100DAD0, (void *)0x1009D70, (void *)0x100A6D0, (void *)0x100B030, (void *)0x100B800, (void *)0x100D138, (void *)0x1009BE0, (void *)0x100A540, (void *)0x100AEA0, (void *)0x100B670, (void *)0x100C7A0, (void *)0x1009A50, (void *)0x100A3B0, (void *)0x100AD10 };  /* ROM segment addresses */
+void *D_80055FA0[13] = { (void *)0x1032E48, (void *)0x1033648, (void *)0x1033E48, (void *)0x1034648, (void *)0x1034E48, (void *)0x1035648, (void *)0x1035E48, (void *)0x1036648, (void *)0x1036E48, (void *)0x1037648, (void *)0x101AFC8, (void *)0x1031E48, (void *)0x1032648 };  /* ROM segment addresses */
+s32 D_80055FD4[22] = { 16968472, 16968440, 16968408, 16968376, 16968344, 16968312, 16968280, 16968248, 16968216, 16968184, 16968152, 16968120, 16968088, 16968056, 16968024, 16967992, 16967960, 16967928, 16967896, 16967864, 16967832, 2 };
+s32 D_8005602C[7] = { 185207306, 168427531, 168430090, 167774986, 168430090, 2697504, 757084457 };
+void *D_80056048[3] = { (void *)0x1017548, (void *)0x10170F8, (void *)0x1016CA8 };  /* ROM segment addresses */
+void *D_80056054[3] = { (void *)0x10196D8, (void *)0x1019288, (void *)0x1018E38 };  /* ROM segment addresses */

@@ -1,0 +1,207 @@
+# image main; pipeline ido5.3; ROM_START SIZE SOURCE FLAGS
+0x3CCB8	0x50	main/func_8003C0B8.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003C0B8 exact
+0x3CD08	0x44	main/func_8003C108.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003C108 exact
+0x3CD4C	0x2C	main/func_8003C14C.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003C14C exact
+0x3DA28	0x38	main/func_8003CE28.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003CE28 exact
+0x3DA60	0x60	main/func_8003CE60.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003CE60 exact
+0x3E0A8	0x30	main/func_8003D4A8.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003D4A8 exact
+0x3E0FC	0x38	main/func_8003D4FC.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003D4FC exact
+0x3E134	0x34	main/func_8003D534.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003D534 exact
+0x3E168	0x34	main/func_8003D568.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003D568 exact
+0x3F8A4	0x168	main/func_8003ECA4.c	-O3 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003ECA4 exact
+0x3FE18	0x48	main/func_8003F218.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003F218 exact
+0x3FF08	0x44	main/func_8003F308.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003F308 exact
+0x3FF4C	0x54	main/func_8003F34C.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003F34C exact
+0x3FFA0	0x54	main/func_8003F3A0.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003F3A0 exact
+0x40124	0xA4	main/func_8003F524.c	-O3 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003F524 exact
+0x42730	0xEC	main/func_80041B30.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80041B30 exact
+0x43414	0x70	main/func_80042814.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80042814 exact
+0x43634	0x74	main/func_80042A34.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80042A34 exact
+0x43F38	0x7C	main/func_80043338.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80043338 exact
+0x448AC	0x18	main/func_80043CAC.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80043CAC exact
+0x463E8	0x54	main/func_800457E8.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x800457E8 exact
+0x4643C	0x80	main/func_8004583C.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8004583C exact
+0x46578	0x24	main/func_80045978.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80045978 exact
+0x46A78	0x70	main/func_80045E78.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80045E78 exact
+0x47D28	0x1C	main/func_80047128.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80047128 exact
+0x47D44	0x1C	main/func_80047144.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80047144 exact
+0x49708	0x10	main/func_80048B08.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80048B08 exact
+0x497C8	0x50	main/func_80048BC8.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80048BC8 exact
+0x49B28	0x50	main/func_80048F28.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80048F28 exact
+0x49B78	0x44	main/func_80048F78.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80048F78 exact
+0x49BBC	0x2C	main/func_80048FBC.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80048FBC exact
+0x4C518	0x50	main/func_8004B918.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8004B918 exact
+0x4C568	0x12C	main/func_8004B968.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8004B968 exact
+0x4C7B4	0x190	main/func_8004BBB4.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8004BBB4 exact
+0x4C944	0x40	main/func_8004BD44.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8004BD44 exact
+0x4CD28	0x20	main/func_8004C128.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8004C128 exact
+0x4CD48	0x80	main/func_8004C148.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8004C148 exact
+0x4D288	0x14	main/func_8004C688.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8004C688 exact
+0x4DF98	0x50	main/func_8004D398.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8004D398 exact
+0x4DFE8	0x4C	main/func_8004D3E8.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8004D3E8 exact
+0x4E638	0x50	main/func_8004DA38.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8004DA38 exact
+0x3C8D8	0x10	main/func_8003BCD8.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003BCD8 exact (agent-stage)
+0x3CA48	0xB0	main/func_8003BE48.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003BE48 exact (agent-stage)
+0x3CAF8	0x30	main/func_8003BEF8.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003BEF8 exact (agent-stage)
+0x3CB28	0x190	main/func_8003BF28.c	--section-base=.data:0x80071FB8 -O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 --symbol=osGetThreadPri:0x80047D28 --symbol=__osRestoreInt:0x8003FD08	# 0x8003BF28 exact (agent-stage)
+0x3CFA8	0xF0	main/func_8003C3A8.c	--section-base=.bss:0x800D1DB0 -O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003C3A8 exact (agent-stage)
+0x3D138	0x100	main/func_8003C538.c	--section-base=.bss:0x800D1E30 -O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003C538 exact (agent-stage)
+0x3D6C8	0x50	main/func_8003CAC8.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003CAC8 exact (agent-stage)
+0x3D718	0x50	main/func_8003CB18.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003CB18 exact (agent-stage)
+0x3D768	0xE0	main/func_8003CB68.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003CB68 exact (agent-stage)
+0x3D848	0x60	main/func_8003CC48.c	-O3 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003CC48 exact (agent-stage)
+0x3D8A8	0x60	main/func_8003CCA8.c	-O3 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003CCA8 exact (agent-stage)
+0x3D908	0x60	main/func_8003CD08.c	-O3 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003CD08 exact (agent-stage)
+0x3D968	0x60	main/func_8003CD68.c	-O3 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003CD68 exact (agent-stage)
+0x3DAC0	0x18	main/func_8003CEC0.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003CEC0 exact (agent-stage)
+0x3DAD8	0x30	main/func_8003CED8.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003CED8 exact (agent-stage)
+0x3E0D8	0x24	main/func_8003D4D8.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003D4D8 exact (agent-stage)
+0x3E1A8	0x60	main/func_8003D5A8.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003D5A8 exact (agent-stage)
+0x3ED58	0x80	main/func_8003E158.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003E158 exact (agent-stage)
+0x3EDD8	0x30	main/func_8003E1D8.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003E1D8 exact (agent-stage)
+0x3EE08	0xE0	main/func_8003E208.c	-O3 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003E208 exact (agent-stage)
+0x3EEE8	0x30	main/func_8003E2E8.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003E2E8 exact (agent-stage)
+0x3EF18	0x40	main/func_8003E318.c	-O3 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003E318 exact (agent-stage)
+0x3EF58	0xA0	main/func_8003E358.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003E358 exact (agent-stage)
+0x3EFF8	0xA0	main/func_8003E3F8.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003E3F8 exact (agent-stage)
+0x3F5C8	0x16C	main/func_8003E9C8.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003E9C8 exact (agent-stage)
+0x3F73C	0xFC	main/func_8003EB3C.c	-O2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 -mips2	# 0x8003EB3C exact (agent-stage)
+0x3F838	0x6C	main/func_8003EC38.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003EC38 exact (agent-stage)
+0x3FA18	0x14C	main/func_8003EE18.c	--section-base=.rodata:0x80001D48 --section-base=.bss:0x800D1EB0 -O3 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003EE18 exact (agent-stage)
+0x3FBB8	0x54	main/func_8003EFB8.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003EFB8 exact (agent-stage)
+0x3FC0C	0x4C	main/func_8003F00C.c	-O3 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003F00C exact (agent-stage)
+0x3FC58	0x1C0	main/func_8003F058.c	-O3 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003F058 exact (agent-stage)
+0x3FE60	0x58	main/func_8003F260.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003F260 exact (agent-stage)
+0x3FEB8	0x50	main/func_8003F2B8.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003F2B8 exact (agent-stage)
+0x3FFF4	0x88	main/func_8003F3F4.c	-O3 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003F3F4 exact (agent-stage)
+0x4007C	0xA8	main/func_8003F47C.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003F47C exact (agent-stage)
+0x401C8	0xA0	main/func_8003F5C8.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003F5C8 exact (agent-stage)
+0x406A8	0xE0	main/func_8003FAA8.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003FAA8 exact (agent-stage)
+0x40788	0x30	main/func_8003FB88.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003FB88 exact (agent-stage)
+0x40988	0x50	main/func_8003FD88.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003FD88 exact (agent-stage)
+0x409D8	0x20	main/func_8003FDD8.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003FDD8 exact (agent-stage)
+0x419DC	0xE8	main/func_80040DDC.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80040DDC exact (agent-stage)
+0x41DE8	0x60	main/func_800411E8.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x800411E8 exact (agent-stage)
+0x41E48	0x10	main/func_80041248.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80041248 exact (agent-stage)
+0x41E58	0x60	main/func_80041258.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80041258 exact (agent-stage)
+0x41FF8	0x60	main/func_800413F8.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x800413F8 exact (agent-stage)
+0x421A8	0x70	main/func_800415A8.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x800415A8 exact (agent-stage)
+0x42218	0x50	main/func_80041618.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80041618 exact (agent-stage)
+0x423B8	0x100	main/func_800417B8.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x800417B8 exact (agent-stage)
+0x426C0	0x3C	main/func_80041AC0.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80041AC0 exact (agent-stage)
+0x42708	0x28	main/func_80041B08.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80041B08 exact (agent-stage)
+0x4281C	0xE0	main/func_80041C1C.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80041C1C exact (agent-stage)
+0x43368	0xAC	main/func_80042768.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80042768 exact (agent-stage)
+0x43484	0x124	main/func_80042884.c	-O3 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 -mips2	# 0x80042884 exact (agent-stage)
+0x435A8	0x8C	main/func_800429A8.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x800429A8 exact (agent-stage)
+0x436F8	0x120	main/func_80042AF8.c	-O3 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80042AF8 exact (agent-stage)
+0x43B18	0x8C	main/func_80042F18.c	--section-base=.bss:0x800D2F60 -O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80042F18 exact (agent-stage)
+0x43BA4	0x178	main/func_80042FA4.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80042FA4 exact (agent-stage)
+0x43D1C	0x74	main/func_8004311C.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8004311C exact (agent-stage)
+0x43FB8	0xA8	main/func_800433B8.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x800433B8 exact (agent-stage)
+0x44118	0x188	main/func_80043518.c	-O3 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80043518 exact (agent-stage)
+0x442A0	0x18C	main/func_800436A0.c	-O3 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x800436A0 exact (agent-stage)
+0x44C3C	0x8C	main/func_8004403C.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8004403C exact (agent-stage)
+0x44CC8	0x100	main/func_800440C8.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x800440C8 exact (agent-stage)
+0x44DC8	0x88	main/func_800441C8.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x800441C8 exact (agent-stage)
+0x44E50	0x30	main/func_80044250.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80044250 exact (agent-stage)
+0x44E80	0xB8	main/func_80044280.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80044280 exact (agent-stage)
+0x44F38	0xA0	main/func_80044338.c	-O3 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80044338 exact (agent-stage)
+0x44FD8	0x170	main/func_800443D8.c	-O2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 -mips2	# 0x800443D8 exact (agent-stage)
+0x45148	0x40	main/func_80044548.c	-O3 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80044548 exact (agent-stage)
+0x45188	0x30	main/func_80044588.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80044588 exact (agent-stage)
+0x451B8	0x70	main/func_800445B8.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x800445B8 exact (agent-stage)
+0x464BC	0xB4	main/func_800458BC.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x800458BC exact (agent-stage)
+0x4659C	0x88	main/func_8004599C.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8004599C exact (agent-stage)
+0x467F8	0x70	main/func_80045BF8.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80045BF8 exact (agent-stage)
+0x46868	0xDC	main/func_80045C68.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80045C68 exact (agent-stage)
+0x469BC	0x48	main/func_80045DBC.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80045DBC exact (agent-stage)
+0x46A04	0x74	main/func_80045E04.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80045E04 exact (agent-stage)
+0x46AE8	0xFC	main/func_80045EE8.c	-O3 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80045EE8 exact (agent-stage)
+0x47A28	0x104	main/func_80046E28.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80046E28 exact (agent-stage)
+0x47B2C	0x70	main/func_80046F2C.c	-O3 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80046F2C exact (agent-stage)
+0x47F40	0x120	main/func_80047340.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80047340 exact (agent-stage)
+0x48060	0xE4	main/func_80047460.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80047460 exact (agent-stage)
+0x48144	0x54	main/func_80047544.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80047544 exact (agent-stage)
+0x48348	0xB0	main/func_80047748.c	-O3 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80047748 exact (agent-stage)
+0x483F8	0xE8	main/func_800477F8.c	-O3 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x800477F8 exact (agent-stage)
+0x484E0	0x140	main/func_800478E0.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x800478E0 exact (agent-stage)
+0x48628	0x80	main/func_80047A28.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80047A28 exact (agent-stage)
+0x486A8	0xF0	main/func_80047AA8.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80047AA8 exact (agent-stage)
+0x48798	0x150	main/func_80047B98.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80047B98 exact (agent-stage)
+0x488E8	0x40	main/func_80047CE8.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80047CE8 exact (agent-stage)
+0x48948	0x90	main/func_80047D48.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80047D48 exact (agent-stage)
+0x48C88	0x2C	main/func_80048088.c	-O2 -mips3 -32 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80048088 exact (agent-stage)
+0x48CB4	0x3C	main/func_800480B4.c	-O2 -mips3 -32 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x800480B4 exact (agent-stage)
+0x48CF0	0x3C	main/func_800480F0.c	-O1 -mips3 -32 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x800480F0 exact (agent-stage)
+0x48D2C	0x2C	main/func_8004812C.c	-O2 -mips3 -o32 -non_shared -G 0	# 0x8004812C exact (agent-stage)
+0x48D58	0x3C	main/func_80048158.c	-O2 -mips3 -32 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80048158 exact (agent-stage)
+0x48D94	0x5C	main/func_80048194.c	-O2 -mips3 -32 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80048194 exact (agent-stage)
+0x48DF0	0x30	main/func_800481F0.c	-O2 -mips3 -32 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x800481F0 exact (agent-stage)
+0x48E20	0x60	main/func_80048220.c	-O1 -mips3 -32 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80048220 exact (agent-stage)
+0x48E80	0x9C	main/func_80048280.c	-O1 -mips3 -32 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80048280 exact (agent-stage)
+0x48F1C	0x2C	main/func_8004831C.c	-O2 -mips3 -32 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8004831C exact (agent-stage)
+0x49038	0x30	main/func_80048438.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80048438 exact (agent-stage)
+0x492D8	0x30	main/func_800486D8.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x800486D8 exact (agent-stage)
+0x49458	0x50	main/func_80048858.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80048858 exact (agent-stage)
+0x494A8	0x90	main/func_800488A8.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x800488A8 exact (agent-stage)
+0x49538	0xA0	main/func_80048938.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80048938 exact (agent-stage)
+0x495D8	0xA0	main/func_800489D8.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x800489D8 exact (agent-stage)
+0x49678	0x90	main/func_80048A78.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80048A78 exact (agent-stage)
+0x49718	0xA0	main/func_80048B18.c	-O3 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80048B18 exact (agent-stage)
+0x49818	0xC4	main/func_80048C18.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80048C18 exact (agent-stage)
+0x498DC	0xA8	main/func_80048CDC.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80048CDC exact (agent-stage)
+0x49984	0xEC	main/func_80048D84.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80048D84 exact (agent-stage)
+0x49A78	0xB0	main/func_80048E78.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80048E78 exact (agent-stage)
+0x49DE0	0xD0	main/func_800491E0.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x800491E0 exact (agent-stage)
+0x49EB0	0xF8	main/func_800492B0.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x800492B0 exact (agent-stage)
+0x49FA8	0xE0	main/func_800493A8.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x800493A8 exact (agent-stage)
+0x4A088	0x24	main/func_80049488.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80049488 exact (agent-stage)
+0x4A0AC	0x5C	main/func_800494AC.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x800494AC exact (agent-stage)
+0x4A108	0x2C	main/func_80049508.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80049508 exact (agent-stage)
+0x4A134	0x28	main/func_80049534.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80049534 exact (agent-stage)
+0x4A15C	0x3C	main/func_8004955C.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8004955C exact (agent-stage)
+0x4B108	0x100	main/func_8004A508.c	-O3 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8004A508 exact (agent-stage)
+0x4B208	0x90	main/func_8004A608.c	-O2 -mips2	# 0x8004A608 exact (agent-stage)
+0x4BD58	0x50	main/func_8004B158.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8004B158 exact (agent-stage)
+0x4C490	0x88	main/func_8004B890.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8004B890 exact (agent-stage)
+0x4CC98	0x90	main/func_8004C098.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8004C098 exact (agent-stage)
+0x4CDC8	0x40	main/func_8004C1C8.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8004C1C8 exact (agent-stage)
+0x4CE08	0x140	main/func_8004C208.c	-O1 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 -mips2	# 0x8004C208 exact (agent-stage)
+0x4CF48	0x40	main/func_8004C348.c	-O1 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 -mips2	# 0x8004C348 exact (agent-stage)
+0x4CF88	0x40	main/func_8004C388.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8004C388 exact (agent-stage)
+0x4CFC8	0xB0	main/func_8004C3C8.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8004C3C8 exact (agent-stage)
+0x4D078	0x30	main/func_8004C478.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8004C478 exact (agent-stage)
+0x4D0A8	0x30	main/func_8004C4A8.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8004C4A8 exact (agent-stage)
+0x4D0D8	0x10	main/func_8004C4D8.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8004C4D8 exact (agent-stage)
+0x4D0E8	0x10	main/func_8004C4E8.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8004C4E8 exact (agent-stage)
+0x4D128	0x70	main/func_8004C528.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8004C528 exact (agent-stage)
+0x4D198	0xA0	main/func_8004C598.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8004C598 exact (agent-stage)
+0x4D2A8	0x70	main/func_8004C6A8.c	-O3 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8004C6A8 exact (agent-stage)
+0x4D740	0x78	main/func_8004CB40.c	-O3 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8004CB40 exact (agent-stage)
+0x4DD9C	0x13C	main/func_8004D19C.c	-O3 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8004D19C exact (agent-stage)
+0x4DED8	0x90	main/func_8004D2D8.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8004D2D8 exact (agent-stage)
+0x4DF68	0x30	main/func_8004D368.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8004D368 exact (agent-stage)
+0x4E398	0x70	main/func_8004D798.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8004D798 exact (agent-stage)
+0x4E408	0x70	main/func_8004D808.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8004D808 exact (agent-stage)
+0x3D238	0x490	main/func_8003C638.c	--section-base=.rodata:0x80001D08 -O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8003C638 exact (agent-stage)
+0x40268	0x440	main/func_8003F668.c	--section-base=.rodata:0x80001DA8 -O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 --symbol=D_80072008:0x80072008 --symbol=D_80072070:0x80072070 --symbol=D_800720F8:0x800720F8 --symbol=D_80072120:0x80072120 --symbol=D_80072148:0x80072148 --symbol=D_80072170:0x80072170	# 0x8003F668 exact (agent-stage)
+0x4E688	0x360	main/func_8004DA88.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 --symbol=D_80072468:0x80072468 --symbol=D_8007246C:0x8007246C	# 0x8004DA88 exact (agent-stage)
+0x448C4	0x340	main/func_80043CC4.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80043CC4 exact (agent-stage)
+0x4D488	0x2B8	main/func_8004C888.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8004C888 exact (agent-stage)
+0x4AE68	0x2A0	main/func_8004A268.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 --symbol=D_800723C8:0x800723C8 --symbol=D_800723DC:0x800723DC	# 0x8004A268 exact (agent-stage)
+0x489D8	0x290	main/func_80047DD8.c	--section-base=.data:0x80072338 -O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 --symbol=D_80000300:0x80000300 --symbol=D_8000030C:0x8000030C --symbol=D_8000031C:0x8000031C --symbol=D_800D3130:0x800D3130	# 0x80047DD8 exact (agent-stage)
+0x44650	0x25C	main/func_80043A50.c	--section-base=.rodata:0x80001EC8 -O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 --symbol=D_80071FF8:0x80071FF8	# 0x80043A50 exact (agent-stage)
+0x3CD78	0x230	main/func_8003C178.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 --symbol=D_80071FD8:0x80071FD8	# 0x8003C178 exact (agent-stage)
+0x41BB8	0x230	main/func_80040FB8.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 --symbol=D_80001E18:0x80001E18	# 0x80040FB8 exact (agent-stage)
+0x4442C	0x224	main/func_8004382C.c	-O3 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8004382C exact (agent-stage)
+0x49BE8	0x1F8	main/func_80048FE8.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 --symbol=D_80072338:0x80072338 --symbol=D_80072368:0x80072368 --symbol=D_800D3160:0x800D3160 --symbol=D_800D31A0:0x800D31A0 --symbol=D_800D31A1:0x800D31A1 --symbol=D_800D31C8:0x800D31C8 --symbol=D_800D31E0:0x800D31E0	# 0x80048FE8 exact (agent-stage)
+0x43D90	0x188	main/func_80043190.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 --symbol=D_80072308:0x80072308	# 0x80043190 exact (agent-stage)
+0x4D318	0x170	main/func_8004C718.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 --symbol=D_80002598:0x80002598 --symbol=D_800025A8:0x800025A8 --symbol=D_800025D0:0x800025D0 --symbol=D_800025D8:0x800025D8 --symbol=D_800025E0:0x800025E0 --symbol=D_800025E8:0x800025E8	# 0x8004C718 exact (agent-stage)
+0x3C8E8	0x160	main/func_8003BCE8.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 --symbol=D_80072340:0x80072340	# 0x8003BCE8 exact (agent-stage)
+0x42058	0x150	main/func_80041458.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 --symbol=D_80072328:0x80072328	# 0x80041458 exact (agent-stage)
+0x42268	0x150	main/func_80041668.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 --symbol=D_80072324:0x80072324	# 0x80041668 exact (agent-stage)
+0x49308	0x150	main/func_80048708.c	-O1 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 --symbol=D_80072328:0x80072328	# 0x80048708 exact (agent-stage)
+0x41EB8	0x140	main/func_800412B8.c	-O1 -mips2 -non_shared -G 0 --symbol=D_80072328:0x80072328	# 0x800412B8 exact (agent-stage)
+0x44060	0xB8	main/func_80043460.c	-O3 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x80043460 exact (agent-stage)
+0x4D7B8	0x10	main/func_8004CBB8.c	-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0	# 0x8004CBB8 exact (agent-stage)

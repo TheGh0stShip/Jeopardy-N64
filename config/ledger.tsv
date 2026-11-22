@@ -1,0 +1,861 @@
+start	end	size	class	category	kind	name	evidence
+0x0	0x40	64	rom_metadata	rom_metadata	header	rom_header	rom header
+0x40	0x1000	4032	rom_metadata	rom_metadata	ipl3	ipl3	cic 6102
+0x1000	0x103C	60	code	program	.text	text_80000400	datamap section
+0x103C	0x3238	8700	data	program	.rodata	rodata_8000043C	datamap section
+0x3238	0x37780	214344	code	program	.text	text_80002638	datamap section
+0x37780	0x37AC0	832	code	program	rsp_text	rsp_80036B80	RSP opcodes only, vector-heavy (64-byte granularity)
+0x37AC0	0x37D00	576	code	program	.text	text_80002638	datamap section
+0x37D00	0x38780	2688	code	program	rsp_text	rsp_80037100	RSP opcodes only, vector-heavy (64-byte granularity)
+0x38780	0x38B80	1024	code	program	.text	text_80002638	datamap section
+0x38B80	0x38EC0	832	code	program	rsp_text	rsp_80037F80	RSP opcodes only, vector-heavy (64-byte granularity)
+0x38EC0	0x39100	576	code	program	.text	text_80002638	datamap section
+0x39100	0x3AA40	6464	code	program	rsp_text	rsp_80038500	RSP opcodes only, vector-heavy (64-byte granularity)
+0x3AA40	0x4E9F8	81848	code	program	.text	text_80002638	datamap section
+0x4E9F8	0x93608	281616	data	program	.data	data_8004DDF8	datamap section
+0x93608	0x93624	28	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_0	frames9=3 refs=0x40
+0x93624	0x93628	4	padding	-	fill_00	gap_93624	-
+0x93628	0x94240	3096	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_20	frames9=344 refs=0x128
+0x94240	0x94A0E	1998	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_C38	frames9=222 refs=0x1F0
+0x94A0E	0x94A10	2	padding	-	fill_00	gap_94A0E	-
+0x94A10	0x9516A	1882	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_1408	frames9=209 refs=0x2B8
+0x9516A	0x95170	6	padding	-	fill_00	gap_9516A	-
+0x95170	0x9596C	2044	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_1B68	frames9=227 refs=0x380
+0x9596C	0x95970	4	padding	-	fill_00	gap_9596C	-
+0x95970	0x9649E	2862	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_2368	frames9=318 refs=0x448
+0x9649E	0x964A0	2	padding	-	fill_00	gap_9649E	-
+0x964A0	0x9790E	5230	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_2E98	frames9=581 refs=0x510
+0x9790E	0x97910	2	padding	-	fill_00	gap_9790E	-
+0x97910	0x97B2C	540	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_4308	frames9=60 refs=0x5D8
+0x97B2C	0x97B30	4	padding	-	fill_00	gap_97B2C	-
+0x97B30	0x98358	2088	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_4528	frames9=232 refs=0x6A0
+0x98358	0x9891C	1476	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_4D50	frames9=164 refs=0x768
+0x9891C	0x98920	4	padding	-	fill_00	gap_9891C	-
+0x98920	0x9A78A	7786	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_5318	frames9=865 refs=0x830
+0x9A78A	0x9A790	6	padding	-	fill_00	gap_9A78A	-
+0x9A790	0x9B798	4104	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_7188	frames9=456 refs=0x8F8
+0x9B798	0x9D224	6796	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_8190	frames9=755 refs=0x9C0
+0x9D224	0x9D228	4	padding	-	fill_00	gap_9D224	-
+0x9D228	0x9E37E	4438	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_9C20	frames9=493 refs=0xA88
+0x9E37E	0x9E380	2	padding	-	fill_00	gap_9E37E	-
+0x9E380	0xA1C98	14616	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_AD78	frames9=1624 refs=0xB50
+0xA1C98	0xA1D68	208	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_E690	frames9=23 refs=0xC18
+0xA1D68	0xAA2B8	34128	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_E760	frames9=3792 refs=0xCE0
+0xAA2B8	0xB17B8	29952	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_16CB0	frames9=3328 refs=0xDA8
+0xB17B8	0xB92E8	31536	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_1E1B0	frames9=3504 refs=0xE70
+0xB92E8	0xC0A28	30528	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_25CE0	frames9=3392 refs=0xF38
+0xC0A28	0xC5CD8	21168	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_2D420	frames9=2352 refs=0x1000
+0xC5CD8	0xCBB46	24174	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_326D0	frames9=2686 refs=0x10C8
+0xCBB46	0xCBB48	2	padding	-	fill_00	gap_CBB46	-
+0xCBB48	0xD2BC8	28800	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_38540	frames9=3200 refs=0x1190
+0xD2BC8	0xD5772	11178	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_3F5C0	frames9=1242 refs=0x1258
+0xD5772	0xD5778	6	padding	-	fill_00	gap_D5772	-
+0xD5778	0x115D84	263692	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_42170	frames9=29299 refs=0x1320
+0x115D84	0x115D88	4	padding	-	fill_00	gap_115D84	-
+0x115D88	0x116DFC	4212	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_82780	frames9=468 refs=0x13E8
+0x116DFC	0x116E00	4	padding	-	fill_00	gap_116DFC	-
+0x116E00	0x11846E	5742	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_837F8	frames9=638 refs=0x14B0
+0x11846E	0x118470	2	padding	-	fill_00	gap_11846E	-
+0x118470	0x11D006	19350	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_84E68	frames9=2150 refs=0x1578
+0x11D006	0x11D008	2	padding	-	fill_00	gap_11D006	-
+0x11D008	0x11D962	2394	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_89A00	frames9=266 refs=0x1680
+0x11D962	0x11D968	6	padding	-	fill_00	gap_11D962	-
+0x11D968	0x11EA48	4320	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_8A360	frames9=480 refs=0x1748
+0x11EA48	0x11F91E	3798	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_8B440	frames9=422 refs=0x1810
+0x11F91E	0x11F920	2	padding	-	fill_00	gap_11F91E	-
+0x11F920	0x1209B8	4248	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_8C318	frames9=472 refs=0x18D8
+0x1209B8	0x1238CC	12052	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_8D3B0	frames9=1339 refs=0x19A0
+0x1238CC	0x1238D0	4	padding	-	fill_00	gap_1238CC	-
+0x1238D0	0x123F7E	1710	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_902C8	frames9=190 refs=0x1A68
+0x123F7E	0x123F80	2	padding	-	fill_00	gap_123F7E	-
+0x123F80	0x127EB6	16182	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_90978	frames9=1798 refs=0x1B30
+0x127EB6	0x127EB8	2	padding	-	fill_00	gap_127EB6	-
+0x127EB8	0x129028	4464	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_948B0	frames9=496 refs=0x1BF8
+0x129028	0x129742	1818	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_95A20	frames9=202 refs=0x1CC0
+0x129742	0x129748	6	padding	-	fill_00	gap_129742	-
+0x129748	0x12A0A2	2394	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_96140	frames9=266 refs=0x1D88
+0x12A0A2	0x12A0A8	6	padding	-	fill_00	gap_12A0A2	-
+0x12A0A8	0x12A82E	1926	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_96AA0	frames9=214 refs=0x1E50
+0x12A82E	0x12A830	2	padding	-	fill_00	gap_12A82E	-
+0x12A830	0x12B784	3924	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_97228	frames9=436 refs=0x1F18
+0x12B784	0x12B788	4	padding	-	fill_00	gap_12B784	-
+0x12B788	0x12CBA4	5148	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_98180	frames9=572 refs=0x1FE0
+0x12CBA4	0x12CBA8	4	padding	-	fill_00	gap_12CBA4	-
+0x12CBA8	0x12D36E	1990	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_995A0	frames9=221 refs=0x20C8
+0x12D36E	0x12D370	2	padding	-	fill_00	gap_12D36E	-
+0x12D370	0x12DA82	1810	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_99D68	frames9=201 refs=0x2190
+0x12DA82	0x12DA88	6	padding	-	fill_00	gap_12DA82	-
+0x12DA88	0x12E12E	1702	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_9A480	frames9=189 refs=0x2258
+0x12E12E	0x12E130	2	padding	-	fill_00	gap_12E12E	-
+0x12E130	0x12EA42	2322	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_9AB28	frames9=258 refs=0x2320
+0x12EA42	0x12EA48	6	padding	-	fill_00	gap_12EA42	-
+0x12EA48	0x12F12C	1764	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_9B440	frames9=196 refs=0x23E8
+0x12F12C	0x12F130	4	padding	-	fill_00	gap_12F12C	-
+0x12F130	0x12FA8A	2394	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_9BB28	frames9=266 refs=0x24B0
+0x12FA8A	0x12FA90	6	padding	-	fill_00	gap_12FA8A	-
+0x12FA90	0x133492	14850	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_9C488	frames9=1650 refs=0x2578
+0x133492	0x133498	6	padding	-	fill_00	gap_133492	-
+0x133498	0x13A6EC	29268	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_9FE90	frames9=3252 refs=0x2640
+0x13A6EC	0x13A6F0	4	padding	-	fill_00	gap_13A6EC	-
+0x13A6F0	0x145ECE	47070	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_A70E8	frames9=5230 refs=0x2708
+0x145ECE	0x145ED0	2	padding	-	fill_00	gap_145ECE	-
+0x145ED0	0x14836A	9370	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_B28C8	frames9=1041 refs=0x27D0
+0x14836A	0x148370	6	padding	-	fill_00	gap_14836A	-
+0x148370	0x14A932	9666	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_B4D68	frames9=1074 refs=0x2898
+0x14A932	0x14A938	6	padding	-	fill_00	gap_14A932	-
+0x14A938	0x14AE2E	1270	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_B7330	frames9=141 refs=0x29A0
+0x14AE2E	0x14AE30	2	padding	-	fill_00	gap_14AE2E	-
+0x14AE30	0x14B5B6	1926	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_B7828	frames9=214 refs=0x2A68
+0x14B5B6	0x14B5B8	2	padding	-	fill_00	gap_14B5B6	-
+0x14B5B8	0x154354	36252	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_B7FB0	frames9=4028 refs=0x2B50
+0x154354	0x154358	4	padding	-	fill_00	gap_154354	-
+0x154358	0x159D86	23086	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_C0D50	frames9=2565 refs=0x2C18
+0x159D86	0x159D88	2	padding	-	fill_00	gap_159D86	-
+0x159D88	0x161318	30096	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_C6780	frames9=3344 refs=0x2CE0
+0x161318	0x16579E	17542	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_CDD10	frames9=1949 refs=0x2DA8
+0x16579E	0x1657A0	2	padding	-	fill_00	gap_16579E	-
+0x1657A0	0x1750FE	63838	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_D2198	frames9=7093 refs=0x2E70
+0x1750FE	0x175100	2	padding	-	fill_00	gap_1750FE	-
+0x175100	0x1A27EE	186094	payload	audio	libaudio.adpcm_sample	tbl_93608.sample_E1AF8	frames9=20677 refs=0x2F38
+0x1A27EE	0x1A27F0	2	padding	-	fill_00	gap_1A27EE	-
+0x1A27F0	0x1A27F8	8	container	audio	libaudio.ALBankFile	ctl_1A27F0.ALBankFile_0	rev=B1 banks=1 refs=1
+0x1A27F8	0x1A27FE	6	container	audio	libaudio.ALKeyMap	ctl_1A27F0.ALKeyMap_8	vel=0-127 key=3-3 base=3 detune=3 refs=28
+0x1A27FE	0x1A2800	2	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A2800	0x1A2806	6	container	audio	libaudio.ALKeyMap	ctl_1A27F0.ALKeyMap_10	vel=0-127 key=4-4 base=4 detune=4 refs=36
+0x1A2806	0x1A2808	2	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A2808	0x1A280E	6	container	audio	libaudio.ALKeyMap	ctl_1A27F0.ALKeyMap_18	vel=0-127 key=7-7 base=7 detune=7 refs=3
+0x1A280E	0x1A2810	2	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A2810	0x1A2820	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_20	atk=0 dec=100 rel=0 av=127 dv=127 refs=1
+0x1A2820	0x1A2830	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_30	pan=64 vol=127 flags=0 refs=1
+0x1A2830	0x1A2844	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_40	base=0x0 len=0x1C type=adpcm loop=0x0 book=0x58 refs=8
+0x1A2844	0x1A2848	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A2848	0x1A28D0	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_58	order=2 npredictors=4 refs=1
+0x1A28D0	0x1A28D8	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A28D8	0x1A28E8	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_E8	atk=0 dec=100 rel=0 av=127 dv=127 refs=1
+0x1A28E8	0x1A28F8	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_F8	pan=64 vol=127 flags=0 refs=1
+0x1A28F8	0x1A2908	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_108	atk=0 dec=320000 rel=0 av=127 dv=127 refs=1
+0x1A2908	0x1A2918	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_118	pan=64 vol=127 flags=0 refs=1
+0x1A2918	0x1A292C	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_128	base=0x20 len=0xC18 type=adpcm loop=0x0 book=0x140 refs=1
+0x1A292C	0x1A2930	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A2930	0x1A29B8	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_140	order=2 npredictors=4 refs=1
+0x1A29B8	0x1A29C0	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A29C0	0x1A29D0	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_1D0	atk=0 dec=400000 rel=0 av=127 dv=127 refs=1
+0x1A29D0	0x1A29E0	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_1E0	pan=64 vol=127 flags=0 refs=1
+0x1A29E0	0x1A29F4	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_1F0	base=0xC38 len=0x7CE type=adpcm loop=0x0 book=0x208 refs=1
+0x1A29F4	0x1A29F8	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A29F8	0x1A2A80	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_208	order=2 npredictors=4 refs=1
+0x1A2A80	0x1A2A88	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A2A88	0x1A2A98	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_298	atk=0 dec=400000 rel=0 av=127 dv=127 refs=1
+0x1A2A98	0x1A2AA8	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_2A8	pan=64 vol=127 flags=0 refs=1
+0x1A2AA8	0x1A2ABC	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_2B8	base=0x1408 len=0x75A type=adpcm loop=0x0 book=0x2D0 refs=1
+0x1A2ABC	0x1A2AC0	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A2AC0	0x1A2B48	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_2D0	order=2 npredictors=4 refs=1
+0x1A2B48	0x1A2B50	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A2B50	0x1A2B60	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_360	atk=0 dec=320000 rel=0 av=127 dv=127 refs=1
+0x1A2B60	0x1A2B70	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_370	pan=64 vol=127 flags=0 refs=1
+0x1A2B70	0x1A2B84	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_380	base=0x1B68 len=0x7FC type=adpcm loop=0x0 book=0x398 refs=1
+0x1A2B84	0x1A2B88	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A2B88	0x1A2C10	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_398	order=2 npredictors=4 refs=1
+0x1A2C10	0x1A2C18	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A2C18	0x1A2C28	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_428	atk=0 dec=400000 rel=0 av=127 dv=127 refs=1
+0x1A2C28	0x1A2C38	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_438	pan=64 vol=127 flags=0 refs=1
+0x1A2C38	0x1A2C4C	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_448	base=0x2368 len=0xB2E type=adpcm loop=0x0 book=0x460 refs=1
+0x1A2C4C	0x1A2C50	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A2C50	0x1A2CD8	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_460	order=2 npredictors=4 refs=1
+0x1A2CD8	0x1A2CE0	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A2CE0	0x1A2CF0	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_4F0	atk=0 dec=530000 rel=0 av=127 dv=127 refs=1
+0x1A2CF0	0x1A2D00	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_500	pan=64 vol=127 flags=0 refs=1
+0x1A2D00	0x1A2D14	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_510	base=0x2E98 len=0x146E type=adpcm loop=0x0 book=0x528 refs=1
+0x1A2D14	0x1A2D18	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A2D18	0x1A2DA0	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_528	order=2 npredictors=4 refs=1
+0x1A2DA0	0x1A2DA8	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A2DA8	0x1A2DB8	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_5B8	atk=0 dec=160000 rel=0 av=127 dv=127 refs=1
+0x1A2DB8	0x1A2DC8	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_5C8	pan=64 vol=127 flags=0 refs=1
+0x1A2DC8	0x1A2DDC	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_5D8	base=0x4308 len=0x21C type=adpcm loop=0x0 book=0x5F0 refs=1
+0x1A2DDC	0x1A2DE0	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A2DE0	0x1A2E68	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_5F0	order=2 npredictors=4 refs=1
+0x1A2E68	0x1A2E70	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A2E70	0x1A2E80	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_680	atk=0 dec=150000 rel=0 av=127 dv=127 refs=1
+0x1A2E80	0x1A2E90	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_690	pan=64 vol=127 flags=0 refs=1
+0x1A2E90	0x1A2EA4	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_6A0	base=0x4528 len=0x828 type=adpcm loop=0x0 book=0x6B8 refs=1
+0x1A2EA4	0x1A2EA8	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A2EA8	0x1A2F30	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_6B8	order=2 npredictors=4 refs=1
+0x1A2F30	0x1A2F38	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A2F38	0x1A2F48	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_748	atk=0 dec=150000 rel=0 av=127 dv=127 refs=1
+0x1A2F48	0x1A2F58	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_758	pan=64 vol=127 flags=0 refs=1
+0x1A2F58	0x1A2F6C	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_768	base=0x4D50 len=0x5C4 type=adpcm loop=0x0 book=0x780 refs=1
+0x1A2F6C	0x1A2F70	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A2F70	0x1A2FF8	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_780	order=2 npredictors=4 refs=1
+0x1A2FF8	0x1A3000	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A3000	0x1A3010	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_810	atk=0 dec=700000 rel=0 av=127 dv=127 refs=1
+0x1A3010	0x1A3020	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_820	pan=64 vol=127 flags=0 refs=1
+0x1A3020	0x1A3034	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_830	base=0x5318 len=0x1E6A type=adpcm loop=0x0 book=0x848 refs=1
+0x1A3034	0x1A3038	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A3038	0x1A30C0	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_848	order=2 npredictors=4 refs=1
+0x1A30C0	0x1A30C8	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A30C8	0x1A30D8	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_8D8	atk=0 dec=400000 rel=0 av=127 dv=127 refs=1
+0x1A30D8	0x1A30E8	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_8E8	pan=64 vol=127 flags=0 refs=1
+0x1A30E8	0x1A30FC	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_8F8	base=0x7188 len=0x1008 type=adpcm loop=0x0 book=0x910 refs=1
+0x1A30FC	0x1A3100	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A3100	0x1A3188	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_910	order=2 npredictors=4 refs=1
+0x1A3188	0x1A3190	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A3190	0x1A31A0	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_9A0	atk=0 dec=540000 rel=0 av=127 dv=127 refs=1
+0x1A31A0	0x1A31B0	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_9B0	pan=64 vol=127 flags=0 refs=1
+0x1A31B0	0x1A31C4	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_9C0	base=0x8190 len=0x1A8C type=adpcm loop=0x0 book=0x9D8 refs=1
+0x1A31C4	0x1A31C8	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A31C8	0x1A3250	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_9D8	order=2 npredictors=4 refs=1
+0x1A3250	0x1A3258	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A3258	0x1A3268	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_A68	atk=0 dec=480000 rel=0 av=127 dv=127 refs=1
+0x1A3268	0x1A3278	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_A78	pan=64 vol=127 flags=0 refs=1
+0x1A3278	0x1A328C	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_A88	base=0x9C20 len=0x1156 type=adpcm loop=0x0 book=0xAA0 refs=1
+0x1A328C	0x1A3290	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A3290	0x1A3318	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_AA0	order=2 npredictors=4 refs=1
+0x1A3318	0x1A3320	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A3320	0x1A3330	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_B30	atk=0 dec=1200000 rel=0 av=127 dv=127 refs=1
+0x1A3330	0x1A3340	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_B40	pan=64 vol=127 flags=0 refs=1
+0x1A3340	0x1A3354	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_B50	base=0xAD78 len=0x3918 type=adpcm loop=0x0 book=0xB68 refs=1
+0x1A3354	0x1A3358	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A3358	0x1A33E0	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_B68	order=2 npredictors=4 refs=1
+0x1A33E0	0x1A33E8	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A33E8	0x1A33F8	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_BF8	atk=0 dec=1200000 rel=0 av=127 dv=127 refs=1
+0x1A33F8	0x1A3408	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_C08	pan=64 vol=127 flags=0 refs=1
+0x1A3408	0x1A341C	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_C18	base=0xE690 len=0xD0 type=adpcm loop=0x0 book=0xC30 refs=1
+0x1A341C	0x1A3420	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A3420	0x1A34A8	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_C30	order=2 npredictors=4 refs=1
+0x1A34A8	0x1A34B0	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A34B0	0x1A34C0	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_CC0	atk=0 dec=3000000 rel=0 av=127 dv=127 refs=1
+0x1A34C0	0x1A34D0	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_CD0	pan=64 vol=127 flags=0 refs=1
+0x1A34D0	0x1A34E4	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_CE0	base=0xE760 len=0x8550 type=adpcm loop=0x0 book=0xCF8 refs=1
+0x1A34E4	0x1A34E8	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A34E8	0x1A3570	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_CF8	order=2 npredictors=4 refs=1
+0x1A3570	0x1A3578	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A3578	0x1A3588	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_D88	atk=0 dec=2500000 rel=0 av=127 dv=127 refs=1
+0x1A3588	0x1A3598	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_D98	pan=64 vol=127 flags=0 refs=1
+0x1A3598	0x1A35AC	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_DA8	base=0x16CB0 len=0x7500 type=adpcm loop=0x0 book=0xDC0 refs=1
+0x1A35AC	0x1A35B0	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A35B0	0x1A3638	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_DC0	order=2 npredictors=4 refs=1
+0x1A3638	0x1A3640	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A3640	0x1A3650	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_E50	atk=0 dec=2600000 rel=0 av=127 dv=127 refs=1
+0x1A3650	0x1A3660	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_E60	pan=64 vol=127 flags=0 refs=1
+0x1A3660	0x1A3674	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_E70	base=0x1E1B0 len=0x7B30 type=adpcm loop=0x0 book=0xE88 refs=1
+0x1A3674	0x1A3678	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A3678	0x1A3700	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_E88	order=2 npredictors=4 refs=1
+0x1A3700	0x1A3708	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A3708	0x1A3718	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_F18	atk=0 dec=2500000 rel=0 av=127 dv=127 refs=1
+0x1A3718	0x1A3728	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_F28	pan=64 vol=127 flags=0 refs=1
+0x1A3728	0x1A373C	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_F38	base=0x25CE0 len=0x7740 type=adpcm loop=0x0 book=0xF50 refs=1
+0x1A373C	0x1A3740	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A3740	0x1A37C8	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_F50	order=2 npredictors=4 refs=1
+0x1A37C8	0x1A37D0	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A37D0	0x1A37E0	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_FE0	atk=0 dec=1800000 rel=0 av=127 dv=127 refs=1
+0x1A37E0	0x1A37F0	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_FF0	pan=64 vol=127 flags=0 refs=1
+0x1A37F0	0x1A3804	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_1000	base=0x2D420 len=0x52B0 type=adpcm loop=0x0 book=0x1018 refs=1
+0x1A3804	0x1A3808	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A3808	0x1A3890	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_1018	order=2 npredictors=4 refs=1
+0x1A3890	0x1A3898	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A3898	0x1A38A8	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_10A8	atk=0 dec=2000000 rel=0 av=127 dv=127 refs=1
+0x1A38A8	0x1A38B8	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_10B8	pan=64 vol=127 flags=0 refs=1
+0x1A38B8	0x1A38CC	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_10C8	base=0x326D0 len=0x5E6E type=adpcm loop=0x0 book=0x10E0 refs=1
+0x1A38CC	0x1A38D0	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A38D0	0x1A3958	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_10E0	order=2 npredictors=4 refs=1
+0x1A3958	0x1A3960	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A3960	0x1A3970	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_1170	atk=0 dec=2300000 rel=0 av=127 dv=127 refs=1
+0x1A3970	0x1A3980	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_1180	pan=64 vol=127 flags=0 refs=1
+0x1A3980	0x1A3994	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_1190	base=0x38540 len=0x7080 type=adpcm loop=0x0 book=0x11A8 refs=1
+0x1A3994	0x1A3998	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A3998	0x1A3A20	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_11A8	order=2 npredictors=4 refs=1
+0x1A3A20	0x1A3A28	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A3A28	0x1A3A38	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_1238	atk=0 dec=1000000 rel=0 av=127 dv=127 refs=1
+0x1A3A38	0x1A3A48	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_1248	pan=64 vol=127 flags=0 refs=1
+0x1A3A48	0x1A3A5C	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_1258	base=0x3F5C0 len=0x2BAA type=adpcm loop=0x0 book=0x1270 refs=1
+0x1A3A5C	0x1A3A60	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A3A60	0x1A3AE8	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_1270	order=2 npredictors=4 refs=1
+0x1A3AE8	0x1A3AF0	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A3AF0	0x1A3B00	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_1300	atk=0 dec=23000000 rel=0 av=127 dv=127 refs=1
+0x1A3B00	0x1A3B10	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_1310	pan=64 vol=127 flags=0 refs=1
+0x1A3B10	0x1A3B24	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_1320	base=0x42170 len=0x4060C type=adpcm loop=0x0 book=0x1338 refs=1
+0x1A3B24	0x1A3B28	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A3B28	0x1A3BB0	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_1338	order=2 npredictors=4 refs=1
+0x1A3BB0	0x1A3BB8	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A3BB8	0x1A3BC8	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_13C8	atk=0 dec=320000 rel=0 av=127 dv=127 refs=1
+0x1A3BC8	0x1A3BD8	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_13D8	pan=64 vol=127 flags=0 refs=1
+0x1A3BD8	0x1A3BEC	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_13E8	base=0x82780 len=0x1074 type=adpcm loop=0x0 book=0x1400 refs=1
+0x1A3BEC	0x1A3BF0	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A3BF0	0x1A3C78	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_1400	order=2 npredictors=4 refs=1
+0x1A3C78	0x1A3C80	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A3C80	0x1A3C90	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_1490	atk=0 dec=530000 rel=0 av=127 dv=127 refs=1
+0x1A3C90	0x1A3CA0	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_14A0	pan=64 vol=127 flags=0 refs=1
+0x1A3CA0	0x1A3CB4	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_14B0	base=0x837F8 len=0x166E type=adpcm loop=0x0 book=0x14C8 refs=1
+0x1A3CB4	0x1A3CB8	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A3CB8	0x1A3D40	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_14C8	order=2 npredictors=4 refs=1
+0x1A3D40	0x1A3D48	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A3D48	0x1A3D58	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_1558	atk=0 dec=1500000 rel=0 av=127 dv=127 refs=1
+0x1A3D58	0x1A3D68	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_1568	pan=64 vol=127 flags=0 refs=1
+0x1A3D68	0x1A3D7C	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_1578	base=0x84E68 len=0x4B96 type=adpcm loop=0x0 book=0x1590 refs=1
+0x1A3D7C	0x1A3D80	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A3D80	0x1A3E08	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_1590	order=2 npredictors=4 refs=1
+0x1A3E08	0x1A3E10	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A3E10	0x1A3E20	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_1620	atk=0 dec=100 rel=0 av=127 dv=127 refs=1
+0x1A3E20	0x1A3E30	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_1630	pan=64 vol=127 flags=0 refs=1
+0x1A3E30	0x1A3E40	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_1640	atk=0 dec=100 rel=0 av=127 dv=127 refs=1
+0x1A3E40	0x1A3E50	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_1650	pan=64 vol=127 flags=0 refs=1
+0x1A3E50	0x1A3E60	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_1660	atk=0 dec=390000 rel=0 av=127 dv=127 refs=1
+0x1A3E60	0x1A3E70	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_1670	pan=64 vol=127 flags=0 refs=1
+0x1A3E70	0x1A3E84	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_1680	base=0x89A00 len=0x95A type=adpcm loop=0x0 book=0x1698 refs=1
+0x1A3E84	0x1A3E88	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A3E88	0x1A3F10	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_1698	order=2 npredictors=4 refs=1
+0x1A3F10	0x1A3F18	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A3F18	0x1A3F28	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_1728	atk=0 dec=1100000 rel=0 av=127 dv=127 refs=1
+0x1A3F28	0x1A3F38	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_1738	pan=64 vol=127 flags=0 refs=1
+0x1A3F38	0x1A3F4C	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_1748	base=0x8A360 len=0x10E0 type=adpcm loop=0x0 book=0x1760 refs=1
+0x1A3F4C	0x1A3F50	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A3F50	0x1A3FD8	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_1760	order=2 npredictors=4 refs=1
+0x1A3FD8	0x1A3FE0	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A3FE0	0x1A3FF0	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_17F0	atk=0 dec=380000 rel=0 av=127 dv=127 refs=1
+0x1A3FF0	0x1A4000	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_1800	pan=64 vol=127 flags=0 refs=1
+0x1A4000	0x1A4014	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_1810	base=0x8B440 len=0xED6 type=adpcm loop=0x0 book=0x1828 refs=1
+0x1A4014	0x1A4018	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A4018	0x1A40A0	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_1828	order=2 npredictors=4 refs=1
+0x1A40A0	0x1A40A8	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A40A8	0x1A40B8	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_18B8	atk=0 dec=330000 rel=0 av=127 dv=127 refs=1
+0x1A40B8	0x1A40C8	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_18C8	pan=64 vol=127 flags=0 refs=1
+0x1A40C8	0x1A40DC	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_18D8	base=0x8C318 len=0x1098 type=adpcm loop=0x0 book=0x18F0 refs=1
+0x1A40DC	0x1A40E0	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A40E0	0x1A4168	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_18F0	order=2 npredictors=4 refs=1
+0x1A4168	0x1A4170	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A4170	0x1A4180	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_1980	atk=0 dec=1000000 rel=0 av=127 dv=127 refs=1
+0x1A4180	0x1A4190	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_1990	pan=64 vol=127 flags=0 refs=1
+0x1A4190	0x1A41A4	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_19A0	base=0x8D3B0 len=0x2F14 type=adpcm loop=0x0 book=0x19B8 refs=1
+0x1A41A4	0x1A41A8	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A41A8	0x1A4230	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_19B8	order=2 npredictors=4 refs=1
+0x1A4230	0x1A4238	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A4238	0x1A4248	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_1A48	atk=0 dec=300000 rel=0 av=127 dv=127 refs=1
+0x1A4248	0x1A4258	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_1A58	pan=64 vol=127 flags=0 refs=1
+0x1A4258	0x1A426C	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_1A68	base=0x902C8 len=0x6AE type=adpcm loop=0x0 book=0x1A80 refs=1
+0x1A426C	0x1A4270	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A4270	0x1A42F8	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_1A80	order=2 npredictors=4 refs=1
+0x1A42F8	0x1A4300	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A4300	0x1A4310	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_1B10	atk=0 dec=1800000 rel=0 av=127 dv=127 refs=1
+0x1A4310	0x1A4320	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_1B20	pan=64 vol=127 flags=0 refs=1
+0x1A4320	0x1A4334	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_1B30	base=0x90978 len=0x3F36 type=adpcm loop=0x0 book=0x1B48 refs=1
+0x1A4334	0x1A4338	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A4338	0x1A43C0	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_1B48	order=2 npredictors=4 refs=1
+0x1A43C0	0x1A43C8	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A43C8	0x1A43D8	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_1BD8	atk=0 dec=400000 rel=0 av=127 dv=127 refs=1
+0x1A43D8	0x1A43E8	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_1BE8	pan=64 vol=127 flags=0 refs=1
+0x1A43E8	0x1A43FC	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_1BF8	base=0x948B0 len=0x1170 type=adpcm loop=0x0 book=0x1C10 refs=1
+0x1A43FC	0x1A4400	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A4400	0x1A4488	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_1C10	order=2 npredictors=4 refs=1
+0x1A4488	0x1A4490	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A4490	0x1A44A0	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_1CA0	atk=0 dec=300000 rel=0 av=127 dv=127 refs=1
+0x1A44A0	0x1A44B0	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_1CB0	pan=64 vol=127 flags=0 refs=1
+0x1A44B0	0x1A44C4	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_1CC0	base=0x95A20 len=0x71A type=adpcm loop=0x0 book=0x1CD8 refs=1
+0x1A44C4	0x1A44C8	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A44C8	0x1A4550	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_1CD8	order=2 npredictors=4 refs=1
+0x1A4550	0x1A4558	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A4558	0x1A4568	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_1D68	atk=0 dec=400000 rel=0 av=127 dv=127 refs=1
+0x1A4568	0x1A4578	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_1D78	pan=64 vol=127 flags=0 refs=1
+0x1A4578	0x1A458C	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_1D88	base=0x96140 len=0x95A type=adpcm loop=0x0 book=0x1DA0 refs=1
+0x1A458C	0x1A4590	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A4590	0x1A4618	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_1DA0	order=2 npredictors=4 refs=1
+0x1A4618	0x1A4620	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A4620	0x1A4630	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_1E30	atk=0 dec=300000 rel=0 av=127 dv=127 refs=1
+0x1A4630	0x1A4640	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_1E40	pan=64 vol=127 flags=0 refs=1
+0x1A4640	0x1A4654	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_1E50	base=0x96AA0 len=0x786 type=adpcm loop=0x0 book=0x1E68 refs=1
+0x1A4654	0x1A4658	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A4658	0x1A46E0	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_1E68	order=2 npredictors=4 refs=1
+0x1A46E0	0x1A46E8	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A46E8	0x1A46F8	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_1EF8	atk=0 dec=320000 rel=0 av=127 dv=127 refs=1
+0x1A46F8	0x1A4708	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_1F08	pan=64 vol=127 flags=0 refs=1
+0x1A4708	0x1A471C	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_1F18	base=0x97228 len=0xF54 type=adpcm loop=0x0 book=0x1F30 refs=1
+0x1A471C	0x1A4720	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A4720	0x1A47A8	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_1F30	order=2 npredictors=4 refs=1
+0x1A47A8	0x1A47B0	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A47B0	0x1A47C0	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_1FC0	atk=0 dec=480000 rel=0 av=127 dv=127 refs=1
+0x1A47C0	0x1A47D0	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_1FD0	pan=64 vol=127 flags=0 refs=1
+0x1A47D0	0x1A47E4	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_1FE0	base=0x98180 len=0x141C type=adpcm loop=0x0 book=0x1FF8 refs=1
+0x1A47E4	0x1A47E8	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A47E8	0x1A4870	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_1FF8	order=2 npredictors=4 refs=1
+0x1A4870	0x1A4878	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A4878	0x1A4888	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_2088	atk=0 dec=100 rel=0 av=127 dv=127 refs=1
+0x1A4888	0x1A4898	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_2098	pan=64 vol=127 flags=0 refs=1
+0x1A4898	0x1A48A8	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_20A8	atk=0 dec=300000 rel=0 av=127 dv=127 refs=1
+0x1A48A8	0x1A48B8	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_20B8	pan=64 vol=127 flags=0 refs=1
+0x1A48B8	0x1A48CC	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_20C8	base=0x995A0 len=0x7C6 type=adpcm loop=0x0 book=0x20E0 refs=1
+0x1A48CC	0x1A48D0	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A48D0	0x1A4958	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_20E0	order=2 npredictors=4 refs=1
+0x1A4958	0x1A4960	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A4960	0x1A4970	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_2170	atk=0 dec=300000 rel=0 av=127 dv=127 refs=1
+0x1A4970	0x1A4980	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_2180	pan=64 vol=127 flags=0 refs=1
+0x1A4980	0x1A4994	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_2190	base=0x99D68 len=0x712 type=adpcm loop=0x0 book=0x21A8 refs=1
+0x1A4994	0x1A4998	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A4998	0x1A4A20	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_21A8	order=2 npredictors=4 refs=1
+0x1A4A20	0x1A4A28	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A4A28	0x1A4A38	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_2238	atk=0 dec=400000 rel=0 av=127 dv=127 refs=1
+0x1A4A38	0x1A4A48	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_2248	pan=64 vol=127 flags=0 refs=1
+0x1A4A48	0x1A4A5C	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_2258	base=0x9A480 len=0x6A6 type=adpcm loop=0x0 book=0x2270 refs=1
+0x1A4A5C	0x1A4A60	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A4A60	0x1A4AE8	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_2270	order=2 npredictors=4 refs=1
+0x1A4AE8	0x1A4AF0	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A4AF0	0x1A4B00	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_2300	atk=0 dec=400000 rel=0 av=127 dv=127 refs=1
+0x1A4B00	0x1A4B10	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_2310	pan=64 vol=127 flags=0 refs=1
+0x1A4B10	0x1A4B24	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_2320	base=0x9AB28 len=0x912 type=adpcm loop=0x0 book=0x2338 refs=1
+0x1A4B24	0x1A4B28	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A4B28	0x1A4BB0	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_2338	order=2 npredictors=4 refs=1
+0x1A4BB0	0x1A4BB8	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A4BB8	0x1A4BC8	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_23C8	atk=0 dec=400000 rel=0 av=127 dv=127 refs=1
+0x1A4BC8	0x1A4BD8	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_23D8	pan=64 vol=127 flags=0 refs=1
+0x1A4BD8	0x1A4BEC	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_23E8	base=0x9B440 len=0x6E4 type=adpcm loop=0x0 book=0x2400 refs=1
+0x1A4BEC	0x1A4BF0	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A4BF0	0x1A4C78	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_2400	order=2 npredictors=4 refs=1
+0x1A4C78	0x1A4C80	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A4C80	0x1A4C90	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_2490	atk=0 dec=400000 rel=0 av=127 dv=127 refs=1
+0x1A4C90	0x1A4CA0	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_24A0	pan=64 vol=127 flags=0 refs=1
+0x1A4CA0	0x1A4CB4	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_24B0	base=0x9BB28 len=0x95A type=adpcm loop=0x0 book=0x24C8 refs=1
+0x1A4CB4	0x1A4CB8	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A4CB8	0x1A4D40	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_24C8	order=2 npredictors=4 refs=1
+0x1A4D40	0x1A4D48	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A4D48	0x1A4D58	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_2558	atk=0 dec=1300000 rel=0 av=127 dv=127 refs=1
+0x1A4D58	0x1A4D68	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_2568	pan=64 vol=127 flags=0 refs=1
+0x1A4D68	0x1A4D7C	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_2578	base=0x9C488 len=0x3A02 type=adpcm loop=0x0 book=0x2590 refs=1
+0x1A4D7C	0x1A4D80	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A4D80	0x1A4E08	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_2590	order=2 npredictors=4 refs=1
+0x1A4E08	0x1A4E10	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A4E10	0x1A4E20	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_2620	atk=0 dec=2400000 rel=0 av=127 dv=127 refs=1
+0x1A4E20	0x1A4E30	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_2630	pan=64 vol=127 flags=0 refs=1
+0x1A4E30	0x1A4E44	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_2640	base=0x9FE90 len=0x7254 type=adpcm loop=0x0 book=0x2658 refs=1
+0x1A4E44	0x1A4E48	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A4E48	0x1A4ED0	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_2658	order=2 npredictors=4 refs=1
+0x1A4ED0	0x1A4ED8	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A4ED8	0x1A4EE8	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_26E8	atk=0 dec=4000000 rel=0 av=127 dv=127 refs=1
+0x1A4EE8	0x1A4EF8	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_26F8	pan=64 vol=127 flags=0 refs=1
+0x1A4EF8	0x1A4F0C	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_2708	base=0xA70E8 len=0xB7DE type=adpcm loop=0x0 book=0x2720 refs=1
+0x1A4F0C	0x1A4F10	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A4F10	0x1A4F98	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_2720	order=2 npredictors=4 refs=1
+0x1A4F98	0x1A4FA0	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A4FA0	0x1A4FB0	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_27B0	atk=0 dec=880000 rel=0 av=127 dv=127 refs=1
+0x1A4FB0	0x1A4FC0	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_27C0	pan=64 vol=127 flags=0 refs=1
+0x1A4FC0	0x1A4FD4	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_27D0	base=0xB28C8 len=0x249A type=adpcm loop=0x0 book=0x27E8 refs=1
+0x1A4FD4	0x1A4FD8	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A4FD8	0x1A5060	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_27E8	order=2 npredictors=4 refs=1
+0x1A5060	0x1A5068	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A5068	0x1A5078	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_2878	atk=0 dec=770000 rel=0 av=127 dv=127 refs=1
+0x1A5078	0x1A5088	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_2888	pan=64 vol=127 flags=0 refs=1
+0x1A5088	0x1A509C	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_2898	base=0xB4D68 len=0x25C2 type=adpcm loop=0x0 book=0x28B0 refs=1
+0x1A509C	0x1A50A0	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A50A0	0x1A5128	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_28B0	order=2 npredictors=4 refs=1
+0x1A5128	0x1A5130	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A5130	0x1A5140	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_2940	atk=0 dec=100 rel=0 av=127 dv=127 refs=1
+0x1A5140	0x1A5150	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_2950	pan=64 vol=127 flags=0 refs=1
+0x1A5150	0x1A5160	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_2960	atk=0 dec=100 rel=0 av=127 dv=127 refs=1
+0x1A5160	0x1A5170	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_2970	pan=64 vol=127 flags=0 refs=1
+0x1A5170	0x1A5180	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_2980	atk=0 dec=400000 rel=0 av=127 dv=127 refs=1
+0x1A5180	0x1A5190	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_2990	pan=64 vol=127 flags=0 refs=1
+0x1A5190	0x1A51A4	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_29A0	base=0xB7330 len=0x4F6 type=adpcm loop=0x0 book=0x29B8 refs=1
+0x1A51A4	0x1A51A8	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A51A8	0x1A5230	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_29B8	order=2 npredictors=4 refs=1
+0x1A5230	0x1A5238	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A5238	0x1A5248	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_2A48	atk=0 dec=400000 rel=0 av=127 dv=127 refs=1
+0x1A5248	0x1A5258	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_2A58	pan=64 vol=127 flags=0 refs=1
+0x1A5258	0x1A526C	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_2A68	base=0xB7828 len=0x786 type=adpcm loop=0x0 book=0x2A80 refs=1
+0x1A526C	0x1A5270	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A5270	0x1A52F8	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_2A80	order=2 npredictors=4 refs=1
+0x1A52F8	0x1A5300	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A5300	0x1A5310	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_2B10	atk=0 dec=100 rel=0 av=127 dv=127 refs=1
+0x1A5310	0x1A5320	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_2B20	pan=64 vol=127 flags=0 refs=1
+0x1A5320	0x1A5330	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_2B30	atk=0 dec=13400000 rel=0 av=127 dv=127 refs=1
+0x1A5330	0x1A5340	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_2B40	pan=64 vol=127 flags=0 refs=1
+0x1A5340	0x1A5354	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_2B50	base=0xB7FB0 len=0x8D9C type=adpcm loop=0x0 book=0x2B68 refs=1
+0x1A5354	0x1A5358	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A5358	0x1A53E0	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_2B68	order=2 npredictors=4 refs=1
+0x1A53E0	0x1A53E8	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A53E8	0x1A53F8	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_2BF8	atk=0 dec=2200000 rel=0 av=127 dv=127 refs=1
+0x1A53F8	0x1A5408	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_2C08	pan=64 vol=127 flags=0 refs=1
+0x1A5408	0x1A541C	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_2C18	base=0xC0D50 len=0x5A2E type=adpcm loop=0x0 book=0x2C30 refs=1
+0x1A541C	0x1A5420	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A5420	0x1A54A8	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_2C30	order=2 npredictors=4 refs=1
+0x1A54A8	0x1A54B0	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A54B0	0x1A54C0	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_2CC0	atk=0 dec=3000000 rel=0 av=127 dv=127 refs=1
+0x1A54C0	0x1A54D0	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_2CD0	pan=64 vol=127 flags=0 refs=1
+0x1A54D0	0x1A54E4	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_2CE0	base=0xC6780 len=0x7590 type=adpcm loop=0x0 book=0x2CF8 refs=1
+0x1A54E4	0x1A54E8	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A54E8	0x1A5570	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_2CF8	order=2 npredictors=4 refs=1
+0x1A5570	0x1A5578	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A5578	0x1A5588	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_2D88	atk=0 dec=1400000 rel=0 av=127 dv=127 refs=1
+0x1A5588	0x1A5598	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_2D98	pan=64 vol=127 flags=0 refs=1
+0x1A5598	0x1A55AC	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_2DA8	base=0xCDD10 len=0x4486 type=adpcm loop=0x0 book=0x2DC0 refs=1
+0x1A55AC	0x1A55B0	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A55B0	0x1A5638	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_2DC0	order=2 npredictors=4 refs=1
+0x1A5638	0x1A5640	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A5640	0x1A5650	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_2E50	atk=0 dec=5100000 rel=0 av=127 dv=127 refs=1
+0x1A5650	0x1A5660	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_2E60	pan=64 vol=127 flags=0 refs=1
+0x1A5660	0x1A5674	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_2E70	base=0xD2198 len=0xF95E type=adpcm loop=0x0 book=0x2E88 refs=1
+0x1A5674	0x1A5678	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A5678	0x1A5700	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_2E88	order=2 npredictors=4 refs=1
+0x1A5700	0x1A5708	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A5708	0x1A5718	16	container	audio	libaudio.ALEnvelope	ctl_1A27F0.ALEnvelope_2F18	atk=0 dec=-1 rel=0 av=127 dv=127 refs=1
+0x1A5718	0x1A5728	16	container	audio	libaudio.ALSound	ctl_1A27F0.ALSound_2F28	pan=64 vol=127 flags=0 refs=1
+0x1A5728	0x1A573C	20	container	audio	libaudio.ALWaveTable	ctl_1A27F0.ALWaveTable_2F38	base=0xE1AF8 len=0x2D6EE type=adpcm loop=0x2F50 book=0x2F80 refs=1
+0x1A573C	0x1A5740	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A5740	0x1A576C	44	container	audio	libaudio.ALADPCMloop	ctl_1A27F0.ALADPCMloop_2F50	start=0 end=330817 count=-1 refs=1
+0x1A576C	0x1A5770	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A5770	0x1A57F8	136	container	audio	libaudio.ALADPCMBook	ctl_1A27F0.ALADPCMBook_2F80	order=2 npredictors=4 refs=1
+0x1A57F8	0x1A5800	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A5800	0x1A591C	284	container	audio	libaudio.ALInstrument	ctl_1A27F0.ALInstrument_3010	vol=127 pan=64 prio=5 sounds=67 refs=1
+0x1A591C	0x1A5920	4	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A5920	0x1A5930	16	container	audio	libaudio.ALBank	ctl_1A27F0.ALBank_3130	bank=0 insts=1 rate=22050 perc=0x0 refs=1
+0x1A5930	0x1A5938	8	referenced	loader_range	pi	rom_1A27F0	records 0x8004E1C4 in 0x80005854
+0x1A5938	0x1A593C	4	padding	-	fill_00	gap_1A5938	-
+0x1A593C	0x219AED	475569	referenced	loader_range	pi	rom_1A593C	call 0x800304E0 in 0x80030410
+0x219AED	0x22E2A2	83893	referenced	loader_range	pi	rom_219AED	size 0x80030448 in 0x80030410
+0x22E2A2	0x2301AC	7946	referenced	loader_range	pi	rom_22E2A2	size 0x80030638 in 0x80030410
+0x2301AC	0x2361B0	24580	unknown	-	-	gap_2301AC	-
+0x2361B0	0x2421B0	49152	referenced	loader_range	pi	rom_2361B0	records 0x8004DF0C in 0x800042B4
+0x2421B0	0x2481B0	24576	unknown	-	-	gap_2421B0	-
+0x2481B0	0x24E1B0	24576	referenced	loader_range	pi	rom_2481B0	records 0x8004DF00 in 0x800042B4
+0x24E1B0	0x2C9BA0	506352	unknown	-	-	gap_24E1B0	-
+0x2C9BA0	0x2CA860	3264	payload	graphics	dl_blob	gfx_2C9BA0	f3d self-relative blob in pool 0x2C9BA0: 408 commands, 124 vertex loads, 3 textures
+0x2CA860	0x2CAC20	960	payload	graphics	dl_blob	gfx_2CA860	f3d self-relative blob in pool 0x2C9BA0: 120 commands, 6 vertex loads, 6 textures
+0x2CAC20	0x2CAFE0	960	payload	graphics	dl_blob	gfx_2CAC20	f3d self-relative blob in pool 0x2C9BA0: 120 commands, 6 vertex loads, 6 textures
+0x2CAFE0	0x2CB3A0	960	payload	graphics	dl_blob	gfx_2CAFE0	f3d self-relative blob in pool 0x2C9BA0: 120 commands, 6 vertex loads, 6 textures
+0x2CB3A0	0x2CB3B0	16	payload	graphics	dl_blob	gfx_2CB3A0	f3d self-relative blob in pool 0x2C9BA0: 2 commands, 0 vertex loads, 0 textures
+0x2CB3B0	0x2CB3C0	16	payload	graphics	dl_blob	gfx_2CB3B0	f3d self-relative blob in pool 0x2C9BA0: 2 commands, 0 vertex loads, 0 textures
+0x2CB3C0	0x2CB780	960	payload	graphics	dl_blob	gfx_2CB3C0	f3d self-relative blob in pool 0x2C9BA0: 120 commands, 6 vertex loads, 6 textures
+0x2CB780	0x2CBB40	960	payload	graphics	dl_blob	gfx_2CB780	f3d self-relative blob in pool 0x2C9BA0: 120 commands, 6 vertex loads, 6 textures
+0x2CBB40	0x2CBF00	960	payload	graphics	dl_blob	gfx_2CBB40	f3d self-relative blob in pool 0x2C9BA0: 120 commands, 6 vertex loads, 6 textures
+0x2CBF00	0x2CBF10	16	payload	graphics	dl_blob	gfx_2CBF00	f3d self-relative blob in pool 0x2C9BA0: 2 commands, 0 vertex loads, 0 textures
+0x2CBF10	0x2CBF20	16	payload	graphics	dl_blob	gfx_2CBF10	f3d self-relative blob in pool 0x2C9BA0: 2 commands, 0 vertex loads, 0 textures
+0x2CBF20	0x2CC2E0	960	payload	graphics	dl_blob	gfx_2CBF20	f3d self-relative blob in pool 0x2C9BA0: 120 commands, 6 vertex loads, 6 textures
+0x2CC2E0	0x2CC6A0	960	payload	graphics	dl_blob	gfx_2CC2E0	f3d self-relative blob in pool 0x2C9BA0: 120 commands, 6 vertex loads, 6 textures
+0x2CC6A0	0x2CCA60	960	payload	graphics	dl_blob	gfx_2CC6A0	f3d self-relative blob in pool 0x2C9BA0: 120 commands, 6 vertex loads, 6 textures
+0x2CCA60	0x2CCA70	16	payload	graphics	dl_blob	gfx_2CCA60	f3d self-relative blob in pool 0x2C9BA0: 2 commands, 0 vertex loads, 0 textures
+0x2CCA70	0x2CCA80	16	payload	graphics	dl_blob	gfx_2CCA70	f3d self-relative blob in pool 0x2C9BA0: 2 commands, 0 vertex loads, 0 textures
+0x2CCA80	0x2CCE40	960	payload	graphics	dl_blob	gfx_2CCA80	f3d self-relative blob in pool 0x2C9BA0: 120 commands, 6 vertex loads, 6 textures
+0x2CCE40	0x2CD200	960	payload	graphics	dl_blob	gfx_2CCE40	f3d self-relative blob in pool 0x2C9BA0: 120 commands, 6 vertex loads, 6 textures
+0x2CD200	0x2CD5C0	960	payload	graphics	dl_blob	gfx_2CD200	f3d self-relative blob in pool 0x2C9BA0: 120 commands, 6 vertex loads, 6 textures
+0x2CD5C0	0x2CD5D0	16	payload	graphics	dl_blob	gfx_2CD5C0	f3d self-relative blob in pool 0x2C9BA0: 2 commands, 0 vertex loads, 0 textures
+0x2CD5D0	0x2CD5E0	16	payload	graphics	dl_blob	gfx_2CD5D0	f3d self-relative blob in pool 0x2C9BA0: 2 commands, 0 vertex loads, 0 textures
+0x2CD5E0	0x2CD9A0	960	payload	graphics	dl_blob	gfx_2CD5E0	f3d self-relative blob in pool 0x2C9BA0: 120 commands, 6 vertex loads, 6 textures
+0x2CD9A0	0x2CDD60	960	payload	graphics	dl_blob	gfx_2CD9A0	f3d self-relative blob in pool 0x2C9BA0: 120 commands, 6 vertex loads, 6 textures
+0x2CDD60	0x2CE120	960	payload	graphics	dl_blob	gfx_2CDD60	f3d self-relative blob in pool 0x2C9BA0: 120 commands, 6 vertex loads, 6 textures
+0x2CE120	0x2CE130	16	payload	graphics	dl_blob	gfx_2CE120	f3d self-relative blob in pool 0x2C9BA0: 2 commands, 0 vertex loads, 0 textures
+0x2CE130	0x2CE140	16	payload	graphics	dl_blob	gfx_2CE130	f3d self-relative blob in pool 0x2C9BA0: 2 commands, 0 vertex loads, 0 textures
+0x2CE140	0x2CE500	960	payload	graphics	dl_blob	gfx_2CE140	f3d self-relative blob in pool 0x2C9BA0: 120 commands, 6 vertex loads, 6 textures
+0x2CE500	0x2CE8C0	960	payload	graphics	dl_blob	gfx_2CE500	f3d self-relative blob in pool 0x2C9BA0: 120 commands, 6 vertex loads, 6 textures
+0x2CE8C0	0x2CEC80	960	payload	graphics	dl_blob	gfx_2CE8C0	f3d self-relative blob in pool 0x2C9BA0: 120 commands, 6 vertex loads, 6 textures
+0x2CEC80	0x2CEC90	16	payload	graphics	dl_blob	gfx_2CEC80	f3d self-relative blob in pool 0x2C9BA0: 2 commands, 0 vertex loads, 0 textures
+0x2CEC90	0x2CECA0	16	payload	graphics	dl_blob	gfx_2CEC90	f3d self-relative blob in pool 0x2C9BA0: 2 commands, 0 vertex loads, 0 textures
+0x2CECA0	0x2CECD8	56	payload	graphics	dl_blob	gfx_2CECA0	f3d self-relative blob in pool 0x2C9BA0: 7 commands, 0 vertex loads, 0 textures
+0x2CECD8	0x2CECE8	16	payload	graphics	dl_blob	gfx_2CECD8	f3d self-relative blob in pool 0x2C9BA0: 2 commands, 0 vertex loads, 0 textures
+0x2CECE8	0x2CECF8	16	payload	graphics	dl_blob	gfx_2CECE8	f3d self-relative blob in pool 0x2C9BA0: 2 commands, 0 vertex loads, 0 textures
+0x2CECF8	0x2CED00	8	unknown	-	-	gap_2CECF8	-
+0x2CED00	0x2CED20	32	payload	graphics	dl_blob	gfx_2CED00	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CED20	0x2CED40	32	payload	graphics	dl_blob	gfx_2CED20	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CED40	0x2CED60	32	payload	graphics	dl_blob	gfx_2CED40	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CED60	0x2CED80	32	payload	graphics	dl_blob	gfx_2CED60	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CED80	0x2CEDA0	32	payload	graphics	dl_blob	gfx_2CED80	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CEDA0	0x2CEDC0	32	payload	graphics	dl_blob	gfx_2CEDA0	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CEDC0	0x2CEDE0	32	payload	graphics	dl_blob	gfx_2CEDC0	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CEDE0	0x2CEE00	32	payload	graphics	dl_blob	gfx_2CEDE0	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CEE00	0x2CEE20	32	payload	graphics	dl_blob	gfx_2CEE00	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CEE20	0x2CEE40	32	payload	graphics	dl_blob	gfx_2CEE20	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CEE40	0x2CEE60	32	payload	graphics	dl_blob	gfx_2CEE40	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CEE60	0x2CEE80	32	payload	graphics	dl_blob	gfx_2CEE60	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CEE80	0x2CEEA0	32	payload	graphics	dl_blob	gfx_2CEE80	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CEEA0	0x2CEEC0	32	payload	graphics	dl_blob	gfx_2CEEA0	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CEEC0	0x2CEEE0	32	payload	graphics	dl_blob	gfx_2CEEC0	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CEEE0	0x2CEF00	32	payload	graphics	dl_blob	gfx_2CEEE0	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CEF00	0x2CEF20	32	payload	graphics	dl_blob	gfx_2CEF00	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CEF20	0x2CEF40	32	payload	graphics	dl_blob	gfx_2CEF20	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CEF40	0x2CEF60	32	payload	graphics	dl_blob	gfx_2CEF40	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CEF60	0x2CEF80	32	payload	graphics	dl_blob	gfx_2CEF60	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CEF80	0x2CEFA0	32	payload	graphics	dl_blob	gfx_2CEF80	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CEFA0	0x2CEFC0	32	payload	graphics	dl_blob	gfx_2CEFA0	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CEFC0	0x2CEFE0	32	payload	graphics	dl_blob	gfx_2CEFC0	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CEFE0	0x2CF000	32	payload	graphics	dl_blob	gfx_2CEFE0	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CF000	0x2CF020	32	payload	graphics	dl_blob	gfx_2CF000	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CF020	0x2CF040	32	payload	graphics	dl_blob	gfx_2CF020	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CF040	0x2CF060	32	payload	graphics	dl_blob	gfx_2CF040	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CF060	0x2CF080	32	payload	graphics	dl_blob	gfx_2CF060	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CF080	0x2CF0A0	32	payload	graphics	dl_blob	gfx_2CF080	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CF0A0	0x2CF0C0	32	payload	graphics	dl_blob	gfx_2CF0A0	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CF0C0	0x2CF0E0	32	payload	graphics	dl_blob	gfx_2CF0C0	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CF0E0	0x2CF100	32	payload	graphics	dl_blob	gfx_2CF0E0	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CF100	0x2CF120	32	payload	graphics	dl_blob	gfx_2CF100	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CF120	0x2CF140	32	payload	graphics	dl_blob	gfx_2CF120	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CF140	0x2CF160	32	payload	graphics	dl_blob	gfx_2CF140	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CF160	0x2CF180	32	payload	graphics	dl_blob	gfx_2CF160	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CF180	0x2CF1A0	32	payload	graphics	dl_blob	gfx_2CF180	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CF1A0	0x2CF1C0	32	payload	graphics	dl_blob	gfx_2CF1A0	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CF1C0	0x2CF1E0	32	payload	graphics	dl_blob	gfx_2CF1C0	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CF1E0	0x2CF200	32	payload	graphics	dl_blob	gfx_2CF1E0	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CF200	0x2CF220	32	payload	graphics	dl_blob	gfx_2CF200	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CF220	0x2CF240	32	payload	graphics	dl_blob	gfx_2CF220	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CF240	0x2CF260	32	payload	graphics	dl_blob	gfx_2CF240	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CF260	0x2CF280	32	payload	graphics	dl_blob	gfx_2CF260	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CF280	0x2CF2A0	32	payload	graphics	dl_blob	gfx_2CF280	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CF2A0	0x2CF2C0	32	payload	graphics	dl_blob	gfx_2CF2A0	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CF2C0	0x2CF2E0	32	payload	graphics	dl_blob	gfx_2CF2C0	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CF2E0	0x2CF300	32	payload	graphics	dl_blob	gfx_2CF2E0	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CF300	0x2CF320	32	payload	graphics	dl_blob	gfx_2CF300	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CF320	0x2CF340	32	payload	graphics	dl_blob	gfx_2CF320	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CF340	0x2CF360	32	payload	graphics	dl_blob	gfx_2CF340	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CF360	0x2CF380	32	payload	graphics	dl_blob	gfx_2CF360	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CF380	0x2CF3A0	32	payload	graphics	dl_blob	gfx_2CF380	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CF3A0	0x2CF3C0	32	payload	graphics	dl_blob	gfx_2CF3A0	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CF3C0	0x2CF3F8	56	payload	graphics	dl_blob	gfx_2CF3C0	f3d self-relative blob in pool 0x2CED00: 7 commands, 2 vertex loads, 0 textures
+0x2CF3F8	0x2CF418	32	payload	graphics	dl_blob	gfx_2CF3F8	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CF418	0x2CF438	32	payload	graphics	dl_blob	gfx_2CF418	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CF438	0x2CF458	32	payload	graphics	dl_blob	gfx_2CF438	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CF458	0x2CF478	32	payload	graphics	dl_blob	gfx_2CF458	f3d self-relative blob in pool 0x2CED00: 4 commands, 1 vertex loads, 0 textures
+0x2CF478	0x2CF488	16	unknown	-	-	gap_2CF478	-
+0x2CF488	0x2CF490	8	payload	graphics	dl_blob	gfx_2CF488	f3d self-relative blob in pool 0x2CF488: 1 commands, 0 vertex loads, 0 textures
+0x2CF490	0x2CF4B0	32	payload	graphics	dl_blob	gfx_2CF490	f3d self-relative blob in pool 0x2CF488: 4 commands, 1 vertex loads, 0 textures
+0x2CF4B0	0x2CF4D0	32	payload	graphics	dl_blob	gfx_2CF4B0	f3d self-relative blob in pool 0x2CF488: 4 commands, 1 vertex loads, 0 textures
+0x2CF4D0	0x2CF4F0	32	payload	graphics	dl_blob	gfx_2CF4D0	f3d self-relative blob in pool 0x2CF488: 4 commands, 1 vertex loads, 0 textures
+0x2CF4F0	0x2CF510	32	payload	graphics	dl_blob	gfx_2CF4F0	f3d self-relative blob in pool 0x2CF488: 4 commands, 1 vertex loads, 0 textures
+0x2CF510	0x2CF530	32	payload	graphics	dl_blob	gfx_2CF510	f3d self-relative blob in pool 0x2CF488: 4 commands, 1 vertex loads, 0 textures
+0x2CF530	0x2D1840	8976	unknown	-	-	gap_2CF530	-
+0x2D1840	0x2D19D0	400	payload	graphics	dl_blob	gfx_2D1840	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D19D0	0x2D1B60	400	payload	graphics	dl_blob	gfx_2D19D0	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D1B60	0x2D1CF0	400	payload	graphics	dl_blob	gfx_2D1B60	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D1CF0	0x2D1E80	400	payload	graphics	dl_blob	gfx_2D1CF0	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D1E80	0x2D2010	400	payload	graphics	dl_blob	gfx_2D1E80	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D2010	0x2D21A0	400	payload	graphics	dl_blob	gfx_2D2010	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D21A0	0x2D2330	400	payload	graphics	dl_blob	gfx_2D21A0	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D2330	0x2D24C0	400	payload	graphics	dl_blob	gfx_2D2330	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D24C0	0x2D2650	400	payload	graphics	dl_blob	gfx_2D24C0	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D2650	0x2D27E0	400	payload	graphics	dl_blob	gfx_2D2650	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D27E0	0x2D2970	400	payload	graphics	dl_blob	gfx_2D27E0	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D2970	0x2D2B00	400	payload	graphics	dl_blob	gfx_2D2970	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D2B00	0x2D2C90	400	payload	graphics	dl_blob	gfx_2D2B00	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D2C90	0x2D2E20	400	payload	graphics	dl_blob	gfx_2D2C90	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D2E20	0x2D2FB0	400	payload	graphics	dl_blob	gfx_2D2E20	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D2FB0	0x2D3140	400	payload	graphics	dl_blob	gfx_2D2FB0	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D3140	0x2D32D0	400	payload	graphics	dl_blob	gfx_2D3140	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D32D0	0x2D3460	400	payload	graphics	dl_blob	gfx_2D32D0	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D3460	0x2D35F0	400	payload	graphics	dl_blob	gfx_2D3460	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D35F0	0x2D3780	400	payload	graphics	dl_blob	gfx_2D35F0	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D3780	0x2D3910	400	payload	graphics	dl_blob	gfx_2D3780	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D3910	0x2D3AA0	400	payload	graphics	dl_blob	gfx_2D3910	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D3AA0	0x2D3C30	400	payload	graphics	dl_blob	gfx_2D3AA0	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D3C30	0x2D3DC0	400	payload	graphics	dl_blob	gfx_2D3C30	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D3DC0	0x2D3F50	400	payload	graphics	dl_blob	gfx_2D3DC0	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D3F50	0x2D40E0	400	payload	graphics	dl_blob	gfx_2D3F50	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D40E0	0x2D4270	400	payload	graphics	dl_blob	gfx_2D40E0	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D4270	0x2D4400	400	payload	graphics	dl_blob	gfx_2D4270	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D4400	0x2D4590	400	payload	graphics	dl_blob	gfx_2D4400	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D4590	0x2D4720	400	payload	graphics	dl_blob	gfx_2D4590	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D4720	0x2D48B0	400	payload	graphics	dl_blob	gfx_2D4720	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D48B0	0x2D4A40	400	payload	graphics	dl_blob	gfx_2D48B0	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D4A40	0x2D4BD0	400	payload	graphics	dl_blob	gfx_2D4A40	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D4BD0	0x2D4D60	400	payload	graphics	dl_blob	gfx_2D4BD0	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D4D60	0x2D4EF0	400	payload	graphics	dl_blob	gfx_2D4D60	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D4EF0	0x2D5080	400	payload	graphics	dl_blob	gfx_2D4EF0	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D5080	0x2D5210	400	payload	graphics	dl_blob	gfx_2D5080	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D5210	0x2D53A0	400	payload	graphics	dl_blob	gfx_2D5210	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D53A0	0x2D5530	400	payload	graphics	dl_blob	gfx_2D53A0	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D5530	0x2D56C0	400	payload	graphics	dl_blob	gfx_2D5530	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D56C0	0x2D5850	400	payload	graphics	dl_blob	gfx_2D56C0	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D5850	0x2D59E0	400	payload	graphics	dl_blob	gfx_2D5850	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D59E0	0x2D5B70	400	payload	graphics	dl_blob	gfx_2D59E0	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D5B70	0x2D5D00	400	payload	graphics	dl_blob	gfx_2D5B70	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D5D00	0x2D5E90	400	payload	graphics	dl_blob	gfx_2D5D00	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D5E90	0x2D6020	400	payload	graphics	dl_blob	gfx_2D5E90	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D6020	0x2D61B0	400	payload	graphics	dl_blob	gfx_2D6020	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D61B0	0x2D6340	400	payload	graphics	dl_blob	gfx_2D61B0	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D6340	0x2D64D0	400	payload	graphics	dl_blob	gfx_2D6340	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D64D0	0x2D6508	56	payload	graphics	dl_blob	gfx_2D64D0	f3d self-relative blob in pool 0x2D1840: 7 commands, 0 vertex loads, 0 textures
+0x2D6508	0x2D6698	400	payload	graphics	dl_blob	gfx_2D6508	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D6698	0x2D6828	400	payload	graphics	dl_blob	gfx_2D6698	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D6828	0x2D69B8	400	payload	graphics	dl_blob	gfx_2D6828	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D69B8	0x2D6B48	400	payload	graphics	dl_blob	gfx_2D69B8	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D6B48	0x2D6CD8	400	payload	graphics	dl_blob	gfx_2D6B48	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D6CD8	0x2D6E68	400	payload	graphics	dl_blob	gfx_2D6CD8	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D6E68	0x2D6EA0	56	payload	graphics	dl_blob	gfx_2D6E68	f3d self-relative blob in pool 0x2D1840: 7 commands, 0 vertex loads, 0 textures
+0x2D6EA0	0x2D7030	400	payload	graphics	dl_blob	gfx_2D6EA0	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D7030	0x2D71C0	400	payload	graphics	dl_blob	gfx_2D7030	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D71C0	0x2D7350	400	payload	graphics	dl_blob	gfx_2D71C0	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D7350	0x2D74E0	400	payload	graphics	dl_blob	gfx_2D7350	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D74E0	0x2D7670	400	payload	graphics	dl_blob	gfx_2D74E0	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D7670	0x2D7800	400	payload	graphics	dl_blob	gfx_2D7670	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D7800	0x2D7838	56	payload	graphics	dl_blob	gfx_2D7800	f3d self-relative blob in pool 0x2D1840: 7 commands, 0 vertex loads, 0 textures
+0x2D7838	0x2D79C8	400	payload	graphics	dl_blob	gfx_2D7838	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D79C8	0x2D7B58	400	payload	graphics	dl_blob	gfx_2D79C8	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D7B58	0x2D7CE8	400	payload	graphics	dl_blob	gfx_2D7B58	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D7CE8	0x2D7E78	400	payload	graphics	dl_blob	gfx_2D7CE8	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D7E78	0x2D8008	400	payload	graphics	dl_blob	gfx_2D7E78	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D8008	0x2D8198	400	payload	graphics	dl_blob	gfx_2D8008	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D8198	0x2D81D0	56	payload	graphics	dl_blob	gfx_2D8198	f3d self-relative blob in pool 0x2D1840: 7 commands, 0 vertex loads, 0 textures
+0x2D81D0	0x2D8360	400	payload	graphics	dl_blob	gfx_2D81D0	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D8360	0x2D84F0	400	payload	graphics	dl_blob	gfx_2D8360	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D84F0	0x2D8680	400	payload	graphics	dl_blob	gfx_2D84F0	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D8680	0x2D8810	400	payload	graphics	dl_blob	gfx_2D8680	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D8810	0x2D89A0	400	payload	graphics	dl_blob	gfx_2D8810	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D89A0	0x2D8B30	400	payload	graphics	dl_blob	gfx_2D89A0	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D8B30	0x2D8B68	56	payload	graphics	dl_blob	gfx_2D8B30	f3d self-relative blob in pool 0x2D1840: 7 commands, 0 vertex loads, 0 textures
+0x2D8B68	0x2D8CF8	400	payload	graphics	dl_blob	gfx_2D8B68	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D8CF8	0x2D8E88	400	payload	graphics	dl_blob	gfx_2D8CF8	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D8E88	0x2D9018	400	payload	graphics	dl_blob	gfx_2D8E88	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D9018	0x2D91A8	400	payload	graphics	dl_blob	gfx_2D9018	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D91A8	0x2D9338	400	payload	graphics	dl_blob	gfx_2D91A8	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D9338	0x2D94C8	400	payload	graphics	dl_blob	gfx_2D9338	f3d self-relative blob in pool 0x2D1840: 50 commands, 2 vertex loads, 2 textures
+0x2D94C8	0x2D9500	56	payload	graphics	dl_blob	gfx_2D94C8	f3d self-relative blob in pool 0x2D1840: 7 commands, 0 vertex loads, 0 textures
+0x2D9500	0x2D9538	56	payload	graphics	dl_blob	gfx_2D9500	f3d self-relative blob in pool 0x2D1840: 7 commands, 0 vertex loads, 0 textures
+0x2D9538	0x2D9548	16	payload	graphics	dl_blob	gfx_2D9538	f3d self-relative blob in pool 0x2D1840: 2 commands, 0 vertex loads, 0 textures
+0x2D9548	0x2D9558	16	payload	graphics	dl_blob	gfx_2D9548	f3d self-relative blob in pool 0x2D1840: 2 commands, 0 vertex loads, 0 textures
+0x2D9558	0x2DA2E0	3464	unknown	-	-	gap_2D9558	-
+0x2DA2E0	0x2DA5B0	720	payload	graphics	display_list	dl_2DA2E0	f3d display list, 90 commands (data not resolvable)
+0x2DA5B0	0x2DA5C0	16	payload	graphics	display_list	dl_2DA5B0	f3d display list, 2 commands (data not resolvable)
+0x2DA5C0	0x2E0810	25168	unknown	-	-	gap_2DA5C0	-
+0x2E0810	0x2E0C98	1160	payload	graphics	dl_blob	gfx_2E0810	f3d self-relative blob in pool 0x2E0810: 145 commands, 29 vertex loads, 2 textures
+0x2E0C98	0x2E10E8	1104	payload	graphics	dl_blob	gfx_2E0C98	f3d self-relative blob in pool 0x2E0810: 138 commands, 29 vertex loads, 2 textures
+0x2E10E8	0x2E1530	1096	payload	graphics	dl_blob	gfx_2E10E8	f3d self-relative blob in pool 0x2E0810: 137 commands, 28 vertex loads, 2 textures
+0x2E1530	0x2E1550	32	payload	graphics	dl_blob	gfx_2E1530	f3d self-relative blob in pool 0x2E0810: 4 commands, 0 vertex loads, 0 textures
+0x2E1550	0x2E1560	16	payload	graphics	dl_blob	gfx_2E1550	f3d self-relative blob in pool 0x2E0810: 2 commands, 0 vertex loads, 0 textures
+0x2E1560	0x2E29D8	5240	unknown	-	-	gap_2E1560	-
+0x2E29D8	0x2E2E28	1104	payload	graphics	dl_blob	gfx_2E29D8	f3d self-relative blob in pool 0x2E29D8: 138 commands, 29 vertex loads, 2 textures
+0x2E2E28	0x2E3278	1104	payload	graphics	dl_blob	gfx_2E2E28	f3d self-relative blob in pool 0x2E29D8: 138 commands, 29 vertex loads, 2 textures
+0x2E3278	0x2E36C0	1096	payload	graphics	dl_blob	gfx_2E3278	f3d self-relative blob in pool 0x2E29D8: 137 commands, 28 vertex loads, 2 textures
+0x2E36C0	0x2E36E0	32	payload	graphics	dl_blob	gfx_2E36C0	f3d self-relative blob in pool 0x2E29D8: 4 commands, 0 vertex loads, 0 textures
+0x2E36E0	0x2E36F0	16	payload	graphics	dl_blob	gfx_2E36E0	f3d self-relative blob in pool 0x2E29D8: 2 commands, 0 vertex loads, 0 textures
+0x2E36F0	0x2F8368	85112	unknown	-	-	gap_2E36F0	-
+0x2F8368	0x2F8438	208	payload	graphics	dl_blob	gfx_2F8368	f3d self-relative blob in pool 0x2F8368: 26 commands, 1 vertex loads, 1 textures
+0x2F8438	0x2F8458	32	payload	graphics	dl_blob	gfx_2F8438	f3d self-relative blob in pool 0x2F8368: 4 commands, 1 vertex loads, 0 textures
+0x2F8458	0x2F8478	32	payload	graphics	dl_blob	gfx_2F8458	f3d self-relative blob in pool 0x2F8368: 4 commands, 1 vertex loads, 0 textures
+0x2F8478	0x2F8498	32	payload	graphics	dl_blob	gfx_2F8478	f3d self-relative blob in pool 0x2F8368: 4 commands, 1 vertex loads, 0 textures
+0x2F8498	0x2F84B8	32	payload	graphics	dl_blob	gfx_2F8498	f3d self-relative blob in pool 0x2F8368: 4 commands, 1 vertex loads, 0 textures
+0x2F84B8	0x2F84D8	32	payload	graphics	dl_blob	gfx_2F84B8	f3d self-relative blob in pool 0x2F8368: 4 commands, 1 vertex loads, 0 textures
+0x2F84D8	0x2F84F8	32	payload	graphics	dl_blob	gfx_2F84D8	f3d self-relative blob in pool 0x2F8368: 4 commands, 1 vertex loads, 0 textures
+0x2F84F8	0x2F8518	32	payload	graphics	dl_blob	gfx_2F84F8	f3d self-relative blob in pool 0x2F8368: 4 commands, 1 vertex loads, 0 textures
+0x2F8518	0x2F8538	32	payload	graphics	dl_blob	gfx_2F8518	f3d self-relative blob in pool 0x2F8368: 4 commands, 1 vertex loads, 0 textures
+0x2F8538	0x2F8558	32	payload	graphics	dl_blob	gfx_2F8538	f3d self-relative blob in pool 0x2F8368: 4 commands, 1 vertex loads, 0 textures
+0x2F8558	0x2F8578	32	payload	graphics	dl_blob	gfx_2F8558	f3d self-relative blob in pool 0x2F8368: 4 commands, 1 vertex loads, 0 textures
+0x2F8578	0x2F8598	32	payload	graphics	dl_blob	gfx_2F8578	f3d self-relative blob in pool 0x2F8368: 4 commands, 1 vertex loads, 0 textures
+0x2F8598	0x2F85B8	32	payload	graphics	dl_blob	gfx_2F8598	f3d self-relative blob in pool 0x2F8368: 4 commands, 1 vertex loads, 0 textures
+0x2F85B8	0x2F85D8	32	payload	graphics	dl_blob	gfx_2F85B8	f3d self-relative blob in pool 0x2F8368: 4 commands, 1 vertex loads, 0 textures
+0x2F85D8	0x2F85F8	32	payload	graphics	dl_blob	gfx_2F85D8	f3d self-relative blob in pool 0x2F8368: 4 commands, 1 vertex loads, 0 textures
+0x2F85F8	0x2F8618	32	payload	graphics	dl_blob	gfx_2F85F8	f3d self-relative blob in pool 0x2F8368: 4 commands, 1 vertex loads, 0 textures
+0x2F8618	0x2F8638	32	payload	graphics	dl_blob	gfx_2F8618	f3d self-relative blob in pool 0x2F8368: 4 commands, 1 vertex loads, 0 textures
+0x2F8638	0x2F8658	32	payload	graphics	dl_blob	gfx_2F8638	f3d self-relative blob in pool 0x2F8368: 4 commands, 1 vertex loads, 0 textures
+0x2F8658	0x2F8678	32	payload	graphics	dl_blob	gfx_2F8658	f3d self-relative blob in pool 0x2F8368: 4 commands, 1 vertex loads, 0 textures
+0x2F8678	0x2F8698	32	payload	graphics	dl_blob	gfx_2F8678	f3d self-relative blob in pool 0x2F8368: 4 commands, 1 vertex loads, 0 textures
+0x2F8698	0x2F86B8	32	payload	graphics	dl_blob	gfx_2F8698	f3d self-relative blob in pool 0x2F8368: 4 commands, 1 vertex loads, 0 textures
+0x2F86B8	0x2F86D8	32	payload	graphics	dl_blob	gfx_2F86B8	f3d self-relative blob in pool 0x2F8368: 4 commands, 1 vertex loads, 0 textures
+0x2F86D8	0x2F87A8	208	payload	graphics	dl_blob	gfx_2F86D8	f3d self-relative blob in pool 0x2F8368: 26 commands, 1 vertex loads, 1 textures
+0x2F87A8	0x2F8878	208	payload	graphics	dl_blob	gfx_2F87A8	f3d self-relative blob in pool 0x2F8368: 26 commands, 1 vertex loads, 1 textures
+0x2F8878	0x2F8948	208	payload	graphics	dl_blob	gfx_2F8878	f3d self-relative blob in pool 0x2F8368: 26 commands, 1 vertex loads, 1 textures
+0x2F8948	0x2F8A18	208	payload	graphics	dl_blob	gfx_2F8948	f3d self-relative blob in pool 0x2F8368: 26 commands, 1 vertex loads, 1 textures
+0x2F8A18	0x2F8AE8	208	payload	graphics	dl_blob	gfx_2F8A18	f3d self-relative blob in pool 0x2F8368: 26 commands, 1 vertex loads, 1 textures
+0x2F8AE8	0x2F8BB8	208	payload	graphics	dl_blob	gfx_2F8AE8	f3d self-relative blob in pool 0x2F8368: 26 commands, 1 vertex loads, 1 textures
+0x2F8BB8	0x2F8BF8	64	payload	graphics	dl_blob	gfx_2F8BB8	f3d self-relative blob in pool 0x2F8368: 8 commands, 0 vertex loads, 0 textures
+0x2F8BF8	0x2F8CC8	208	payload	graphics	dl_blob	gfx_2F8BF8	f3d self-relative blob in pool 0x2F8368: 26 commands, 1 vertex loads, 1 textures
+0x2F8CC8	0x2F8D98	208	payload	graphics	dl_blob	gfx_2F8CC8	f3d self-relative blob in pool 0x2F8368: 26 commands, 1 vertex loads, 1 textures
+0x2F8D98	0x2F8E68	208	payload	graphics	dl_blob	gfx_2F8D98	f3d self-relative blob in pool 0x2F8368: 26 commands, 1 vertex loads, 1 textures
+0x2F8E68	0x2F8F38	208	payload	graphics	dl_blob	gfx_2F8E68	f3d self-relative blob in pool 0x2F8368: 26 commands, 1 vertex loads, 1 textures
+0x2F8F38	0x2F9008	208	payload	graphics	dl_blob	gfx_2F8F38	f3d self-relative blob in pool 0x2F8368: 26 commands, 1 vertex loads, 1 textures
+0x2F9008	0x2F90D8	208	payload	graphics	dl_blob	gfx_2F9008	f3d self-relative blob in pool 0x2F8368: 26 commands, 1 vertex loads, 1 textures
+0x2F90D8	0x2F91A8	208	payload	graphics	dl_blob	gfx_2F90D8	f3d self-relative blob in pool 0x2F8368: 26 commands, 1 vertex loads, 1 textures
+0x2F91A8	0x2F91E8	64	payload	graphics	dl_blob	gfx_2F91A8	f3d self-relative blob in pool 0x2F8368: 8 commands, 0 vertex loads, 0 textures
+0x2F91E8	0x2F92B8	208	payload	graphics	dl_blob	gfx_2F91E8	f3d self-relative blob in pool 0x2F8368: 26 commands, 1 vertex loads, 1 textures
+0x2F92B8	0x2F9388	208	payload	graphics	dl_blob	gfx_2F92B8	f3d self-relative blob in pool 0x2F8368: 26 commands, 1 vertex loads, 1 textures
+0x2F9388	0x2F9458	208	payload	graphics	dl_blob	gfx_2F9388	f3d self-relative blob in pool 0x2F8368: 26 commands, 1 vertex loads, 1 textures
+0x2F9458	0x2F9528	208	payload	graphics	dl_blob	gfx_2F9458	f3d self-relative blob in pool 0x2F8368: 26 commands, 1 vertex loads, 1 textures
+0x2F9528	0x2F95F8	208	payload	graphics	dl_blob	gfx_2F9528	f3d self-relative blob in pool 0x2F8368: 26 commands, 1 vertex loads, 1 textures
+0x2F95F8	0x2F96C8	208	payload	graphics	dl_blob	gfx_2F95F8	f3d self-relative blob in pool 0x2F8368: 26 commands, 1 vertex loads, 1 textures
+0x2F96C8	0x2F9798	208	payload	graphics	dl_blob	gfx_2F96C8	f3d self-relative blob in pool 0x2F8368: 26 commands, 1 vertex loads, 1 textures
+0x2F9798	0x2F97D8	64	payload	graphics	dl_blob	gfx_2F9798	f3d self-relative blob in pool 0x2F8368: 8 commands, 0 vertex loads, 0 textures
+0x2F97D8	0x2F9BF0	1048	payload	graphics	dl_blob	gfx_2F97D8	f3d self-relative blob in pool 0x2F8368: 131 commands, 36 vertex loads, 1 textures
+0x2F9BF0	0x2FA008	1048	payload	graphics	dl_blob	gfx_2F9BF0	f3d self-relative blob in pool 0x2F8368: 131 commands, 36 vertex loads, 1 textures
+0x2FA008	0x2FA480	1144	payload	graphics	dl_blob	gfx_2FA008	f3d self-relative blob in pool 0x2F8368: 143 commands, 48 vertex loads, 1 textures
+0x2FA480	0x2FA4A0	32	payload	graphics	dl_blob	gfx_2FA480	f3d self-relative blob in pool 0x2F8368: 4 commands, 0 vertex loads, 0 textures
+0x2FA4A0	0x2FA4B0	16	payload	graphics	dl_blob	gfx_2FA4A0	f3d self-relative blob in pool 0x2F8368: 2 commands, 0 vertex loads, 0 textures
+0x2FA4B0	0x3069E8	50488	unknown	-	-	gap_2FA4B0	-
+0x3069E8	0x306B90	424	payload	graphics	dl_blob	gfx_3069E8	f3d self-relative blob in pool 0x3069E8: 53 commands, 5 vertex loads, 1 textures
+0x306B90	0x306BB8	40	payload	graphics	dl_blob	gfx_306B90	f3d self-relative blob in pool 0x3069E8: 5 commands, 1 vertex loads, 0 textures
+0x306BB8	0x306BE0	40	payload	graphics	dl_blob	gfx_306BB8	f3d self-relative blob in pool 0x3069E8: 5 commands, 2 vertex loads, 0 textures
+0x306BE0	0x306D68	392	payload	graphics	dl_blob	gfx_306BE0	f3d self-relative blob in pool 0x3069E8: 49 commands, 3 vertex loads, 2 textures
+0x306D68	0x306D90	40	payload	graphics	dl_blob	gfx_306D68	f3d self-relative blob in pool 0x3069E8: 5 commands, 1 vertex loads, 0 textures
+0x306D90	0x306DB0	32	payload	graphics	dl_blob	gfx_306D90	f3d self-relative blob in pool 0x3069E8: 4 commands, 1 vertex loads, 0 textures
+0x306DB0	0x306F30	384	payload	graphics	dl_blob	gfx_306DB0	f3d self-relative blob in pool 0x3069E8: 48 commands, 2 vertex loads, 2 textures
+0x306F30	0x306F50	32	payload	graphics	dl_blob	gfx_306F30	f3d self-relative blob in pool 0x3069E8: 4 commands, 1 vertex loads, 0 textures
+0x306F50	0x306F70	32	payload	graphics	dl_blob	gfx_306F50	f3d self-relative blob in pool 0x3069E8: 4 commands, 1 vertex loads, 0 textures
+0x306F70	0x306F98	40	payload	graphics	dl_blob	gfx_306F70	f3d self-relative blob in pool 0x3069E8: 5 commands, 1 vertex loads, 0 textures
+0x306F98	0x306FB8	32	payload	graphics	dl_blob	gfx_306F98	f3d self-relative blob in pool 0x3069E8: 4 commands, 1 vertex loads, 0 textures
+0x306FB8	0x307138	384	payload	graphics	dl_blob	gfx_306FB8	f3d self-relative blob in pool 0x3069E8: 48 commands, 2 vertex loads, 2 textures
+0x307138	0x307158	32	payload	graphics	dl_blob	gfx_307138	f3d self-relative blob in pool 0x3069E8: 4 commands, 0 vertex loads, 0 textures
+0x307158	0x307170	24	payload	graphics	dl_blob	gfx_307158	f3d self-relative blob in pool 0x3069E8: 3 commands, 0 vertex loads, 0 textures
+0x307170	0x307180	16	payload	graphics	dl_blob	gfx_307170	f3d self-relative blob in pool 0x3069E8: 2 commands, 0 vertex loads, 0 textures
+0x307180	0x3079B8	2104	payload	graphics	dl_blob	gfx_307180	f3d self-relative blob in pool 0x3069E8: 263 commands, 84 vertex loads, 1 textures
+0x3079B8	0x3079C8	16	payload	graphics	dl_blob	gfx_3079B8	f3d self-relative blob in pool 0x3069E8: 2 commands, 0 vertex loads, 0 textures
+0x3079C8	0x3079D8	16	payload	graphics	dl_blob	gfx_3079C8	f3d self-relative blob in pool 0x3069E8: 2 commands, 0 vertex loads, 0 textures
+0x3079D8	0x3317EF	171543	unknown	-	-	gap_3079D8	-
+0x3317EF	0x35DBA8	181177	referenced	loader_range	pi	rom_3317EF	records 0x800B9ED0
+0x35DBA8	0x35DC90	232	payload	graphics	dl_blob	gfx_35DBA8	f3d self-relative blob in pool 0x35DBA8: 29 commands, 0 vertex loads, 0 textures
+0x35DC90	0x35DD10	128	payload	graphics	dl_blob	gfx_35DC90	f3d self-relative blob in pool 0x35DBA8: 16 commands, 0 vertex loads, 0 textures
+0x35DD10	0x35DD38	40	payload	graphics	dl_blob	gfx_35DD10	f3d self-relative blob in pool 0x35DBA8: 5 commands, 0 vertex loads, 0 textures
+0x35DD38	0x35DD98	96	payload	graphics	dl_blob	gfx_35DD38	f3d self-relative blob in pool 0x35DBA8: 12 commands, 0 vertex loads, 0 textures
+0x35DD98	0x35DDF8	96	payload	graphics	dl_blob	gfx_35DD98	f3d self-relative blob in pool 0x35DBA8: 12 commands, 0 vertex loads, 0 textures
+0x35DDF8	0x35DE58	96	payload	graphics	dl_blob	gfx_35DDF8	f3d self-relative blob in pool 0x35DBA8: 12 commands, 0 vertex loads, 0 textures
+0x35DE58	0x35DEB8	96	payload	graphics	dl_blob	gfx_35DE58	f3d self-relative blob in pool 0x35DBA8: 12 commands, 0 vertex loads, 0 textures
+0x35DEB8	0x35DF10	88	payload	graphics	dl_blob	gfx_35DEB8	f3d self-relative blob in pool 0x35DBA8: 11 commands, 0 vertex loads, 0 textures
+0x35DF10	0x35DF68	88	payload	graphics	dl_blob	gfx_35DF10	f3d self-relative blob in pool 0x35DBA8: 11 commands, 0 vertex loads, 0 textures
+0x35DF68	0x365F48	32736	referenced	loader_range	pi	rom_3317EF	records 0x800B9ED0
+0x365F48	0x369700	14264	payload	graphics	display_list	dl_365F48	f3d display list, 1783 commands (data not resolvable)
+0x369700	0x369740	64	referenced	loader_range	pi	rom_3317EF	records 0x800B9ED0
+0x369740	0x369788	72	payload	graphics	dl_blob	gfx_369740	f3d self-relative blob in pool 0x369740: 9 commands, 1 vertex loads, 0 textures
+0x369788	0x3697A0	24	payload	graphics	dl_blob	gfx_369788	f3d self-relative blob in pool 0x369740: 3 commands, 0 vertex loads, 0 textures
+0x3697A0	0x3697F8	88	payload	graphics	dl_blob	gfx_3697A0	f3d self-relative blob in pool 0x369740: 11 commands, 0 vertex loads, 0 textures
+0x3697F8	0x369D08	1296	payload	graphics	dl_blob	gfx_3697F8	f3d self-relative blob in pool 0x369740: 162 commands, 8 vertex loads, 8 textures
+0x369D08	0x369DD8	208	payload	graphics	dl_blob	gfx_369D08	f3d self-relative blob in pool 0x369740: 26 commands, 1 vertex loads, 1 textures
+0x369DD8	0x369DF0	24	payload	graphics	dl_blob	gfx_369DD8	f3d self-relative blob in pool 0x369740: 3 commands, 0 vertex loads, 0 textures
+0x369DF0	0x369E00	16	payload	graphics	dl_blob	gfx_369DF0	f3d self-relative blob in pool 0x369740: 2 commands, 0 vertex loads, 0 textures
+0x369E00	0x369EF8	248	payload	graphics	dl_blob	gfx_369E00	f3d self-relative blob in pool 0x369740: 31 commands, 1 vertex loads, 1 textures
+0x369EF8	0x369F08	16	payload	graphics	dl_blob	gfx_369EF8	f3d self-relative blob in pool 0x369740: 2 commands, 0 vertex loads, 0 textures
+0x369F08	0x36B6F0	6120	payload	graphics	dl_blob	gfx_369F08	f3d self-relative blob in pool 0x369740: 765 commands, 293 vertex loads, 2 textures
+0x36B6F0	0x36B700	16	payload	graphics	dl_blob	gfx_36B6F0	f3d self-relative blob in pool 0x369740: 2 commands, 0 vertex loads, 0 textures
+0x36B700	0x36BAD8	984	payload	graphics	dl_blob	gfx_36B700	f3d self-relative blob in pool 0x369740: 123 commands, 31 vertex loads, 1 textures
+0x36BAD8	0x36BC88	432	payload	graphics	dl_blob	gfx_36BAD8	f3d self-relative blob in pool 0x369740: 54 commands, 4 vertex loads, 1 textures
+0x36BC88	0x36CE88	4608	payload	graphics	dl_blob	gfx_36BC88	f3d self-relative blob in pool 0x369740: 576 commands, 96 vertex loads, 8 textures
+0x36CE88	0x36CEB0	40	payload	graphics	dl_blob	gfx_36CE88	f3d self-relative blob in pool 0x369740: 5 commands, 0 vertex loads, 0 textures
+0x36CEB0	0x36CEC8	24	payload	graphics	dl_blob	gfx_36CEB0	f3d self-relative blob in pool 0x369740: 3 commands, 0 vertex loads, 0 textures
+0x36CEC8	0x36CED8	16	payload	graphics	dl_blob	gfx_36CEC8	f3d self-relative blob in pool 0x369740: 2 commands, 0 vertex loads, 0 textures
+0x36CED8	0x37B7C8	59632	referenced	loader_range	pi	rom_3317EF	records 0x800B9ED0
+0x37B7C8	0x37B858	144	payload	graphics	dl_blob	gfx_37B7C8	f3d self-relative blob in pool 0x37B7C8: 18 commands, 1 vertex loads, 0 textures
+0x37B858	0x37BB68	784	payload	graphics	dl_blob	gfx_37B858	f3d self-relative blob in pool 0x37B7C8: 98 commands, 23 vertex loads, 1 textures
+0x37BB68	0x37BE78	784	payload	graphics	dl_blob	gfx_37BB68	f3d self-relative blob in pool 0x37B7C8: 98 commands, 23 vertex loads, 1 textures
+0x37BE78	0x37C4E8	1648	payload	graphics	dl_blob	gfx_37BE78	f3d self-relative blob in pool 0x37B7C8: 206 commands, 69 vertex loads, 0 textures
+0x37C4E8	0x37C588	160	payload	graphics	dl_blob	gfx_37C4E8	f3d self-relative blob in pool 0x37B7C8: 20 commands, 1 vertex loads, 0 textures
+0x37C588	0x37C688	256	payload	graphics	dl_blob	gfx_37C588	f3d self-relative blob in pool 0x37B7C8: 32 commands, 5 vertex loads, 0 textures
+0x37C688	0x37C788	256	payload	graphics	dl_blob	gfx_37C688	f3d self-relative blob in pool 0x37B7C8: 32 commands, 5 vertex loads, 0 textures
+0x37C788	0x37CDF8	1648	payload	graphics	dl_blob	gfx_37C788	f3d self-relative blob in pool 0x37B7C8: 206 commands, 69 vertex loads, 0 textures
+0x37CDF8	0x37CE98	160	payload	graphics	dl_blob	gfx_37CDF8	f3d self-relative blob in pool 0x37B7C8: 20 commands, 1 vertex loads, 0 textures
+0x37CE98	0x37CF98	256	payload	graphics	dl_blob	gfx_37CE98	f3d self-relative blob in pool 0x37B7C8: 32 commands, 5 vertex loads, 0 textures
+0x37CF98	0x37D098	256	payload	graphics	dl_blob	gfx_37CF98	f3d self-relative blob in pool 0x37B7C8: 32 commands, 5 vertex loads, 0 textures
+0x37D098	0x37D378	736	payload	graphics	dl_blob	gfx_37D098	f3d self-relative blob in pool 0x37B7C8: 92 commands, 22 vertex loads, 1 textures
+0x37D378	0x37D418	160	payload	graphics	dl_blob	gfx_37D378	f3d self-relative blob in pool 0x37B7C8: 20 commands, 1 vertex loads, 0 textures
+0x37D418	0x37D5E0	456	payload	graphics	dl_blob	gfx_37D418	f3d self-relative blob in pool 0x37B7C8: 57 commands, 30 vertex loads, 0 textures
+0x37D5E0	0x37D7A8	456	payload	graphics	dl_blob	gfx_37D5E0	f3d self-relative blob in pool 0x37B7C8: 57 commands, 30 vertex loads, 0 textures
+0x37D7A8	0x37DE30	1672	payload	graphics	dl_blob	gfx_37D7A8	f3d self-relative blob in pool 0x37B7C8: 209 commands, 72 vertex loads, 0 textures
+0x37DE30	0x37DE88	88	payload	graphics	dl_blob	gfx_37DE30	f3d self-relative blob in pool 0x37B7C8: 11 commands, 0 vertex loads, 0 textures
+0x37DE88	0x37DE98	16	payload	graphics	dl_blob	gfx_37DE88	f3d self-relative blob in pool 0x37B7C8: 2 commands, 0 vertex loads, 0 textures
+0x37DE98	0x38CE70	61400	referenced	loader_range	pi	rom_3317EF	records 0x800B9ED0
+0x38CE70	0x38D3E0	1392	payload	graphics	display_list	dl_38CE70	f3d display list, 174 commands (data not resolvable)
+0x38D3E0	0x38D3F0	16	payload	graphics	display_list	dl_38D3E0	f3d display list, 2 commands (data not resolvable)
+0x38D3F0	0x38DEF8	2824	referenced	loader_range	pi	rom_3317EF	records 0x800B9ED0
+0x38DEF8	0x38E490	1432	payload	graphics	dl_blob	gfx_38DEF8	f3d self-relative blob in pool 0x38DEF8: 179 commands, 29 vertex loads, 3 textures
+0x38E490	0x38EA28	1432	payload	graphics	dl_blob	gfx_38E490	f3d self-relative blob in pool 0x38DEF8: 179 commands, 29 vertex loads, 3 textures
+0x38EA28	0x38EFC0	1432	payload	graphics	dl_blob	gfx_38EA28	f3d self-relative blob in pool 0x38DEF8: 179 commands, 29 vertex loads, 3 textures
+0x38EFC0	0x38F558	1432	payload	graphics	dl_blob	gfx_38EFC0	f3d self-relative blob in pool 0x38DEF8: 179 commands, 29 vertex loads, 3 textures
+0x38F558	0x38F6F0	408	payload	graphics	dl_blob	gfx_38F558	f3d self-relative blob in pool 0x38DEF8: 51 commands, 5 vertex loads, 1 textures
+0x38F6F0	0x38F988	664	payload	graphics	dl_blob	gfx_38F6F0	f3d self-relative blob in pool 0x38DEF8: 83 commands, 13 vertex loads, 1 textures
+0x38F988	0x38FB70	488	payload	graphics	dl_blob	gfx_38F988	f3d self-relative blob in pool 0x38DEF8: 61 commands, 7 vertex loads, 1 textures
+0x38FB70	0x38FF20	944	payload	graphics	dl_blob	gfx_38FB70	f3d self-relative blob in pool 0x38DEF8: 118 commands, 24 vertex loads, 1 textures
+0x38FF20	0x3901A8	648	payload	graphics	dl_blob	gfx_38FF20	f3d self-relative blob in pool 0x38DEF8: 81 commands, 11 vertex loads, 1 textures
+0x3901A8	0x3903E8	576	payload	graphics	dl_blob	gfx_3901A8	f3d self-relative blob in pool 0x38DEF8: 72 commands, 10 vertex loads, 1 textures
+0x3903E8	0x3905D0	488	payload	graphics	dl_blob	gfx_3903E8	f3d self-relative blob in pool 0x38DEF8: 61 commands, 7 vertex loads, 1 textures
+0x3905D0	0x390838	616	payload	graphics	dl_blob	gfx_3905D0	f3d self-relative blob in pool 0x38DEF8: 77 commands, 11 vertex loads, 1 textures
+0x390838	0x390A10	472	payload	graphics	dl_blob	gfx_390838	f3d self-relative blob in pool 0x38DEF8: 59 commands, 9 vertex loads, 1 textures
+0x390A10	0x390A80	112	payload	graphics	dl_blob	gfx_390A10	f3d self-relative blob in pool 0x38DEF8: 14 commands, 0 vertex loads, 0 textures
+0x390A80	0x3F1533	395955	referenced	loader_range	pi	rom_3317EF	records 0x800B9ED0
+0x3F1533	0x400000	60109	unknown	-	-	gap_3F1533	-

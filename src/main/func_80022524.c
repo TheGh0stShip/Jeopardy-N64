@@ -1,0 +1,82 @@
+typedef signed char s8; typedef unsigned char u8; typedef signed short s16; typedef unsigned short u16;
+typedef signed int s32; typedef unsigned int u32; typedef float f32; typedef double f64;
+
+struct n64dk_e8 { u8 b[8]; };
+struct gd_4_s32 { u8 pad[0x4]; s32 v; };
+struct n64dk_a800DE160 { u8 m0; u8 pad1[0x35]; };
+extern s32 D_010942B8;
+extern char D_80001254[];
+extern char D_80001264[];
+extern char D_8000126C[];
+extern char D_80001278[];
+extern char D_8000127C[];
+extern s32 D_80056100;
+extern s32 D_80056104;
+extern s32 D_80056108;
+extern s32 D_8005610C;
+extern s32 D_8005998C;
+extern s32 D_800D7680[];
+extern struct n64dk_a800DE160 D_800DE160[];
+extern char D_800DE548[];
+extern char D_800DE5D8[];
+extern u8 D_800DEFE0[];
+extern struct n64dk_e8 *D_800E0F4C;
+extern s32 D_800E3698[];
+s32 func_80011AD8();
+s32 func_80012B08(char *, f32, f32);
+s32 func_8001AB70();
+s32 func_80024A0C();
+s32 func_80026BEC();
+int sprintf();
+
+void func_80022524(void) {
+    u32 sp20;
+    u32 sp24;
+    u32 sp28;
+    u32 sp2C;
+    s32 sp30;
+
+    sp20 = 115;
+    sp24 = 76;
+    sp28 = 180;
+    sp2C = 90;
+    func_8001AB70(sp20, sp24, sp28, sp2C, 0, 0, 50, D_8005610C);
+    sp30 = (s32)D_800E0F4C++;
+    (*(s32 *)sp30) = 0xE7000000;
+    ((struct gd_4_s32 *)sp30)->v = 0;
+    sp30 = (s32)D_800E0F4C++;
+    (*(s32 *)sp30) = 0x6000000;
+    ((struct gd_4_s32 *)sp30)->v = (s32)&D_010942B8;
+    sp30 = (s32)D_800E0F4C++;
+    (*(s32 *)sp30) = 0xBA001402;
+    ((struct gd_4_s32 *)sp30)->v = 0x200000;
+    sp30 = (s32)D_800E0F4C++;
+    (*(s32 *)sp30) = 0xBA001402;
+    ((struct gd_4_s32 *)sp30)->v = 0;
+    sp30 = (s32)D_800E0F4C++;
+    (*(s32 *)sp30) = 0xB900031D;
+    ((struct gd_4_s32 *)sp30)->v = 0x5041C8;
+    func_80011AD8(1);
+    sp30 = (s32)D_800E0F4C++;
+    (*(s32 *)sp30) = 0xFA000000;
+    ((struct gd_4_s32 *)sp30)->v = (D_80056104 & 0xFF) | 0xFFFF0000;
+    func_80012B08(D_80001254, sp20 + 10, sp24 + 10);
+    sprintf(D_800DE5D8, D_80001264, func_80024A0C(), &D_800DE160[D_8005998C]);
+    func_80026BEC(D_800DE5D8, 160);
+    func_80012B08(D_800DE548, sp20 + 10, sp24 + 25);
+    if (D_800DEFE0[0] != 0) {
+        func_80012B08((char *)D_800DEFE0, sp20 + 10, sp24 + 40);
+    }
+    sp30 = (s32)D_800E0F4C++;
+    (*(s32 *)sp30) = 0xFA000000;
+    ((struct gd_4_s32 *)sp30)->v = (D_80056100 & 0xFF) | 0xFFFF0000;
+    func_80012B08(D_8000126C, sp20 + 10, sp24 + 55);
+    sprintf(D_800DE5D8, D_80001278, D_800E3698[D_8005998C]);
+    func_80012B08(D_800DE5D8, sp20 + 130, sp24 + 55);
+    sp30 = (s32)D_800E0F4C++;
+    (*(s32 *)sp30) = 0xFA000000;
+    ((struct gd_4_s32 *)sp30)->v = (D_80056108 & 0xFF) | 0xFFFF0000;
+    func_80012B08(D_8000127C, sp20 + 10, sp24 + 70);
+    sprintf(D_800DE5D8, D_80001278, D_800D7680[D_8005998C]);
+    func_80012B08(D_800DE5D8, sp20 + 130, sp24 + 70);
+}

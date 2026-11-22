@@ -1,0 +1,33 @@
+{
+ "catalogue_correction": "ends at the unit's end; 0x4 byte(s) of padding released",
+ "code_size": "0x12C",
+ "credit": "a generated project tree: it copies results the strict verifier settled and grants no credit; only `make verify` / `make verify-receipts` against your own ROM confirm them again",
+ "distance": "0",
+ "export_source": "src/main/unit_8004B158.c",
+ "file": "src/main/unit_8004B158.c",
+ "function": "func_8004B968",
+ "how": "ido5.3 --section-base=.rodata:0x80002578 --section-base=.data:0x80072400 -O3 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 --symbol=D_800723F8:0x800723F8 --symbol=D_800723FC:0x800723FC --symbol=D_80072568:0x80072568 (whole translation unit, N64 Decomp Kit agent-stage)",
+ "image": "main",
+ "inputs_sha256": "98db73d64076dee826d5a6edf8a45d0e325ae53c1d8bb0bb5e4e6958c028802c",
+ "kind": "c",
+ "link_layout_object": "",
+ "offset": "0x4C568",
+ "outcome": "exact",
+ "raw": null,
+ "receipt": "unit",
+ "recipe": {
+  "flags": "--section-base=.rodata:0x80002578 --section-base=.data:0x80072400 -O3 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0 --symbol=D_800723F8:0x800723F8 --symbol=D_800723FC:0x800723FC --symbol=D_80072568:0x80072568",
+  "pipeline": "ido5.3",
+  "unit_offset": "0x4BD58",
+  "unit_size": "0x93C"
+ },
+ "reproduced_by": "C",
+ "schema": "n64dk-generated-project/1",
+ "size": "0x12C",
+ "source_origin": "~/.cache/n64dk-lab/sdk_src/ultralib/src/sched/sched.c (SDK 2.0F, _FINALROM, no SC_LOGGING) (lab agent a2)",
+ "source_sha256": "ecaeb21d1f36ba40a59dc1ebb8bc4e482e70cb4e9695d733d811d837ca142c47",
+ "status": "exact",
+ "unit": "main/func_8004B968",
+ "unit_class": "sdk",
+ "vram": "0x8004B968"
+}

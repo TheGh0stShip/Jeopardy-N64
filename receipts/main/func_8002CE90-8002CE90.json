@@ -1,0 +1,311 @@
+{
+ "behavioural": null,
+ "build": {
+  "flags": [
+   "-O0",
+   "-G0",
+   "-mips3",
+   "-mgp32",
+   "-mfp32"
+  ],
+  "normalizer_args": [],
+  "pin_origins": {
+   "D_8004DFD2": "run-declaration",
+   "D_80050490": "run-declaration",
+   "D_80050704": "run-declaration",
+   "D_80050890": "run-declaration",
+   "D_80055C38": "run-declaration",
+   "D_800560F8": "run-declaration",
+   "D_800580C4": "run-declaration",
+   "D_800580C8": "run-declaration",
+   "D_800580DC": "run-declaration",
+   "D_80058120": "run-declaration",
+   "D_80058844": "run-declaration",
+   "D_80058848": "run-declaration",
+   "D_800590C8": "run-declaration",
+   "D_80059830": "run-declaration",
+   "D_80059864": "run-declaration",
+   "D_80059878": "run-declaration",
+   "D_80059898": "run-declaration",
+   "D_800598AC": "run-declaration",
+   "D_800598D8": "run-declaration",
+   "D_8005998C": "run-declaration",
+   "D_80059998": "run-declaration",
+   "D_800DDF98": "run-declaration",
+   "D_800E0DF0": "run-declaration",
+   "D_800E3310": "run-declaration",
+   "D_800E3660": "run-declaration",
+   "section:.rodata": "run-declaration"
+  },
+  "pipeline": "kmc+asn64",
+  "section_bases": {
+   ".rodata": "0x80001780"
+  },
+  "symbols": {
+   "D_8004DFD2": "0x8004DFD2",
+   "D_80050490": "0x80050490",
+   "D_80050704": "0x80050704",
+   "D_80050890": "0x80050890",
+   "D_80055C38": "0x80055C38",
+   "D_800560F8": "0x800560F8",
+   "D_800580C4": "0x800580C4",
+   "D_800580C8": "0x800580C8",
+   "D_800580DC": "0x800580DC",
+   "D_80058120": "0x80058120",
+   "D_80058844": "0x80058844",
+   "D_80058848": "0x80058848",
+   "D_800590C8": "0x800590C8",
+   "D_80059830": "0x80059830",
+   "D_80059864": "0x80059864",
+   "D_80059878": "0x80059878",
+   "D_80059898": "0x80059898",
+   "D_800598AC": "0x800598AC",
+   "D_800598D8": "0x800598D8",
+   "D_8005998C": "0x8005998C",
+   "D_80059998": "0x80059998",
+   "D_800DDF98": "0x800DDF98",
+   "D_800E0DF0": "0x800E0DF0",
+   "D_800E3310": "0x800E3310",
+   "D_800E3660": "0x800E3660"
+  }
+ },
+ "claims": {
+  "assumptions_present": false,
+  "behavioural_evidence": false,
+  "byte_identity": true,
+  "code_identity": true,
+  "ownership_complete": true,
+  "pins_independent": true,
+  "proof_grade": true,
+  "source_provenance": "genuine-c",
+  "source_provenance_creditable": true,
+  "strict_proof": true,
+  "unit_identity": true
+ },
+ "comparison_sha256": "bdf161e2e312c82bb32c837b24294e87f402c0bad5458218a7e7c4b6c5ff530f",
+ "declarations": {
+  "files": [
+   {
+    "name": "<project>/survey/symbol_addrs.txt",
+    "sha256": "2221c7932ff983d0843fd4debb0a1e5b099889284db3bd02dd9abeaf1e7f0518"
+   },
+   {
+    "name": "<project>/survey/sdk_symbols.txt",
+    "sha256": "e872ae4e14bac6f0958d86f5b2df4d87d46e61e0e1b8eff7992a706aea30c0a7"
+   }
+  ],
+  "map_sha256": "ab08e847d08293500f3eb9a538972a1c258e159b5218cd29b6436bf81e96e6f9"
+ },
+ "earned_by": "generated-c",
+ "environment": {
+  "LANG": "99fed2d548c2eb1022f4067f97fe838a2c3ea60ee0e0f53086788505c3ababad"
+ },
+ "headers": {
+  "headers": {},
+  "missing": []
+ },
+ "identity": "1ab219e143fcd96fc9740d3501439735b32a7606077214773f7974bb96f29d2b",
+ "image": {
+  "rom_key": "c5bcf3eff6bcdd9e",
+  "sha256": "2ebd827db509397f27c557e017bdcdaaed0a748a73babc25f322bb2faab66100",
+  "size": 4194304
+ },
+ "issued": {
+  "at": "2026-11-22T06:54:23Z"
+ },
+ "kit_driver_sha256": "461a0cf4ba284f5d537c950b632211ddad3d332d8c45483d8cacc90247a360e5",
+ "link": {
+  "linker_script": null,
+  "note": "no link step: the verifier relocates the object at declared addresses"
+ },
+ "object": {
+  "loaded_sha256": "4e288bd42b3f2896368ea73f742ffc1f496cf850d13f08533e18ec09dd61b307",
+  "object_sha256": "59e9e5fb46c1c80041e5d9539ebce1d5c3dab7913e6e46957f47fc72db9e4db4"
+ },
+ "owned": {
+  "code_sha256": "242d2bd334948648e9e21d49f6ccdec63107e24ee3b5a9da5715870af147aa71",
+  "data": {
+   ".rodata": {
+    "base": "0x80001780",
+    "sha256": "9f787a0652750c5d60c2b695f1bdb56d7e0d1c6e5b4caf289bd338c22f7a4f61",
+    "size": 44
+   }
+  }
+ },
+ "ownership": {
+  "function_starts_sha256": "70af65e6e816fd1beaff628ac35e277ced423be162bee02dfa4336e6d1f89a7f",
+  "section_sizes": {}
+ },
+ "proof": {
+  "proof_grade": true,
+  "reasons": []
+ },
+ "provenance": {
+  "evidence": [],
+  "origin": "N64 Decomp Kit agent-stage (Jeopardy!)",
+  "reasons": [
+   "no forbidden assembly escape found"
+  ],
+  "verdict": "genuine-c"
+ },
+ "relocations": {
+  "section_bases": {
+   ".rodata": "0x80001780",
+   ".text": "0x8002CE90"
+  },
+  "sites": 363,
+  "sites_sha256": "6e5b0f15c96c0305c2f6bf64b5d4c68712706a811f35b017070cef0fdc399ab3",
+  "symbols": {
+   "D_8004DFD2": "0x8004DFD2",
+   "D_80050490": "0x80050490",
+   "D_80050704": "0x80050704",
+   "D_80050890": "0x80050890",
+   "D_80055C38": "0x80055C38",
+   "D_800560F8": "0x800560F8",
+   "D_800580C4": "0x800580C4",
+   "D_800580C8": "0x800580C8",
+   "D_800580DC": "0x800580DC",
+   "D_80058120": "0x80058120",
+   "D_80058844": "0x80058844",
+   "D_80058848": "0x80058848",
+   "D_800590C8": "0x800590C8",
+   "D_80059830": "0x80059830",
+   "D_80059864": "0x80059864",
+   "D_80059878": "0x80059878",
+   "D_80059898": "0x80059898",
+   "D_800598AC": "0x800598AC",
+   "D_800598D8": "0x800598D8",
+   "D_8005998C": "0x8005998C",
+   "D_80059998": "0x80059998",
+   "D_800DDF98": "0x800DDF98",
+   "D_800E0DF0": "0x800E0DF0",
+   "D_800E3310": "0x800E3310",
+   "D_800E3660": "0x800E3660",
+   "func_800042B8": "0x800042B8",
+   "func_8000785C": "0x8000785C",
+   "func_80008C40": "0x80008C40",
+   "func_80009258": "0x80009258",
+   "func_800184E4": "0x800184E4",
+   "func_80018AAC": "0x80018AAC",
+   "func_80018F64": "0x80018F64",
+   "func_80027C4C": "0x80027C4C",
+   "func_8002A2FC": "0x8002A2FC",
+   "func_8002C268": "0x8002C268",
+   "func_8002C42C": "0x8002C42C",
+   "func_8002C5F0": "0x8002C5F0",
+   "func_8002CBE0": "0x8002CBE0",
+   "func_8002CC58": "0x8002CC58",
+   "func_8002DCF4": "0x8002DCF4",
+   "func_80035760": "0x80035760",
+   "func_800359E8": "0x800359E8",
+   "func_80035E48": "0x80035E48"
+  }
+ },
+ "schema": "n64dk-proof-receipt/1",
+ "source": {
+  "kind": "c",
+  "name": "func_8002CE90.c",
+  "sha256": "f3c91efc9f7f5ee799de274d8de5f10944760368978af0d112e92ad08148faef"
+ },
+ "subject": {
+  "catalogue_size": 3188,
+  "image": "main",
+  "image_offset": "0x0002DA90",
+  "name": "func_8002CE90",
+  "size": 3188,
+  "vram": "0x8002CE90"
+ },
+ "toolchain": {
+  "pipeline": "kmc+asn64",
+  "recipe": {
+   "identity": "8a8faeb2431460c295a1d3d5b3cc54caaccad697765e10c99aa26548ecabd33b",
+   "lane": "kmc+asn64",
+   "stages": [
+    {
+     "component": "kmc/gcc",
+     "files": [
+      [
+       "gcc",
+       "181803fe0a8406ed21f8470d09f77fe2c91044941b8c18eb30432b82bf9f41e1"
+      ]
+     ],
+     "stage": "driver"
+    },
+    {
+     "component": "kmc/cpp",
+     "files": [
+      [
+       "cpp",
+       "61c1756ddbc47eaaa086cce5a7e3e455cecabd220d5a709be98874f55472545e"
+      ],
+      [
+       "cccp",
+       "61c1756ddbc47eaaa086cce5a7e3e455cecabd220d5a709be98874f55472545e"
+      ]
+     ],
+     "stage": "preprocess"
+    },
+    {
+     "component": "kmc/cc1",
+     "files": [
+      [
+       "cc1",
+       "28cfa07804df7b40d5a13a525dc63eb2fa12f1b0133dc737950dce59611d3972"
+      ]
+     ],
+     "stage": "compile"
+    },
+    {
+     "component": "kit/asn64-converter",
+     "files": [],
+     "stage": "convert"
+    },
+    {
+     "component": "binutils/as",
+     "files": [
+      [
+       "usr/bin/mips-linux-gnu-as",
+       "f93b44ae7ab70c91f757e1af36f3e23c9ac80f09085fb8b6c6b4c983dd76bf79"
+      ]
+     ],
+     "stage": "assemble"
+    }
+   ]
+  },
+  "toolchain_digest": "619f66e3e3df7ba2125251f4950bdb7d92b011637d6ea41622b88f15e529fdd4"
+ },
+ "verdict": {
+  "class": "exact",
+  "strict": {
+   "assumptions": [],
+   "conflicts": [],
+   "notes": [],
+   "sections": [
+    {
+     "base": "0x80001780",
+     "compared": 44,
+     "section": ".rodata",
+     "size": 44,
+     "status": "equal"
+    }
+   ],
+   "text_equal": true,
+   "verdict": "exact"
+  }
+ },
+ "verifier": "b32bb4b4558997094bcc894542263b34db847e5db6279945b124620cab45ea98",
+ "wrapper": {
+  "assembler_flags": [
+   "-march=vr4300",
+   "-mabi=32",
+   "-EB",
+   "-G0",
+   "--no-pad-sections",
+   "-mips3"
+  ],
+  "lane_code": {
+   "asn64": "253eb28f07280cbf398d78e6376e672b254882b714fff96e28202df3261051c4"
+  },
+  "normalizer_hook": null
+ }
+}
