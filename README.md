@@ -13,6 +13,7 @@ source. A clean build reproduces the original cartridge bit for bit.
 | Same-SDK donor ordinary C | 33 functions / 9,652 bytes | 805 / 411,036 | 2.35% of code |
 | Assembly-assisted C | 2 functions / 2,200 bytes | 805 / 411,036 | 0.54% of code |
 | Original hand-written assembly | 45 functions / 7,032 bytes | 805 / 411,036 | 1.71% of code |
+| Source-owned main-program data | 187,992 bytes | 187,992 | **100.00%** |
 
 [![Byte-identical source](https://bytematch.dev/TheGh0stShip/Jeopardy-N64.svg?version=usa-catalogued&category=catalogued-code&measure=matched_code_percent&label=Byte-identical%20source)](https://bytematch.dev/TheGh0stShip/Jeopardy-N64/usa-catalogued)
 [![Fully linked](https://bytematch.dev/TheGh0stShip/Jeopardy-N64.svg?version=usa-catalogued&category=catalogued-code&measure=complete_code_percent&label=Fully%20linked)](https://bytematch.dev/TheGh0stShip/Jeopardy-N64/usa-catalogued)
@@ -30,6 +31,10 @@ source. A clean build reproduces the original cartridge bit for bit.
 The fixed-address relink contains 805/805 source units, 179 source data objects, no raw program
 bytes, no holes, no overlaps, and no unresolved symbols. Header, IPL3 and assets outside the main
 program are extracted from the user's legally obtained ROM; they are not distributed here.
+
+The Data tracker covers all 187,992 non-text bytes emitted by the main program's source objects:
+183,529 bytes from the 179 explicit data sources and 4,463 bytes of constants/rodata owned by
+compiled function units. It does not claim cartridge assets outside the main program image.
 
 ## Target
 

@@ -17,6 +17,10 @@ Completion requires all of the following:
 5. main-image SHA-1 `9866a60305c9ade6f16b29114af08638a2dacfeb`; and
 6. cartridge SHA-1 `c5bcf3eff6bcdd9e7846ce5fd5db3095db9c58ed`.
 
+The tracker reports 187,992 matched data bytes: 183,529 bytes owned by the explicit data-source
+manifest and 4,463 bytes emitted alongside compiled function units. This is the main program's
+non-text source output, not the header, IPL3, or cartridge assets extracted outside that image.
+
 `tools/generate_tracker_progress.py` validates source hashes and the checked-in clean-build reports
 before emitting tracker data. Generated assembly, masked comparisons, unresolved-address
 assumptions, or raw ROM slices cannot satisfy this contract.
