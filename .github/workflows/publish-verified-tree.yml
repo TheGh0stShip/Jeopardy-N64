@@ -2,7 +2,7 @@ name: publish verified Jeopardy tree
 on:
   push:
     branches: [main]
-    paths: [".github/publish/jeopardy-tree.tar.gz"]
+    paths: [".github/publish/**"]
 permissions:
   contents: write
 jobs:
@@ -16,9 +16,10 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          echo "4eb1337a303ca06e8aac26b349388723fd757c778f1155f325ff26784267bcb3  .github/publish/jeopardy-tree.tar.gz" | sha256sum -c -
+          cat .github/publish/part-* > /tmp/jeopardy-tree.tar.gz
+          echo "4eb1337a303ca06e8aac26b349388723fd757c778f1155f325ff26784267bcb3  /tmp/jeopardy-tree.tar.gz" | sha256sum -c -
           mkdir -p /tmp/jeopardy-tree
-          tar -xzf .github/publish/jeopardy-tree.tar.gz -C /tmp/jeopardy-tree
+          tar -xzf /tmp/jeopardy-tree.tar.gz -C /tmp/jeopardy-tree
           git rm -r .
           cp -a /tmp/jeopardy-tree/. .
           git add -A
