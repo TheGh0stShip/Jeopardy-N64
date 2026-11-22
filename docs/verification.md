@@ -1,11 +1,12 @@
 # Verification contract
 
-This repository distinguishes ordinary C, assembly-assisted C, original hand-written assembly,
-fixed-link equality, and whole-cartridge equality.
+This repository distinguishes ordinary C (including original compiler pragmas), assembly-assisted
+C, original hand-written assembly, fixed-link equality, and whole-cartridge equality.
 
 Every catalogued function must have a `provenance/main/*.json` record whose source path and SHA-256
 match a checked-in file. Ordinary C receives ordinary-C credit only when `reproduced_by` is exactly
-`C`. Compiler directives/assembly macros and original assembly remain separately identified.
+`C`. Inline-assembly macros and original assembly remain separately identified; an original
+compiler pragma without assembly remains ordinary C.
 
 Completion requires all of the following:
 

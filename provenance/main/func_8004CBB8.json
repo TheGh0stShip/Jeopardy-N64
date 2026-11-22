@@ -1,6 +1,6 @@
 {
- "assisted": {
-  "provenance": "IDO's directive for the hardware square root, as libultra/libm source writes sqrtf; a compiler directive, no assembly",
+ "compiler_directive": {
+  "provenance": "IDO's directive for the hardware square root, exactly as libultra/libm writes sqrtf; this is original C source with a compiler directive, not inline assembly",
   "what": "#pragma intrinsic (sqrtf)"
  },
  "code_size": "0x8",
@@ -22,7 +22,7 @@
   "flags": "-O2 -mips2 -non_shared -Xcpluscomm -Wab,-r4300_mul -G 0",
   "pipeline": "ido5.3"
  },
- "reproduced_by": "C with an assembly macro or compiler directive (provenance recorded)",
+ "reproduced_by": "C",
  "schema": "n64dk-generated-project/1",
  "size": "0x10",
  "source_sha256": "1fa85fdea6b5787c28379a22e44cf945cd676faa01e1a526aca3d09f4729060d",

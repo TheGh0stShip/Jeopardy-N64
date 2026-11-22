@@ -30,7 +30,7 @@
       "scope": "Jeopardy! USA revision 0, ROM SHA-1 c5bcf3eff6bcdd9e7846ce5fd5db3095db9c58ed. All 805 catalogued functions link from checked-in source; the main image and cartridge reproduce exactly. Ordinary C, assembly-assisted C, and original hand-written assembly remain separate categories.",
       "measurement": {
         "kind": "ratio",
-        "completed": 401796,
+        "completed": 401804,
         "total": 411036,
         "unit": "bytes"
       }
@@ -41,7 +41,7 @@
       "scope": "Jeopardy! USA revision 0, ROM SHA-1 c5bcf3eff6bcdd9e7846ce5fd5db3095db9c58ed. All 805 catalogued functions link from checked-in source; the main image and cartridge reproduce exactly. Ordinary C, assembly-assisted C, and original hand-written assembly remain separate categories.",
       "measurement": {
         "kind": "ratio",
-        "completed": 757,
+        "completed": 758,
         "total": 805,
         "unit": "functions"
       }

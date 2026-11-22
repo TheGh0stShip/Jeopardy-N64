@@ -8,8 +8,8 @@ source. A clean build reproduces the original cartridge bit for bit.
 |---|---:|---:|---:|
 | Byte-identical source | 805 functions / 411,036 bytes | 805 / 411,036 | **100.00%** |
 | Fully linked source | 805 functions / 411,036 bytes | 805 / 411,036 | **100.00%** |
-| Ordinary matching C | 757 functions / 401,796 bytes | 805 / 411,036 | **97.75% of code** |
-| Assembly-assisted C | 3 functions / 2,208 bytes | 805 / 411,036 | 0.54% of code |
+| Ordinary matching C | 758 functions / 401,804 bytes | 805 / 411,036 | **97.75% of code** |
+| Assembly-assisted C | 2 functions / 2,200 bytes | 805 / 411,036 | 0.54% of code |
 | Original hand-written assembly | 45 functions / 7,032 bytes | 805 / 411,036 | 1.71% of code |
 
 [![Byte-identical source](https://bytematch.dev/TheGh0stShip/Jeopardy-N64.svg?version=usa-catalogued&category=catalogued-code&measure=matched_code_percent&label=Byte-identical%20source)](https://bytematch.dev/TheGh0stShip/Jeopardy-N64/usa-catalogued)
@@ -65,9 +65,10 @@ not read the original path. See [BUILD.md](BUILD.md) for requirements and gate d
 - `manifests/` and `recipes.tsv` — compiler, assembler, placement, and ownership recipes.
 - `evidence/link/` — independently replayed fixed-link and SHA-1 reports.
 
-The three assembly-assisted C functions are identified in `tools/assisted_provenance.tsv`; the
-45 original assembly functions are documented in `tools/asm_provenance.tsv`. No generated
-assembly fallback receives credit because none remains in the linked program.
+The two assembly-assisted C functions and all 45 original assembly functions carry their evidence
+in their `provenance/main/` records. `sqrtf` is ordinary original C: its SGI intrinsic pragma is a
+compiler directive, not inline assembly. No generated assembly fallback receives credit because
+none remains in the linked program.
 
 ## Verification policy
 
